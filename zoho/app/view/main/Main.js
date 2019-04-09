@@ -60,7 +60,7 @@ Ext.define('Zoho.view.main.Main', {
     },
 
     defaults: {
-        bodyPadding: 20,
+        // bodyPadding: 20,
         tabConfig: {
             plugins: 'responsive',
             responsiveConfig: {
