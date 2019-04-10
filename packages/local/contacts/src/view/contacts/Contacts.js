@@ -1,40 +1,43 @@
 Ext.define('Contacts.view.contacts.Contacts', {
-  extend: 'Ext.container.Container',
+    extend: 'Ext.container.Container',
 
-  requires: [
-    'Contacts.view.contacts.editcontact.EditContact',
-    'Contacts.view.contacts.addcontact.AddContact',
-    // 'Contacts.view.contacts.ContactsVC',
-    'Contacts.view.contacts.ContactsVM'
-  ],
+    requires: [
+        'Contacts.view.contacts.editcontact.EditContact',
+        'Contacts.view.contacts.addcontact.AddContact',
+        'Contacts.view.contacts.allcontacts.AllContacts',
+        'Contacts.view.contacts.ContactsVM'
+    ],
 
-  //   controller: 'contacts-vc',
-  viewModel: {
-    type: 'contacts-vm'
-  },
+    //   controller: 'contacts-vc',
+    viewModel: {
+        type: 'contacts-vm'
+    },
 
-  xtype: 'contacts',
-  layout: 'card',
+    xtype: 'contacts',
+    layout: 'card',
 
-  cls: 'contacts',
+    cls: 'contacts',
 
-  style: 'background-color: rgba(248, 248, 248, 1)',
+    style: 'background-color: rgba(248, 248, 248, 1)',
 
-//   bind: {
-//     activeItem: '{activeItem}'
-//   },
+    //   bind: {
+    //     activeItem: '{activeItem}'
+    //   },
 
-  items: [
-    {
-      // html: 'Contacts',
-      xtype: 'addcontact',
-      itemId: 'addcontact'
-    }, {
-      xtype: 'editcontact',
-      itemId: 'editcontact'
-    }, {
-      html: 'Display Gridkkkkk',
-      itemId: 'gridview'
-    }
-  ]
+    activeItem: 'allcontacts',
+
+    items: [
+        {
+            // html: 'Contacts',
+            xtype: 'addcontact',
+            itemId: 'addcontact'
+        }, {
+            xtype: 'editcontact',
+            itemId: 'editcontact'
+        }, {
+            //   html: 'Display Gridkkkkk',
+            xtype: 'allcontacts',
+            itemId: 'allcontacts'
+        }
+    ]
 });

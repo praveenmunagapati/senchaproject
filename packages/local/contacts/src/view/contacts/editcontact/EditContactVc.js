@@ -12,7 +12,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContactVC', {
         // viewModel.data.activeItem='editcontact';
 
         var contactsView = viewModel.getView();
-        contactsView.setActiveItem('gridview');
+        contactsView.setActiveItem('allcontacts');
     }
 
 });
