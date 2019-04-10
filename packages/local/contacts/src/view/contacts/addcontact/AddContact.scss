@@ -1,30 +1,21 @@
-// .addcontact-header{
-//     font-size: 42px !important;
-//     background-color: rgba(248, 248, 248, 1);
-//     color: black !important;
-//     height: 60px;
-//     line-height: 55px;
-// }
-
-.x-panel-header-default{
-    font-size: 42px;
-    background: rgba(248, 248, 248, 1);
-    color: black;
-    height: 60px;
-    line-height: 55px;
-}
-
 .addcontact{
     background: white;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    font-family: 'muli', regular;
+    // width: 1600px;
+    // height: 850px;
 }
 
 .addcontact-button{
     background-color: rgba(49, 169, 80, 1);
     font-family: 'Muli, SemiBold';
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: bolder;
     padding: 10px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
     border: none;
+    width: 175px;
+    height: 50px;
 }
 
 .addcontact-button:hover{

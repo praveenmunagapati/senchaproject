@@ -9318,28 +9318,25 @@
     -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 2px 2px;
     box-shadow: rgba(0, 0, 0, 0.5) 0 2px 2px;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:9 */
-.x-panel-header-default {
-    font-size: 42px;
-    background: #f8f8f8;
-    color: black;
-    height: 60px;
-    line-height: 55px;
-}
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:17 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:1 */
 .addcontact {
     background: white;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    font-family: 'muli', regular;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:21 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:9 */
 .addcontact-button {
     background-color: #31a950;
     font-family: 'Muli, SemiBold';
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: bolder;
     padding: 10px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
     border: none;
+    width: 175px;
+    height: 50px;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:30 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:21 */
 .addcontact-button:hover {
     background-color: #31a950;
 }
@@ -9350,7 +9347,7 @@
     -ms-border-radius: 0;
     -o-border-radius: 0;
     border-radius: 0;
-    padding: 15px 15px 15px 15px;
+    padding: 20px 20px 20px 20px;
     border-width: 0;
     border-style: solid;
     background-color: #f8f8f8;
@@ -9373,7 +9370,7 @@
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
 .x-tab-navigation-top-frameInfo {
-    font-family: th-0-0-0-0-0-0-0-0-15-15-15-15;
+    font-family: th-0-0-0-0-0-0-0-0-20-20-20-20;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
 .x-tab-navigation-top-tl {
@@ -9446,7 +9443,7 @@
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-tab-navigation-top-mc {
-    padding: 15px 15px 15px 15px;
+    padding: 20px 20px 20px 20px;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-navigation-top:before {
@@ -9468,7 +9465,7 @@
     -moz-border-radius-bottomleft: 0;
     -webkit-border-bottom-left-radius: 0;
     border-bottom-left-radius: 0;
-    padding: 15px 15px 15px 15px;
+    padding: 20px 20px 20px 20px;
     border-width: 0 0 0 0;
     border-style: solid;
     background-color: #f8f8f8;
@@ -9491,7 +9488,7 @@
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
 .x-tab-navigation-bottom-frameInfo {
-    font-family: th-0-0-0-0-0-0-0-0-15-15-15-15;
+    font-family: th-0-0-0-0-0-0-0-0-20-20-20-20;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
 .x-tab-navigation-bottom-tl {
@@ -9564,7 +9561,7 @@
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-tab-navigation-bottom-mc {
-    padding: 15px 15px 15px 15px;
+    padding: 20px 20px 20px 20px;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-navigation-bottom:before {
@@ -9586,7 +9583,7 @@
     -moz-border-radius-bottomleft: 0;
     -webkit-border-bottom-left-radius: 0;
     border-bottom-left-radius: 0;
-    padding: 15px 15px 15px 15px;
+    padding: 20px 20px 20px 20px;
     border-width: 0 0 0 0;
     border-style: solid;
     background-color: #f8f8f8;
@@ -9609,7 +9606,7 @@
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
 .x-tab-navigation-left-frameInfo {
-    font-family: th-0-0-0-0-0-0-0-0-15-15-15-15;
+    font-family: th-0-0-0-0-0-0-0-0-20-20-20-20;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
 .x-tab-navigation-left-tl {
@@ -9682,7 +9679,7 @@
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-tab-navigation-left-mc {
-    padding: 15px 15px 15px 15px;
+    padding: 20px 20px 20px 20px;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-navigation-left:before {
@@ -9704,7 +9701,7 @@
     -moz-border-radius-bottomleft: 0;
     -webkit-border-bottom-left-radius: 0;
     border-bottom-left-radius: 0;
-    padding: 15px 15px 15px 15px;
+    padding: 20px 20px 20px 20px;
     border-width: 0 0 0 0;
     border-style: solid;
     background-color: #f8f8f8;
@@ -9727,7 +9724,7 @@
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
 .x-tab-navigation-right-frameInfo {
-    font-family: th-0-0-0-0-0-0-0-0-15-15-15-15;
+    font-family: th-0-0-0-0-0-0-0-0-20-20-20-20;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
 .x-tab-navigation-right-tl {
@@ -9800,7 +9797,7 @@
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-tab-navigation-right-mc {
-    padding: 15px 15px 15px 15px;
+    padding: 20px 20px 20px 20px;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-navigation-right:before {
@@ -9955,7 +9952,7 @@
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3220 */
 .x-tab-inner-navigation {
-    font: bold 15px/19px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    font: bold 18px/14px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
     color: #acacac;
     max-width: 100%;
 }
@@ -10119,11 +10116,11 @@
 /* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3685 */
 .x-tab.x-tab-active.x-tab-navigation {
     border-color: #fff;
-    background-color: #303030;
+    background-color: #fff;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3741 */
 .x-tab.x-tab-active.x-tab-navigation .x-tab-inner-navigation {
-    color: #fff;
+    color: #000;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3746 */
 .x-tab-bar-plain .x-tab.x-tab-active.x-tab-navigation .x-tab-inner-navigation {
@@ -10144,7 +10141,7 @@
 /* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3797 */
 .x-keyboard-mode .x-tab-focus.x-tab-active.x-tab-navigation {
     border-color: #fff;
-    background-color: #303030;
+    background-color: #fff;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3842 */
 .x-keyboard-mode .x-tab-bar-plain .x-tab-focus.x-tab-active.x-tab-navigation .x-tab-inner-navigation {
@@ -10883,7 +10880,7 @@
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:389 */
 .x-tab-bar-navigation {
-    background-color: #404040;
+    background-color: #000;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:428 */
 .x-tab-bar-navigation-top > .x-tab-bar-body-navigation {
@@ -10949,19 +10946,19 @@
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:611 */
 .x-tab-bar-horizontal > .x-tab-bar-body-navigation {
-    min-height: 54px;
+    min-height: 64px;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:614 */
 .x-ie8m .x-tab-bar-horizontal > .x-tab-bar-body-navigation {
-    min-height: 54px;
+    min-height: 64px;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:621 */
 .x-tab-bar-vertical > .x-tab-bar-body-navigation {
-    min-width: 54px;
+    min-width: 64px;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:624 */
 .x-ie8m .x-tab-bar-vertical > .x-tab-bar-body-navigation {
-    min-width: 54px;
+    min-width: 64px;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:182 */
 .x-tab-bar-navigation-scroller .x-box-scroller-body-horizontal {
@@ -11098,7 +11095,7 @@
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:801 */
 .x-box-scroller-tab-bar-navigation {
-    background-color: #404040;
+    background-color: #000;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:807 */
 .x-box-scroller-tab-bar-navigation .x-ie8 .x-box-scroller-plain {
