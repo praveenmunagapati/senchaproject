@@ -1,30 +1,47 @@
 Ext.define('Contacts.view.contacts.allcontacts.Grid', {
     extend: 'Ext.grid.Panel',
-
     xtype: 'gridview',
-
-    columns: [{
+   requires:[
+    'Contacts.view.contacts.allcontacts.GridVM'
+   ],
+    columns: [
+    {
         xtype: 'checkcolumn',
         text: 'Select All',
+        dataIndex:'active',
         flex: 1,
         headerCheckbox: true
     }, {
         text: 'First Name ',
-        flex: 1
+        dataIndex:'firstname',
+        enableColumnHide:true,
+        flex: 1,
+        menuDisabled: true 
+       
     }, {
         text: 'Email Id ',
-        flex: 1
+        dataIndex:'email_address',
+        flex: 1,
+        menuDisabled: true 
     }, {
         text: 'Company Name ',
-        flex: 1
+        dataIndex:'orgname',
+        flex: 1,
+        menuDisabled: true 
     }, {
         text: 'Title ',
-        flex: 1
+        dataIndex:'title',
+        flex: 1,
+        menuDisabled: true 
     }, {
         text: 'State ',
-        flex: 1
+        dataIndex:'state',
+        flex: 1,
+        menuDisabled: true 
     }, {
         text: 'Mobile Number ',
-        flex: 1
+        dataIndex:'mobile_number',
+        flex: 1,
+        menuDisabled: true 
     }]
 });

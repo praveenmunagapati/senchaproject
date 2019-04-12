@@ -1,15 +1,95 @@
+// Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
+//     extend: 'Ext.container.Container',
+
+//     requires: [
+//         'Contacts.view.contacts.allcontacts.Grid',
+//         'Contacts.view.contacts.allcontacts.GridVM'
+//     ],
+
+//     // controller: 'addcontact-vc',
+
+//     xtype: 'allcontacts',
+//     viewModel: {
+//         type: 'gridvm'
+//     },
+
+//     layout: 'fit',
+
+//     margin: '0 100px',
+
+//     defaults: {
+//         margin: '10px 0'
+//     },
+
+//     items: [
+//         {
+//             xtype: 'container',
+//             items: [{
+//                 xtype: 'container',
+//                 layout: 'hbox',
+//                 items: [{
+//                     html: '<div class="headbar">Contacts</div>'
+//                 }, {
+//                     xtype: 'tbfill'
+//                 }, {
+//                     cls: 'addcontact-button',
+//                     xtype: 'button',
+//                     text: '+ Add Button',
+//                 }]
+//             }, {
+//                 xtype: 'container',
+//                 layout: 'hbox',
+//                 padding: '10 0 0 0',
+//                 height: 70,
+//                 items: [{
+
+//                     xtype: 'textfield',
+//                     shadow:'true',
+//                     width: 300
+//                 }, {
+//                     xtype: 'button',
+//                     text: 'Delete',
+//                     margin: '0 10'
+//                 }, {
+//                     xtype: 'tbfill'
+//                 }, {
+//                     xtype: 'button',
+//                     text: 'Export',
+//                     margin: '0 10'
+//                 }, {
+//                     xtype: 'button',
+//                     text: 'Add Columns',
+//                     margin: '0 10'
+//                 }, {
+//                     xtype: 'button',
+//                     text: 'Filters'
+//                 }]
+//             }, {
+//                 xtype: 'gridview',
+//                 bind: {
+//                     store: '{contactDatas}'
+//                 },
+//             }]
+//         }]
+// });
+
+
 Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
     extend: 'Ext.container.Container',
 
     requires: [
         'Contacts.view.contacts.allcontacts.Grid',
-        'Ext.ux.form.SearchField'
+        'Ext.ux.form.SearchField',
+        'Contacts.view.contacts.allcontacts.GridVM'
     ],
 
     // controller: 'addcontact-vc',
 
     xtype: 'allcontacts',
-
+    
+        viewModel: {
+            type: 'gridvm'
+        },
 
     layout: 'fit',
 
@@ -44,7 +124,7 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                     xtype: 'searchfield',
                     iconAlign: 'left',
                     emptyText: 'Search',
-                    cls:'searchfield',
+                    cls: 'searchfield',
                     width: 300,
                     height: 40
                 }, {
@@ -60,44 +140,44 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                     cls: 'export-button',
                     text: 'Export',
                     margin: '0 10'
-                }, {                    
+                }, {
                     text: 'Add Columns',
                     arrowVisible: false,
-                    glyph: 'f0db@FontAwesome',                                        
+                    glyph: 'f0db@FontAwesome',
                     iconCls: 'addcolumns',
                     cls: 'addcolumns-button',
                     menu: {
-                        items:[
+                        items: [
                             {
                                 xtype: 'checkboxgroup',
-                                defaults:{
-                                 fontSize: 14,
-                                 padding: '0 0px'
+                                defaults: {
+                                    fontSize: 14,
+                                    padding: '0 0px'
                                 },
                                 columns: 1,
                                 items: [{
                                     boxLabel: 'First Name',
                                     inputValue: 'fname'
-                                  }, {
+                                }, {
                                     boxLabel: 'Company Name',
                                     inputValue: 'cname'
-                                  }, {
+                                }, {
                                     boxLabel: 'Email ID',
                                     inputValue: 'email'
-                                  }, {
+                                }, {
                                     boxLabel: 'Mobile Number',
                                     inputValue: 'mobile'
-                                  }, {
+                                }, {
                                     boxLabel: 'Title',
                                     inputValue: 'title'
-                                  }, {
+                                }, {
                                     boxLabel: 'Date',
                                     inputValue: 'date'
-                                  },{
+                                }, {
                                     boxLabel: 'State',
                                     inputValue: 'state'
-                                  }],                               
-                            },{
+                                }],
+                            }, {
                                 xtype: 'button',
                                 text: 'Apply'
                             }
@@ -110,21 +190,21 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                     // glyph: 'f0db@FontAwesome', 
                     cls: 'filter-button',
                     menu: {
-                        items:[
+                        items: [
                             {
                                 xtype: 'checkboxgroup',
-                                defaults:{
+                                defaults: {
                                     width: 120
                                 },
                                 columns: 1,
                                 items: [{
                                     boxLabel: 'First Name',
                                     inputValue: 'fname'
-                                  }, {
+                                }, {
                                     boxLabel: 'Company Name',
                                     inputValue: 'Company'
-                                  }],                                                             
-                            },{
+                                }],
+                            }, {
                                 xtype: 'container',
                                 layout: 'hbox',
                                 defaults: {
@@ -132,8 +212,8 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                                 },
                                 items: [
                                     {
-                                        text:'Clear'
-                                    },{
+                                        text: 'Clear'
+                                    }, {
                                         text: 'Apply'
                                     }
                                 ]
@@ -142,7 +222,10 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                     }
                 }]
             }, {
-                xtype: 'gridview'
+                xtype: 'gridview',
+                bind: {
+                    store: '{contactDatas}'
+                },
             }]
         }]
 });

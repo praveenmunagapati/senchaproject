@@ -3,11 +3,10 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
     requires: [
         'Contacts.view.contacts.editcontact.EditContactVC'
     ],
-
+    cls:'backcolor',
     controller: 'editcontact-vc',
-
     xtype: 'editcontact',
-
+    viewModel: {},
     // bodyStyle: 'margin-left: 100px',
     bodyPadding: '0 100',
 
@@ -15,10 +14,8 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
     fieldDefaults: {
         labelAlign: 'top',
         msgTarget: 'side',
-
     },
-
-    viewModel: {},
+   
     scrollable: true,
     fieldDefaults: {
       labelAlign: 'top',
@@ -27,14 +24,16 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
     items: [
       {
         xtype: 'fieldcontainer',
+        cls:'backcolor',
         layout: {
           type: 'vbox',
           pack: 'center',
+          
           align: 'middle'
         },
         items: [
           {
-            html: '<div style="font-size:large; font-weight:bold;">Edit Contact</div>',
+            html: '<div class="edit-contact-heading">Edit Contact</div>',
             margin: '30 0 10 0 '
           },
           {
@@ -48,9 +47,9 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
           }, {
             // xtype: 'filefield', 
               xtype: 'fileuploadfield',
-              buttonText: 'edit contact',
+              buttonText: 'Edit Photo',
               buttonOnly: true,
-              cls: 'edit-button',
+              cls:'btn-browse',
               listeners: {
                   change(field) {
                       alert(field);
@@ -71,18 +70,24 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
         xtype: 'fieldcontainer',
         fieldLabel: 'Postal Address',
         layout: 'column',
+        cls:'backcolor',
         border: false,
+        
         defaults: {
           columnWidth: 0.25,
           labelSeparator: '',
-          margin: '10 10 10 10',
+          margin: '10',
           afterLabelTextTpl: '<span style="color:red;font-weight:bold" data-qtip="Required">*</span>',
-          allowBlank: false
+          allowBlank: false,
+          height:48,
+          
+
         },
         items: [
           {
             xtype: 'datefield',
             fieldLabel: 'Date',
+            emptyText: 'MM-DD-YYYY',
             name: 'first',
             format: 'm-d-Y',
             altFormats: 'm,d,Y|m.d.Y',
@@ -91,14 +96,14 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
   
             xtype: 'textfield',
             fieldLabel: 'First Name',
-            name: 'firstName'
+            name: 'firstName',
           }, {
             xtype: 'textfield',
             fieldLabel: 'Last Name',
             name: 'lastName'
           }, {
             xtype: 'textfield',
-            fieldLabel: 'Mobile Number',
+            fieldLabel: 'Mobile Numbermm',
             name: 'mobileNumber',
             emptyText: '+911234567890'
           },
@@ -163,6 +168,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
         xtype: 'fieldcontainer',
         fieldLabel: 'Address Information',
         layout: 'column',
+        cls:'backcolor',
         defaults: {
           columnWidth: 0.25,
           margin: '10 10 10 10'
@@ -195,6 +201,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
         xtype: 'fieldcontainer',
         fieldLabel: 'Address Information',
         layout: 'column',
+        cls:'backcolor',
         border: false,
         defaults: {
           columnWidth: 1,
@@ -209,6 +216,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
       },
       {
         xtype: 'fieldcontainer',
+        cls:'backcolor',
         layout: {
           type: 'hbox',
           pack: 'center',
@@ -218,14 +226,13 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
           xtype: 'button'
         },
         items: [{
-          text: 'Cancel'
+          text: 'Cancel',
+          cls:'cancle-style'
         }, {
           text: 'Save',
           disabled: true,
           formBind: true,
-          listeners: {
-            click: 'displayGrid'
-          }
+          cls:'save-style'
         }
         ]
       }

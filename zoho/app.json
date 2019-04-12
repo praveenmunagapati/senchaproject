@@ -258,7 +258,7 @@
      "loader": {
          // This property controls how the loader manages caching for requests:
          //
-         //   - true: allows requests to receive cached responses
+         //   - true: allows requests uto receive cached responses
          //   - false: disable cached responses by adding a random "cache buster"
          //   - other: a string (such as the build.timestamp shown here) to allow
          //     requests to be cached for this build.

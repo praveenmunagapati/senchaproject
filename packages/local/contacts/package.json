@@ -199,7 +199,6 @@
          */
         "classpath": [
             "${package.dir}/src"
-
         ],
 
         /**
