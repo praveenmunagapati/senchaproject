@@ -17,7 +17,8 @@
      */
     "requires": [
         "font-awesome",
-        "contacts"
+        "contacts",
+        "ux"
     ],
 
     /**

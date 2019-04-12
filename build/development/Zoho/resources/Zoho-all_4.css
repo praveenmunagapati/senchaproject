@@ -1,2967 +1,8 @@
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:198 */
-.x-resizable-handle-south-over,
-.x-resizable-handle-north-over,
-.x-resizable-pinned > .x-resizable-handle-south,
-.x-resizable-pinned > .x-resizable-handle-north {
-    font: 16px/10px FontAwesome;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-resizable-handle-south-over:before,
-.x-resizable-handle-north-over:before,
-.x-resizable-pinned > .x-resizable-handle-south:before,
-.x-resizable-pinned > .x-resizable-handle-north:before {
-    content: "\f141";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:210 */
-.x-resizable-handle-southeast-over,
-.x-resizable-pinned > .x-resizable-handle-southeast {
-    font: 16px/1 ExtJS;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-resizable-handle-southeast-over:before,
-.x-resizable-pinned > .x-resizable-handle-southeast:before {
-    content: "\e60c";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:220 */
-.x-resizable-handle-northwest-over,
-.x-resizable-pinned > .x-resizable-handle-northwest {
-    font: 16px/1 ExtJS;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-resizable-handle-northwest-over:before,
-.x-resizable-pinned > .x-resizable-handle-northwest:before {
-    content: "\e609";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:230 */
-.x-resizable-handle-northeast-over,
-.x-resizable-pinned > .x-resizable-handle-northeast {
-    font: 16px/1 ExtJS;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-resizable-handle-northeast-over:before,
-.x-resizable-pinned > .x-resizable-handle-northeast:before {
-    content: "\e60a";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/resizer/Resizer.scss:240 */
-.x-resizable-handle-southwest-over,
-.x-resizable-pinned > .x-resizable-handle-southwest {
-    font: 16px/1 ExtJS;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-resizable-handle-southwest-over:before,
-.x-resizable-pinned > .x-resizable-handle-southwest:before {
-    content: "\e60b";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:2 */
-.x-slider:before {
-    border: 1px solid #d0d0d0;
-    content: '';
-    position: absolute;
-    border-radius: 2px;
-    background-color: #eee;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:20 */
-.x-slider-thumb {
-    background-color: #f6f6f6;
-    border: 1px solid #d0d0d0;
-    border-radius: 2px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:28 */
-.x-slider-thumb:before {
-    color: #d0d0d0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:33 */
-.x-slider-thumb-over {
-    background-color: #fcfcfc;
-    border-color: #c8cdd2;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:36 */
-.x-slider-thumb-over:before {
-    color: #d0d0d0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:42 */
-.x-keyboard-mode .x-slider-focus .x-slider-thumb {
-    background-color: #f6f6f6;
-    border-color: #5fa2dd;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:45 */
-.x-keyboard-mode .x-slider-focus .x-slider-thumb:before {
-    color: #a6c7e5;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:52 */
-.x-keyboard-mode .x-slider-focus .x-slider-thumb-over {
-    background-color: #fcfcfc;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:57 */
-.x-slider-thumb-drag {
-    background-color: #f1f1f1;
-    border-color: #c0c8cf;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:60 */
-.x-slider-thumb-drag:before {
-    color: #d0d0d0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:66 */
-.x-keyboard-mode .x-slider-focus .x-slider-thumb-drag {
-    background-color: #f1f1f1;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:79 */
-.x-slider-horz {
-    padding-left: 10px;
-    background: no-repeat 0 -20px;
-    margin: 6px 0 6px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:86 */
-.x-slider-horz .x-slider-end {
-    padding-right: 10px;
-    background: no-repeat right -40px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:91 */
-.x-slider-horz .x-slider-inner {
-    height: 20px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:96 */
-.x-slider-horz:before {
-    height: 10px;
-    width: 100%;
-    top: 50%;
-    left: 0;
-    margin-top: -5px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:106 */
-.x-slider-horz .x-slider-thumb {
-    width: 20px;
-    height: 20px;
-    margin-left: -10px;
-    font: 12px/1 ExtJS;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-slider-horz .x-slider-thumb:before {
-    content: "\e612";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:148 */
-.x-rtl.x-slider-horz {
-    padding-left: 0;
-    padding-right: 10px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:155 */
-.x-rtl.x-slider-horz .x-slider-end {
-    padding-right: 0;
-    padding-left: 10px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:163 */
-.x-rtl.x-slider-horz .x-slider-thumb {
-    margin-right: -10px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:170 */
-.x-slider-ct-vert {
-    /* Vertical styles */
-    height: 100%;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:174 */
-.x-slider-vert {
-    padding-top: 10px;
-    height: 100%;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:181 */
-.x-slider-vert > .x-slider-end {
-    height: 100%;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:183 */
-.x-slider-vert > .x-slider-end > .x-slider-inner {
-    height: 100%;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:189 */
-.x-slider-vert:before {
-    width: 10px;
-    height: 100%;
-    left: 10px;
-    top: 0;
-    margin-left: -5px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:199 */
-.x-slider-vert .x-slider-end {
-    padding-bottom: 10px;
-    background: no-repeat -20px bottom;
-    width: 20px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:205 */
-.x-slider-vert .x-slider-inner {
-    width: 20px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:209 */
-.x-slider-vert .x-slider-thumb {
-    width: 20px;
-    height: 20px;
-    margin-bottom: -10px;
-    font: 12px/1 ExtJS;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-slider-vert .x-slider-thumb:before {
-    content: "\e605";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/slider/Multi.scss:262 */
-.x-slider-default-cell > .x-grid-cell-inner,
-.x-sliderwidget-default-cell > .x-grid-cell-inner {
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
-.x-tab-default-top {
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
-    border-radius: 0;
-    padding: 8px 10px 8px 10px;
-    border-width: 0;
-    border-style: solid;
-    background-color: transparent;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
-.x-tab-default-top-mc {
-    background-color: transparent;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
-.x-nbr .x-tab-default-top {
-    padding: 0 !important;
-    border-width: 0 !important;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    -ms-border-radius: 0px;
-    -o-border-radius: 0px;
-    border-radius: 0px;
-    background-color: transparent !important;
-    box-shadow: none !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
-.x-tab-default-top-frameInfo {
-    font-family: th-0-0-0-0-0-0-0-0-8-10-8-10;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
-.x-tab-default-top-tl {
-    background-position: 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
-.x-tab-default-top-tr {
-    background-position: right 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
-.x-tab-default-top-bl {
-    background-position: 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
-.x-tab-default-top-br {
-    background-position: right 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
-.x-tab-default-top-ml {
-    background-position: 0 top;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
-.x-tab-default-top-mr {
-    background-position: right top;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
-.x-tab-default-top-tc {
-    background-position: 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
-.x-tab-default-top-bc {
-    background-position: 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
-.x-tab-default-top-tr,
-.x-tab-default-top-br,
-.x-tab-default-top-mr {
-    padding-right: 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
-.x-tab-default-top-tl,
-.x-tab-default-top-bl,
-.x-tab-default-top-ml {
-    padding-left: 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
-.x-tab-default-top-tc {
-    height: 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
-.x-tab-default-top-bc {
-    height: 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
-.x-tab-default-top-mc {
-    padding: 8px 10px 8px 10px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:0 0 0 0" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
-.x-tab-default-bottom {
-    -moz-border-radius-topleft: 0;
-    -webkit-border-top-left-radius: 0;
-    border-top-left-radius: 0;
-    -moz-border-radius-topright: 0;
-    -webkit-border-top-right-radius: 0;
-    border-top-right-radius: 0;
-    -moz-border-radius-bottomright: 0;
-    -webkit-border-bottom-right-radius: 0;
-    border-bottom-right-radius: 0;
-    -moz-border-radius-bottomleft: 0;
-    -webkit-border-bottom-left-radius: 0;
-    border-bottom-left-radius: 0;
-    padding: 8px 10px 8px 10px;
-    border-width: 0 0 0 0;
-    border-style: solid;
-    background-color: transparent;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
-.x-tab-default-bottom-mc {
-    background-color: transparent;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
-.x-nbr .x-tab-default-bottom {
-    padding: 0 !important;
-    border-width: 0 !important;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    -ms-border-radius: 0px;
-    -o-border-radius: 0px;
-    border-radius: 0px;
-    background-color: transparent !important;
-    box-shadow: none !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
-.x-tab-default-bottom-frameInfo {
-    font-family: th-0-0-0-0-0-0-0-0-8-10-8-10;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
-.x-tab-default-bottom-tl {
-    background-position: 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
-.x-tab-default-bottom-tr {
-    background-position: right 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
-.x-tab-default-bottom-bl {
-    background-position: 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
-.x-tab-default-bottom-br {
-    background-position: right 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
-.x-tab-default-bottom-ml {
-    background-position: 0 bottom;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
-.x-tab-default-bottom-mr {
-    background-position: right bottom;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
-.x-tab-default-bottom-tc {
-    background-position: 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
-.x-tab-default-bottom-bc {
-    background-position: 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
-.x-tab-default-bottom-tr,
-.x-tab-default-bottom-br,
-.x-tab-default-bottom-mr {
-    padding-right: 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
-.x-tab-default-bottom-tl,
-.x-tab-default-bottom-bl,
-.x-tab-default-bottom-ml {
-    padding-left: 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
-.x-tab-default-bottom-tc {
-    height: 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
-.x-tab-default-bottom-bc {
-    height: 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
-.x-tab-default-bottom-mc {
-    padding: 8px 10px 8px 10px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:0 0 0 0" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
-.x-tab-default-left {
-    -moz-border-radius-topleft: 0;
-    -webkit-border-top-left-radius: 0;
-    border-top-left-radius: 0;
-    -moz-border-radius-topright: 0;
-    -webkit-border-top-right-radius: 0;
-    border-top-right-radius: 0;
-    -moz-border-radius-bottomright: 0;
-    -webkit-border-bottom-right-radius: 0;
-    border-bottom-right-radius: 0;
-    -moz-border-radius-bottomleft: 0;
-    -webkit-border-bottom-left-radius: 0;
-    border-bottom-left-radius: 0;
-    padding: 8px 10px 8px 10px;
-    border-width: 0 0 0 0;
-    border-style: solid;
-    background-color: transparent;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
-.x-tab-default-left-mc {
-    background-color: transparent;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
-.x-nbr .x-tab-default-left {
-    padding: 0 !important;
-    border-width: 0 !important;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    -ms-border-radius: 0px;
-    -o-border-radius: 0px;
-    border-radius: 0px;
-    background-color: transparent !important;
-    box-shadow: none !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
-.x-tab-default-left-frameInfo {
-    font-family: th-0-0-0-0-0-0-0-0-8-10-8-10;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
-.x-tab-default-left-tl {
-    background-position: 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
-.x-tab-default-left-tr {
-    background-position: right 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
-.x-tab-default-left-bl {
-    background-position: 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
-.x-tab-default-left-br {
-    background-position: right 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
-.x-tab-default-left-ml {
-    background-position: 0 top;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
-.x-tab-default-left-mr {
-    background-position: right top;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
-.x-tab-default-left-tc {
-    background-position: 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
-.x-tab-default-left-bc {
-    background-position: 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
-.x-tab-default-left-tr,
-.x-tab-default-left-br,
-.x-tab-default-left-mr {
-    padding-right: 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
-.x-tab-default-left-tl,
-.x-tab-default-left-bl,
-.x-tab-default-left-ml {
-    padding-left: 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
-.x-tab-default-left-tc {
-    height: 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
-.x-tab-default-left-bc {
-    height: 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
-.x-tab-default-left-mc {
-    padding: 8px 10px 8px 10px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:0 0 0 0" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
-.x-tab-default-right {
-    -moz-border-radius-topleft: 0;
-    -webkit-border-top-left-radius: 0;
-    border-top-left-radius: 0;
-    -moz-border-radius-topright: 0;
-    -webkit-border-top-right-radius: 0;
-    border-top-right-radius: 0;
-    -moz-border-radius-bottomright: 0;
-    -webkit-border-bottom-right-radius: 0;
-    border-bottom-right-radius: 0;
-    -moz-border-radius-bottomleft: 0;
-    -webkit-border-bottom-left-radius: 0;
-    border-bottom-left-radius: 0;
-    padding: 8px 10px 8px 10px;
-    border-width: 0 0 0 0;
-    border-style: solid;
-    background-color: transparent;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
-.x-tab-default-right-mc {
-    background-color: transparent;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
-.x-nbr .x-tab-default-right {
-    padding: 0 !important;
-    border-width: 0 !important;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    -ms-border-radius: 0px;
-    -o-border-radius: 0px;
-    border-radius: 0px;
-    background-color: transparent !important;
-    box-shadow: none !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
-.x-tab-default-right-frameInfo {
-    font-family: th-0-0-0-0-0-0-0-0-8-10-8-10;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
-.x-tab-default-right-tl {
-    background-position: 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
-.x-tab-default-right-tr {
-    background-position: right 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
-.x-tab-default-right-bl {
-    background-position: 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
-.x-tab-default-right-br {
-    background-position: right 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
-.x-tab-default-right-ml {
-    background-position: 0 top;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
-.x-tab-default-right-mr {
-    background-position: right top;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
-.x-tab-default-right-tc {
-    background-position: 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
-.x-tab-default-right-bc {
-    background-position: 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
-.x-tab-default-right-tr,
-.x-tab-default-right-br,
-.x-tab-default-right-mr {
-    padding-right: 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
-.x-tab-default-right-tl,
-.x-tab-default-right-bl,
-.x-tab-default-right-ml {
-    padding-left: 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
-.x-tab-default-right-tc {
-    height: 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
-.x-tab-default-right-bc {
-    height: 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
-.x-tab-default-right-mc {
-    padding: 8px 10px 8px 10px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:0 0 0 0" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:2672 */
-.x-tab-default {
-    border-color: transparent;
-    cursor: pointer;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:2731 */
-.x-tab-default-top {
-    margin: 0 4px 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:2735 */
-.x-tab-default-top.x-rtl {
-    margin: 0 0 0 4px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:2740 */
-.x-tab-default-top.x-tab-rotate-left {
-    margin: 0 0 0 4px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:2744 */
-.x-tab-default-top.x-tab-rotate-left.x-rtl {
-    margin: 0 4px 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:2763 */
-.x-keyboard-mode .x-tab-default-top.x-tab-focus {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:2794 */
-.x-keyboard-mode .x-tab-default-top.x-tab-focus.x-tab-over {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:2825 */
-.x-keyboard-mode .x-tab-default-top.x-tab-focus.x-tab-active {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:2852 */
-.x-tab-default-right {
-    margin: 0 0 4px 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:2856 */
-.x-tab-default-right.x-rtl {
-    margin: 0 0 4px 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:2861 */
-.x-tab-default-right.x-tab-rotate-right {
-    margin: 4px 0 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:2865 */
-.x-tab-default-right.x-tab-rotate-right.x-rtl {
-    margin: 4px 0 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:2884 */
-.x-keyboard-mode .x-tab-default-right.x-tab-focus {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:2915 */
-.x-keyboard-mode .x-tab-default-right.x-tab-focus.x-tab-over {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:2946 */
-.x-keyboard-mode .x-tab-default-right.x-tab-focus.x-tab-active {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:2973 */
-.x-tab-default-bottom {
-    margin: 0 4px 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:2977 */
-.x-tab-default-bottom.x-rtl {
-    margin: 0 0 0 4px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:2982 */
-.x-tab-default-bottom.x-tab-rotate-left {
-    margin: 0 0 0 4px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:2986 */
-.x-tab-default-bottom.x-tab-rotate-left.x-rtl {
-    margin: 0 4px 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3005 */
-.x-keyboard-mode .x-tab-default-bottom.x-tab-focus {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3036 */
-.x-keyboard-mode .x-tab-default-bottom.x-tab-focus.x-tab-over {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3067 */
-.x-keyboard-mode .x-tab-default-bottom.x-tab-focus.x-tab-active {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3094 */
-.x-tab-default-left {
-    margin: 0 0 4px 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3098 */
-.x-tab-default-left.x-rtl {
-    margin: 0 0 4px 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3103 */
-.x-tab-default-left.x-tab-rotate-right {
-    margin: 4px 0 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3107 */
-.x-tab-default-left.x-tab-rotate-right.x-rtl {
-    margin: 4px 0 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3126 */
-.x-keyboard-mode .x-tab-default-left.x-tab-focus {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3157 */
-.x-keyboard-mode .x-tab-default-left.x-tab-focus.x-tab-over {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3188 */
-.x-keyboard-mode .x-tab-default-left.x-tab-focus.x-tab-active {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3215 */
-.x-tab-button-default {
-    height: 20px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3220 */
-.x-tab-inner-default {
-    font: 400 13px/20px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
-    color: #f0f0f0;
-    max-width: 100%;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3228 */
-.x-tab-bar-plain .x-tab-inner-default {
-    color: #606060;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3236 */
-.x-tab-icon-right > .x-tab-inner-default,
-.x-tab-icon-left > .x-tab-inner-default {
-    max-width: calc(100% - 20px);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3244 */
-.x-tab-icon-el-default {
-    min-height: 20px;
-    background-position: center center;
-    font-size: 20px;
-    line-height: 20px;
-    color: #f0f0f0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3245 */
-.x-tab-icon-left > .x-tab-icon-el-default,
-.x-tab-icon-right > .x-tab-icon-el-default {
-    width: 20px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3250 */
-.x-tab-icon-top > .x-tab-icon-el-default,
-.x-tab-icon-bottom > .x-tab-icon-el-default {
-    min-width: 20px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3261 */
-.x-tab-bar-plain .x-tab-icon-el-default {
-    color: #606060;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3266 */
-.x-tab-icon-el-default.x-tab-glyph {
-    opacity: 0.7;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3286 */
-.x-tab-text.x-tab-icon-left > .x-tab-icon-el-default {
-    margin-right: 6px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3290 */
-.x-tab-text.x-tab-icon-left > .x-tab-icon-el-default.x-rtl {
-    margin-right: 0;
-    margin-left: 6px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3297 */
-.x-tab-text.x-tab-icon-right > .x-tab-icon-el-default {
-    margin-left: 6px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3301 */
-.x-tab-text.x-tab-icon-right > .x-tab-icon-el-default.x-rtl {
-    margin-left: 0;
-    margin-right: 6px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3308 */
-.x-tab-text.x-tab-icon-top > .x-tab-icon-el-default {
-    margin-bottom: 6px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3312 */
-.x-tab-text.x-tab-icon-bottom > .x-tab-icon-el-default {
-    margin-top: 6px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3318 */
-.x-keyboard-mode .x-tab-focus.x-tab-default {
-    border-color: transparent;
-    background-color: transparent;
-    outline: 1px solid #5fa2dd;
-    outline-offset: -3px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:63 */
-.x-ie .x-keyboard-mode .x-tab-focus.x-tab-default,
-.x-ie10p .x-keyboard-mode .x-tab-focus.x-tab-default,
-.x-edge .x-keyboard-mode .x-tab-focus.x-tab-default {
-    outline: none;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:39 */
-.x-ie .x-keyboard-mode .x-tab-focus.x-tab-default:after,
-.x-ie10p .x-keyboard-mode .x-tab-focus.x-tab-default:after,
-.x-edge .x-keyboard-mode .x-tab-focus.x-tab-default:after {
-    position: absolute;
-    content: ' ';
-    top: 2px;
-    right: 2px;
-    bottom: 2px;
-    left: 2px;
-    border: 1px solid #5fa2dd;
-    pointer-events: none;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3398 */
-.x-keyboard-mode .x-tab-bar-plain .x-tab-focus.x-tab-default .x-tab-inner-default {
-    color: #606060;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3404 */
-.x-keyboard-mode .x-tab-bar-plain .x-tab-focus.x-tab-default .x-tab-icon-el {
-    color: #606060;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3454 */
-.x-tab-over.x-tab-default {
-    border-color: #000;
-    background-image: none;
-    background-color: rgba(0, 0, 0, 0.08);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/background-opacity.scss:19 */
-.x-ie8 .x-tab-over.x-tab-default {
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#14000000, endColorstr=#14000000)";
-    zoom: 1;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3483 */
-.x-ie8 .x-tab-over.x-tab-default.x-tab-rotate-left {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3489 */
-.x-ie8 .x-tab-over.x-tab-default.x-tab-rotate-right {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3515 */
-.x-tab-bar-plain .x-tab-over.x-tab-default .x-tab-inner-default {
-    color: #606060;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3546 */
-.x-tab-bar-plain .x-tab-over.x-tab-default .x-tab-icon-el {
-    color: #606060;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3567 */
-.x-keyboard-mode .x-tab-focus.x-tab-over.x-tab-default {
-    border-color: #000;
-    background-image: none;
-    background-color: rgba(0, 0, 0, 0.08);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/background-opacity.scss:19 */
-.x-ie8 .x-keyboard-mode .x-tab-focus.x-tab-over.x-tab-default {
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#14000000, endColorstr=#14000000)";
-    zoom: 1;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3612 */
-.x-keyboard-mode .x-tab-bar-plain .x-tab-focus.x-tab-over.x-tab-default .x-tab-inner-default {
-    color: #606060;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3618 */
-.x-keyboard-mode .x-tab-bar-plain .x-tab-focus.x-tab-over.x-tab-default .x-tab-icon-el {
-    color: #606060;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3642 */
-.x-keyboard-mode.x-ie8 .x-tab-focus.x-tab-over.x-tab-default.x-tab-rotate-left {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3646 */
-.x-keyboard-mode.x-ie8 .x-tab-focus.x-tab-over.x-tab-default.x-tab-rotate-right {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3685 */
-.x-tab.x-tab-active.x-tab-default {
-    border-color: #fff;
-    background-color: #fff;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3741 */
-.x-tab.x-tab-active.x-tab-default .x-tab-inner-default {
-    color: #4c82b1;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3746 */
-.x-tab-bar-plain .x-tab.x-tab-active.x-tab-default .x-tab-inner-default {
-    color: #404040;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3761 */
-.x-tab.x-tab-active.x-tab-default .x-tab-icon-el {
-    color: #4c82b1;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3769 */
-.x-ie8 .x-tab.x-tab-active.x-tab-default .x-tab-icon-el {
-    color: #82a7c8;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3775 */
-.x-tab-bar-plain .x-tab.x-tab-active.x-tab-default .x-tab-icon-el {
-    color: #404040;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3797 */
-.x-keyboard-mode .x-tab-focus.x-tab-active.x-tab-default {
-    border-color: #fff;
-    background-color: #fff;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3842 */
-.x-keyboard-mode .x-tab-bar-plain .x-tab-focus.x-tab-active.x-tab-default .x-tab-inner-default {
-    color: #404040;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3848 */
-.x-keyboard-mode .x-tab-bar-plain .x-tab-focus.x-tab-active.x-tab-default .x-tab-icon-el {
-    color: #404040;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3916 */
-.x-tab.x-tab-disabled.x-tab-default {
-    border-color: transparent;
-    background-color: transparent;
-    cursor: default;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3976 */
-.x-tab.x-tab-disabled.x-tab-default .x-tab-inner-default {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
-    opacity: 0.3;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:3981 */
-.x-tab-bar-plain .x-tab.x-tab-disabled.x-tab-default .x-tab-inner-default {
-    color: #606060;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4000 */
-.x-tab.x-tab-disabled.x-tab-default .x-tab-icon-el-default {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-    opacity: 0.5;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4005 */
-.x-tab.x-tab-disabled.x-tab-default .x-tab-icon-el {
-    color: #f0f0f0;
-    opacity: 0.3;
-    filter: none;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4026 */
-.x-tab-bar-plain .x-tab.x-tab-disabled.x-tab-default .x-tab-icon-el {
-    color: #606060;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4046 */
-.x-nbr .x-tab-default {
-    background-image: none;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
-.x-tab-over .x-tab-default-top-tl,
-.x-tab-over .x-tab-default-top-bl,
-.x-tab-over .x-tab-default-top-tr,
-.x-tab-over .x-tab-default-top-br,
-.x-tab-over .x-tab-default-top-tc,
-.x-tab-over .x-tab-default-top-bc {
-    background-image: url(images/tab/tab-default-top-over-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
-.x-tab-over .x-tab-default-top-ml,
-.x-tab-over .x-tab-default-top-mr {
-    background-image: url(images/tab/tab-default-top-over-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
-.x-tab-over .x-tab-default-top-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-top-over-fbg.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
-.x-tab-focus .x-tab-default-top-tl,
-.x-tab-focus .x-tab-default-top-bl,
-.x-tab-focus .x-tab-default-top-tr,
-.x-tab-focus .x-tab-default-top-br,
-.x-tab-focus .x-tab-default-top-tc,
-.x-tab-focus .x-tab-default-top-bc {
-    background-image: url(images/tab/tab-default-top-focus-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
-.x-tab-focus .x-tab-default-top-ml,
-.x-tab-focus .x-tab-default-top-mr {
-    background-image: url(images/tab/tab-default-top-focus-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
-.x-tab-focus .x-tab-default-top-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-top-focus-fbg.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
-.x-tab-focus.x-tab-over .x-tab-default-top-tl,
-.x-tab-focus.x-tab-over .x-tab-default-top-bl,
-.x-tab-focus.x-tab-over .x-tab-default-top-tr,
-.x-tab-focus.x-tab-over .x-tab-default-top-br,
-.x-tab-focus.x-tab-over .x-tab-default-top-tc,
-.x-tab-focus.x-tab-over .x-tab-default-top-bc {
-    background-image: url(images/tab/tab-default-top-focus-over-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
-.x-tab-focus.x-tab-over .x-tab-default-top-ml,
-.x-tab-focus.x-tab-over .x-tab-default-top-mr {
-    background-image: url(images/tab/tab-default-top-focus-over-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
-.x-tab-focus.x-tab-over .x-tab-default-top-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-top-focus-over-fbg.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
-.x-tab.x-tab-active .x-tab-default-top-tl,
-.x-tab.x-tab-active .x-tab-default-top-bl,
-.x-tab.x-tab-active .x-tab-default-top-tr,
-.x-tab.x-tab-active .x-tab-default-top-br,
-.x-tab.x-tab-active .x-tab-default-top-tc,
-.x-tab.x-tab-active .x-tab-default-top-bc {
-    background-image: url(images/tab/tab-default-top-active-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
-.x-tab.x-tab-active .x-tab-default-top-ml,
-.x-tab.x-tab-active .x-tab-default-top-mr {
-    background-image: url(images/tab/tab-default-top-active-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
-.x-tab.x-tab-active .x-tab-default-top-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-top-active-fbg.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
-.x-tab-focus.x-tab-active .x-tab-default-top-tl,
-.x-tab-focus.x-tab-active .x-tab-default-top-bl,
-.x-tab-focus.x-tab-active .x-tab-default-top-tr,
-.x-tab-focus.x-tab-active .x-tab-default-top-br,
-.x-tab-focus.x-tab-active .x-tab-default-top-tc,
-.x-tab-focus.x-tab-active .x-tab-default-top-bc {
-    background-image: url(images/tab/tab-default-top-focus-active-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
-.x-tab-focus.x-tab-active .x-tab-default-top-ml,
-.x-tab-focus.x-tab-active .x-tab-default-top-mr {
-    background-image: url(images/tab/tab-default-top-focus-active-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
-.x-tab-focus.x-tab-active .x-tab-default-top-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-top-focus-active-fbg.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
-.x-tab.x-tab-disabled .x-tab-default-top-tl,
-.x-tab.x-tab-disabled .x-tab-default-top-bl,
-.x-tab.x-tab-disabled .x-tab-default-top-tr,
-.x-tab.x-tab-disabled .x-tab-default-top-br,
-.x-tab.x-tab-disabled .x-tab-default-top-tc,
-.x-tab.x-tab-disabled .x-tab-default-top-bc {
-    background-image: url(images/tab/tab-default-top-disabled-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
-.x-tab.x-tab-disabled .x-tab-default-top-ml,
-.x-tab.x-tab-disabled .x-tab-default-top-mr {
-    background-image: url(images/tab/tab-default-top-disabled-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
-.x-tab.x-tab-disabled .x-tab-default-top-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-top-disabled-fbg.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
-.x-tab-over .x-tab-default-right-tl,
-.x-tab-over .x-tab-default-right-bl,
-.x-tab-over .x-tab-default-right-tr,
-.x-tab-over .x-tab-default-right-br,
-.x-tab-over .x-tab-default-right-tc,
-.x-tab-over .x-tab-default-right-bc {
-    background-image: url(images/tab/tab-default-right-over-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
-.x-tab-over .x-tab-default-right-ml,
-.x-tab-over .x-tab-default-right-mr {
-    background-image: url(images/tab/tab-default-right-over-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
-.x-tab-over .x-tab-default-right-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-right-over-fbg.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
-.x-tab-focus .x-tab-default-right-tl,
-.x-tab-focus .x-tab-default-right-bl,
-.x-tab-focus .x-tab-default-right-tr,
-.x-tab-focus .x-tab-default-right-br,
-.x-tab-focus .x-tab-default-right-tc,
-.x-tab-focus .x-tab-default-right-bc {
-    background-image: url(images/tab/tab-default-right-focus-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
-.x-tab-focus .x-tab-default-right-ml,
-.x-tab-focus .x-tab-default-right-mr {
-    background-image: url(images/tab/tab-default-right-focus-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
-.x-tab-focus .x-tab-default-right-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-right-focus-fbg.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
-.x-tab-focus.x-tab-over .x-tab-default-right-tl,
-.x-tab-focus.x-tab-over .x-tab-default-right-bl,
-.x-tab-focus.x-tab-over .x-tab-default-right-tr,
-.x-tab-focus.x-tab-over .x-tab-default-right-br,
-.x-tab-focus.x-tab-over .x-tab-default-right-tc,
-.x-tab-focus.x-tab-over .x-tab-default-right-bc {
-    background-image: url(images/tab/tab-default-right-focus-over-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
-.x-tab-focus.x-tab-over .x-tab-default-right-ml,
-.x-tab-focus.x-tab-over .x-tab-default-right-mr {
-    background-image: url(images/tab/tab-default-right-focus-over-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
-.x-tab-focus.x-tab-over .x-tab-default-right-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-right-focus-over-fbg.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
-.x-tab.x-tab-active .x-tab-default-right-tl,
-.x-tab.x-tab-active .x-tab-default-right-bl,
-.x-tab.x-tab-active .x-tab-default-right-tr,
-.x-tab.x-tab-active .x-tab-default-right-br,
-.x-tab.x-tab-active .x-tab-default-right-tc,
-.x-tab.x-tab-active .x-tab-default-right-bc {
-    background-image: url(images/tab/tab-default-right-active-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
-.x-tab.x-tab-active .x-tab-default-right-ml,
-.x-tab.x-tab-active .x-tab-default-right-mr {
-    background-image: url(images/tab/tab-default-right-active-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
-.x-tab.x-tab-active .x-tab-default-right-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-right-active-fbg.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
-.x-tab-focus.x-tab-active .x-tab-default-right-tl,
-.x-tab-focus.x-tab-active .x-tab-default-right-bl,
-.x-tab-focus.x-tab-active .x-tab-default-right-tr,
-.x-tab-focus.x-tab-active .x-tab-default-right-br,
-.x-tab-focus.x-tab-active .x-tab-default-right-tc,
-.x-tab-focus.x-tab-active .x-tab-default-right-bc {
-    background-image: url(images/tab/tab-default-right-focus-active-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
-.x-tab-focus.x-tab-active .x-tab-default-right-ml,
-.x-tab-focus.x-tab-active .x-tab-default-right-mr {
-    background-image: url(images/tab/tab-default-right-focus-active-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
-.x-tab-focus.x-tab-active .x-tab-default-right-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-right-focus-active-fbg.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
-.x-tab.x-tab-disabled .x-tab-default-right-tl,
-.x-tab.x-tab-disabled .x-tab-default-right-bl,
-.x-tab.x-tab-disabled .x-tab-default-right-tr,
-.x-tab.x-tab-disabled .x-tab-default-right-br,
-.x-tab.x-tab-disabled .x-tab-default-right-tc,
-.x-tab.x-tab-disabled .x-tab-default-right-bc {
-    background-image: url(images/tab/tab-default-right-disabled-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
-.x-tab.x-tab-disabled .x-tab-default-right-ml,
-.x-tab.x-tab-disabled .x-tab-default-right-mr {
-    background-image: url(images/tab/tab-default-right-disabled-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
-.x-tab.x-tab-disabled .x-tab-default-right-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-right-disabled-fbg.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
-.x-tab-over .x-tab-default-bottom-tl,
-.x-tab-over .x-tab-default-bottom-bl,
-.x-tab-over .x-tab-default-bottom-tr,
-.x-tab-over .x-tab-default-bottom-br,
-.x-tab-over .x-tab-default-bottom-tc,
-.x-tab-over .x-tab-default-bottom-bc {
-    background-image: url(images/tab/tab-default-bottom-over-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
-.x-tab-over .x-tab-default-bottom-ml,
-.x-tab-over .x-tab-default-bottom-mr {
-    background-image: url(images/tab/tab-default-bottom-over-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
-.x-tab-over .x-tab-default-bottom-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-bottom-over-fbg.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
-.x-tab-focus .x-tab-default-bottom-tl,
-.x-tab-focus .x-tab-default-bottom-bl,
-.x-tab-focus .x-tab-default-bottom-tr,
-.x-tab-focus .x-tab-default-bottom-br,
-.x-tab-focus .x-tab-default-bottom-tc,
-.x-tab-focus .x-tab-default-bottom-bc {
-    background-image: url(images/tab/tab-default-bottom-focus-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
-.x-tab-focus .x-tab-default-bottom-ml,
-.x-tab-focus .x-tab-default-bottom-mr {
-    background-image: url(images/tab/tab-default-bottom-focus-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
-.x-tab-focus .x-tab-default-bottom-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-bottom-focus-fbg.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
-.x-tab-focus.x-tab-over .x-tab-default-bottom-tl,
-.x-tab-focus.x-tab-over .x-tab-default-bottom-bl,
-.x-tab-focus.x-tab-over .x-tab-default-bottom-tr,
-.x-tab-focus.x-tab-over .x-tab-default-bottom-br,
-.x-tab-focus.x-tab-over .x-tab-default-bottom-tc,
-.x-tab-focus.x-tab-over .x-tab-default-bottom-bc {
-    background-image: url(images/tab/tab-default-bottom-focus-over-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
-.x-tab-focus.x-tab-over .x-tab-default-bottom-ml,
-.x-tab-focus.x-tab-over .x-tab-default-bottom-mr {
-    background-image: url(images/tab/tab-default-bottom-focus-over-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
-.x-tab-focus.x-tab-over .x-tab-default-bottom-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-bottom-focus-over-fbg.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
-.x-tab.x-tab-active .x-tab-default-bottom-tl,
-.x-tab.x-tab-active .x-tab-default-bottom-bl,
-.x-tab.x-tab-active .x-tab-default-bottom-tr,
-.x-tab.x-tab-active .x-tab-default-bottom-br,
-.x-tab.x-tab-active .x-tab-default-bottom-tc,
-.x-tab.x-tab-active .x-tab-default-bottom-bc {
-    background-image: url(images/tab/tab-default-bottom-active-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
-.x-tab.x-tab-active .x-tab-default-bottom-ml,
-.x-tab.x-tab-active .x-tab-default-bottom-mr {
-    background-image: url(images/tab/tab-default-bottom-active-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
-.x-tab.x-tab-active .x-tab-default-bottom-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-bottom-active-fbg.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
-.x-tab-focus.x-tab-active .x-tab-default-bottom-tl,
-.x-tab-focus.x-tab-active .x-tab-default-bottom-bl,
-.x-tab-focus.x-tab-active .x-tab-default-bottom-tr,
-.x-tab-focus.x-tab-active .x-tab-default-bottom-br,
-.x-tab-focus.x-tab-active .x-tab-default-bottom-tc,
-.x-tab-focus.x-tab-active .x-tab-default-bottom-bc {
-    background-image: url(images/tab/tab-default-bottom-focus-active-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
-.x-tab-focus.x-tab-active .x-tab-default-bottom-ml,
-.x-tab-focus.x-tab-active .x-tab-default-bottom-mr {
-    background-image: url(images/tab/tab-default-bottom-focus-active-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
-.x-tab-focus.x-tab-active .x-tab-default-bottom-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-bottom-focus-active-fbg.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
-.x-tab.x-tab-disabled .x-tab-default-bottom-tl,
-.x-tab.x-tab-disabled .x-tab-default-bottom-bl,
-.x-tab.x-tab-disabled .x-tab-default-bottom-tr,
-.x-tab.x-tab-disabled .x-tab-default-bottom-br,
-.x-tab.x-tab-disabled .x-tab-default-bottom-tc,
-.x-tab.x-tab-disabled .x-tab-default-bottom-bc {
-    background-image: url(images/tab/tab-default-bottom-disabled-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
-.x-tab.x-tab-disabled .x-tab-default-bottom-ml,
-.x-tab.x-tab-disabled .x-tab-default-bottom-mr {
-    background-image: url(images/tab/tab-default-bottom-disabled-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
-.x-tab.x-tab-disabled .x-tab-default-bottom-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-bottom-disabled-fbg.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
-.x-tab-over .x-tab-default-left-tl,
-.x-tab-over .x-tab-default-left-bl,
-.x-tab-over .x-tab-default-left-tr,
-.x-tab-over .x-tab-default-left-br,
-.x-tab-over .x-tab-default-left-tc,
-.x-tab-over .x-tab-default-left-bc {
-    background-image: url(images/tab/tab-default-left-over-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
-.x-tab-over .x-tab-default-left-ml,
-.x-tab-over .x-tab-default-left-mr {
-    background-image: url(images/tab/tab-default-left-over-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
-.x-tab-over .x-tab-default-left-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-left-over-fbg.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
-.x-tab-focus .x-tab-default-left-tl,
-.x-tab-focus .x-tab-default-left-bl,
-.x-tab-focus .x-tab-default-left-tr,
-.x-tab-focus .x-tab-default-left-br,
-.x-tab-focus .x-tab-default-left-tc,
-.x-tab-focus .x-tab-default-left-bc {
-    background-image: url(images/tab/tab-default-left-focus-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
-.x-tab-focus .x-tab-default-left-ml,
-.x-tab-focus .x-tab-default-left-mr {
-    background-image: url(images/tab/tab-default-left-focus-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
-.x-tab-focus .x-tab-default-left-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-left-focus-fbg.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
-.x-tab-focus.x-tab-over .x-tab-default-left-tl,
-.x-tab-focus.x-tab-over .x-tab-default-left-bl,
-.x-tab-focus.x-tab-over .x-tab-default-left-tr,
-.x-tab-focus.x-tab-over .x-tab-default-left-br,
-.x-tab-focus.x-tab-over .x-tab-default-left-tc,
-.x-tab-focus.x-tab-over .x-tab-default-left-bc {
-    background-image: url(images/tab/tab-default-left-focus-over-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
-.x-tab-focus.x-tab-over .x-tab-default-left-ml,
-.x-tab-focus.x-tab-over .x-tab-default-left-mr {
-    background-image: url(images/tab/tab-default-left-focus-over-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
-.x-tab-focus.x-tab-over .x-tab-default-left-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-left-focus-over-fbg.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
-.x-tab.x-tab-active .x-tab-default-left-tl,
-.x-tab.x-tab-active .x-tab-default-left-bl,
-.x-tab.x-tab-active .x-tab-default-left-tr,
-.x-tab.x-tab-active .x-tab-default-left-br,
-.x-tab.x-tab-active .x-tab-default-left-tc,
-.x-tab.x-tab-active .x-tab-default-left-bc {
-    background-image: url(images/tab/tab-default-left-active-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
-.x-tab.x-tab-active .x-tab-default-left-ml,
-.x-tab.x-tab-active .x-tab-default-left-mr {
-    background-image: url(images/tab/tab-default-left-active-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
-.x-tab.x-tab-active .x-tab-default-left-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-left-active-fbg.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
-.x-tab-focus.x-tab-active .x-tab-default-left-tl,
-.x-tab-focus.x-tab-active .x-tab-default-left-bl,
-.x-tab-focus.x-tab-active .x-tab-default-left-tr,
-.x-tab-focus.x-tab-active .x-tab-default-left-br,
-.x-tab-focus.x-tab-active .x-tab-default-left-tc,
-.x-tab-focus.x-tab-active .x-tab-default-left-bc {
-    background-image: url(images/tab/tab-default-left-focus-active-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
-.x-tab-focus.x-tab-active .x-tab-default-left-ml,
-.x-tab-focus.x-tab-active .x-tab-default-left-mr {
-    background-image: url(images/tab/tab-default-left-focus-active-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
-.x-tab-focus.x-tab-active .x-tab-default-left-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-left-focus-active-fbg.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4065 */
-.x-tab.x-tab-disabled .x-tab-default-left-tl,
-.x-tab.x-tab-disabled .x-tab-default-left-bl,
-.x-tab.x-tab-disabled .x-tab-default-left-tr,
-.x-tab.x-tab-disabled .x-tab-default-left-br,
-.x-tab.x-tab-disabled .x-tab-default-left-tc,
-.x-tab.x-tab-disabled .x-tab-default-left-bc {
-    background-image: url(images/tab/tab-default-left-disabled-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4074 */
-.x-tab.x-tab-disabled .x-tab-default-left-ml,
-.x-tab.x-tab-disabled .x-tab-default-left-mr {
-    background-image: url(images/tab/tab-default-left-disabled-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4079 */
-.x-tab.x-tab-disabled .x-tab-default-left-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-left-disabled-fbg.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4089 */
-.x-tab-default-tl,
-.x-tab-default-bl,
-.x-tab-default-tr,
-.x-tab-default-br {
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4099 */
-.x-tab-default .x-tab-close-btn {
-    top: 0;
-    right: 0;
-    width: 16px;
-    height: 16px;
-    font: 12px/1 FontAwesome;
-    color: #fff;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-tab-default .x-tab-close-btn:before {
-    content: "\f00d";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4109 */
-.x-tab-bar-plain .x-tab-default .x-tab-close-btn {
-    color: #919191;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4121 */
-.x-tab-default .x-tab-close-btn-over {
-    background-position: -16px 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4131 */
-.x-tab-default .x-tab-close-btn-pressed {
-    background-position: -32px 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4139 */
-.x-keyboard-mode .x-tab-default.x-tab-focus .x-tab-close-btn {
-    color: #fff;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4145 */
-.x-keyboard-mode .x-tab-bar-plain .x-tab-default.x-tab-focus .x-tab-close-btn {
-    color: #919191;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4156 */
-.x-tab-default.x-tab-over .x-tab-close-btn {
-    color: #fff;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4160 */
-.x-tab-bar-plain .x-tab-default.x-tab-over .x-tab-close-btn {
-    color: #919191;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4171 */
-.x-keyboard-mode .x-tab-default.x-tab-focus.x-tab-over .x-tab-close-btn {
-    color: #fff;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4177 */
-.x-keyboard-mode .x-tab-bar-plain .x-tab-default.x-tab-focus.x-tab-over .x-tab-close-btn {
-    color: #919191;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4188 */
-.x-tab-default.x-tab-active .x-tab-close-btn {
-    color: #919191;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4219 */
-.x-keyboard-mode .x-tab-default.x-tab-focus.x-tab-active .x-tab-close-btn {
-    color: #919191;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4235 */
-.x-tab-default.x-tab-disabled .x-tab-close-btn {
-    color: #fff;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
-    opacity: 0.3;
-    background-position: 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4240 */
-.x-tab-bar-plain .x-tab-default.x-tab-disabled .x-tab-close-btn {
-    color: #919191;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4256 */
-.x-rtl.x-tab-default .x-tab-close-btn {
-    right: auto;
-    left: 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4262 */
-.x-tab-closable.x-tab-default .x-tab-button {
-    padding-right: 16px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:4267 */
-.x-rtl.x-tab-closable.x-tab-default .x-tab-button {
-    padding-right: 0px;
-    padding-left: 16px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-top-focus-corners.gif), sides:url(images/tab/tab-default-top-focus-sides.gif), frame-bg:url(images/tab/tab-default-top-focus-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-right-focus-corners.gif), sides:url(images/tab/tab-default-right-focus-sides.gif), frame-bg:url(images/tab/tab-default-right-focus-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-bottom-focus-corners.gif), sides:url(images/tab/tab-default-bottom-focus-sides.gif), frame-bg:url(images/tab/tab-default-bottom-focus-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-left-focus-corners.gif), sides:url(images/tab/tab-default-left-focus-sides.gif), frame-bg:url(images/tab/tab-default-left-focus-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-top-over-corners.gif), sides:url(images/tab/tab-default-top-over-sides.gif), frame-bg:url(images/tab/tab-default-top-over-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-right-over-corners.gif), sides:url(images/tab/tab-default-right-over-sides.gif), frame-bg:url(images/tab/tab-default-right-over-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-bottom-over-corners.gif), sides:url(images/tab/tab-default-bottom-over-sides.gif), frame-bg:url(images/tab/tab-default-bottom-over-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-left-over-corners.gif), sides:url(images/tab/tab-default-left-over-sides.gif), frame-bg:url(images/tab/tab-default-left-over-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-top-active-corners.gif), sides:url(images/tab/tab-default-top-active-sides.gif), frame-bg:url(images/tab/tab-default-top-active-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-right-active-corners.gif), sides:url(images/tab/tab-default-right-active-sides.gif), frame-bg:url(images/tab/tab-default-right-active-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-bottom-active-corners.gif), sides:url(images/tab/tab-default-bottom-active-sides.gif), frame-bg:url(images/tab/tab-default-bottom-active-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-left-active-corners.gif), sides:url(images/tab/tab-default-left-active-sides.gif), frame-bg:url(images/tab/tab-default-left-active-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-top-focus-over-corners.gif), sides:url(images/tab/tab-default-top-focus-over-sides.gif), frame-bg:url(images/tab/tab-default-top-focus-over-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-right-focus-over-corners.gif), sides:url(images/tab/tab-default-right-focus-over-sides.gif), frame-bg:url(images/tab/tab-default-right-focus-over-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-bottom-focus-over-corners.gif), sides:url(images/tab/tab-default-bottom-focus-over-sides.gif), frame-bg:url(images/tab/tab-default-bottom-focus-over-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-left-focus-over-corners.gif), sides:url(images/tab/tab-default-left-focus-over-sides.gif), frame-bg:url(images/tab/tab-default-left-focus-over-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-top-focus-active-corners.gif), sides:url(images/tab/tab-default-top-focus-active-sides.gif), frame-bg:url(images/tab/tab-default-top-focus-active-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-right-focus-active-corners.gif), sides:url(images/tab/tab-default-right-focus-active-sides.gif), frame-bg:url(images/tab/tab-default-right-focus-active-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-bottom-focus-active-corners.gif), sides:url(images/tab/tab-default-bottom-focus-active-sides.gif), frame-bg:url(images/tab/tab-default-bottom-focus-active-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-left-focus-active-corners.gif), sides:url(images/tab/tab-default-left-focus-active-sides.gif), frame-bg:url(images/tab/tab-default-left-focus-active-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-top-disabled-corners.gif), sides:url(images/tab/tab-default-top-disabled-sides.gif), frame-bg:url(images/tab/tab-default-top-disabled-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-right-disabled-corners.gif), sides:url(images/tab/tab-default-right-disabled-sides.gif), frame-bg:url(images/tab/tab-default-right-disabled-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-bottom-disabled-corners.gif), sides:url(images/tab/tab-default-bottom-disabled-sides.gif), frame-bg:url(images/tab/tab-default-bottom-disabled-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-left-disabled-corners.gif), sides:url(images/tab/tab-default-left-disabled-sides.gif), frame-bg:url(images/tab/tab-default-left-disabled-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:389 */
-.x-tab-bar-default {
-    background-color: #5fa2dd;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:428 */
-.x-tab-bar-default-top > .x-tab-bar-body-default {
-    padding: 8px 4px 0 8px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:432 */
-.x-tab-bar-default-bottom > .x-tab-bar-body-default {
-    padding: 0 4px 8px 8px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:436 */
-.x-tab-bar-default-left > .x-tab-bar-body-default {
-    padding: 4px 0 8px 8px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:441 */
-.x-rtl.x-tab-bar-default-left > .x-tab-bar-body-default {
-    padding: 4px 8px 8px 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:446 */
-.x-tab-bar-default-right > .x-tab-bar-body-default {
-    padding: 8px 8px 4px 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:451 */
-.x-rtl.x-tab-bar-default-right > .x-tab-bar-body-default {
-    padding: 8px 0 4px 8px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:459 */
-.x-tab-bar-plain.x-tab-bar-default-top > .x-tab-bar-body-default {
-    padding: 8px 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:463 */
-.x-tab-bar-plain.x-tab-bar-default-bottom > .x-tab-bar-body-default {
-    padding: 0 0 8px 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:467 */
-.x-tab-bar-plain.x-tab-bar-default-left > .x-tab-bar-body-default {
-    padding: 0 0 0 8px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:472 */
-.x-rtl.x-tab-bar-plain.x-tab-bar-default-left > .x-tab-bar-body-default {
-    padding: 0 8px 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:477 */
-.x-tab-bar-plain.x-tab-bar-default-right > .x-tab-bar-body-default {
-    padding: 0 8px 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:482 */
-.x-rtl.x-tab-bar-plain.x-tab-bar-default-right > .x-tab-bar-body-default {
-    padding: 0 0 0 8px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:490 */
-.x-tab-bar-plain.x-tab-bar-default-horizontal {
-    border-top-color: transparent;
-    border-bottom-color: transparent;
-    border-left-width: 0;
-    border-right-width: 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:497 */
-.x-tab-bar-plain.x-tab-bar-default-vertical {
-    border-right-color: transparent;
-    border-left-color: transparent;
-    border-top-width: 0;
-    border-bottom-width: 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:611 */
-.x-tab-bar-horizontal > .x-tab-bar-body-default {
-    min-height: 44px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:614 */
-.x-ie8m .x-tab-bar-horizontal > .x-tab-bar-body-default {
-    min-height: 36px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:621 */
-.x-tab-bar-vertical > .x-tab-bar-body-default {
-    min-width: 44px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:624 */
-.x-ie8m .x-tab-bar-vertical > .x-tab-bar-body-default {
-    min-width: 36px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:182 */
-.x-tab-bar-default-scroller .x-box-scroller-body-horizontal {
-    margin-left: 16px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:187 */
-.x-tab-bar-default-scroller.x-rtl .x-box-scroller-body-horizontal {
-    margin-left: 0;
-    margin-right: 16px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:195 */
-.x-tab-bar-default-vertical-scroller .x-box-scroller-body-vertical {
-    margin-top: 16px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:200 */
-.x-box-scroller-tab-bar-default {
-    cursor: pointer;
-    color: #fff;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-    opacity: 0.5;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:210 */
-.x-box-scroller-tab-bar-default.x-box-scroller-hover {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-    opacity: 0.6;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:216 */
-.x-box-scroller-tab-bar-default.x-box-scroller-pressed {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
-    opacity: 0.7;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:222 */
-.x-box-scroller-tab-bar-default.x-box-scroller-disabled {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
-    opacity: 0.25;
-    cursor: default;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:232 */
-.x-box-scroller-tab-bar-default.x-box-scroller-left,
-.x-box-scroller-tab-bar-default.x-box-scroller-right {
-    width: 24px;
-    height: 24px;
-    top: 50%;
-    margin-top: -12px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:259 */
-.x-box-scroller-tab-bar-default.x-box-scroller-left {
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    font: 16px/24px FontAwesome;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-box-scroller-tab-bar-default.x-box-scroller-left:before {
-    content: "\f053";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:284 */
-.x-box-scroller-tab-bar-default.x-box-scroller-right {
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    font: 16px/24px FontAwesome;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-box-scroller-tab-bar-default.x-box-scroller-right:before {
-    content: "\f054";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:311 */
-.x-box-scroller-tab-bar-default.x-box-scroller-top,
-.x-box-scroller-tab-bar-default.x-box-scroller-bottom {
-    height: 24px;
-    width: 24px;
-    left: 50%;
-    margin-left: -12px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:338 */
-.x-box-scroller-tab-bar-default.x-box-scroller-top {
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    font: 16px/24px FontAwesome;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-box-scroller-tab-bar-default.x-box-scroller-top:before {
-    content: "\f077";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:363 */
-.x-box-scroller-tab-bar-default.x-box-scroller-bottom {
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    font: 16px/24px FontAwesome;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-box-scroller-tab-bar-default.x-box-scroller-bottom:before {
-    content: "\f078";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:704 */
-.x-tab-bar-more-icon {
-    font: 16px/1 FontAwesome;
-    color: #f0f0f0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-tab-bar-more-icon:before {
-    content: "\f0c9";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:721 */
-.x-tab-bar-plain.x-tab-bar-default-scroller .x-box-scroller-body-horizontal {
-    margin-left: 24px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:727 */
-.x-tab-bar-plain.x-tab-bar-default-vertical-scroller .x-box-scroller-body-vertical {
-    margin-top: 16px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:732 */
-.x-tab-bar-plain .x-box-scroller-tab-bar-default {
-    color: #919191;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:780 */
-.x-tab-bar-default-top .x-box-scroller-tab-bar-default {
-    margin-top: -8px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:784 */
-.x-tab-bar-default-right .x-box-scroller-tab-bar-default {
-    margin-left: -16px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:788 */
-.x-tab-bar-default-bottom .x-box-scroller-tab-bar-default {
-    margin-top: -16px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:792 */
-.x-tab-bar-default-left .x-box-scroller-tab-bar-default {
-    margin-left: -8px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:801 */
-.x-box-scroller-tab-bar-default {
-    background-color: #5fa2dd;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:807 */
-.x-box-scroller-tab-bar-default .x-ie8 .x-box-scroller-plain {
-    background-color: #fff;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:top" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:right" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:left" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/toolbar/Breadcrumb.scss:406 */
-.x-breadcrumb-btn-default {
-    margin: 0 0 0 0px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/toolbar/Breadcrumb.scss:410 */
-.x-breadcrumb-icon-folder-default {
-    font: 16px/1 FontAwesome;
-    color: #919191;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-breadcrumb-icon-folder-default:before {
-    content: "\f114";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/toolbar/Breadcrumb.scss:418 */
-.x-btn-menu-active .x-breadcrumb-icon-folder-default {
-    font: 16px/1 FontAwesome;
-    color: #919191;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-btn-menu-active .x-breadcrumb-icon-folder-default:before {
-    content: "\f115";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/toolbar/Breadcrumb.scss:428 */
-.x-breadcrumb-icon-leaf-default {
-    font: 16px/1 FontAwesome;
-    color: #919191;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-breadcrumb-icon-leaf-default:before {
-    content: "\f016";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/toolbar/Breadcrumb.scss:438 */
-.x-breadcrumb-btn .x-btn-wrap-plain-toolbar-small.x-btn-arrow:after {
-    width: 20px;
-    background-image: url(images/breadcrumb/default-arrow.png);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/toolbar/Breadcrumb.scss:444 */
-.x-rtl.x-breadcrumb-btn .x-btn-wrap-plain-toolbar-small.x-btn-arrow:after {
-    background-image: url(images/breadcrumb/default-arrow-rtl.png);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/toolbar/Breadcrumb.scss:450 */
-.x-btn-menu-active.x-breadcrumb-btn .x-btn-wrap-plain-toolbar-small.x-btn-arrow:after {
-    background-image: url(images/breadcrumb/default-arrow-open.png);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/toolbar/Breadcrumb.scss:455 */
-.x-rtl.x-btn-menu-active.x-breadcrumb-btn .x-btn-wrap-plain-toolbar-small.x-btn-arrow:after {
-    background-image: url(images/breadcrumb/default-arrow-open-rtl.png);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/toolbar/Breadcrumb.scss:463 */
-.x-breadcrumb-btn .x-btn-wrap-plain-toolbar-small.x-btn-split:after {
-    width: 20px;
-    content: "\f105";
-    font: 16px/1 FontAwesome;
-    color: #919191;
-    background: none !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/toolbar/Breadcrumb.scss:477 */
-.x-rtl.x-breadcrumb-btn .x-btn-wrap-plain-toolbar-small.x-btn-split:after {
-    content: "\f104";
-    font: 16px/1 FontAwesome;
-    background: none !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/toolbar/Breadcrumb.scss:500 */
-.x-btn-menu-active.x-breadcrumb-btn .x-btn-wrap-plain-toolbar-small.x-btn-split:after {
-    content: "\f107";
-    font: 16px/1 FontAwesome;
-    color: #919191;
-    background: none !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:182 */
-.x-breadcrumb-default-scroller .x-box-scroller-body-horizontal {
-    margin-left: 32px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:187 */
-.x-breadcrumb-default-scroller.x-rtl .x-box-scroller-body-horizontal {
-    margin-left: 0;
-    margin-right: 32px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:195 */
-.x-breadcrumb-default-vertical-scroller .x-box-scroller-body-vertical {
-    margin-top: 24px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:200 */
-.x-box-scroller-breadcrumb-default {
-    cursor: pointer;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-    opacity: 0.6;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:210 */
-.x-box-scroller-breadcrumb-default.x-box-scroller-hover {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-    opacity: 0.8;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:216 */
-.x-box-scroller-breadcrumb-default.x-box-scroller-pressed {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    opacity: 1;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:222 */
-.x-box-scroller-breadcrumb-default.x-box-scroller-disabled {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
-    opacity: 0.25;
-    cursor: default;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:232 */
-.x-box-scroller-breadcrumb-default.x-box-scroller-left,
-.x-box-scroller-breadcrumb-default.x-box-scroller-right {
-    width: 24px;
-    height: 24px;
-    top: 50%;
-    margin-top: -12px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:259 */
-.x-box-scroller-breadcrumb-default.x-box-scroller-left {
-    margin-left: 4px;
-    margin-right: 4px;
-    margin-bottom: 0;
-    background-image: url(images/breadcrumb/default-scroll-left.png);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/layout/container/Box.scss:284 */
-.x-box-scroller-breadcrumb-default.x-box-scroller-right {
-    margin-left: 4px;
-    margin-right: 4px;
-    margin-bottom: 0;
-    background-image: url(images/breadcrumb/default-scroll-right.png);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/tree/View.scss:1 */
-.x-tree-expander {
-    cursor: pointer;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/tree/View.scss:8 */
-.x-tree-arrows .x-tree-expander {
-    font-size: 16px;
-    font-family: FontAwesome;
-    color: #5fa2dd;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-tree-arrows .x-tree-expander:before {
-    content: "\f0da";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/tree/View.scss:13 */
-.x-tree-arrows .x-tree-expander.x-rtl {
-    font-size: 16px;
-    font-family: FontAwesome;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-tree-arrows .x-tree-expander.x-rtl:before {
-    content: "\f0d9";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/tree/View.scss:18 */
-.x-tree-arrows .x-grid-tree-node-expanded .x-tree-expander {
-    font-size: 16px;
-    font-family: FontAwesome;
-    color: #5fa2dd;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-tree-arrows .x-grid-tree-node-expanded .x-tree-expander:before {
-    content: "\f0d7";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/tree/View.scss:61 */
-.x-tree-elbow-plus,
-.x-tree-elbow-end-plus {
-    font-size: 14px;
-    font-family: FontAwesome;
-    color: #5fa2dd;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-tree-elbow-plus:before,
-.x-tree-elbow-end-plus:before {
-    content: "\f0fe";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/tree/View.scss:69 */
-.x-grid-tree-node-expanded .x-tree-elbow-plus,
-.x-grid-tree-node-expanded .x-tree-elbow-end-plus {
-    font-size: 14px;
-    font-family: FontAwesome;
-    color: #5fa2dd;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-grid-tree-node-expanded .x-tree-elbow-plus:before,
-.x-grid-tree-node-expanded .x-tree-elbow-end-plus:before {
-    content: "\f146";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/tree/View.scss:157 */
-.x-tree-icon {
-    width: 16px;
-    height: 32px;
-    line-height: 32px;
-    color: #5fa2dd;
-    font-size: 16px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/tree/View.scss:165 */
-.x-tree-elbow-img {
-    width: 18px;
-    height: 32px;
-    line-height: 32px;
-    margin-right: 4px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/tree/View.scss:173 */
-.x-rtl.x-tree-elbow-img {
-    margin-right: 0;
-    margin-left: 4px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/tree/View.scss:179 */
-.x-tree-icon,
-.x-tree-elbow-img,
-.x-tree-checkbox {
-    margin-top: -7px;
-    margin-bottom: -6px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/tree/View.scss:189 */
-.x-tree-icon-leaf {
-    font-size: 16px;
-    font-family: FontAwesome;
-    color: #5fa2dd;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-tree-icon-leaf:before {
-    content: "\f016";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/tree/View.scss:204 */
-.x-tree-icon-parent {
-    font-size: 16px;
-    font-family: FontAwesome;
-    color: #5fa2dd;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-tree-icon-parent:before {
-    content: "\f114";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/tree/View.scss:220 */
-.x-tree-icon-parent-expanded {
-    font-size: 16px;
-    font-family: FontAwesome;
-    color: #5fa2dd;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-tree-icon-parent-expanded:before {
-    content: "\f115";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/tree/View.scss:236 */
-.x-tree-icon-custom {
-    background-image: none;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/tree/View.scss:240 */
-.x-tree-icon-custom:before {
-    content: '';
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/tree/View.scss:246 */
-.x-tree-icon-custom.x-rtl {
-    background-image: none;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/tree/View.scss:252 */
-.x-tree-checkbox {
-    margin-right: 6px;
-    top: 7px;
-    width: 18px;
-    height: 18px;
-    font: 18px/1 ExtJS;
-    color: #5fa2dd;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-tree-checkbox:before {
-    content: "\e614";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/tree/View.scss:266 */
-.x-rtl.x-tree-checkbox {
-    margin-right: 0;
-    margin-left: 6px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/tree/View.scss:272 */
-.x-tree-checkbox-checked {
-    font: 18px/1 ExtJS;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-tree-checkbox-checked:before {
-    content: "\e613";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/tree/View.scss:280 */
-.x-grid-tree-loading .x-tree-icon {
-    background-image: url(images/tree/loading.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/tree/View.scss:285 */
-.x-grid-tree-loading .x-rtl.x-tree-icon {
-    background-image: url(images/tree/loading.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/tree/View.scss:290 */
-.x-tree-node-text {
-    padding-left: 6px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/tree/View.scss:295 */
-.x-rtl.x-tree-node-text {
-    padding-left: 0;
-    padding-right: 6px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/tree/View.scss:302 */
-.x-grid-cell-inner-treecolumn {
-    padding: 7px 10px 6px 6px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/tree/ViewDropZone.scss:2 */
-.x-tree-drop-ok-append .x-dd-drop-icon,
-.x-tree-drop-ok-above .x-dd-drop-icon,
-.x-tree-drop-ok-below .x-dd-drop-icon,
-.x-tree-drop-ok-between .x-dd-drop-icon {
-    font: 16px/1 FontAwesome;
-    color: #a4cf6d;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:132 */
-.x-tree-drop-ok-append .x-dd-drop-icon:before,
-.x-tree-drop-ok-above .x-dd-drop-icon:before,
-.x-tree-drop-ok-below .x-dd-drop-icon:before,
-.x-tree-drop-ok-between .x-dd-drop-icon:before {
-    content: "\f055";
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/tree/ViewDropZone.scss:26 */
-.x-tree-ddindicator {
-    height: 1px;
-    border-width: 1px 0px 0px;
-    border-style: dotted;
-    border-color: green;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/view/MultiSelector.scss:1 */
-.x-multiselector-remove {
-    font-size: 110%;
-    color: #d0d0d0;
-    cursor: pointer;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/view/MultiSelector.scss:6 */
-.x-multiselector-remove .x-grid-cell-inner {
-    padding: 7px 4px 6px 4px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/view/MultiSelector.scss:11 */
-.x-grid-item-over .x-multiselector-remove {
-    color: red;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/view/MultiSelector.scss:16 */
-.x-multiselector-search-input .x-form-text::-ms-clear {
-    display: none;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/window/Toast.scss:1 */
-.x-toast-icon-information {
-    background-image: url(images/window/toast/icon16_info.png);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/window/Toast.scss:5 */
-.x-toast-icon-error {
-    background-image: url(images/window/toast/icon16_error.png);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/window/Toast.scss:11 */
-.x-toast-window .x-window-body {
-    /* Using standard theme */
-    padding: 15px 5px 15px 5px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/window/Toast.scss:17 */
-.x-toast-light .x-window-header {
-    /* Custom styling */
-    background-color: #7fb5e4;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/window/Toast.scss:21 */
-.x-toast-light .x-tool-img {
-    background-color: #7fb5e4;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/window/Toast.scss:25 */
-.x-toast-light {
-    background-image: url(images/window/toast/fader.png);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/src/window/Toast.scss:29 */
-.x-toast-light .x-window-body {
-    padding: 15px 5px 20px 5px;
-    background-color: transparent;
-    border: 0px solid white;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
-.x-btn-plain-toolbar-small {
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
-    border-radius: 0;
-    padding: 7px 7px 7px 7px;
-    border-width: 1px;
-    border-style: solid;
-    background-color: transparent;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
-.x-btn-plain-toolbar-small-mc {
-    background-color: transparent;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
-.x-nbr .x-btn-plain-toolbar-small {
-    padding: 0 !important;
-    border-width: 0 !important;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    -ms-border-radius: 0px;
-    -o-border-radius: 0px;
-    border-radius: 0px;
-    background-color: transparent !important;
-    box-shadow: none !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
-.x-btn-plain-toolbar-small-frameInfo {
-    font-family: th-1-1-1-1-1-1-1-1-7-7-7-7;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
-.x-btn-plain-toolbar-small-tl {
-    background-position: 0 -2px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
-.x-btn-plain-toolbar-small-tr {
-    background-position: right -3px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
-.x-btn-plain-toolbar-small-bl {
-    background-position: 0 -4px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
-.x-btn-plain-toolbar-small-br {
-    background-position: right -5px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
-.x-btn-plain-toolbar-small-ml {
-    background-position: 0 top;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
-.x-btn-plain-toolbar-small-mr {
-    background-position: right top;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
-.x-btn-plain-toolbar-small-tc {
-    background-position: 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
-.x-btn-plain-toolbar-small-bc {
-    background-position: 0 -1px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
-.x-btn-plain-toolbar-small-tr,
-.x-btn-plain-toolbar-small-br,
-.x-btn-plain-toolbar-small-mr {
-    padding-right: 1px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
-.x-btn-plain-toolbar-small-tl,
-.x-btn-plain-toolbar-small-bl,
-.x-btn-plain-toolbar-small-ml {
-    padding-left: 1px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
-.x-btn-plain-toolbar-small-tc {
-    height: 1px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
-.x-btn-plain-toolbar-small-bc {
-    height: 1px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
-.x-btn-plain-toolbar-small-mc {
-    padding: 7px 7px 7px 7px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:1px 1px 1px 1px" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2463 */
-.x-btn-plain-toolbar-small {
-    border-color: transparent;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2470 */
-.x-btn-button-plain-toolbar-small {
-    min-height: 16px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2475 */
-.x-ie9m .x-btn-button-plain-toolbar-small {
-    min-height: auto;
-    height: 16px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2482 */
-.x-btn-inner-plain-toolbar-small {
-    font: 400 12px/16px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
-    color: #606060;
-    padding: 0 5px;
-    max-width: 100%;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2502 */
-.x-ie9 .x-btn-icon-right > .x-btn-inner-plain-toolbar-small,
-.x-ie9 .x-btn-icon-left > .x-btn-inner-plain-toolbar-small {
-    max-width: calc(100% - 16px);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2510 */
-.x-safari8m .x-btn-icon-right > .x-btn-inner-plain-toolbar-small,
-.x-safari8m .x-btn-icon-left > .x-btn-inner-plain-toolbar-small {
-    max-width: calc(100% - 15px);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2516 */
-.x-ie10p .x-btn-inner-plain-toolbar-small {
-    max-width: none;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2521 */
-.x-btn-icon-el-plain-toolbar-small {
-    font-size: 16px;
-    height: 16px;
-    color: #919191;
-    line-height: 16px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2527 */
-.x-btn-icon-left > .x-btn-icon-el-plain-toolbar-small,
-.x-btn-icon-right > .x-btn-icon-el-plain-toolbar-small {
-    width: 16px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2532 */
-.x-btn-icon-top > .x-btn-icon-el-plain-toolbar-small,
-.x-btn-icon-bottom > .x-btn-icon-el-plain-toolbar-small {
-    min-width: 16px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2554 */
-.x-ie8 .x-btn-icon-el-plain-toolbar-small.x-btn-glyph {
-    color: #919191;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2561 */
-.x-btn-text.x-btn-icon-left > .x-btn-icon-el-plain-toolbar-small {
-    margin-right: 3px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2565 */
-.x-btn-text.x-btn-icon-left > .x-btn-icon-el-plain-toolbar-small.x-rtl {
-    margin-right: 0;
-    margin-left: 3px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2572 */
-.x-btn-text.x-btn-icon-right > .x-btn-icon-el-plain-toolbar-small {
-    margin-left: 3px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2576 */
-.x-btn-text.x-btn-icon-right > .x-btn-icon-el-plain-toolbar-small.x-rtl {
-    margin-left: 0;
-    margin-right: 3px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2583 */
-.x-btn-text.x-btn-icon-top > .x-btn-icon-el-plain-toolbar-small {
-    margin-bottom: 8px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2587 */
-.x-btn-text.x-btn-icon-bottom > .x-btn-icon-el-plain-toolbar-small {
-    margin-top: 8px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2593 */
-.x-btn-arrow-right > .x-btn-icon.x-btn-no-text.x-btn-button-plain-toolbar-small {
-    padding-right: 8px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2596 */
-.x-btn-arrow-right > .x-btn-text.x-btn-icon-right > .x-btn-icon-el-plain-toolbar-small {
-    margin-right: 5px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2603 */
-.x-btn-arrow-bottom > .x-btn-button-plain-toolbar-small,
-.x-btn-split-bottom > .x-btn-button-plain-toolbar-small {
-    padding-bottom: 7px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2609 */
-.x-btn-wrap-plain-toolbar-small.x-btn-arrow-right:after {
-    width: 18px;
-    content: "\f0d7";
-    font: 16px/1 FontAwesome;
-    color: #606060;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2636 */
-.x-btn-wrap-plain-toolbar-small.x-btn-arrow-bottom:after {
-    height: 12px;
-    content: "\f0d7";
-    font: 16px/12px FontAwesome;
-    color: #606060;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2663 */
-.x-btn-wrap-plain-toolbar-small.x-btn-split-right > .x-btn-button {
-    padding-right: 7px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2666 */
-.x-btn-wrap-plain-toolbar-small.x-btn-split-right > .x-btn-button.x-rtl {
-    padding-right: 0;
-    padding-left: 7px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2671 */
-.x-btn-wrap-plain-toolbar-small.x-btn-split-right > .x-btn-button:after {
-    border-right: 1px solid #e4e4e4;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2676 */
-.x-btn-wrap-plain-toolbar-small.x-btn-split-right:after {
-    width: 20px;
-    content: "\f0d7";
-    font: 16px/1 FontAwesome;
-    color: #606060;
-    padding-left: 7px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2692 */
-.x-btn-wrap-plain-toolbar-small.x-rtl.x-btn-split-right:after {
-    padding-left: 0;
-    padding-right: 7px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2702 */
-.x-btn-wrap-plain-toolbar-small.x-btn-split-bottom {
-    margin-bottom: -7px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2704 */
-.x-btn-wrap-plain-toolbar-small.x-btn-split-bottom > .x-btn-button:after {
-    border-bottom: 1px solid #e4e4e4;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2715 */
-.x-btn-wrap-plain-toolbar-small.x-btn-split-bottom:after {
-    height: 20px;
-    content: "\f0d7";
-    font: 16px/20px FontAwesome;
-    color: #606060;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2748 */
-.x-btn-split-right > .x-btn-icon.x-btn-no-text.x-btn-button-plain-toolbar-small {
-    padding-right: 8px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2751 */
-.x-btn-split-right > .x-btn-text.x-btn-icon-right > .x-btn-icon-el-plain-toolbar-small {
-    margin-right: 5px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2757 */
-.x-keyboard-mode .x-btn-focus.x-btn-plain-toolbar-small {
-    background-image: none;
-    background-color: transparent;
-    -webkit-box-shadow: #5fa2dd 0 1px 0px 0 inset, #5fa2dd 0 -1px 0px 0 inset, #5fa2dd -1px 0 0px 0 inset, #5fa2dd 1px 0 0px 0 inset;
-    -moz-box-shadow: #5fa2dd 0 1px 0px 0 inset, #5fa2dd 0 -1px 0px 0 inset, #5fa2dd -1px 0 0px 0 inset, #5fa2dd 1px 0 0px 0 inset;
-    box-shadow: #5fa2dd 0 1px 0px 0 inset, #5fa2dd 0 -1px 0px 0 inset, #5fa2dd -1px 0 0px 0 inset, #5fa2dd 1px 0 0px 0 inset;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2793 */
-.x-btn-plain-toolbar-small .x-btn-arrow-el {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 27px;
-    pointer-events: none;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2802 */
-.x-btn-plain-toolbar-small .x-btn-arrow-el.x-rtl {
-    right: inherit;
-    left: 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2810 */
-.x-keyboard-mode .x-btn-plain-toolbar-small.x-arrow-focus .x-btn-arrow-el {
-    border: 1px solid #5fa2dd;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2817 */
-.x-btn-over.x-btn-plain-toolbar-small {
-    border-color: #dbdbdb;
-    background-image: none;
-    background-color: #ececec;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2845 */
-.x-keyboard-mode .x-btn-focus.x-btn-over.x-btn-plain-toolbar-small {
-    -webkit-box-shadow: #5fa2dd 0 1px 0px 0 inset, #5fa2dd 0 -1px 0px 0 inset, #5fa2dd -1px 0 0px 0 inset, #5fa2dd 1px 0 0px 0 inset;
-    -moz-box-shadow: #5fa2dd 0 1px 0px 0 inset, #5fa2dd 0 -1px 0px 0 inset, #5fa2dd -1px 0 0px 0 inset, #5fa2dd 1px 0 0px 0 inset;
-    box-shadow: #5fa2dd 0 1px 0px 0 inset, #5fa2dd 0 -1px 0px 0 inset, #5fa2dd -1px 0 0px 0 inset, #5fa2dd 1px 0 0px 0 inset;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2874 */
-.x-btn.x-btn-menu-active.x-btn-plain-toolbar-small,
-.x-btn.x-btn-pressed.x-btn-plain-toolbar-small {
-    border-color: #d2d2d2;
-    background-image: none;
-    background-color: #e2e2e2;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2904 */
-.x-keyboard-mode .x-btn-focus.x-btn-menu-active.x-btn-plain-toolbar-small,
-.x-keyboard-mode .x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-small {
-    -webkit-box-shadow: #5fa2dd 0 1px 0px 0 inset, #5fa2dd 0 -1px 0px 0 inset, #5fa2dd -1px 0 0px 0 inset, #5fa2dd 1px 0 0px 0 inset;
-    -moz-box-shadow: #5fa2dd 0 1px 0px 0 inset, #5fa2dd 0 -1px 0px 0 inset, #5fa2dd -1px 0 0px 0 inset, #5fa2dd 1px 0 0px 0 inset;
-    box-shadow: #5fa2dd 0 1px 0px 0 inset, #5fa2dd 0 -1px 0px 0 inset, #5fa2dd -1px 0 0px 0 inset, #5fa2dd 1px 0 0px 0 inset;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2933 */
-.x-btn.x-btn-disabled.x-btn-plain-toolbar-small {
-    background-image: none;
-    background-color: transparent;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2966 */
-.x-keyboard-mode .x-btn-focus .x-btn-plain-toolbar-small-tl,
-.x-keyboard-mode .x-btn-focus .x-btn-plain-toolbar-small-bl,
-.x-keyboard-mode .x-btn-focus .x-btn-plain-toolbar-small-tr,
-.x-keyboard-mode .x-btn-focus .x-btn-plain-toolbar-small-br,
-.x-keyboard-mode .x-btn-focus .x-btn-plain-toolbar-small-tc,
-.x-keyboard-mode .x-btn-focus .x-btn-plain-toolbar-small-bc {
-    background-image: url(images/btn/btn-plain-toolbar-small-focus-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2974 */
-.x-keyboard-mode .x-btn-focus .x-btn-plain-toolbar-small-ml,
-.x-keyboard-mode .x-btn-focus .x-btn-plain-toolbar-small-mr {
-    background-image: url(images/btn/btn-plain-toolbar-small-focus-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2978 */
-.x-keyboard-mode .x-btn-focus .x-btn-plain-toolbar-small-mc {
-    background-color: transparent;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2991 */
-.x-btn-over .x-btn-plain-toolbar-small-tl,
-.x-btn-over .x-btn-plain-toolbar-small-bl,
-.x-btn-over .x-btn-plain-toolbar-small-tr,
-.x-btn-over .x-btn-plain-toolbar-small-br,
-.x-btn-over .x-btn-plain-toolbar-small-tc,
-.x-btn-over .x-btn-plain-toolbar-small-bc {
-    background-image: url(images/btn/btn-plain-toolbar-small-over-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2999 */
-.x-btn-over .x-btn-plain-toolbar-small-ml,
-.x-btn-over .x-btn-plain-toolbar-small-mr {
-    background-image: url(images/btn/btn-plain-toolbar-small-over-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3003 */
-.x-btn-over .x-btn-plain-toolbar-small-mc {
-    background-color: #ececec;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3016 */
-.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-plain-toolbar-small-tl,
-.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-plain-toolbar-small-bl,
-.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-plain-toolbar-small-tr,
-.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-plain-toolbar-small-br,
-.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-plain-toolbar-small-tc,
-.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-plain-toolbar-small-bc {
-    background-image: url(images/btn/btn-plain-toolbar-small-focus-over-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3024 */
-.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-plain-toolbar-small-ml,
-.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-plain-toolbar-small-mr {
-    background-image: url(images/btn/btn-plain-toolbar-small-focus-over-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3028 */
-.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-plain-toolbar-small-mc {
-    background-color: #ececec;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3043 */
-.x-btn.x-btn-menu-active .x-btn-plain-toolbar-small-tl,
-.x-btn.x-btn-menu-active .x-btn-plain-toolbar-small-bl,
-.x-btn.x-btn-menu-active .x-btn-plain-toolbar-small-tr,
-.x-btn.x-btn-menu-active .x-btn-plain-toolbar-small-br,
-.x-btn.x-btn-menu-active .x-btn-plain-toolbar-small-tc,
-.x-btn.x-btn-menu-active .x-btn-plain-toolbar-small-bc,
-.x-btn.x-btn-pressed .x-btn-plain-toolbar-small-tl,
-.x-btn.x-btn-pressed .x-btn-plain-toolbar-small-bl,
-.x-btn.x-btn-pressed .x-btn-plain-toolbar-small-tr,
-.x-btn.x-btn-pressed .x-btn-plain-toolbar-small-br,
-.x-btn.x-btn-pressed .x-btn-plain-toolbar-small-tc,
-.x-btn.x-btn-pressed .x-btn-plain-toolbar-small-bc {
-    background-image: url(images/btn/btn-plain-toolbar-small-pressed-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3051 */
-.x-btn.x-btn-menu-active .x-btn-plain-toolbar-small-ml,
-.x-btn.x-btn-menu-active .x-btn-plain-toolbar-small-mr,
-.x-btn.x-btn-pressed .x-btn-plain-toolbar-small-ml,
-.x-btn.x-btn-pressed .x-btn-plain-toolbar-small-mr {
-    background-image: url(images/btn/btn-plain-toolbar-small-pressed-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3055 */
-.x-btn.x-btn-menu-active .x-btn-plain-toolbar-small-mc,
-.x-btn.x-btn-pressed .x-btn-plain-toolbar-small-mc {
-    background-color: #e2e2e2;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3069 */
-.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-plain-toolbar-small-tl,
-.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-plain-toolbar-small-bl,
-.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-plain-toolbar-small-tr,
-.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-plain-toolbar-small-br,
-.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-plain-toolbar-small-tc,
-.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-plain-toolbar-small-bc,
-.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-plain-toolbar-small-tl,
-.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-plain-toolbar-small-bl,
-.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-plain-toolbar-small-tr,
-.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-plain-toolbar-small-br,
-.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-plain-toolbar-small-tc,
-.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-plain-toolbar-small-bc {
-    background-image: url(images/btn/btn-plain-toolbar-small-focus-pressed-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3077 */
-.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-plain-toolbar-small-ml,
-.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-plain-toolbar-small-mr,
-.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-plain-toolbar-small-ml,
-.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-plain-toolbar-small-mr {
-    background-image: url(images/btn/btn-plain-toolbar-small-focus-pressed-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3081 */
-.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-plain-toolbar-small-mc,
-.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-plain-toolbar-small-mc {
-    background-color: #e2e2e2;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3095 */
-.x-btn.x-btn-disabled .x-btn-plain-toolbar-small-tl,
-.x-btn.x-btn-disabled .x-btn-plain-toolbar-small-bl,
-.x-btn.x-btn-disabled .x-btn-plain-toolbar-small-tr,
-.x-btn.x-btn-disabled .x-btn-plain-toolbar-small-br,
-.x-btn.x-btn-disabled .x-btn-plain-toolbar-small-tc,
-.x-btn.x-btn-disabled .x-btn-plain-toolbar-small-bc {
-    background-image: url(images/btn/btn-plain-toolbar-small-disabled-corners.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3103 */
-.x-btn.x-btn-disabled .x-btn-plain-toolbar-small-ml,
-.x-btn.x-btn-disabled .x-btn-plain-toolbar-small-mr {
-    background-image: url(images/btn/btn-plain-toolbar-small-disabled-sides.gif);
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3107 */
-.x-btn.x-btn-disabled .x-btn-plain-toolbar-small-mc {
-    background-color: transparent;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3117 */
-.x-nbr .x-btn-plain-toolbar-small {
-    background-image: none;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3123 */
-.x-btn-disabled.x-btn-plain-toolbar-small {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-    opacity: 0.5;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3142 */
-.x-nbr .x-segmented-button-item-horizontal.x-btn-plain-toolbar-small.x-segmented-button-first {
-    border-right-width: 1px !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3144 */
-.x-nbr .x-segmented-button-item-horizontal.x-btn-plain-toolbar-small.x-segmented-button-first .x-btn-plain-toolbar-small-mc {
-    padding-right: 7px !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3148 */
-.x-nbr .x-segmented-button-item-horizontal.x-btn-plain-toolbar-small.x-segmented-button-middle {
-    border-right-width: 1px !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3150 */
-.x-nbr .x-segmented-button-item-horizontal.x-btn-plain-toolbar-small.x-segmented-button-middle .x-btn-plain-toolbar-small-mc {
-    padding-right: 7px !important;
-    padding-left: 7px !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3156 */
-.x-nbr .x-segmented-button-item-horizontal.x-btn-plain-toolbar-small.x-segmented-button-last .x-btn-plain-toolbar-small-mc {
-    padding-left: 7px !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3163 */
-.x-nbr .x-segmented-button-item-vertical.x-btn-plain-toolbar-small.x-segmented-button-first {
-    border-bottom-width: 1px !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3165 */
-.x-nbr .x-segmented-button-item-vertical.x-btn-plain-toolbar-small.x-segmented-button-first .x-btn-plain-toolbar-small-mc {
-    padding-bottom: 7px !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3169 */
-.x-nbr .x-segmented-button-item-vertical.x-btn-plain-toolbar-small.x-segmented-button-middle {
-    border-bottom-width: 1px !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3171 */
-.x-nbr .x-segmented-button-item-vertical.x-btn-plain-toolbar-small.x-segmented-button-middle .x-btn-plain-toolbar-small-mc {
-    padding-top: 7px !important;
-    padding-bottom: 7px !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3177 */
-.x-nbr .x-segmented-button-item-vertical.x-btn-plain-toolbar-small.x-segmented-button-last .x-btn-plain-toolbar-small-mc {
-    padding-top: 7px !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3183 */
-.x-nbr .x-segmented-button-item.x-btn-plain-toolbar-small:after {
-    content: ' ';
-    border-style: solid;
-    border-width: 0;
-    position: absolute;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3201 */
-.x-nbr .x-segmented-button-item-horizontal.x-btn-plain-toolbar-small:after {
-    top: 1px;
-    right: 0;
-    bottom: 1px;
-    left: 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3207 */
-.x-nbr .x-segmented-button-item-horizontal.x-btn-plain-toolbar-small.x-segmented-button-first:after {
-    left: 1px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3210 */
-.x-nbr .x-segmented-button-item-horizontal.x-btn-plain-toolbar-small.x-segmented-button-last:after {
-    right: 1px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3216 */
-.x-nbr .x-segmented-button-item-vertical.x-btn-plain-toolbar-small:after {
-    top: 0;
-    right: 1px;
-    bottom: 0;
-    left: 1px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3222 */
-.x-nbr .x-segmented-button-item-vertical.x-btn-plain-toolbar-small.x-segmented-button-first:after {
-    top: 1px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3225 */
-.x-nbr .x-segmented-button-item-vertical.x-btn-plain-toolbar-small.x-segmented-button-last:after {
-    bottom: 1px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3233 */
-.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-plain-toolbar-small:after {
-    border-width: 1px;
-    border-color: #5fa2dd;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3249 */
-.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-over.x-btn-plain-toolbar-small:after {
-    border-width: 1px;
-    border-color: #5fa2dd;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3267 */
-.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-menu-active.x-btn-plain-toolbar-small:after,
-.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-small:after {
-    border-width: 1px;
-    border-color: #5fa2dd;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-small-focus-corners.gif), sides:url(images/btn/btn-plain-toolbar-small-focus-sides.gif)" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-over.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-small-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-small-over-sides.gif)" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-over.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-small-focus-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-small-focus-over-sides.gif)" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-pressed.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-small-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-small-pressed-sides.gif)" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-small-focus-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-small-focus-pressed-sides.gif)" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-disabled.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-small-disabled-corners.gif), sides:url(images/btn/btn-plain-toolbar-small-disabled-sides.gif)" !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
-.x-button-plain-toolbar-small-cell > .x-grid-cell-inner {
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3299 */
-.x-button-plain-toolbar-small-cell > .x-grid-cell-inner >.x-btn-plain-toolbar-small {
-    vertical-align: top;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
-.x-btn-plain-toolbar-medium {
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
-    border-radius: 0;
-    padding: 8px 8px 8px 8px;
-    border-width: 1px;
-    border-style: solid;
-    background-color: transparent;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
-.x-btn-plain-toolbar-medium-mc {
-    background-color: transparent;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
-.x-nbr .x-btn-plain-toolbar-medium {
-    padding: 0 !important;
-    border-width: 0 !important;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    -ms-border-radius: 0px;
-    -o-border-radius: 0px;
-    border-radius: 0px;
-    background-color: transparent !important;
-    box-shadow: none !important;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
-.x-btn-plain-toolbar-medium-frameInfo {
-    font-family: th-1-1-1-1-1-1-1-1-8-8-8-8;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
-.x-btn-plain-toolbar-medium-tl {
-    background-position: 0 -2px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
-.x-btn-plain-toolbar-medium-tr {
-    background-position: right -3px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
-.x-btn-plain-toolbar-medium-bl {
-    background-position: 0 -4px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
-.x-btn-plain-toolbar-medium-br {
-    background-position: right -5px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
-.x-btn-plain-toolbar-medium-ml {
-    background-position: 0 top;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
-.x-btn-plain-toolbar-medium-mr {
-    background-position: right top;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
-.x-btn-plain-toolbar-medium-tc {
-    background-position: 0 0;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
-.x-btn-plain-toolbar-medium-bc {
-    background-position: 0 -1px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
-.x-btn-plain-toolbar-medium-tr,
-.x-btn-plain-toolbar-medium-br,
-.x-btn-plain-toolbar-medium-mr {
-    padding-right: 1px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
-.x-btn-plain-toolbar-medium-tl,
-.x-btn-plain-toolbar-medium-bl,
-.x-btn-plain-toolbar-medium-ml {
-    padding-left: 1px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
-.x-btn-plain-toolbar-medium-tc {
-    height: 1px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
-.x-btn-plain-toolbar-medium-bc {
-    height: 1px;
-}
-/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
-.x-btn-plain-toolbar-medium-mc {
-    padding: 8px 8px 8px 8px;
-}
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-btn-plain-toolbar-medium:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, frame:1px 1px 1px 1px" !important;
+    content: "x-slicer:, frame:1px 1px 1px 1px, frame:1px 1px 1px 1px" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2463 */
 .x-btn-plain-toolbar-medium {
@@ -3411,37 +452,37 @@
 .x-cmd-slicer.x-btn-focus.x-btn-plain-toolbar-medium:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-focus-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-focus-sides.gif)" !important;
+    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-focus-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-focus-sides.gif), stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-focus-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-focus-sides.gif)" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-btn-over.x-btn-plain-toolbar-medium:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-over-sides.gif)" !important;
+    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-over-sides.gif), stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-over-sides.gif)" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-btn-focus.x-btn-over.x-btn-plain-toolbar-medium:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-focus-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-focus-over-sides.gif)" !important;
+    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-focus-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-focus-over-sides.gif), stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-focus-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-focus-over-sides.gif)" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-btn-pressed.x-btn-plain-toolbar-medium:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-pressed-sides.gif)" !important;
+    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-pressed-sides.gif), stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-pressed-sides.gif)" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-medium:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-focus-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-focus-pressed-sides.gif)" !important;
+    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-focus-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-focus-pressed-sides.gif), stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-focus-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-focus-pressed-sides.gif)" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-btn-disabled.x-btn-plain-toolbar-medium:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-disabled-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-disabled-sides.gif)" !important;
+    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-disabled-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-disabled-sides.gif), stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-disabled-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-disabled-sides.gif)" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
 .x-button-plain-toolbar-medium-cell > .x-grid-cell-inner {
@@ -3544,7 +585,7 @@
 .x-cmd-slicer.x-btn-plain-toolbar-large:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, frame:1px 1px 1px 1px" !important;
+    content: "x-slicer:, frame:1px 1px 1px 1px, frame:1px 1px 1px 1px" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2463 */
 .x-btn-plain-toolbar-large {
@@ -3994,37 +1035,37 @@
 .x-cmd-slicer.x-btn-focus.x-btn-plain-toolbar-large:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-focus-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-focus-sides.gif)" !important;
+    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-focus-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-focus-sides.gif), stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-focus-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-focus-sides.gif)" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-btn-over.x-btn-plain-toolbar-large:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-over-sides.gif)" !important;
+    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-over-sides.gif), stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-over-sides.gif)" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-btn-focus.x-btn-over.x-btn-plain-toolbar-large:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-focus-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-focus-over-sides.gif)" !important;
+    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-focus-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-focus-over-sides.gif), stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-focus-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-focus-over-sides.gif)" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-btn-pressed.x-btn-plain-toolbar-large:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-pressed-sides.gif)" !important;
+    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-pressed-sides.gif), stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-pressed-sides.gif)" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-large:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-focus-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-focus-pressed-sides.gif)" !important;
+    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-focus-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-focus-pressed-sides.gif), stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-focus-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-focus-pressed-sides.gif)" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-btn-disabled.x-btn-plain-toolbar-large:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-disabled-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-disabled-sides.gif)" !important;
+    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-disabled-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-disabled-sides.gif), stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-disabled-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-disabled-sides.gif)" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
 .x-button-plain-toolbar-large-cell > .x-grid-cell-inner {
@@ -4249,25 +1290,25 @@
 .x-cmd-slicer.x-panel-header-light-top:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, stretch:bottom" !important;
+    content: "x-slicer:, stretch:bottom, stretch:bottom" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-panel-header-light-bottom:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, stretch:top" !important;
+    content: "x-slicer:, stretch:top, stretch:top" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-panel-header-light-left:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, stretch:right" !important;
+    content: "x-slicer:, stretch:right, stretch:right" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-panel-header-light-right:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, stretch:left" !important;
+    content: "x-slicer:, stretch:left, stretch:left" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1336 */
 .x-panel-header-light-horizontal .x-tool-after-title {
@@ -4723,7 +1764,7 @@
 .x-cmd-slicer.x-panel-light-framed:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/panel/panel-light-framed-corners.gif), sides:url(images/panel/panel-light-framed-sides.gif)" !important;
+    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/panel/panel-light-framed-corners.gif), sides:url(images/panel/panel-light-framed-sides.gif), frame:2px 2px 2px 2px, corners:url(images/panel/panel-light-framed-corners.gif), sides:url(images/panel/panel-light-framed-sides.gif)" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-top {
@@ -4841,7 +1882,7 @@
 .x-cmd-slicer.x-panel-header-light-framed-top:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, frame:2px 2px 0 2px, corners:url(images/panel-header/panel-header-light-framed-top-corners.gif), sides:url(images/panel-header/panel-header-light-framed-top-sides.gif)" !important;
+    content: "x-slicer:, frame:2px 2px 0 2px, corners:url(images/panel-header/panel-header-light-framed-top-corners.gif), sides:url(images/panel-header/panel-header-light-framed-top-sides.gif), frame:2px 2px 0 2px, corners:url(images/panel-header/panel-header-light-framed-top-corners.gif), sides:url(images/panel-header/panel-header-light-framed-top-sides.gif)" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-right {
@@ -4973,7 +2014,7 @@
 .x-cmd-slicer.x-panel-header-light-framed-right:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, frame:2px 2px 2px 0, corners:url(images/panel-header/panel-header-light-framed-right-corners.gif), corners-rtl:url(images/panel-header/panel-header-light-framed-right-corners-rtl.gif), sides:url(images/panel-header/panel-header-light-framed-right-sides.gif)" !important;
+    content: "x-slicer:, frame:2px 2px 2px 0, corners:url(images/panel-header/panel-header-light-framed-right-corners.gif), corners-rtl:url(images/panel-header/panel-header-light-framed-right-corners-rtl.gif), sides:url(images/panel-header/panel-header-light-framed-right-sides.gif), frame:2px 2px 2px 0, corners:url(images/panel-header/panel-header-light-framed-right-corners.gif), corners-rtl:url(images/panel-header/panel-header-light-framed-right-corners-rtl.gif), sides:url(images/panel-header/panel-header-light-framed-right-sides.gif)" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-bottom {
@@ -5091,7 +2132,7 @@
 .x-cmd-slicer.x-panel-header-light-framed-bottom:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, frame:0 2px 2px 2px, corners:url(images/panel-header/panel-header-light-framed-bottom-corners.gif), sides:url(images/panel-header/panel-header-light-framed-bottom-sides.gif)" !important;
+    content: "x-slicer:, frame:0 2px 2px 2px, corners:url(images/panel-header/panel-header-light-framed-bottom-corners.gif), sides:url(images/panel-header/panel-header-light-framed-bottom-sides.gif), frame:0 2px 2px 2px, corners:url(images/panel-header/panel-header-light-framed-bottom-corners.gif), sides:url(images/panel-header/panel-header-light-framed-bottom-sides.gif)" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-left {
@@ -5223,7 +2264,7 @@
 .x-cmd-slicer.x-panel-header-light-framed-left:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, frame:2px 0 2px 2px, corners:url(images/panel-header/panel-header-light-framed-left-corners.gif), corners-rtl:url(images/panel-header/panel-header-light-framed-left-corners-rtl.gif), sides:url(images/panel-header/panel-header-light-framed-left-sides.gif)" !important;
+    content: "x-slicer:, frame:2px 0 2px 2px, corners:url(images/panel-header/panel-header-light-framed-left-corners.gif), corners-rtl:url(images/panel-header/panel-header-light-framed-left-corners-rtl.gif), sides:url(images/panel-header/panel-header-light-framed-left-sides.gif), frame:2px 0 2px 2px, corners:url(images/panel-header/panel-header-light-framed-left-corners.gif), corners-rtl:url(images/panel-header/panel-header-light-framed-left-corners-rtl.gif), sides:url(images/panel-header/panel-header-light-framed-left-sides.gif)" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-collapsed-top {
@@ -5341,7 +2382,7 @@
 .x-cmd-slicer.x-panel-header-light-framed-collapsed-top:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/panel-header/panel-header-light-framed-collapsed-top-corners.gif), sides:url(images/panel-header/panel-header-light-framed-collapsed-top-sides.gif)" !important;
+    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/panel-header/panel-header-light-framed-collapsed-top-corners.gif), sides:url(images/panel-header/panel-header-light-framed-collapsed-top-sides.gif), frame:2px 2px 2px 2px, corners:url(images/panel-header/panel-header-light-framed-collapsed-top-corners.gif), sides:url(images/panel-header/panel-header-light-framed-collapsed-top-sides.gif)" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-collapsed-right {
@@ -5473,7 +2514,7 @@
 .x-cmd-slicer.x-panel-header-light-framed-collapsed-right:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/panel-header/panel-header-light-framed-collapsed-right-corners.gif), corners-rtl:url(images/panel-header/panel-header-light-framed-collapsed-right-corners-rtl.gif), sides:url(images/panel-header/panel-header-light-framed-collapsed-right-sides.gif)" !important;
+    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/panel-header/panel-header-light-framed-collapsed-right-corners.gif), corners-rtl:url(images/panel-header/panel-header-light-framed-collapsed-right-corners-rtl.gif), sides:url(images/panel-header/panel-header-light-framed-collapsed-right-sides.gif), frame:2px 2px 2px 2px, corners:url(images/panel-header/panel-header-light-framed-collapsed-right-corners.gif), corners-rtl:url(images/panel-header/panel-header-light-framed-collapsed-right-corners-rtl.gif), sides:url(images/panel-header/panel-header-light-framed-collapsed-right-sides.gif)" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-collapsed-bottom {
@@ -5591,7 +2632,7 @@
 .x-cmd-slicer.x-panel-header-light-framed-collapsed-bottom:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/panel-header/panel-header-light-framed-collapsed-bottom-corners.gif), sides:url(images/panel-header/panel-header-light-framed-collapsed-bottom-sides.gif)" !important;
+    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/panel-header/panel-header-light-framed-collapsed-bottom-corners.gif), sides:url(images/panel-header/panel-header-light-framed-collapsed-bottom-sides.gif), frame:2px 2px 2px 2px, corners:url(images/panel-header/panel-header-light-framed-collapsed-bottom-corners.gif), sides:url(images/panel-header/panel-header-light-framed-collapsed-bottom-sides.gif)" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-collapsed-left {
@@ -5723,7 +2764,7 @@
 .x-cmd-slicer.x-panel-header-light-framed-collapsed-left:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/panel-header/panel-header-light-framed-collapsed-left-corners.gif), corners-rtl:url(images/panel-header/panel-header-light-framed-collapsed-left-corners-rtl.gif), sides:url(images/panel-header/panel-header-light-framed-collapsed-left-sides.gif)" !important;
+    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/panel-header/panel-header-light-framed-collapsed-left-corners.gif), corners-rtl:url(images/panel-header/panel-header-light-framed-collapsed-left-corners-rtl.gif), sides:url(images/panel-header/panel-header-light-framed-collapsed-left-sides.gif), frame:2px 2px 2px 2px, corners:url(images/panel-header/panel-header-light-framed-collapsed-left-corners.gif), corners-rtl:url(images/panel-header/panel-header-light-framed-collapsed-left-corners-rtl.gif), sides:url(images/panel-header/panel-header-light-framed-collapsed-left-sides.gif)" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1188 */
 .x-panel .x-panel-header-light-framed-top {
@@ -9763,7 +6804,7 @@ tr.x-grid-subtable-row {
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
     font-family: 'muli', regular;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:10 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:9 */
 .addcontact-button {
     background-color: #31a950;
     font-family: 'Muli, SemiBold';
@@ -9775,11 +6816,11 @@ tr.x-grid-subtable-row {
     width: 175px;
     height: 40px;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:22 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:21 */
 .addcontact-button:hover {
     background-color: #31a950;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:26 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:25 */
 .headbar {
     background: #f8f8f8;
     padding-top: 10px;
@@ -9789,7 +6830,7 @@ tr.x-grid-subtable-row {
     font-family: "Muli", SemiBold;
     font-weight: bolder;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:36 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:35 */
 .empty-text {
     text-align: center;
     color: #b49494;
@@ -9800,6 +6841,10 @@ tr.x-grid-subtable-row {
     font-size: 16px;
 }
 /* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:1 */
+.addcolumns {
+    background-image: url(images/ben-knapen.png);
+}
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:6 */
 .filter-button,
 .export-button,
 .delete-button,
@@ -9813,47 +6858,49 @@ tr.x-grid-subtable-row {
     width: auto;
     height: 40px;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:13 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:18 */
 .delete-button .x-btn-inner-default-toolbar-small,
 .export-button .x-btn-inner-default-toolbar-small,
 .filter-button .x-btn-inner-default-toolbar-small,
 .addcolumns-button .x-btn-inner-default-toolbar-small {
     color: #000;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:16 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:21 */
 .addcolumns-button:hover,
 .export-button:hover {
     background-color: #000;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:20 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:25 */
 .addcolumns-button:hover .x-btn-inner-default-toolbar-small,
 .export-button:hover .x-btn-inner-default-toolbar-small {
     color: white;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:24 */
-.filter-button {
-    background: orange url('images/filter.svg') no-repeat;
-    vertical-align: middle;
-}
 /* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:29 */
-.filter-button:hover {
-    background: orange url('images/filter.svg') no-repeat;
-    vertical-align: middle;
+.filter {
+    background-image: url(images/ben-knapen.png);
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:34 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:33 */
+.filter-button {
+    background-color: orange;
+}
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:36 */
+.filter-button:hover {
+    background-color: orange;
+}
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:40 */
 .delete-button {
     background-color: #919191;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:38 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:44 */
 .headbar .searchfield {
     background-color: transparent;
     border: solid 1px nrgba(220, 220, 220, 1);
     border-radius: 4px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:45 */
-.searchfield .x-form-trigger {
-    vertical-align: middle !important;
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:51 */
+..x-form-trigger {
+    vertical-align: center !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-tab-navigation-top {
@@ -9964,7 +7011,7 @@ tr.x-grid-subtable-row {
 .x-cmd-slicer.x-tab-navigation-top:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, frame:0 0 0 0, corners:url(images/tab/tab-navigation-top-corners.gif), sides:url(images/tab/tab-navigation-top-sides.gif)" !important;
+    content: "x-slicer:, frame:0 0 0 0, corners:url(images/tab/tab-navigation-top-corners.gif), sides:url(images/tab/tab-navigation-top-sides.gif), stretch:bottom, frame:0 0 0 0, corners:url(images/tab/tab-navigation-top-corners.gif), sides:url(images/tab/tab-navigation-top-sides.gif)" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-tab-navigation-bottom {
@@ -10082,7 +7129,7 @@ tr.x-grid-subtable-row {
 .x-cmd-slicer.x-tab-navigation-bottom:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, frame:0 0 0 0, corners:url(images/tab/tab-navigation-bottom-corners.gif), sides:url(images/tab/tab-navigation-bottom-sides.gif)" !important;
+    content: "x-slicer:, frame:0 0 0 0, corners:url(images/tab/tab-navigation-bottom-corners.gif), sides:url(images/tab/tab-navigation-bottom-sides.gif), stretch:top, frame:0 0 0 0, corners:url(images/tab/tab-navigation-bottom-corners.gif), sides:url(images/tab/tab-navigation-bottom-sides.gif)" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-tab-navigation-left {
@@ -10200,7 +7247,7 @@ tr.x-grid-subtable-row {
 .x-cmd-slicer.x-tab-navigation-left:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, frame:0 0 0 0, corners:url(images/tab/tab-navigation-left-corners.gif), sides:url(images/tab/tab-navigation-left-sides.gif)" !important;
+    content: "x-slicer:, frame:0 0 0 0, corners:url(images/tab/tab-navigation-left-corners.gif), sides:url(images/tab/tab-navigation-left-sides.gif), stretch:right, frame:0 0 0 0, corners:url(images/tab/tab-navigation-left-corners.gif), sides:url(images/tab/tab-navigation-left-sides.gif)" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-tab-navigation-right {
@@ -10318,7 +7365,7 @@ tr.x-grid-subtable-row {
 .x-cmd-slicer.x-tab-navigation-right:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, frame:0 0 0 0, corners:url(images/tab/tab-navigation-right-corners.gif), sides:url(images/tab/tab-navigation-right-sides.gif)" !important;
+    content: "x-slicer:, frame:0 0 0 0, corners:url(images/tab/tab-navigation-right-corners.gif), sides:url(images/tab/tab-navigation-right-sides.gif), stretch:left, frame:0 0 0 0, corners:url(images/tab/tab-navigation-right-corners.gif), sides:url(images/tab/tab-navigation-right-sides.gif)" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Tab.scss:2672 */
 .x-tab-navigation {
@@ -11253,145 +8300,145 @@ tr.x-grid-subtable-row {
 .x-cmd-slicer.x-tab-focus.x-tab-navigation-top:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-focus-corners.gif), sides:url(images/tab/tab-navigation-top-focus-sides.gif), frame-bg:url(images/tab/tab-navigation-top-focus-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
+    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-focus-corners.gif), sides:url(images/tab/tab-navigation-top-focus-sides.gif), frame-bg:url(images/tab/tab-navigation-top-focus-fbg.gif), frame:0 0 0 0, stretch:bottom, corners:url(images/tab/tab-navigation-top-focus-corners.gif), sides:url(images/tab/tab-navigation-top-focus-sides.gif), frame-bg:url(images/tab/tab-navigation-top-focus-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-focus.x-tab-navigation-right:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-focus-corners.gif), sides:url(images/tab/tab-navigation-right-focus-sides.gif), frame-bg:url(images/tab/tab-navigation-right-focus-fbg.gif), frame:0 0 0 0, stretch:left" !important;
+    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-focus-corners.gif), sides:url(images/tab/tab-navigation-right-focus-sides.gif), frame-bg:url(images/tab/tab-navigation-right-focus-fbg.gif), frame:0 0 0 0, stretch:left, corners:url(images/tab/tab-navigation-right-focus-corners.gif), sides:url(images/tab/tab-navigation-right-focus-sides.gif), frame-bg:url(images/tab/tab-navigation-right-focus-fbg.gif), frame:0 0 0 0, stretch:left" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-focus.x-tab-navigation-bottom:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-focus-corners.gif), sides:url(images/tab/tab-navigation-bottom-focus-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-focus-fbg.gif), frame:0 0 0 0, stretch:top" !important;
+    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-focus-corners.gif), sides:url(images/tab/tab-navigation-bottom-focus-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-focus-fbg.gif), frame:0 0 0 0, stretch:top, corners:url(images/tab/tab-navigation-bottom-focus-corners.gif), sides:url(images/tab/tab-navigation-bottom-focus-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-focus-fbg.gif), frame:0 0 0 0, stretch:top" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-focus.x-tab-navigation-left:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-focus-corners.gif), sides:url(images/tab/tab-navigation-left-focus-sides.gif), frame-bg:url(images/tab/tab-navigation-left-focus-fbg.gif), frame:0 0 0 0, stretch:right" !important;
+    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-focus-corners.gif), sides:url(images/tab/tab-navigation-left-focus-sides.gif), frame-bg:url(images/tab/tab-navigation-left-focus-fbg.gif), frame:0 0 0 0, stretch:right, corners:url(images/tab/tab-navigation-left-focus-corners.gif), sides:url(images/tab/tab-navigation-left-focus-sides.gif), frame-bg:url(images/tab/tab-navigation-left-focus-fbg.gif), frame:0 0 0 0, stretch:right" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-over.x-tab-navigation-top:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-over-corners.gif), sides:url(images/tab/tab-navigation-top-over-sides.gif), frame-bg:url(images/tab/tab-navigation-top-over-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
+    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-over-corners.gif), sides:url(images/tab/tab-navigation-top-over-sides.gif), frame-bg:url(images/tab/tab-navigation-top-over-fbg.gif), frame:0 0 0 0, stretch:bottom, corners:url(images/tab/tab-navigation-top-over-corners.gif), sides:url(images/tab/tab-navigation-top-over-sides.gif), frame-bg:url(images/tab/tab-navigation-top-over-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-over.x-tab-navigation-right:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-over-corners.gif), sides:url(images/tab/tab-navigation-right-over-sides.gif), frame-bg:url(images/tab/tab-navigation-right-over-fbg.gif), frame:0 0 0 0, stretch:left" !important;
+    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-over-corners.gif), sides:url(images/tab/tab-navigation-right-over-sides.gif), frame-bg:url(images/tab/tab-navigation-right-over-fbg.gif), frame:0 0 0 0, stretch:left, corners:url(images/tab/tab-navigation-right-over-corners.gif), sides:url(images/tab/tab-navigation-right-over-sides.gif), frame-bg:url(images/tab/tab-navigation-right-over-fbg.gif), frame:0 0 0 0, stretch:left" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-over.x-tab-navigation-bottom:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-over-corners.gif), sides:url(images/tab/tab-navigation-bottom-over-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-over-fbg.gif), frame:0 0 0 0, stretch:top" !important;
+    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-over-corners.gif), sides:url(images/tab/tab-navigation-bottom-over-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-over-fbg.gif), frame:0 0 0 0, stretch:top, corners:url(images/tab/tab-navigation-bottom-over-corners.gif), sides:url(images/tab/tab-navigation-bottom-over-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-over-fbg.gif), frame:0 0 0 0, stretch:top" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-over.x-tab-navigation-left:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-over-corners.gif), sides:url(images/tab/tab-navigation-left-over-sides.gif), frame-bg:url(images/tab/tab-navigation-left-over-fbg.gif), frame:0 0 0 0, stretch:right" !important;
+    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-over-corners.gif), sides:url(images/tab/tab-navigation-left-over-sides.gif), frame-bg:url(images/tab/tab-navigation-left-over-fbg.gif), frame:0 0 0 0, stretch:right, corners:url(images/tab/tab-navigation-left-over-corners.gif), sides:url(images/tab/tab-navigation-left-over-sides.gif), frame-bg:url(images/tab/tab-navigation-left-over-fbg.gif), frame:0 0 0 0, stretch:right" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-active.x-tab-navigation-top:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-active-corners.gif), sides:url(images/tab/tab-navigation-top-active-sides.gif), frame-bg:url(images/tab/tab-navigation-top-active-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
+    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-active-corners.gif), sides:url(images/tab/tab-navigation-top-active-sides.gif), frame-bg:url(images/tab/tab-navigation-top-active-fbg.gif), frame:0 0 0 0, stretch:bottom, corners:url(images/tab/tab-navigation-top-active-corners.gif), sides:url(images/tab/tab-navigation-top-active-sides.gif), frame-bg:url(images/tab/tab-navigation-top-active-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-active.x-tab-navigation-right:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-active-corners.gif), sides:url(images/tab/tab-navigation-right-active-sides.gif), frame-bg:url(images/tab/tab-navigation-right-active-fbg.gif), frame:0 0 0 0, stretch:left" !important;
+    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-active-corners.gif), sides:url(images/tab/tab-navigation-right-active-sides.gif), frame-bg:url(images/tab/tab-navigation-right-active-fbg.gif), frame:0 0 0 0, stretch:left, corners:url(images/tab/tab-navigation-right-active-corners.gif), sides:url(images/tab/tab-navigation-right-active-sides.gif), frame-bg:url(images/tab/tab-navigation-right-active-fbg.gif), frame:0 0 0 0, stretch:left" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-active.x-tab-navigation-bottom:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-active-corners.gif), sides:url(images/tab/tab-navigation-bottom-active-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-active-fbg.gif), frame:0 0 0 0, stretch:top" !important;
+    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-active-corners.gif), sides:url(images/tab/tab-navigation-bottom-active-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-active-fbg.gif), frame:0 0 0 0, stretch:top, corners:url(images/tab/tab-navigation-bottom-active-corners.gif), sides:url(images/tab/tab-navigation-bottom-active-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-active-fbg.gif), frame:0 0 0 0, stretch:top" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-active.x-tab-navigation-left:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-active-corners.gif), sides:url(images/tab/tab-navigation-left-active-sides.gif), frame-bg:url(images/tab/tab-navigation-left-active-fbg.gif), frame:0 0 0 0, stretch:right" !important;
+    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-active-corners.gif), sides:url(images/tab/tab-navigation-left-active-sides.gif), frame-bg:url(images/tab/tab-navigation-left-active-fbg.gif), frame:0 0 0 0, stretch:right, corners:url(images/tab/tab-navigation-left-active-corners.gif), sides:url(images/tab/tab-navigation-left-active-sides.gif), frame-bg:url(images/tab/tab-navigation-left-active-fbg.gif), frame:0 0 0 0, stretch:right" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-navigation-top:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-focus-over-corners.gif), sides:url(images/tab/tab-navigation-top-focus-over-sides.gif), frame-bg:url(images/tab/tab-navigation-top-focus-over-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
+    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-focus-over-corners.gif), sides:url(images/tab/tab-navigation-top-focus-over-sides.gif), frame-bg:url(images/tab/tab-navigation-top-focus-over-fbg.gif), frame:0 0 0 0, stretch:bottom, corners:url(images/tab/tab-navigation-top-focus-over-corners.gif), sides:url(images/tab/tab-navigation-top-focus-over-sides.gif), frame-bg:url(images/tab/tab-navigation-top-focus-over-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-navigation-right:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-focus-over-corners.gif), sides:url(images/tab/tab-navigation-right-focus-over-sides.gif), frame-bg:url(images/tab/tab-navigation-right-focus-over-fbg.gif), frame:0 0 0 0, stretch:left" !important;
+    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-focus-over-corners.gif), sides:url(images/tab/tab-navigation-right-focus-over-sides.gif), frame-bg:url(images/tab/tab-navigation-right-focus-over-fbg.gif), frame:0 0 0 0, stretch:left, corners:url(images/tab/tab-navigation-right-focus-over-corners.gif), sides:url(images/tab/tab-navigation-right-focus-over-sides.gif), frame-bg:url(images/tab/tab-navigation-right-focus-over-fbg.gif), frame:0 0 0 0, stretch:left" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-navigation-bottom:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-focus-over-corners.gif), sides:url(images/tab/tab-navigation-bottom-focus-over-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-focus-over-fbg.gif), frame:0 0 0 0, stretch:top" !important;
+    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-focus-over-corners.gif), sides:url(images/tab/tab-navigation-bottom-focus-over-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-focus-over-fbg.gif), frame:0 0 0 0, stretch:top, corners:url(images/tab/tab-navigation-bottom-focus-over-corners.gif), sides:url(images/tab/tab-navigation-bottom-focus-over-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-focus-over-fbg.gif), frame:0 0 0 0, stretch:top" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-navigation-left:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-focus-over-corners.gif), sides:url(images/tab/tab-navigation-left-focus-over-sides.gif), frame-bg:url(images/tab/tab-navigation-left-focus-over-fbg.gif), frame:0 0 0 0, stretch:right" !important;
+    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-focus-over-corners.gif), sides:url(images/tab/tab-navigation-left-focus-over-sides.gif), frame-bg:url(images/tab/tab-navigation-left-focus-over-fbg.gif), frame:0 0 0 0, stretch:right, corners:url(images/tab/tab-navigation-left-focus-over-corners.gif), sides:url(images/tab/tab-navigation-left-focus-over-sides.gif), frame-bg:url(images/tab/tab-navigation-left-focus-over-fbg.gif), frame:0 0 0 0, stretch:right" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-navigation-top:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-focus-active-corners.gif), sides:url(images/tab/tab-navigation-top-focus-active-sides.gif), frame-bg:url(images/tab/tab-navigation-top-focus-active-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
+    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-focus-active-corners.gif), sides:url(images/tab/tab-navigation-top-focus-active-sides.gif), frame-bg:url(images/tab/tab-navigation-top-focus-active-fbg.gif), frame:0 0 0 0, stretch:bottom, corners:url(images/tab/tab-navigation-top-focus-active-corners.gif), sides:url(images/tab/tab-navigation-top-focus-active-sides.gif), frame-bg:url(images/tab/tab-navigation-top-focus-active-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-navigation-right:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-focus-active-corners.gif), sides:url(images/tab/tab-navigation-right-focus-active-sides.gif), frame-bg:url(images/tab/tab-navigation-right-focus-active-fbg.gif), frame:0 0 0 0, stretch:left" !important;
+    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-focus-active-corners.gif), sides:url(images/tab/tab-navigation-right-focus-active-sides.gif), frame-bg:url(images/tab/tab-navigation-right-focus-active-fbg.gif), frame:0 0 0 0, stretch:left, corners:url(images/tab/tab-navigation-right-focus-active-corners.gif), sides:url(images/tab/tab-navigation-right-focus-active-sides.gif), frame-bg:url(images/tab/tab-navigation-right-focus-active-fbg.gif), frame:0 0 0 0, stretch:left" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-navigation-bottom:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-focus-active-corners.gif), sides:url(images/tab/tab-navigation-bottom-focus-active-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-focus-active-fbg.gif), frame:0 0 0 0, stretch:top" !important;
+    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-focus-active-corners.gif), sides:url(images/tab/tab-navigation-bottom-focus-active-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-focus-active-fbg.gif), frame:0 0 0 0, stretch:top, corners:url(images/tab/tab-navigation-bottom-focus-active-corners.gif), sides:url(images/tab/tab-navigation-bottom-focus-active-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-focus-active-fbg.gif), frame:0 0 0 0, stretch:top" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-navigation-left:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-focus-active-corners.gif), sides:url(images/tab/tab-navigation-left-focus-active-sides.gif), frame-bg:url(images/tab/tab-navigation-left-focus-active-fbg.gif), frame:0 0 0 0, stretch:right" !important;
+    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-focus-active-corners.gif), sides:url(images/tab/tab-navigation-left-focus-active-sides.gif), frame-bg:url(images/tab/tab-navigation-left-focus-active-fbg.gif), frame:0 0 0 0, stretch:right, corners:url(images/tab/tab-navigation-left-focus-active-corners.gif), sides:url(images/tab/tab-navigation-left-focus-active-sides.gif), frame-bg:url(images/tab/tab-navigation-left-focus-active-fbg.gif), frame:0 0 0 0, stretch:right" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-disabled.x-tab-navigation-top:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-disabled-corners.gif), sides:url(images/tab/tab-navigation-top-disabled-sides.gif), frame-bg:url(images/tab/tab-navigation-top-disabled-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
+    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-disabled-corners.gif), sides:url(images/tab/tab-navigation-top-disabled-sides.gif), frame-bg:url(images/tab/tab-navigation-top-disabled-fbg.gif), frame:0 0 0 0, stretch:bottom, corners:url(images/tab/tab-navigation-top-disabled-corners.gif), sides:url(images/tab/tab-navigation-top-disabled-sides.gif), frame-bg:url(images/tab/tab-navigation-top-disabled-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-disabled.x-tab-navigation-right:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-disabled-corners.gif), sides:url(images/tab/tab-navigation-right-disabled-sides.gif), frame-bg:url(images/tab/tab-navigation-right-disabled-fbg.gif), frame:0 0 0 0, stretch:left" !important;
+    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-disabled-corners.gif), sides:url(images/tab/tab-navigation-right-disabled-sides.gif), frame-bg:url(images/tab/tab-navigation-right-disabled-fbg.gif), frame:0 0 0 0, stretch:left, corners:url(images/tab/tab-navigation-right-disabled-corners.gif), sides:url(images/tab/tab-navigation-right-disabled-sides.gif), frame-bg:url(images/tab/tab-navigation-right-disabled-fbg.gif), frame:0 0 0 0, stretch:left" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-disabled.x-tab-navigation-bottom:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-disabled-corners.gif), sides:url(images/tab/tab-navigation-bottom-disabled-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-disabled-fbg.gif), frame:0 0 0 0, stretch:top" !important;
+    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-disabled-corners.gif), sides:url(images/tab/tab-navigation-bottom-disabled-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-disabled-fbg.gif), frame:0 0 0 0, stretch:top, corners:url(images/tab/tab-navigation-bottom-disabled-corners.gif), sides:url(images/tab/tab-navigation-bottom-disabled-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-disabled-fbg.gif), frame:0 0 0 0, stretch:top" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-disabled.x-tab-navigation-left:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-disabled-corners.gif), sides:url(images/tab/tab-navigation-left-disabled-sides.gif), frame-bg:url(images/tab/tab-navigation-left-disabled-fbg.gif), frame:0 0 0 0, stretch:right" !important;
+    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-disabled-corners.gif), sides:url(images/tab/tab-navigation-left-disabled-sides.gif), frame-bg:url(images/tab/tab-navigation-left-disabled-fbg.gif), frame:0 0 0 0, stretch:right, corners:url(images/tab/tab-navigation-left-disabled-corners.gif), sides:url(images/tab/tab-navigation-left-disabled-sides.gif), frame-bg:url(images/tab/tab-navigation-left-disabled-fbg.gif), frame:0 0 0 0, stretch:right" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/tab/Bar.scss:389 */
 .x-tab-bar-navigation {
@@ -11620,25 +8667,25 @@ tr.x-grid-subtable-row {
 .x-cmd-slicer.x-tab-bar-navigation-top:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, stretch:bottom" !important;
+    content: "x-slicer:, stretch:bottom, stretch:bottom" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-bar-navigation-bottom:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, stretch:top" !important;
+    content: "x-slicer:, stretch:top, stretch:top" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-bar-navigation-left:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, stretch:right" !important;
+    content: "x-slicer:, stretch:right, stretch:right" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-tab-bar-navigation-right:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, stretch:left" !important;
+    content: "x-slicer:, stretch:left, stretch:left" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/panel/Panel.scss:799 */
 .x-panel-navigation {
@@ -11811,25 +8858,25 @@ tr.x-grid-subtable-row {
 .x-cmd-slicer.x-panel-header-navigation-top:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, stretch:bottom" !important;
+    content: "x-slicer:, stretch:bottom, stretch:bottom" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-panel-header-navigation-bottom:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, stretch:top" !important;
+    content: "x-slicer:, stretch:top, stretch:top" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-panel-header-navigation-left:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, stretch:right" !important;
+    content: "x-slicer:, stretch:right, stretch:right" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-panel-header-navigation-right:before {
     /*<if slicer>*/
     display: none;
-    content: "x-slicer:, stretch:left" !important;
+    content: "x-slicer:, stretch:left, stretch:left" !important;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/panel/Panel.scss:1336 */
 .x-panel-header-navigation-horizontal .x-tool-after-title {

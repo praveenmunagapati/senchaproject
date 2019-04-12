@@ -46,7 +46,7 @@ Ext.define('Ext.ux.form.SearchField', {
 
         // Set up the proxy to encode the filter in the simplest way as a name/value pair
         proxy = me.store.getProxy();
-        proxy.setFilterParam(me.paramName);
+        // proxy.setFilterParam(me.paramName);
         proxy.encodeFilters = function(filters) {
             return filters[0].getValue();
         }

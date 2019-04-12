@@ -50,6 +50,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
               xtype: 'fileuploadfield',
               buttonText: 'edit contact',
               buttonOnly: true,
+              cls: 'edit-button',
               listeners: {
                   change(field) {
                       alert(field);
@@ -221,7 +222,10 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
         }, {
           text: 'Save',
           disabled: true,
-          formBind: true
+          formBind: true,
+          listeners: {
+            click: 'displayGrid'
+          }
         }
         ]
       }

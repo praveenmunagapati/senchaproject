@@ -34,11 +34,11 @@ Ext.define('Contacts.view.contacts.addcontact.AddContact', {
           align: 'middle',
         },
 
-        padding: '100 0',
+        // padding: '00 0',
 
         items: [{
-          padding: '0 0 30 0',
-          html: '<div class="empty-text" style="">Your Contact List is empty! <br> Please add the contact by pressing add contact button.</div>'
+          padding: '0 0 20 0',
+          html: '<div class="empty-text">Your Contact List is empty! <br> Please add the contact by pressing add contact button.</div>'
         }, {
           cls: 'addcontact-button',
           xtype: 'button',
