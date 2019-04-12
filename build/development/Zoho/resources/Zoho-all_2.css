@@ -8574,13 +8574,14 @@
 }
 /* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:6 */
 .x-form-file-btn {
-    background-color: transparent !important;
+    background-color: white !important;
     background-image: none !important;
-    color: black !important;
-    z-index: 100;
-    opacity: 0.9;
     border: none;
     text-decoration: underline;
+}
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:14 */
+.x-btn-inner-default-small {
+    color: black !important;
 }
 /* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:1 */
 .addcontact {
