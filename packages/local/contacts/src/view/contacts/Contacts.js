@@ -2,15 +2,11 @@ Ext.define('Contacts.view.contacts.Contacts', {
     extend: 'Ext.container.Container',
 
     requires: [
-<<<<<<< Updated upstream
+
         'Contacts.view.contacts.editcontact.EditContact',
         'Contacts.view.contacts.addcontact.AddContact',
         'Contacts.view.contacts.allcontacts.AllContacts',
         'Contacts.view.contacts.ContactsVM'
-=======
-    'Contacts.view.contacts.editcontact.EditContact',
-    'Contacts.view.contacts.addcontact.AddContact'
->>>>>>> Stashed changes
     ],
 
     //   controller: 'contacts-vc',
@@ -29,7 +25,7 @@ Ext.define('Contacts.view.contacts.Contacts', {
     //     activeItem: '{activeItem}'
     //   },
 
-    activeItem: 'allcontacts',
+    activeItem: 'addcontact',
 
     items: [
         {

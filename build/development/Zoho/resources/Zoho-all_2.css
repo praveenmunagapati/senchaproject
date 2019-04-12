@@ -8567,36 +8567,11 @@
     -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 2px 2px;
     box-shadow: rgba(0, 0, 0, 0.5) 0 2px 2px;
 }
-<<<<<<< Updated upstream
 /* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:1 */
 .addcontact {
     background: white;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
     font-family: 'muli', regular;
-=======
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:1 */
-.edit-photo-button {
-    background: white;
-    color: red;
-}
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:6 */
-.x-form-file-btn {
-    background-color: transparent !important;
-    background-image: none !important;
-    color: black !important;
-    z-index: 100;
-    opacity: 0.9;
-    border: none;
-    text-decoration: underline;
-}
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:9 */
-.x-panel-header-default {
-    font-size: 42px;
-    background: #f8f8f8;
-    color: black;
-    height: 60px;
-    line-height: 55px;
->>>>>>> Stashed changes
 }
 /* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:9 */
 .addcontact-button {
@@ -8633,6 +8608,21 @@
     width: 420px;
     height: 50px;
     font-size: 16px;
+}
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:1 */
+.edit-photo-button {
+    background: white;
+    color: red;
+}
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:6 */
+.x-form-file-btn {
+    background-color: transparent !important;
+    background-image: none !important;
+    color: black !important;
+    z-index: 100;
+    opacity: 0.9;
+    border: none;
+    text-decoration: underline;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-tab-navigation-top {

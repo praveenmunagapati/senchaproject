@@ -4,15 +4,11 @@ $theme-name:  dynamic( 'theme-triton' );
 $include-contacts-view-contacts-contacts: dynamic(true);;
 $include-contacts-view-contacts-contactsvm: dynamic(true);;
 $include-contacts-view-contacts-addcontact-addcontact: dynamic(true);;
-<<<<<<< Updated upstream
 $include-contacts-view-contacts-addcontact-addcontactvc: dynamic(true);;
 $include-contacts-view-contacts-allcontacts-allcontacts: dynamic(true);;
 $include-contacts-view-contacts-allcontacts-grid: dynamic(true);;
 $include-contacts-view-contacts-editcontact-editcontact: dynamic(true);;
 $include-contacts-view-contacts-editcontact-editcontactvc: dynamic(true);;
-=======
-$include-contacts-view-contacts-editcontact-editcontact: dynamic(true);;
->>>>>>> Stashed changes
 $include-ext-abstractcomponent: dynamic(true);;
 $include-ext-abstractcontainer: dynamic(true);;
 $include-ext-abstractmanager: dynamic(true);;
@@ -1409,14 +1405,6 @@ $relative-image-path-for-uis: $theme-triton-resource-path;
 @import '../../../../../ext/classic/theme-triton/sass/src/toolbar/Breadcrumb';
 @import '../../../../../ext/classic/theme-triton/sass/src/window/Toast';
 
-/* including scss file adjacent to ../../../../../packages/local/contacts/src/view/contacts/editcontact/EditContact.js */
-$default-resource-root: '' !default;
-$default-resource-path: 'images' !default;
-$current-package: false;
-$current-resource-root: $default-resource-root;
-$relative-image-path-for-uis: $default-resource-path;
-@import '../../../../../packages/local/contacts/src/view/contacts/editcontact/EditContact';
-
 /* including scss file adjacent to ../../../../../packages/local/contacts/src/view/contacts/addcontact/AddContact.js */
 $default-resource-root: '' !default;
 $default-resource-path: 'images' !default;
@@ -1424,6 +1412,14 @@ $current-package: false;
 $current-resource-root: $default-resource-root;
 $relative-image-path-for-uis: $default-resource-path;
 @import '../../../../../packages/local/contacts/src/view/contacts/addcontact/AddContact';
+
+/* including scss file adjacent to ../../../../../packages/local/contacts/src/view/contacts/editcontact/EditContact.js */
+$default-resource-root: '' !default;
+$default-resource-path: 'images' !default;
+$current-package: false;
+$current-resource-root: $default-resource-root;
+$relative-image-path-for-uis: $default-resource-path;
+@import '../../../../../packages/local/contacts/src/view/contacts/editcontact/EditContact';
 
 /* including scss file adjacent to ../../../../../packages/local/contacts/src/view/contacts/Contacts.js */
 $default-resource-root: '' !default;
