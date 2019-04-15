@@ -1,86 +1,10 @@
-// Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
-//     extend: 'Ext.container.Container',
-
-//     requires: [
-//         'Contacts.view.contacts.allcontacts.Grid',
-//         'Contacts.view.contacts.allcontacts.GridVM'
-//     ],
-
-//     // controller: 'addcontact-vc',
-
-//     xtype: 'allcontacts',
-//     viewModel: {
-//         type: 'gridvm'
-//     },
-
-//     layout: 'fit',
-
-//     margin: '0 100px',
-
-//     defaults: {
-//         margin: '10px 0'
-//     },
-
-//     items: [
-//         {
-//             xtype: 'container',
-//             items: [{
-//                 xtype: 'container',
-//                 layout: 'hbox',
-//                 items: [{
-//                     html: '<div class="headbar">Contacts</div>'
-//                 }, {
-//                     xtype: 'tbfill'
-//                 }, {
-//                     cls: 'addcontact-button',
-//                     xtype: 'button',
-//                     text: '+ Add Button',
-//                 }]
-//             }, {
-//                 xtype: 'container',
-//                 layout: 'hbox',
-//                 padding: '10 0 0 0',
-//                 height: 70,
-//                 items: [{
-
-//                     xtype: 'textfield',
-//                     shadow:'true',
-//                     width: 300
-//                 }, {
-//                     xtype: 'button',
-//                     text: 'Delete',
-//                     margin: '0 10'
-//                 }, {
-//                     xtype: 'tbfill'
-//                 }, {
-//                     xtype: 'button',
-//                     text: 'Export',
-//                     margin: '0 10'
-//                 }, {
-//                     xtype: 'button',
-//                     text: 'Add Columns',
-//                     margin: '0 10'
-//                 }, {
-//                     xtype: 'button',
-//                     text: 'Filters'
-//                 }]
-//             }, {
-//                 xtype: 'gridview',
-//                 bind: {
-//                     store: '{contactDatas}'
-//                 },
-//             }]
-//         }]
-// });
-
-
 Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
     extend: 'Ext.container.Container',
 
     requires: [
         'Contacts.view.contacts.allcontacts.Grid',
-        'Ext.ux.form.SearchField',
-        'Contacts.view.contacts.allcontacts.GridVM'
+        'Contacts.view.contacts.allcontacts.GridVM',
+        'Contacts.view.contacts.allcontacts.Search'
     ],
 
     // controller: 'addcontact-vc',
@@ -121,12 +45,7 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                 cls: 'headbar',
                 height: 70,
                 items: [{
-                    xtype: 'searchfield',
-                    iconAlign: 'left',
-                    emptyText: 'Search',
-                    cls: 'searchfield',
-                    width: 300,
-                    height: 40
+                   xtype: 'search'    
                 }, {
                     xtype: 'button',
                     cls: 'delete-button',
@@ -199,7 +118,12 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                                 columns: 1,
                                 items: [{
                                     boxLabel: 'First Name',
-                                    inputValue: 'fname'
+                                    inputValue: 'fname',
+                                    listeners: {
+                                        change: function(fname, eOpts){
+                                            alert('hi')
+                                        }
+                                    }
                                 }, {
                                     boxLabel: 'Company Name',
                                     inputValue: 'Company'
@@ -224,7 +148,7 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
             }, {
                 xtype: 'gridview',
                 bind: {
-                    store: '{contactDatas}'
+                    store: '{Contacts}'
                 },
             }]
         }]

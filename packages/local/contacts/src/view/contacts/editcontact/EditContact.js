@@ -1,241 +1,264 @@
 Ext.define('Contacts.view.contacts.editcontact.EditContact', {
-    extend: 'Ext.form.Panel',
-    requires: [
-        'Contacts.view.contacts.editcontact.EditContactVC'
-    ],
-    cls:'backcolor',
-    controller: 'editcontact-vc',
-    xtype: 'editcontact',
-    viewModel: {},
-    // bodyStyle: 'margin-left: 100px',
-    bodyPadding: '0 100',
+  extend: 'Ext.form.Panel',
+  requires: [
+    'Contacts.view.contacts.editcontact.EditContactVC'
+  ],
+  cls: 'backcolor',
+  controller: 'editcontact-vc',
+  xtype: 'editcontact',
+  viewModel: {},
+  // bodyStyle: 'margin-left: 100px',
+  bodyPadding: '0 100',
 
-    scrollable: true,
-    fieldDefaults: {
-        labelAlign: 'top',
-        msgTarget: 'side',
-    },
-   
-    scrollable: true,
-    fieldDefaults: {
-      labelAlign: 'top',
-      msgTarget: 'side'
-    },
-    items: [
-      {
-        xtype: 'fieldcontainer',
-        cls:'backcolor',
-        layout: {
-          type: 'vbox',
-          pack: 'center',
-          
-          align: 'middle'
-        },
-        items: [
-          {
-            html: '<div class="edit-contact-heading">Edit Contact</div>',
-            margin: '30 0 10 0 '
-          },
-          {
-            xtype: 'image',
-            src: 'resources/images/ben-knapen.png',
-            height: 100,
-            width: 100,
-            bind:{
-              src: '{imgData}'
-            }
-          }, {
-            // xtype: 'filefield', 
-              xtype: 'fileuploadfield',
-              buttonText: 'Edit Photo',
-              buttonOnly: true,
-              cls:'btn-browse',
-              listeners: {
-                  change(field) {
-                      alert(field);
-                      const dom = Ext.getDom(field.fileInputEl);
-                      const container = field.up('editcontact');
-                      console.log(container);
-                      const viewModel = container.getViewModel();
-                      console.log(viewModel);
-                      const reader = new FileReader();
-                      reader.onload = e => viewModel.set('imgData', e.target.result);
-                      reader.readAsDataURL(dom.files[0]);
-                  }
-              }
-          }]
-  
+  scrollable: true,
+  fieldDefaults: {
+    labelAlign: 'top',
+    msgTarget: 'side',
+  },
+
+  scrollable: true,
+  fieldDefaults: {
+    labelAlign: 'top',
+    msgTarget: 'side'
+  },
+  items: [
+    {
+      xtype: 'fieldcontainer',
+      cls: 'backcolor',
+      layout: {
+        type: 'vbox',
+        pack: 'center',
+
+        align: 'middle'
       },
-      {
-        xtype: 'fieldcontainer',
-        fieldLabel: 'Postal Address',
-        layout: 'column',
-        cls:'backcolor',
-        border: false,
-        
-        defaults: {
-          columnWidth: 0.25,
-          labelSeparator: '',
-          margin: '10',
-          afterLabelTextTpl: '<span style="color:red;font-weight:bold" data-qtip="Required">*</span>',
-          allowBlank: false,
-          height:48,
-          
-
+      items: [
+        {
+          html: '<div class="edit-contact-heading">Edit Contact</div>',
+          margin: '30 0 10 0 '
         },
-        items: [
-          {
-            xtype: 'datefield',
-            fieldLabel: 'Date',
-            emptyText: 'MM-DD-YYYY',
-            name: 'first',
-            format: 'm-d-Y',
-            altFormats: 'm,d,Y|m.d.Y',
-          },
-          {
-  
-            xtype: 'textfield',
-            fieldLabel: 'First Name',
-            name: 'firstName',
-          }, {
-            xtype: 'textfield',
-            fieldLabel: 'Last Name',
-            name: 'lastName'
-          }, {
-            xtype: 'textfield',
-            fieldLabel: 'Mobile Numbermm',
-            name: 'mobileNumber',
-            emptyText: '+911234567890'
-          },
-          {
-            xtype: 'textfield',
-            fieldLabel: 'Email Id',
-            name: 'email',
-            vtype: 'email'
-          },
-          {
-  
-            xtype: 'textfield',
-            fieldLabel: 'Company Name',
-            name: 'company'
-          }, {
-            xtype: 'textfield',
-            fieldLabel: 'Title',
-            name: 'title'
-          }, {
-            xtype: 'textfield',
-            fieldLabel: 'Industry',
-            name: 'industry',
-            afterLabelTextTpl: '',
-            allowBlank: true
-          },
-          {
-            xtype: 'textfield',
-            fieldLabel: 'Primary Buniness',
-            name: 'business',
-            afterLabelTextTpl: '',
-            allowBlank: true
-          },
-          {
-            xtype: 'textfield',
-            fieldLabel: 'Website',
-            name: 'website',
-            afterLabelTextTpl: '',
-            allowBlank: true
-          }, {
-            xtype: 'numberfield',
-            fieldLabel: 'No. of Employees',
-            name: 'noOfEmployees',
-            afterLabelTextTpl: '',
-            allowBlank: true,
-            minValue: 1
-          }, {
-            xtype: 'textfield',
-            fieldLabel: 'Revenue',
-            name: 'revenue',
-            afterLabelTextTpl: '',
-            allowBlank: true
-          },
-          {
-            xtype: 'textfield',
-            fieldLabel: 'Linked In',
-            name: 'linked',
-            afterLabelTextTpl: '',
-            allowBlank: true
+        {
+          xtype: 'image',
+          src: 'resources/images/ben-knapen.png',
+          name: 'image',
+          height: 100,
+          width: 100,
+          bind: {
+            src: '{imgData}'
           }
-        ]
-      }, {
-        xtype: 'fieldcontainer',
-        fieldLabel: 'Address Information',
-        layout: 'column',
-        cls:'backcolor',
-        defaults: {
-          columnWidth: 0.25,
-          margin: '10 10 10 10'
-        },
-        items: [
-          {
-            xtype: 'textfield',
-            fieldLabel: 'Address',
-            name: 'address'
-          },
-          {
-            xtype: 'textfield',
-            fieldLabel: 'City',
-            name: 'city'
-          }, {
-            xtype: 'textfield',
-            fieldLabel: 'State',
-            name: 'state'
-          }, {
-            xtype: 'combobox',
-            fieldLabel: 'Country',
-            name: 'country',
-            displayField: 'country',
-            typeAhead: true,
-            queryMode: 'local',
-            emptyText: 'Select a country...'
-          },
-        ]
-      }, {
-        xtype: 'fieldcontainer',
-        fieldLabel: 'Address Information',
-        layout: 'column',
-        cls:'backcolor',
-        border: false,
-        defaults: {
-          columnWidth: 1,
-          margin: '10 10 10 10'
-        },
-        items: [{
-          xtype: 'textarea',
-          hideLabel: true,
-          fieldLabel: 'Notes',
-          name: 'notes',
-        }]
-      },
-      {
-        xtype: 'fieldcontainer',
-        cls:'backcolor',
-        layout: {
-          type: 'hbox',
-          pack: 'center',
-          align: 'middle'
-        },
-        defaults: {
-          xtype: 'button'
-        },
-        items: [{
-          text: 'Cancel',
-          cls:'cancle-style'
         }, {
-          text: 'Save',
-          disabled: true,
-          formBind: true,
-          cls:'save-style'
-        }
-        ]
-      }
-    ]
+          // xtype: 'filefield', 
+          xtype: 'fileuploadfield',
+          buttonText: 'Edit Photo',
+          buttonOnly: true,
+          cls: 'btn-browse',
+          listeners: {
+            change(field) {
+              alert(field);
+              const dom = Ext.getDom(field.fileInputEl);
+              const container = field.up('editcontact');
+              console.log(container);
+              const viewModel = container.getViewModel();
+              console.log(viewModel);
+              const reader = new FileReader();
+              reader.onload = e => viewModel.set('imgData', e.target.result);
+              reader.readAsDataURL(dom.files[0]);
+            }
+          }
+        }]
 
-        });
+    },
+    {
+      xtype: 'fieldcontainer',
+      fieldLabel: 'Postal Address',
+      layout: 'column',
+      cls: 'backcolor',
+      border: false,
+
+      defaults: {
+        columnWidth: 0.25,
+        labelSeparator: '',
+        margin: '10',
+        afterLabelTextTpl: '<span style="color:red;font-weight:bold" data-qtip="Required">*</span>',
+        allowBlank: false,
+        height: 48,
+
+
+      },
+      items: [
+        {
+          xtype: 'datefield',
+          fieldLabel: 'Date',
+          name: 'date',
+          emptyText: 'MM-DD-YYYY',
+          name: 'first',
+          format: 'm-d-Y',
+          altFormats: 'm,d,Y|m.d.Y',
+        },
+        {
+
+          xtype: 'textfield',
+          fieldLabel: 'First Name',
+          name: 'firstname',
+          reference: 'firstname'
+        }, {
+          xtype: 'textfield',
+          fieldLabel: 'Last Name',
+          name: 'lastname',
+          reference: 'lastname'
+        }, {
+          xtype: 'textfield',
+          fieldLabel: 'Mobile Numbermm',
+          name: 'mobile',
+          emptyText: '+911234567890',
+          reference: 'mobile'
+        },
+        {
+          xtype: 'textfield',
+          fieldLabel: 'Email Id',
+          name: 'email',
+          vtype: 'email',
+          reference: 'email'
+        },
+        {
+
+          xtype: 'textfield',
+          fieldLabel: 'Company Name',
+          name: 'company',
+          reference: 'company'
+        }, {
+          xtype: 'textfield',
+          fieldLabel: 'Title',
+          name: 'title',
+          reference: 'title'
+        }, {
+          xtype: 'textfield',
+          fieldLabel: 'Industry',
+          name: 'industry',
+          afterLabelTextTpl: '',
+          allowBlank: true,
+          reference: 'industry'
+        },
+        {
+          xtype: 'textfield',
+          fieldLabel: 'Primary Buniness',
+          name: 'p-business',
+          afterLabelTextTpl: '',
+          allowBlank: true,
+          reference: 'p-business'
+        },
+        {
+          xtype: 'textfield',
+          fieldLabel: 'Website',
+          name: 'website',
+          afterLabelTextTpl: '',
+          allowBlank: true,
+          reference: 'website'
+        }, {
+          xtype: 'numberfield',
+          fieldLabel: 'No. of Employees',
+          name: 'num-of-employees',
+          afterLabelTextTpl: '',
+          allowBlank: true,
+          minValue: 1,
+          reference: 'num-of-employees'
+        }, {
+          xtype: 'textfield',
+          fieldLabel: 'Revenue',
+          name: 'revenue',
+          afterLabelTextTpl: '',
+          allowBlank: true,
+          reference: 'revenue'
+        },
+        {
+          xtype: 'textfield',
+          fieldLabel: 'Linked In',
+          name: 'linkedin',
+          afterLabelTextTpl: '',
+          allowBlank: true,
+          reference: 'linkedin'
+        }
+      ]
+    }, {
+      xtype: 'fieldcontainer',
+      fieldLabel: 'Address Information',
+      layout: 'column',
+      cls: 'backcolor',
+      defaults: {
+        columnWidth: 0.25,
+        margin: '10 10 10 10'
+      },
+      items: [
+        {
+          xtype: 'textfield',
+          fieldLabel: 'Address',
+          name: 'address',
+          reference: 'address'
+        },
+        {
+          xtype: 'textfield',
+          fieldLabel: 'City',
+          name: 'city',
+          reference: 'city'
+        }, {
+          xtype: 'textfield',
+          fieldLabel: 'State',
+          name: 'state',
+          reference: 'state'
+        }, {
+          xtype: 'combobox',
+          fieldLabel: 'Country',
+          name: 'country',
+          displayField: 'country',
+          typeAhead: true,
+          queryMode: 'local',
+          emptyText: 'Select a country...',
+          reference: 'country'
+        },
+      ]
+    }, {
+      xtype: 'fieldcontainer',
+      fieldLabel: 'Address Information',
+      layout: 'column',
+      cls: 'backcolor',
+      border: false,
+      defaults: {
+        columnWidth: 1,
+        margin: '10 10 10 10'
+      },
+      items: [{
+        xtype: 'textarea',
+        hideLabel: true,
+        fieldLabel: 'Notes',
+        name: 'notes',
+        reference: 'notes'
+      }]
+    },
+    {
+      xtype: 'fieldcontainer',
+      cls: 'backcolor',
+      layout: {
+        type: 'hbox',
+        pack: 'center',
+        align: 'middle'
+      },
+      defaults: {
+        xtype: 'button'
+      },
+      items: [{
+        text: 'Cancel',
+        cls: 'cancle-style'
+      }, {
+        text: 'Save',
+        disabled: true,
+        formBind: true,
+        cls: 'save-style',
+
+        listeners:{
+          click: 'saveFormData'
+        }
+      }
+      ]
+    }
+  ]
+
+});

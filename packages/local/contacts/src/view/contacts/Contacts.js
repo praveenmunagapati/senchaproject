@@ -25,7 +25,7 @@ Ext.define('Contacts.view.contacts.Contacts', {
     //     activeItem: '{activeItem}'
     //   },
 
-    activeItem: 'allcontacts',
+    activeItem: 'editcontact',
     // activeItem: 'editcontact',
     items: [
         {

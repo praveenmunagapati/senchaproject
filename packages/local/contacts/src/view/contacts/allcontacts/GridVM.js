@@ -1,21 +1,12 @@
 Ext.define('Contacts.view.contacts.allcontacts.GridVM', {
     extend:'Ext.app.ViewModel',
     requires:[
-        'Contacts.model.ContactData'
+        'Contacts.store.Contacts'
     ],
     alias:'viewmodel.gridvm',
     stores: {
-        contactDatas: {
-            model: 'Contacts.model.ContactData',
-            autoLoad: true,
-            proxy: {
-                type: 'ajax',
-                url:'resources/data/ContactData.json',
-                reader: {
-                    type: 'json',
-                }
-            }
-
+        Contacts: {
+            type: 'contacts'
         }
     }
 });
