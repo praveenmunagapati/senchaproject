@@ -4,7 +4,7 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContactsVC', {
 
 
 
-    onclick:function(btn){
+    onApplyFilter:function(btn){
         var apply = btn.up('filterform').getForm();
         var value = apply.getFieldValues();
         
@@ -18,10 +18,31 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContactsVC', {
         var store = viewModel.getStore('Contact');
         
         store.filter([
-            {property: 'firstname', value: firstName},
-             {property: 'orgname', value: company},
+                {property: 'firstname', value: firstName},
+                {property: 'orgname', value: company},
          ]);
          console.log(store);
+    },
+
+    onClearFilter:function(btn){
+        var apply = btn.up('filterform').getForm();
+        var value = apply.getFieldValues();
+       
+        btn.up('filterform').lookupReference('firstname').setValue('');
+        btn.up('filterform').lookupReference('company').setValue('');
+
+        var viewModel = btn.up('filterform').up('allcontacts').getViewModel();
+        console.log(viewModel.getStore('Contact'));
+        var store = viewModel.getStore('Contact');
+        
+        store.filter([
+                {property: 'firstname', value: ''},
+                {property: 'orgname', value: ''},
+         ]);
+
     }
+    
+
+
 
 });

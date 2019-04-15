@@ -6,27 +6,56 @@ Ext.define('Contacts.view.contacts.allcontacts.FilterForm',{
     ],
     controller:'allcontacts-vc',
     items:[{
-        xtype: 'checkboxgroup',
+        // xtype: 'checkbox',
         defaults: {
-            width: 120
+            width: 150
         },
         columns: 1,
         items: [{
+            xtype: 'checkboxfield',
             boxLabel: 'First Name',
-            inputValue: 'fname'
+            listeners: {
+                  change: function (checkbox) {
+                    textField = checkbox.up('filterform').lookupReference('firstname');
+                        if (checkbox.getValue()){
+                            textField.show();
+                        }else{
+                            textField.hide();
+                        }
+
+                  }
+              
+            }
         },
         {
             xtype:'textfield',
             name:'firstname',
-            // reference:'firstname'
+            reference: 'firstname',
+            hidden:true,
+            margin: '0 5 0 10',
         }
         , {
-            boxLabel: 'Company Name',
-            inputValue: 'Company'
+            xtype: 'checkboxfield',
+            boxLabel: 'Company',
+            listeners: {
+                  change: function (checkbox) {
+                    textField = checkbox.up('filterform').lookupReference('company');
+                        if (checkbox.getValue()){
+                            textField.show();
+                        }else{
+                            textField.hide();
+                        }
+
+                  }
+              
+            }
         },
         {
             xtype:'textfield',
-            name:'company'
+            name:'company',
+            reference: 'company',
+            hidden: true,
+            margin: '0 5 5 10'
         }],
     }, {
         xtype: 'container',
@@ -36,11 +65,14 @@ Ext.define('Contacts.view.contacts.allcontacts.FilterForm',{
         },
         items: [
             {
-                text: 'Clear'
+                text: 'Clear',
+                listeners:{
+                    click:'onClearFilter'
+                }
             }, {
                 text: 'Apply',
                 listeners: {
-                    click:'onclick'
+                    click:'onApplyFilter'
             }
         }
         ]
