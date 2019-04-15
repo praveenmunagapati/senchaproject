@@ -229,3 +229,4 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
             }]
         }]
 });
+
