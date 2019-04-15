@@ -1,7 +1,7 @@
 $app-name:  dynamic( 'Zoho' );
 $image-search-path: '/var/www/html/SenchaProject/build/development/Zoho/resources';
 $theme-name:  dynamic( 'theme-triton' );
-$include-contacts-model-contactdata: dynamic(true);;
+$include-contacts-model-contact: dynamic(true);;
 $include-contacts-store-contacts: dynamic(true);;
 $include-contacts-view-contacts-contacts: dynamic(true);;
 $include-contacts-view-contacts-contactsvm: dynamic(true);;
@@ -10,7 +10,6 @@ $include-contacts-view-contacts-addcontact-addcontactvc: dynamic(true);;
 $include-contacts-view-contacts-allcontacts-allcontacts: dynamic(true);;
 $include-contacts-view-contacts-allcontacts-grid: dynamic(true);;
 $include-contacts-view-contacts-allcontacts-gridvm: dynamic(true);;
-$include-contacts-view-contacts-allcontacts-search: dynamic(true);;
 $include-contacts-view-contacts-editcontact-editcontact: dynamic(true);;
 $include-contacts-view-contacts-editcontact-editcontactvc: dynamic(true);;
 $include-ext-abstractcomponent: dynamic(true);;

@@ -3,8 +3,9 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
 
     requires: [
         'Contacts.view.contacts.allcontacts.Grid',
+        'Ext.ux.form.SearchField',
         'Contacts.view.contacts.allcontacts.GridVM',
-        'Contacts.view.contacts.allcontacts.Search'
+        'Contacts.view.contacts.allcontacts.FilterForm'
     ],
 
     // controller: 'addcontact-vc',
@@ -45,7 +46,12 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                 cls: 'headbar',
                 height: 70,
                 items: [{
-                   xtype: 'search'    
+                    xtype: 'searchfield',
+                    iconAlign: 'left',
+                    emptyText: 'Search',
+                    cls: 'searchfield',
+                    width: 300,
+                    height: 40
                 }, {
                     xtype: 'button',
                     cls: 'delete-button',
@@ -111,36 +117,7 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                     menu: {
                         items: [
                             {
-                                xtype: 'checkboxgroup',
-                                defaults: {
-                                    width: 120
-                                },
-                                columns: 1,
-                                items: [{
-                                    boxLabel: 'First Name',
-                                    inputValue: 'fname',
-                                    listeners: {
-                                        change: function(fname, eOpts){
-                                            alert('hi')
-                                        }
-                                    }
-                                }, {
-                                    boxLabel: 'Company Name',
-                                    inputValue: 'Company'
-                                }],
-                            }, {
-                                xtype: 'container',
-                                layout: 'hbox',
-                                defaults: {
-                                    xtype: 'button'
-                                },
-                                items: [
-                                    {
-                                        text: 'Clear'
-                                    }, {
-                                        text: 'Apply'
-                                    }
-                                ]
+                                xtype:'filterform'
                             }
                         ]
                     }
@@ -148,7 +125,7 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
             }, {
                 xtype: 'gridview',
                 bind: {
-                    store: '{Contacts}'
+                    store: '{Contact}'
                 },
             }]
         }]

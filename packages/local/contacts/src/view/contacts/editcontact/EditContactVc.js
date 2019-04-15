@@ -13,36 +13,6 @@ Ext.define('Contacts.view.contacts.editcontact.EditContactVC', {
 
         var contactsView = viewModel.getView();
         contactsView.setActiveItem('allcontacts');
-    },
-
-    // Function to Save the data on submitting the form
-
-    saveFormData: function (button) {
-
-        // All form variables
-
-        var form = button.up('editcontact').getForm();
-
-        var formData = form.getFieldValues();
-
-        Ext.Ajax.request({
-            url: 'http://ddost.walkingtree.in/contact/',
-            method: "POST",
-            // type: "json",
-            data: formData,
-
-            success: function(response, opts) {
-                // var obj = Ext.decode(response.responseText);
-                // console.dir(obj);
-                Ext.toast('Record successfully submitted');
-            },
-       
-            failure: function(response, opts) {
-                Ext.toast('Record is not submitted');
-                // console.log('server-side failure with status code ' + response.status);
-            }
-        });
-        // console.log(form);
     }
 
 });
