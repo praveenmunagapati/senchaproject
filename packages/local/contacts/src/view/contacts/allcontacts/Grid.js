@@ -1,53 +1,49 @@
 Ext.define('Contacts.view.contacts.allcontacts.Grid', {
     extend: 'Ext.grid.Panel',
     xtype: 'gridview',
-    requires: [
-        'Contacts.view.contacts.allcontacts.GridVM',
-        'Contacts.view.contacts.allcontacts.GridVC'
-    ],
-
-    controller: 'gridvc',
-
-    listeners: {
-        selectionchange: 'onSelectionChange'
+   requires:[
+    'Contacts.view.contacts.allcontacts.GridVM'
+   ], 
+   selModel:{ 
+       type:'checkboxmodel',
+       headerText:'Select All',
+       headerWidth: 100,
     },
-
-
-    selModel: {
-        selType: 'checkboxmodel',
-        headerText: 'Select All',
-        headerWidth: 100,
+    listeners:{
+        rowclick:'onRowClick'
     },
+    columns: [
 
-    columns: [{
+         {
         text: 'First Name ',
-        dataIndex: 'firstname',
-        enableColumnHide: true,
-        flex: 1     
+        dataIndex:'firstname',
+        enableColumnHide:true,
+        flex: 1,
+        menuDisabled: true        
     }, {
         text: 'Email Id ',
-        dataIndex: 'email_address',
+        dataIndex:'email_address',
         flex: 1,
-        menuDisabled: true
+        menuDisabled: true 
     }, {
         text: 'Company Name ',
-        dataIndex: 'orgname',
+        dataIndex:'orgname',
         flex: 1,
-        menuDisabled: true
+        menuDisabled: true 
     }, {
         text: 'Title ',
-        dataIndex: 'title',
+        dataIndex:'title',
         flex: 1,
-        menuDisabled: true
+        menuDisabled: true 
     }, {
         text: 'State ',
-        dataIndex: 'state',
+        dataIndex:'state',
         flex: 1,
-        menuDisabled: true
+        menuDisabled: true 
     }, {
         text: 'Mobile Number ',
-        dataIndex: 'mobile_number',
+        dataIndex:'mobile_number',
         flex: 1,
-        menuDisabled: true
+        menuDisabled: true 
     }]
 });

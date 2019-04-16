@@ -1,30 +1,26 @@
 Ext.define('Contacts.view.contacts.editcontact.EditContact', {
   extend: 'Ext.form.Panel',
   requires: [
-    'Contacts.view.contacts.editcontact.EditContactVC'
+    'Contacts.view.contacts.editcontact.EditContactVC',
+    'Contacts.view.contacts.editcontact.EditContactVM'
   ],
-  cls: 'backcolor',
   controller: 'editcontact-vc',
   xtype: 'editcontact',
-  viewModel: {},
+  
+  viewModel: {
+    type: 'editcontactvm'
+  },
   // bodyStyle: 'margin-left: 100px',
   bodyPadding: '0 100',
-
+  cls:'body-color',
   scrollable: true,
   fieldDefaults: {
     labelAlign: 'top',
     msgTarget: 'side',
   },
-
-  scrollable: true,
-  fieldDefaults: {
-    labelAlign: 'top',
-    msgTarget: 'side'
-  },
   items: [
     {
       xtype: 'fieldcontainer',
-      cls: 'backcolor',
       layout: {
         type: 'vbox',
         pack: 'center',
@@ -39,7 +35,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
         {
           xtype: 'image',
           src: 'resources/images/ben-knapen.png',
-          name: 'contact_profile_pic',
+          name: 'image',
           height: 100,
           width: 100,
           bind: {
@@ -69,7 +65,8 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
     },
     {
       xtype: 'fieldcontainer',
-      fieldLabel: 'Postal Address',
+      fieldLabel: 'Contact Information',
+      labelSeparator:'',
       layout: 'column',
       cls: 'backcolor',
       border: false,
@@ -86,11 +83,16 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
       },
       items: [
         {
+          columnWidth:1,
+          height:20,
+          html:'<div style="margin-top:5px;">field marked are <b style="color:red">*</b> required</div>'
+        },
+        {
           xtype: 'datefield',
           fieldLabel: 'Date',
           name: 'date',
           emptyText: 'MM-DD-YYYY',
-          name: '',
+          name: 'first',
           format: 'm-d-Y',
           altFormats: 'm,d,Y|m.d.Y',
         },
@@ -108,14 +110,14 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
         }, {
           xtype: 'textfield',
           fieldLabel: 'Mobile Number',
-          name: 'mobile_number',
+          name: 'mobile',
           emptyText: '+911234567890',
           reference: 'mobile'
         },
         {
           xtype: 'textfield',
           fieldLabel: 'Email Id',
-          name: 'email_address',
+          name: 'email',
           vtype: 'email',
           reference: 'email'
         },
@@ -123,7 +125,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
 
           xtype: 'textfield',
           fieldLabel: 'Company Name',
-          name: 'orgname',
+          name: 'company',
           reference: 'company'
         }, {
           xtype: 'textfield',
@@ -141,7 +143,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
         {
           xtype: 'textfield',
           fieldLabel: 'Primary Buniness',
-          name: 'primary_business',
+          name: 'p-business',
           afterLabelTextTpl: '',
           allowBlank: true,
           reference: 'p-business'
@@ -156,7 +158,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
         }, {
           xtype: 'numberfield',
           fieldLabel: 'No. of Employees',
-          name: 'employee_count',
+          name: 'num-of-employees',
           afterLabelTextTpl: '',
           allowBlank: true,
           minValue: 1,
@@ -172,7 +174,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
         {
           xtype: 'textfield',
           fieldLabel: 'Linked In',
-          name: 'linkedin_id',
+          name: 'linkedin',
           afterLabelTextTpl: '',
           allowBlank: true,
           reference: 'linkedin'
@@ -181,6 +183,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
     }, {
       xtype: 'fieldcontainer',
       fieldLabel: 'Address Information',
+      labelSeparator:'',
       layout: 'column',
       cls: 'backcolor',
       defaults: {
@@ -212,16 +215,16 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
           typeAhead: true,
           queryMode: 'local',
           emptyText: 'Select a country...',
-          reference: 'country'
-        }, {
-          xtype: 'textfield',
-          fieldLabel: 'id',
-          name: 'contact_owner_id'
-        }
+          reference: 'country',
+          bind:{
+            store:'{countries}'
+          }
+        },
       ]
     }, {
       xtype: 'fieldcontainer',
-      fieldLabel: 'Address Information',
+      fieldLabel: 'Description Information',
+      labelSeparator:'',
       layout: 'column',
       cls: 'backcolor',
       border: false,
@@ -253,8 +256,8 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
         cls: 'cancle-style'
       }, {
         text: 'Save',
-        // disabled: true,
-        // formBind: true,
+        disabled: true,
+        formBind: true,
         cls: 'save-style',
 
         listeners:{

@@ -5,7 +5,7 @@ Ext.define('Contacts.view.contacts.allcontacts.GridVM', {
     ],
     alias:'viewmodel.gridvm',
     stores: {
-        Contacts: {      
+        Contact: {      
             type:'contacts'
         }
     }

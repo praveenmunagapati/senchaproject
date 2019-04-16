@@ -1,20 +1,17 @@
 Ext.define('Contacts.view.contacts.allcontacts.Search', {
     extend: 'Ext.form.Panel',
 
-    // requires: [
-    //     'Ext.ux.form.SearchField',
-    // ],
+    requires: [
+        'Ext.ux.form.SearchField',
+    ],
 
     xtype: 'search',
-
-    height: 40,
-
     items: [{
-        xtype: 'textfield',
+        xtype: 'searchfield',
         emptyText: 'Search',
+        cls: 'searchfield',
+        width: 300,
         height: 40,
-        padding: 0,
-        width: 450,
         listeners: {
             change: 'onSearchfieldChange'
         }
