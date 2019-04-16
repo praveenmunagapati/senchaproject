@@ -5,10 +5,11 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
         'Contacts.view.contacts.allcontacts.Grid',
         'Ext.ux.form.SearchField',
         'Contacts.view.contacts.allcontacts.GridVM',
-        'Contacts.view.contacts.allcontacts.FilterForm'
+        'Contacts.view.contacts.allcontacts.FilterForm',
+        'Contacts.view.contacts.allcontacts.AllContactsVC'
     ],
 
-    // controller: 'addcontact-vc',
+    controller: 'allcontacts-vc',
 
     xtype: 'allcontacts',
     
@@ -82,29 +83,36 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                                 columns: 1,
                                 items: [{
                                     boxLabel: 'First Name',
-                                    inputValue: 'fname'
-                                }, {
-                                    boxLabel: 'Company Name',
-                                    inputValue: 'cname'
+                                    inputValue: '1',
+                                    checked: false,
+                                    reference:'firstname'
                                 }, {
                                     boxLabel: 'Email ID',
-                                    inputValue: 'email'
+                                    inputValue: '2',
+                                    reference:'email'
                                 }, {
-                                    boxLabel: 'Mobile Number',
-                                    inputValue: 'mobile'
+                                    boxLabel: 'Company Name',
+                                    inputValue: '3',
+                                    reference:'company'
                                 }, {
                                     boxLabel: 'Title',
-                                    inputValue: 'title'
-                                }, {
-                                    boxLabel: 'Date',
-                                    inputValue: 'date'
+                                    inputValue: '4',
+                                    reference:'title'
                                 }, {
                                     boxLabel: 'State',
-                                    inputValue: 'state'
+                                    inputValue: '5',
+                                    reference:'state'
+                                }, {
+                                    boxLabel: 'Mobile Number',
+                                    inputValue: '6',
+                                    reference:'mobile'
                                 }],
                             }, {
                                 xtype: 'button',
-                                text: 'Apply'
+                                text: 'Apply',
+                                listeners:{
+                                    click:'onApplyColumn'
+                                }
                             }
                         ]
                     }

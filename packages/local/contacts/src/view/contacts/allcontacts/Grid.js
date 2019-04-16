@@ -16,8 +16,8 @@ Ext.define('Contacts.view.contacts.allcontacts.Grid', {
         dataIndex:'firstname',
         enableColumnHide:true,
         flex: 1,
-        menuDisabled: true 
-       
+        // reference: 'firstname',
+        menuDisabled: true        
     }, {
         text: 'Email Id ',
         dataIndex:'email_address',
