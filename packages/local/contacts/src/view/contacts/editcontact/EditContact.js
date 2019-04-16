@@ -39,7 +39,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
         {
           xtype: 'image',
           src: 'resources/images/ben-knapen.png',
-          name: 'image',
+          name: 'contact_profile_pic',
           height: 100,
           width: 100,
           bind: {
@@ -90,7 +90,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
           fieldLabel: 'Date',
           name: 'date',
           emptyText: 'MM-DD-YYYY',
-          name: 'first',
+          name: '',
           format: 'm-d-Y',
           altFormats: 'm,d,Y|m.d.Y',
         },
@@ -107,15 +107,15 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
           reference: 'lastname'
         }, {
           xtype: 'textfield',
-          fieldLabel: 'Mobile Numbermm',
-          name: 'mobile',
+          fieldLabel: 'Mobile Number',
+          name: 'mobile_number',
           emptyText: '+911234567890',
           reference: 'mobile'
         },
         {
           xtype: 'textfield',
           fieldLabel: 'Email Id',
-          name: 'email',
+          name: 'email_address',
           vtype: 'email',
           reference: 'email'
         },
@@ -123,7 +123,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
 
           xtype: 'textfield',
           fieldLabel: 'Company Name',
-          name: 'company',
+          name: 'orgname',
           reference: 'company'
         }, {
           xtype: 'textfield',
@@ -141,7 +141,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
         {
           xtype: 'textfield',
           fieldLabel: 'Primary Buniness',
-          name: 'p-business',
+          name: 'primary_business',
           afterLabelTextTpl: '',
           allowBlank: true,
           reference: 'p-business'
@@ -156,7 +156,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
         }, {
           xtype: 'numberfield',
           fieldLabel: 'No. of Employees',
-          name: 'num-of-employees',
+          name: 'employee_count',
           afterLabelTextTpl: '',
           allowBlank: true,
           minValue: 1,
@@ -172,7 +172,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
         {
           xtype: 'textfield',
           fieldLabel: 'Linked In',
-          name: 'linkedin',
+          name: 'linkedin_id',
           afterLabelTextTpl: '',
           allowBlank: true,
           reference: 'linkedin'
@@ -213,7 +213,11 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
           queryMode: 'local',
           emptyText: 'Select a country...',
           reference: 'country'
-        },
+        }, {
+          xtype: 'textfield',
+          fieldLabel: 'id',
+          name: 'contact_owner_id'
+        }
       ]
     }, {
       xtype: 'fieldcontainer',
@@ -249,8 +253,8 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
         cls: 'cancle-style'
       }, {
         text: 'Save',
-        disabled: true,
-        formBind: true,
+        // disabled: true,
+        // formBind: true,
         cls: 'save-style',
 
         listeners:{

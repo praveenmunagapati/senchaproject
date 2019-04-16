@@ -41,11 +41,11 @@
     "contact_owner_id": 1001231
   },
   {
-    "firstname": "Vicky",
+    "firstname": "Madhu",
     "lastname": "Thummarajula",
     "mobile_number": "9948184858",
     "email_address": "suresh@walkingtree.tech",
-    "orgname": "WalkingTree",
+    "orgname": "MadhuIndustry",
     "title": "Technical Lead",
     "industry": "IT",
     "primary_business": "service",
@@ -62,11 +62,11 @@
     "contact_owner_id": 1001231
   },
   {
-    "firstname": "Madhu",
+    "firstname": "Vicky",
     "lastname": "Thummarajula",
     "mobile_number": "9948184858",
     "email_address": "suresh@walkingtree.tech",
-    "orgname": "MadhuIndustry",
+    "orgname": "WalkingTree",
     "title": "Technical Lead",
     "industry": "IT",
     "primary_business": "service",

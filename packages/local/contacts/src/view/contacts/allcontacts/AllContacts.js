@@ -6,16 +6,17 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
         'Ext.ux.form.SearchField',
         'Contacts.view.contacts.allcontacts.GridVM',
         'Contacts.view.contacts.allcontacts.FilterForm',
-        'Contacts.view.contacts.allcontacts.AllContactsVC'
+        'Contacts.view.contacts.allcontacts.AllContactsVC',
+        'Contacts.view.contacts.allcontacts.Search'
     ],
 
     controller: 'allcontacts-vc',
 
     xtype: 'allcontacts',
-    
-        viewModel: {
-            type: 'gridvm'
-        },
+
+    viewModel: {
+        type: 'gridvm'
+    },
 
     layout: 'fit',
 
@@ -39,6 +40,9 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                     cls: 'addcontact-button',
                     xtype: 'button',
                     text: '+ Add Button',
+                    listeners: {
+                        click: 'displayEditContacts'
+                    }
                 }]
             }, {
                 xtype: 'toolbar',
@@ -47,17 +51,25 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                 cls: 'headbar',
                 height: 70,
                 items: [{
-                    xtype: 'searchfield',
-                    iconAlign: 'left',
-                    emptyText: 'Search',
-                    cls: 'searchfield',
-                    width: 300,
-                    height: 40
+                    xtype: 'container',
+                    layout: 'hbox',
+                    cls: 'search-field',
+                    height: 40,
+                    items:[{
+                        xtype: 'button',
+                        width: 50,
+                        cls: 'search-trigger',
+                    },{
+                        xtype: 'search',
+                        cls: 'search'
+                    }],
+                   
                 }, {
                     xtype: 'button',
                     cls: 'delete-button',
                     disabled: true,
                     text: 'Delete',
+                    reference: 'delete-button',
                     margin: '0 10'
                 }, {
                     xtype: 'tbfill'
@@ -85,33 +97,33 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                                     boxLabel: 'First Name',
                                     inputValue: '1',
                                     checked: false,
-                                    reference:'firstname'
+                                    reference: 'firstname'
                                 }, {
                                     boxLabel: 'Email ID',
                                     inputValue: '2',
-                                    reference:'email'
+                                    reference: 'email'
                                 }, {
                                     boxLabel: 'Company Name',
                                     inputValue: '3',
-                                    reference:'company'
+                                    reference: 'company'
                                 }, {
                                     boxLabel: 'Title',
                                     inputValue: '4',
-                                    reference:'title'
+                                    reference: 'title'
                                 }, {
                                     boxLabel: 'State',
                                     inputValue: '5',
-                                    reference:'state'
+                                    reference: 'state'
                                 }, {
                                     boxLabel: 'Mobile Number',
                                     inputValue: '6',
-                                    reference:'mobile'
+                                    reference: 'mobile'
                                 }],
                             }, {
                                 xtype: 'button',
                                 text: 'Apply',
-                                listeners:{
-                                    click:'onApplyColumn'
+                                listeners: {
+                                    click: 'onApplyColumn'
                                 }
                             }
                         ]
@@ -125,7 +137,7 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                     menu: {
                         items: [
                             {
-                                xtype:'filterform'
+                                xtype: 'filterform'
                             }
                         ]
                     }
@@ -133,7 +145,7 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
             }, {
                 xtype: 'gridview',
                 bind: {
-                    store: '{Contact}'
+                    store: '{Contacts}'
                 },
             }]
         }]

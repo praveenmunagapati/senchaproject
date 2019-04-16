@@ -12,6 +12,7 @@ $include-contacts-view-contacts-allcontacts-allcontacts: dynamic(true);;
 $include-contacts-view-contacts-allcontacts-allcontactsvc: dynamic(true);;
 $include-contacts-view-contacts-allcontacts-filterform: dynamic(true);;
 $include-contacts-view-contacts-allcontacts-grid: dynamic(true);;
+$include-contacts-view-contacts-allcontacts-gridvc: dynamic(true);;
 $include-contacts-view-contacts-allcontacts-gridvm: dynamic(true);;
 $include-contacts-view-contacts-allcontacts-search: dynamic(true);;
 $include-contacts-view-contacts-editcontact-editcontact: dynamic(true);;

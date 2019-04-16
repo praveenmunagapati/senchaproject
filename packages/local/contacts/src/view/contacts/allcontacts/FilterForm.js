@@ -1,11 +1,11 @@
-Ext.define('Contacts.view.contacts.allcontacts.FilterForm',{
-    extend:'Ext.form.Panel',
-    xtype:'filterform',
-    requires:[
+Ext.define('Contacts.view.contacts.allcontacts.FilterForm', {
+    extend: 'Ext.form.Panel',
+    xtype: 'filterform',
+    requires: [
         'Contacts.view.contacts.allcontacts.AllContactsVC'
     ],
-    controller:'allcontacts-vc',
-    items:[{
+    controller: 'allcontacts-vc',
+    items: [{
         // xtype: 'checkbox',
         defaults: {
             width: 150
@@ -15,44 +15,26 @@ Ext.define('Contacts.view.contacts.allcontacts.FilterForm',{
             xtype: 'checkboxfield',
             boxLabel: 'First Name',
             listeners: {
-                  change: function (checkbox) {
-                    textField = checkbox.up('filterform').lookupReference('firstname');
-                        if (checkbox.getValue()){
-                            textField.show();
-                        }else{
-                            textField.hide();
-                        }
-
-                  }
-              
+                change: 'onChange'
             }
         },
         {
-            xtype:'textfield',
-            name:'firstname',
+            xtype: 'textfield',
+            name: 'filter_by_name',
             reference: 'firstname',
-            hidden:true,
+            hidden: true,
             margin: '0 5 0 10',
         }
-        , {
+            , {
             xtype: 'checkboxfield',
             boxLabel: 'Company',
             listeners: {
-                  change: function (checkbox) {
-                    textField = checkbox.up('filterform').lookupReference('company');
-                        if (checkbox.getValue()){
-                            textField.show();
-                        }else{
-                            textField.hide();
-                        }
-
-                  }
-              
+                change: 'onChange'
             }
         },
         {
-            xtype:'textfield',
-            name:'company',
+            xtype: 'textfield',
+            name: 'filter_by_companyname',
             reference: 'company',
             hidden: true,
             margin: '0 5 5 10'
@@ -66,15 +48,15 @@ Ext.define('Contacts.view.contacts.allcontacts.FilterForm',{
         items: [
             {
                 text: 'Clear',
-                listeners:{
-                    click:'onClearFilter'
+                listeners: {
+                    click: 'onClearFilter'
                 }
             }, {
                 text: 'Apply',
                 listeners: {
-                    click:'onApplyFilter'
+                    click: 'onApplyFilter'
+                }
             }
-        }
         ]
     }]
 })
