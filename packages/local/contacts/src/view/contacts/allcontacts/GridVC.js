@@ -17,6 +17,9 @@ Ext.define('Contacts.view.contacts.allcontacts.GridVC', {
         if (selected) {
             deleteButton.setDisabled(false);
             deleteButton.setListeners({
+
+
+                // Functon to delete the record
                 click: function (button) {
                     var store = row.view.up('allcontacts').getViewModel().getStore('Contacts');
 

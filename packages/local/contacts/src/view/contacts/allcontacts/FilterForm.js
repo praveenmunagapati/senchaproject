@@ -13,6 +13,7 @@ Ext.define('Contacts.view.contacts.allcontacts.FilterForm', {
         columns: 1,
         items: [{
             xtype: 'checkboxfield',
+            
             boxLabel: 'First Name',
             listeners: {
                 change: 'onChange'
@@ -28,6 +29,7 @@ Ext.define('Contacts.view.contacts.allcontacts.FilterForm', {
             , {
             xtype: 'checkboxfield',
             boxLabel: 'Company',
+            reference:'chkCompany',
             listeners: {
                 change: 'onChange'
             }

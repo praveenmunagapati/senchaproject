@@ -67,6 +67,7 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                 }, {
                     xtype: 'button',
                     cls: 'delete-button',
+                    reference: 'delete-button',
                     disabled: true,
                     text: 'Delete',
                     reference: 'delete-button',

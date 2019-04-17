@@ -81,8 +81,6 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
         afterLabelTextTpl: '<span style="color:red;font-weight:bold" data-qtip="Required">*</span>',
         allowBlank: false,
         height: 48,
-
-
       },
       items: [
         {
@@ -185,6 +183,8 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
       cls: 'backcolor',
       defaults: {
         columnWidth: 0.25,
+        afterLabelTextTpl: '',
+        labelSeparator:'',
         margin: '10 10 10 10'
       },
       items: [
@@ -192,18 +192,21 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
           xtype: 'textfield',
           fieldLabel: 'Address',
           name: 'address',
-          reference: 'address'
+          reference: 'address',
+          
         },
         {
           xtype: 'textfield',
           fieldLabel: 'City',
           name: 'city',
-          reference: 'city'
+          reference: 'city',
+         
         }, {
           xtype: 'textfield',
           fieldLabel: 'State',
           name: 'state',
-          reference: 'state'
+          reference: 'state',
+          
         }, {
           xtype: 'combobox',
           fieldLabel: 'Country',
@@ -212,9 +215,12 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
           typeAhead: true,
           queryMode: 'local',
           emptyText: 'Select a country...',
-          reference: 'country'
-        }, {
-          xtype: 'textfield',
+          reference: 'country',
+          bind:{
+            store:'{countries}'
+          }
+        },
+        {
           fieldLabel: 'Contact Id *',
           name: 'contact_owner_id',
           allowBlank: 'false'

@@ -9083,6 +9083,10 @@ tr.x-grid-subtable-row {
     height: 50px;
     font-size: 16px;
 }
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/Grid.scss:1 */
+.edit-icon {
+    background-color: rebeccapurple;
+}
 /* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:1 */
 .filter-button,
 .export-button,

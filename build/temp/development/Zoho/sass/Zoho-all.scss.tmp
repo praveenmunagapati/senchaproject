@@ -1633,6 +1633,14 @@ $current-resource-root: $default-resource-root;
 $relative-image-path-for-uis: $default-resource-path;
 @import '../../../../../packages/local/contacts/src/view/contacts/addcontact/AddContact';
 
+/* including scss file adjacent to ../../../../../packages/local/contacts/src/view/contacts/allcontacts/Grid.js */
+$default-resource-root: '' !default;
+$default-resource-path: 'images' !default;
+$current-package: false;
+$current-resource-root: $default-resource-root;
+$relative-image-path-for-uis: $default-resource-path;
+@import '../../../../../packages/local/contacts/src/view/contacts/allcontacts/Grid';
+
 /* including scss file adjacent to ../../../../../packages/local/contacts/src/view/contacts/allcontacts/AllContacts.js */
 $default-resource-root: '' !default;
 $default-resource-path: 'images' !default;
