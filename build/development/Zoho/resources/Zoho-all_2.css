@@ -9145,6 +9145,61 @@ tr.x-grid-subtable-row {
 .searchfield .x-form-trigger {
     vertical-align: middle !important;
 }
+/* /var/www/html/SenchaProject/zoho/app/view/main/login/Login.scss:1 */
+.login-main-container {
+    background: url('images/loginbackground.png');
+    background-color: black;
+    opacity: 0.9;
+}
+/* /var/www/html/SenchaProject/zoho/app/view/main/login/Login.scss:7 */
+.login-header {
+    background-color: #f7f7f7;
+}
+/* /var/www/html/SenchaProject/zoho/app/view/main/login/Login.scss:11 */
+.login-heading {
+    text-align: center;
+}
+/* /var/www/html/SenchaProject/zoho/app/view/main/login/Login.scss:15 */
+.head {
+    font-family: Muli, Bold;
+    color: #000;
+    font-size: 24px;
+}
+/* /var/www/html/SenchaProject/zoho/app/view/main/login/Login.scss:21 */
+.welcome-text {
+    font-family: Muli, Regular;
+    color: #403e3d;
+    font-size: 15px;
+}
+/* /var/www/html/SenchaProject/zoho/app/view/main/login/Login.scss:27 */
+.login-form .x-panel-body-default {
+    background-color: #f7f7f7;
+}
+/* /var/www/html/SenchaProject/zoho/app/view/main/login/Login.scss:31 */
+.label-cls .x-form-item-label-text {
+    font-family: Muli, SemiBold;
+    color: #000;
+    font-size: 13px;
+}
+/* /var/www/html/SenchaProject/zoho/app/view/main/login/Login.scss:37 */
+.remember-me .x-form-item-label-text {
+    color: #403e3d;
+    font-family: Muli, SemiBold;
+    font-size: 13px;
+}
+/* /var/www/html/SenchaProject/zoho/app/view/main/login/Login.scss:43 */
+.login-button {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 0 auto;
+    align-self: center;
+}
+/* /var/www/html/SenchaProject/zoho/app/view/main/login/Login.scss:52 */
+.login-button:hover {
+    background-color: #000;
+}
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-tab-navigation-top {
     -webkit-border-radius: 0;

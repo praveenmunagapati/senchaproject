@@ -20,6 +20,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContactVC', {
     saveFormData: function (button) {
 
         // All form variables
+<<<<<<< HEAD
 
         var form = button.up('editcontact').getForm();
 
@@ -43,6 +44,22 @@ Ext.define('Contacts.view.contacts.editcontact.EditContactVC', {
             }
         });
         // console.log(form);
+=======
+        var store = Ext.create('Contacts.store.Contacts');
+        var form = button.up('editcontact').getForm();
+        if (form.isValid()) {
+            store.add(form.getValues());
+            store.sync({
+                success: function (response, opts) {
+                    Ext.toast('Record successfully submitted');
+                },
+
+                failure: function (response, opts) {
+                    Ext.toast('Record is not submitted');
+                }
+            });
+        }
+>>>>>>> Completed adding login page and export functionality
     }
 
 });

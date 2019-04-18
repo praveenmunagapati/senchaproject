@@ -23,10 +23,17 @@ Ext.define('Contacts.store.Contacts', {
         type: 'rest',
         url: 'http://ddost.walkingtree.in',
         api: {
+<<<<<<< HEAD
         create: 'http://ddost.walkingtree.in/contact',
         read: 'http://ddost.walkingtree.in/contact',
         update: 'http://ddost.walkingtree.in/contacts',
         destroy: 'http://ddost.walkingtree.in/contacts'
+=======
+            create: 'http://ddost.walkingtree.in/contact',
+            read: 'http://ddost.walkingtree.in/contact',
+            update: 'http://ddost.walkingtree.in/contact',
+            destroy: 'http://ddost.walkingtree.in/contact'
+>>>>>>> Completed adding login page and export functionality
         },
         reader: {
         // type: 'json',

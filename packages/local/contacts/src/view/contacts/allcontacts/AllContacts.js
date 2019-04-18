@@ -65,7 +65,8 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                     xtype: 'button',
                     cls: 'export-button',
                     text: 'Export',
-                    margin: '0 10'
+                    margin: '0 10',
+                    handler: 'onGridExport'
                 }, {
                     text: 'Add Columns',
                     arrowVisible: false,

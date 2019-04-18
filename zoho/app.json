@@ -18,7 +18,8 @@
     "requires": [
         "font-awesome",
         "contacts",
-        "ux"
+        "ux",
+        "exporter"
     ],
 
     /**

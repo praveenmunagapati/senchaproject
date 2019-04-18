@@ -88,10 +88,68 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContactsVC', {
         }
 
         for (i = 0; i < toShow.length; i++) {
+<<<<<<< HEAD
             console.log(btn.up('allcontacts').down('gridview').getColumns()[toShow[i]].setHidden(false));
+=======
+            btn.up('allcontacts').down('gridview').getColumns()[toShow[i]].setHidden(false);
+        }
+    },
+
+
+
+
+    // Function to change the card view in contacts tab
+    // Here ViewModel of the contacts page is being fetched from contacts page and
+    // Getting the view of that ViewModel
+    // Setting active item of that view
+
+    displayEditContacts: function (button) {
+        var viewModel = button.up('contacts').getViewModel();
+        // viewModel.data.activeItem='editcontact';
+
+        var contactsView = viewModel.getView();
+        contactsView.setActiveItem('editcontact');
+    },
+
+
+
+    // Function to search and filter out records using change event
+
+    onSearchfieldChange: function (search) {
+        var firstName = search.value;
+        // console.log(firstName, company, mobile);
+        var viewModel = search.up('allcontacts').getViewModel();
+        var store = viewModel.getStore('Contacts');
+        console.log(viewModel, store);
+        store.filter([
+            { property: 'firstname', value: firstName }
+            // {property:'email_address', value:email}
+        ]);
+    },
+
+
+
+    // Function to show a textfield when checkbox is clicked
+    onChange: function (checkbox) {
+        if (checkbox.boxLabel === 'First Name') {
+            textField = checkbox.up('filterform').lookupReference('firstname');
+        } else {
+            textField = checkbox.up('filterform').lookupReference('company');
+>>>>>>> Completed adding login page and export functionality
         }
     }
 
 
+
+    // Function to export grid data
+    onGridExport: function(button){
+        var grid = button.up('allcontacts').down('gridview');
+         console.log(grid);
+         grid.saveDocumentAs({    
+            type: 'csv',  // What other possible values can go here
+            title: 'griddata',
+            fileName: 'griddata.csv'
+   });
+    },
 
 });

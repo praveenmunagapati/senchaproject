@@ -215,11 +215,21 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
           typeAhead: true,
           queryMode: 'local',
           emptyText: 'Select a country...',
+<<<<<<< HEAD
           reference: 'country',
           bind:{
             store:'{countries}'
           }
         },
+=======
+          reference: 'country'
+        }, {
+          xtype: 'textfield',
+          fieldLabel: 'Contact Id *',
+          name: 'contact_owner_id',
+          allowBlank: 'false'
+        }
+>>>>>>> Completed adding login page and export functionality
       ]
     }, {
       xtype: 'fieldcontainer',

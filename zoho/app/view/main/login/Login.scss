@@ -1,0 +1,54 @@
+.login-main-container{
+    background: url('images/loginbackground.png');
+    background-color: black;
+    opacity: 0.9;
+}
+
+.login-header{
+    background-color: rgba(247, 247, 247, 1);
+}
+
+.login-heading{
+    text-align: center;    
+}        
+
+.head{
+    font-family: Muli, Bold;
+    color: rgba(0, 0, 0, 1);
+    font-size: 24px;   
+}
+
+.welcome-text{
+    font-family: Muli, Regular;  
+    color: rgba(64, 62, 61, 1);
+    font-size: 15px; 
+}
+
+.login-form .x-panel-body-default{
+    background-color: rgba(247, 247, 247, 1);
+}
+
+.label-cls .x-form-item-label-text{
+    font-family: Muli, SemiBold;  
+    color: rgba(0, 0, 0, 1);
+    font-size: 13px; 
+}
+
+.remember-me .x-form-item-label-text{
+    color: rgba(64, 62, 61, 1);
+    font-family: Muli, SemiBold;  
+    font-size: 13px;     
+}
+
+.login-button{
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 0 auto;
+    align-self: center;
+}
+
+.login-button:hover{
+    background-color: rgba(0, 0, 0, 1);     
+}

@@ -366,6 +366,82 @@ $include-ext-event-publisher-focus: dynamic(true);;
 $include-ext-event-publisher-gesture: dynamic(true);;
 $include-ext-event-publisher-mouseenterleave: dynamic(true);;
 $include-ext-event-publisher-publisher: dynamic(true);;
+$include-ext-exporter-base: dynamic(true);;
+$include-ext-exporter-excel: dynamic(true);;
+$include-ext-exporter-file: dynamic(true);;
+$include-ext-exporter-plugin: dynamic(true);;
+$include-ext-exporter-data-base: dynamic(true);;
+$include-ext-exporter-data-cell: dynamic(true);;
+$include-ext-exporter-data-column: dynamic(true);;
+$include-ext-exporter-data-group: dynamic(true);;
+$include-ext-exporter-data-row: dynamic(true);;
+$include-ext-exporter-data-table: dynamic(true);;
+$include-ext-exporter-excel-xlsx: dynamic(true);;
+$include-ext-exporter-excel-xml: dynamic(true);;
+$include-ext-exporter-file-base: dynamic(true);;
+$include-ext-exporter-file-style: dynamic(true);;
+$include-ext-exporter-file-excel-cell: dynamic(true);;
+$include-ext-exporter-file-excel-column: dynamic(true);;
+$include-ext-exporter-file-excel-row: dynamic(true);;
+$include-ext-exporter-file-excel-style: dynamic(true);;
+$include-ext-exporter-file-excel-table: dynamic(true);;
+$include-ext-exporter-file-excel-workbook: dynamic(true);;
+$include-ext-exporter-file-excel-worksheet: dynamic(true);;
+$include-ext-exporter-file-html-doc: dynamic(true);;
+$include-ext-exporter-file-html-style: dynamic(true);;
+$include-ext-exporter-file-ooxml-base: dynamic(true);;
+$include-ext-exporter-file-ooxml-contenttype: dynamic(true);;
+$include-ext-exporter-file-ooxml-contenttypes: dynamic(true);;
+$include-ext-exporter-file-ooxml-coreproperties: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel: dynamic(true);;
+$include-ext-exporter-file-ooxml-relationship: dynamic(true);;
+$include-ext-exporter-file-ooxml-relationships: dynamic(true);;
+$include-ext-exporter-file-ooxml-xml: dynamic(true);;
+$include-ext-exporter-file-ooxml-xmlrels: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-autosortscope: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-border: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-borderpr: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-cachefield: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-cachesource: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-cell: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-cellalignment: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-cellstylexf: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-cellxf: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-column: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-datafield: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-field: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-fielditem: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-fill: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-font: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-item: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-location: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-numberformat: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-pagefield: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-pivotarea: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-pivotareareference: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-pivotcache: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-pivotcachedefinition: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-pivotcacherecords: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-pivotfield: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-pivottable: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-pivottablestyleinfo: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-record: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-row: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-shareditems: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-sharedstrings: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-sheet: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-stylesheet: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-workbook: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-worksheet: dynamic(true);;
+$include-ext-exporter-file-ooxml-excel-worksheetsource: dynamic(true);;
+$include-ext-exporter-file-ooxml-theme-base: dynamic(true);;
+$include-ext-exporter-file-ooxml-theme-office: dynamic(true);;
+$include-ext-exporter-file-zip-archive: dynamic(true);;
+$include-ext-exporter-file-zip-file: dynamic(true);;
+$include-ext-exporter-file-zip-folder: dynamic(true);;
+$include-ext-exporter-text-csv: dynamic(true);;
+$include-ext-exporter-text-html: dynamic(true);;
+$include-ext-exporter-text-tsv: dynamic(true);;
 $include-ext-field-inputmask: dynamic(true);;
 $include-ext-flash-component: dynamic(true);;
 $include-ext-form-action: dynamic(true);;
@@ -550,11 +626,13 @@ $include-ext-grid-locking-headercontainer: dynamic(true);;
 $include-ext-grid-locking-lockable: dynamic(true);;
 $include-ext-grid-locking-rowsynchronizer: dynamic(true);;
 $include-ext-grid-locking-view: dynamic(true);;
+$include-ext-grid-plugin-baseexporter: dynamic(true);;
 $include-ext-grid-plugin-bufferedrenderer: dynamic(true);;
 $include-ext-grid-plugin-cellediting: dynamic(true);;
 $include-ext-grid-plugin-clipboard: dynamic(true);;
 $include-ext-grid-plugin-dragdrop: dynamic(true);;
 $include-ext-grid-plugin-editing: dynamic(true);;
+$include-ext-grid-plugin-exporter: dynamic(true);;
 $include-ext-grid-plugin-headerreorderer: dynamic(true);;
 $include-ext-grid-plugin-headerresizer: dynamic(true);;
 $include-ext-grid-plugin-rowediting: dynamic(true);;
@@ -682,6 +760,7 @@ $include-ext-overrides-dom-helper: dynamic(true);;
 $include-ext-overrides-event-event: dynamic(true);;
 $include-ext-overrides-event-publisher-dom: dynamic(true);;
 $include-ext-overrides-event-publisher-gesture: dynamic(true);;
+$include-ext-overrides-exporter-util-format: dynamic(true);;
 $include-ext-overrides-list-abstracttreeitem: dynamic(true);;
 $include-ext-overrides-list-tree: dynamic(true);;
 $include-ext-overrides-list-treeitem: dynamic(true);;
@@ -1038,6 +1117,7 @@ $include-zoho-view-main-list: dynamic(true);;
 $include-zoho-view-main-main: dynamic(true);;
 $include-zoho-view-main-maincontroller: dynamic(true);;
 $include-zoho-view-main-mainmodel: dynamic(true);;
+$include-zoho-view-msin-login-login: dynamic(true);;
 $output-paths: ("path": "../resources");
 
 /* ======================== ETC ======================== */
@@ -1304,6 +1384,295 @@ $current-resource-root: $ux-resource-root;
 $relative-image-path-for-uis: $ux-resource-path;
 @import '../../../../../ext/packages/ux/classic/sass/var/Gauge';
 @import '../../../../../ext/packages/ux/classic/sass/var/layout/ResponsiveColumn';
+
+
+/* ======================== RULE ======================== */
+
+/* including package core */
+$core-resource-root: '' !default;
+$core-resource-path: 'images' !default;
+$current-package: 'core';
+$current-resource-root: $core-resource-root;
+$relative-image-path-for-uis: $core-resource-path;
+@import '../../../../../ext/packages/core/sass/src/util/SizeMonitor';
+@import '../../../../../ext/packages/core/sass/src/util/PaintMonitor';
+@import '../../../../../ext/packages/core/sass/src/dom/Element';
+@import '../../../../../ext/packages/core/sass/src/ProgressBase';
+@import '../../../../../ext/packages/core/sass/src/scroll/Scroller';
+@import '../../../../../ext/packages/core/sass/src/dom/TouchAction';
+@import '../../../../../ext/packages/core/sass/src/drag/Source';
+@import '../../../../../ext/packages/core/sass/src/list/TreeItem';
+
+/* including package theme-base */
+$theme-base-resource-root: '' !default;
+$theme-base-resource-path: 'images' !default;
+$current-package: 'theme-base';
+$current-resource-root: $theme-base-resource-root;
+$relative-image-path-for-uis: $theme-base-resource-path;
+@import '../../../../../ext/classic/theme-base/sass/src/rtl/util/Renderable';
+@import '../../../../../ext/classic/theme-base/sass/src/Component';
+@import '../../../../../ext/classic/theme-base/sass/src/layout/container/Container';
+@import '../../../../../ext/classic/theme-base/sass/src/layout/container/Auto';
+@import '../../../../../ext/classic/theme-base/sass/src/LoadMask';
+@import '../../../../../ext/classic/theme-base/sass/src/ProgressBar';
+@import '../../../../../ext/classic/theme-base/sass/src/button/Button';
+@import '../../../../../ext/classic/theme-base/sass/src/button/Segmented';
+@import '../../../../../ext/classic/theme-base/sass/src/panel/Title';
+@import '../../../../../ext/classic/theme-base/sass/src/panel/Tool';
+@import '../../../../../ext/classic/theme-base/sass/src/panel/Header';
+@import '../../../../../ext/classic/theme-base/sass/src/resizer/Splitter';
+@import '../../../../../ext/classic/theme-base/sass/src/layout/container/Box';
+@import '../../../../../ext/classic/theme-base/sass/src/toolbar/Toolbar';
+@import '../../../../../ext/classic/theme-base/sass/src/dd/DD';
+@import '../../../../../ext/classic/theme-base/sass/src/dd/StatusProxy';
+@import '../../../../../ext/classic/theme-base/sass/src/layout/component/Dock';
+@import '../../../../../ext/classic/theme-base/sass/src/panel/Panel';
+@import '../../../../../ext/classic/theme-base/sass/src/layout/container/Table';
+@import '../../../../../ext/classic/theme-base/sass/src/container/ButtonGroup';
+@import '../../../../../ext/classic/theme-base/sass/src/plugin/Viewport';
+@import '../../../../../ext/classic/theme-base/sass/src/layout/container/Column';
+@import '../../../../../ext/classic/theme-base/sass/src/resizer/SplitterTracker';
+@import '../../../../../ext/classic/theme-base/sass/src/window/Window';
+@import '../../../../../ext/classic/theme-base/sass/src/form/Labelable';
+@import '../../../../../ext/classic/theme-base/sass/src/form/field/Text';
+@import '../../../../../ext/classic/theme-base/sass/src/form/field/TextArea';
+@import '../../../../../ext/classic/theme-base/sass/src/window/MessageBox';
+@import '../../../../../ext/classic/theme-base/sass/src/form/FieldContainer';
+@import '../../../../../ext/classic/theme-base/sass/src/form/field/Checkbox';
+@import '../../../../../ext/classic/theme-base/sass/src/form/FieldSet';
+@import '../../../../../ext/classic/theme-base/sass/src/view/View';
+@import '../../../../../ext/classic/theme-base/sass/src/view/BoundList';
+@import '../../../../../ext/classic/theme-base/sass/src/picker/Date';
+@import '../../../../../ext/classic/theme-base/sass/src/form/field/Display';
+@import '../../../../../ext/classic/theme-base/sass/src/form/trigger/Component';
+@import '../../../../../ext/classic/theme-base/sass/src/form/field/File';
+@import '../../../../../ext/classic/theme-base/sass/src/form/field/Hidden';
+@import '../../../../../ext/classic/theme-base/sass/src/tip/Tip';
+@import '../../../../../ext/classic/theme-base/sass/src/picker/Color';
+@import '../../../../../ext/classic/theme-base/sass/src/form/field/HtmlEditor';
+@import '../../../../../ext/classic/theme-base/sass/src/form/field/Tag';
+@import '../../../../../ext/classic/theme-base/sass/src/layout/container/Fit';
+@import '../../../../../ext/classic/theme-base/sass/src/panel/Table';
+@import '../../../../../ext/classic/theme-base/sass/src/view/Table';
+@import '../../../../../ext/classic/theme-base/sass/src/grid/header/DropZone';
+@import '../../../../../ext/classic/theme-base/sass/src/grid/header/Container';
+@import '../../../../../ext/classic/theme-base/sass/src/grid/column/Column';
+@import '../../../../../ext/classic/theme-base/sass/src/grid/column/Action';
+@import '../../../../../ext/classic/theme-base/sass/src/grid/column/Check';
+@import '../../../../../ext/classic/theme-base/sass/src/grid/feature/Grouping';
+@import '../../../../../ext/classic/theme-base/sass/src/grid/feature/RowBody';
+@import '../../../../../ext/classic/theme-base/sass/src/menu/Menu';
+@import '../../../../../ext/classic/theme-base/sass/src/grid/locking/Lockable';
+@import '../../../../../ext/classic/theme-base/sass/src/grid/plugin/Editing';
+@import '../../../../../ext/classic/theme-base/sass/src/grid/plugin/RowEditing';
+@import '../../../../../ext/classic/theme-base/sass/src/grid/plugin/RowExpander';
+@import '../../../../../ext/classic/theme-base/sass/src/grid/selection/SpreadsheetModel';
+@import '../../../../../ext/classic/theme-base/sass/src/layout/container/Absolute';
+@import '../../../../../ext/classic/theme-base/sass/src/layout/container/Border';
+@import '../../../../../ext/classic/theme-base/sass/src/layout/container/Center';
+@import '../../../../../ext/classic/theme-base/sass/src/layout/container/Form';
+@import '../../../../../ext/classic/theme-base/sass/src/resizer/Resizer';
+@import '../../../../../ext/classic/theme-base/sass/src/slider/Multi';
+@import '../../../../../ext/classic/theme-base/sass/src/tab/Tab';
+@import '../../../../../ext/classic/theme-base/sass/src/tab/Bar';
+@import '../../../../../ext/classic/theme-base/sass/src/toolbar/Breadcrumb';
+@import '../../../../../ext/classic/theme-base/sass/src/tree/View';
+
+/* including package theme-neutral */
+$theme-neutral-resource-root: '' !default;
+$theme-neutral-resource-path: 'images' !default;
+$current-package: 'theme-neutral';
+$current-resource-root: $theme-neutral-resource-root;
+$relative-image-path-for-uis: $theme-neutral-resource-path;
+@import '../../../../../ext/classic/theme-neutral/sass/src/Component';
+@import '../../../../../ext/classic/theme-neutral/sass/src/Editor';
+@import '../../../../../ext/classic/theme-neutral/sass/src/LoadMask';
+@import '../../../../../ext/classic/theme-neutral/sass/src/ProgressBar';
+@import '../../../../../ext/classic/theme-neutral/sass/src/button/Button';
+@import '../../../../../ext/classic/theme-neutral/sass/src/panel/Tool';
+@import '../../../../../ext/classic/theme-neutral/sass/src/panel/Header';
+@import '../../../../../ext/classic/theme-neutral/sass/src/resizer/Splitter';
+@import '../../../../../ext/classic/theme-neutral/sass/src/toolbar/Toolbar';
+@import '../../../../../ext/classic/theme-neutral/sass/src/dd/StatusProxy';
+@import '../../../../../ext/classic/theme-neutral/sass/src/panel/Panel';
+@import '../../../../../ext/classic/theme-neutral/sass/src/container/ButtonGroup';
+@import '../../../../../ext/classic/theme-neutral/sass/src/dashboard/Dashboard';
+@import '../../../../../ext/classic/theme-neutral/sass/src/window/Window';
+@import '../../../../../ext/classic/theme-neutral/sass/src/form/Labelable';
+@import '../../../../../ext/classic/theme-neutral/sass/src/form/field/Text';
+@import '../../../../../ext/classic/theme-neutral/sass/src/window/MessageBox';
+@import '../../../../../ext/classic/theme-neutral/sass/src/form/field/Checkbox';
+@import '../../../../../ext/classic/theme-neutral/sass/src/form/CheckboxGroup';
+@import '../../../../../ext/classic/theme-neutral/sass/src/form/FieldSet';
+@import '../../../../../ext/classic/theme-neutral/sass/src/form/trigger/Spinner';
+@import '../../../../../ext/classic/theme-neutral/sass/src/toolbar/Paging';
+@import '../../../../../ext/classic/theme-neutral/sass/src/view/BoundList';
+@import '../../../../../ext/classic/theme-neutral/sass/src/picker/Date';
+@import '../../../../../ext/classic/theme-neutral/sass/src/form/field/Date';
+@import '../../../../../ext/classic/theme-neutral/sass/src/form/field/Display';
+@import '../../../../../ext/classic/theme-neutral/sass/src/tip/Tip';
+@import '../../../../../ext/classic/theme-neutral/sass/src/picker/Color';
+@import '../../../../../ext/classic/theme-neutral/sass/src/form/field/HtmlEditor';
+@import '../../../../../ext/classic/theme-neutral/sass/src/form/field/Tag';
+@import '../../../../../ext/classic/theme-neutral/sass/src/view/Table';
+@import '../../../../../ext/classic/theme-neutral/sass/src/view/DropZone';
+@import '../../../../../ext/classic/theme-neutral/sass/src/grid/header/DropZone';
+@import '../../../../../ext/classic/theme-neutral/sass/src/grid/header/Container';
+@import '../../../../../ext/classic/theme-neutral/sass/src/grid/column/Column';
+@import '../../../../../ext/classic/theme-neutral/sass/src/grid/column/Action';
+@import '../../../../../ext/classic/theme-neutral/sass/src/grid/column/Check';
+@import '../../../../../ext/classic/theme-neutral/sass/src/grid/column/RowNumberer';
+@import '../../../../../ext/classic/theme-neutral/sass/src/grid/column/Widget';
+@import '../../../../../ext/classic/theme-neutral/sass/src/grid/feature/Grouping';
+@import '../../../../../ext/classic/theme-neutral/sass/src/grid/feature/RowBody';
+@import '../../../../../ext/classic/theme-neutral/sass/src/grid/feature/Summary';
+@import '../../../../../ext/classic/theme-neutral/sass/src/menu/Menu';
+@import '../../../../../ext/classic/theme-neutral/sass/src/grid/filters/Filters';
+@import '../../../../../ext/classic/theme-neutral/sass/src/grid/locking/Lockable';
+@import '../../../../../ext/classic/theme-neutral/sass/src/grid/plugin/Editing';
+@import '../../../../../ext/classic/theme-neutral/sass/src/grid/plugin/CellEditing';
+@import '../../../../../ext/classic/theme-neutral/sass/src/grid/plugin/RowEditing';
+@import '../../../../../ext/classic/theme-neutral/sass/src/grid/plugin/RowExpander';
+@import '../../../../../ext/classic/theme-neutral/sass/src/grid/property/Grid';
+@import '../../../../../ext/classic/theme-neutral/sass/src/grid/selection/SpreadsheetModel';
+@import '../../../../../ext/classic/theme-neutral/sass/src/layout/container/Accordion';
+@import '../../../../../ext/classic/theme-neutral/sass/src/layout/container/Border';
+@import '../../../../../ext/classic/theme-neutral/sass/src/layout/container/Form';
+@import '../../../../../ext/classic/theme-neutral/sass/src/resizer/Resizer';
+@import '../../../../../ext/classic/theme-neutral/sass/src/slider/Multi';
+@import '../../../../../ext/classic/theme-neutral/sass/src/tab/Bar';
+@import '../../../../../ext/classic/theme-neutral/sass/src/toolbar/Breadcrumb';
+@import '../../../../../ext/classic/theme-neutral/sass/src/tree/View';
+@import '../../../../../ext/classic/theme-neutral/sass/src/tree/ViewDropZone';
+@import '../../../../../ext/classic/theme-neutral/sass/src/view/MultiSelector';
+@import '../../../../../ext/classic/theme-neutral/sass/src/window/Toast';
+
+/* including package theme-neptune */
+$theme-neptune-resource-root: '' !default;
+$theme-neptune-resource-path: 'images' !default;
+$current-package: 'theme-neptune';
+$current-resource-root: $theme-neptune-resource-root;
+$relative-image-path-for-uis: $theme-neptune-resource-path;
+@import '../../../../../ext/classic/theme-neptune/sass/src/button/Button';
+@import '../../../../../ext/classic/theme-neptune/sass/src/panel/Panel';
+@import '../../../../../ext/classic/theme-neptune/sass/src/form/field/File';
+@import '../../../../../ext/classic/theme-neptune/sass/src/form/field/HtmlEditor';
+@import '../../../../../ext/classic/theme-neptune/sass/src/grid/header/Container';
+@import '../../../../../ext/classic/theme-neptune/sass/src/grid/column/Column';
+@import '../../../../../ext/classic/theme-neptune/sass/src/resizer/Resizer';
+
+/* including package font-awesome */
+$font-awesome-resource-root: 'font-awesome' !default;
+$font-awesome-resource-path: 'font-awesome/images' !default;
+$current-package: 'font-awesome';
+$current-resource-root: $font-awesome-resource-root;
+$relative-image-path-for-uis: $font-awesome-resource-path;
+@import '../../../../../ext/packages/font-awesome/sass/src/all';
+
+/* including package font-ext */
+$font-ext-resource-root: 'font-ext' !default;
+$font-ext-resource-path: 'font-ext/images' !default;
+$current-package: 'font-ext';
+$current-resource-root: $font-ext-resource-root;
+$relative-image-path-for-uis: $font-ext-resource-path;
+@import '../../../../../ext/packages/font-ext/sass/src/all';
+
+/* including package theme-triton */
+$theme-triton-resource-root: '' !default;
+$theme-triton-resource-path: 'images' !default;
+$current-package: 'theme-triton';
+$current-resource-root: $theme-triton-resource-root;
+$relative-image-path-for-uis: $theme-triton-resource-path;
+@import '../../../../../ext/classic/theme-triton/sass/src/Component';
+@import '../../../../../ext/classic/theme-triton/sass/src/form/FieldSet';
+@import '../../../../../ext/classic/theme-triton/sass/src/form/field/Tag';
+@import '../../../../../ext/classic/theme-triton/sass/src/menu/Menu';
+@import '../../../../../ext/classic/theme-triton/sass/src/tab/Tab';
+@import '../../../../../ext/classic/theme-triton/sass/src/toolbar/Breadcrumb';
+@import '../../../../../ext/classic/theme-triton/sass/src/window/Toast';
+
+/* including package ux */
+$ux-resource-root: 'ux' !default;
+$ux-resource-path: 'ux/images' !default;
+$current-package: 'ux';
+$current-resource-root: $ux-resource-root;
+$relative-image-path-for-uis: $ux-resource-path;
+@import '../../../../../ext/packages/ux/sass/src/Gauge';
+@import '../../../../../ext/packages/ux/sass/src/rating/Picker';
+
+/* including package ux */
+$ux-resource-root: 'ux' !default;
+$ux-resource-path: 'ux/images' !default;
+$current-package: 'ux';
+$current-resource-root: $ux-resource-root;
+$relative-image-path-for-uis: $ux-resource-path;
+@import '../../../../../ext/packages/ux/classic/sass/src/DataView/DragSelector';
+@import '../../../../../ext/packages/ux/classic/sass/src/Explorer';
+@import '../../../../../ext/packages/ux/classic/sass/src/statusbar/StatusBar';
+@import '../../../../../ext/packages/ux/classic/sass/src/LiveSearchGridPanel';
+@import '../../../../../ext/packages/ux/classic/sass/src/TabScrollerMenu';
+@import '../../../../../ext/packages/ux/classic/sass/src/colorpick/Selector';
+@import '../../../../../ext/packages/ux/classic/sass/src/colorpick/Button';
+@import '../../../../../ext/packages/ux/classic/sass/src/colorpick/Field';
+@import '../../../../../ext/packages/ux/classic/sass/src/form/ItemSelector';
+@import '../../../../../ext/packages/ux/classic/sass/src/grid/SubTable';
+@import '../../../../../ext/packages/ux/classic/sass/src/layout/ResponsiveColumn';
+
+/* including scss file adjacent to ../../../../../packages/local/contacts/src/view/contacts/editcontact/EditContact.js */
+$default-resource-root: '' !default;
+$default-resource-path: 'images' !default;
+$current-package: false;
+$current-resource-root: $default-resource-root;
+$relative-image-path-for-uis: $default-resource-path;
+@import '../../../../../packages/local/contacts/src/view/contacts/editcontact/EditContact';
+
+/* including scss file adjacent to ../../../../../packages/local/contacts/src/view/contacts/addcontact/AddContact.js */
+$default-resource-root: '' !default;
+$default-resource-path: 'images' !default;
+$current-package: false;
+$current-resource-root: $default-resource-root;
+$relative-image-path-for-uis: $default-resource-path;
+@import '../../../../../packages/local/contacts/src/view/contacts/addcontact/AddContact';
+
+/* including scss file adjacent to ../../../../../packages/local/contacts/src/view/contacts/allcontacts/AllContacts.js */
+$default-resource-root: '' !default;
+$default-resource-path: 'images' !default;
+$current-package: false;
+$current-resource-root: $default-resource-root;
+$relative-image-path-for-uis: $default-resource-path;
+@import '../../../../../packages/local/contacts/src/view/contacts/allcontacts/AllContacts';
+
+/* including scss file adjacent to ../../../../../packages/local/contacts/src/view/contacts/Contacts.js */
+$default-resource-root: '' !default;
+$default-resource-path: 'images' !default;
+$current-package: false;
+$current-resource-root: $default-resource-root;
+$relative-image-path-for-uis: $default-resource-path;
+@import '../../../../../packages/local/contacts/src/view/contacts/Contacts';
+
+/* including scss file adjacent to ../../../../../zoho/app/Application.js */
+$default-resource-root: '' !default;
+$default-resource-path: 'images' !default;
+$current-package: false;
+$current-resource-root: $default-resource-root;
+$relative-image-path-for-uis: $default-resource-path;
+@import '../../../../../zoho/app/Application';
+
+/* including scss file adjacent to ../../../../../zoho/app/view/main/login/Login.js */
+$default-resource-root: '' !default;
+$default-resource-path: 'images' !default;
+$current-package: false;
+$current-resource-root: $default-resource-root;
+$relative-image-path-for-uis: $default-resource-path;
+@import '../../../../../zoho/app/view/main/login/Login';
+
+/* including scss file adjacent to ../../../../../zoho/app/view/main/Main.js */
+$default-resource-root: '' !default;
+$default-resource-path: 'images' !default;
+$current-package: false;
+$current-resource-root: $default-resource-root;
+$relative-image-path-for-uis: $default-resource-path;
+@import '../../../../../zoho/app/view/main/Main';
 
 
 /* ======================== RULE ======================== */

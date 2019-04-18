@@ -265,7 +265,8 @@
          *      }
          */
         "requires": [
-            "ux"
+            "ux",
+            "exporter"
         ]
     }
 }

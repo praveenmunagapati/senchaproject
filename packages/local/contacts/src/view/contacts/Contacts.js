@@ -6,7 +6,7 @@ Ext.define('Contacts.view.contacts.Contacts', {
         'Contacts.view.contacts.editcontact.EditContact',
         'Contacts.view.contacts.addcontact.AddContact',
         'Contacts.view.contacts.allcontacts.AllContacts',
-        'Contacts.view.contacts.ContactsVM'
+        'Contacts.view.contacts.ContactsVM',
     ],
 
     //   controller: 'contacts-vc',
@@ -29,16 +29,14 @@ Ext.define('Contacts.view.contacts.Contacts', {
     // activeItem: 'editcontact',
     items: [
         {
-            // html: 'Contacts',
-            xtype: 'addcontact',
-            itemId: 'addcontact'
-        }, {
-            xtype: 'editcontact',
-            itemId: 'editcontact'
-        }, {
-            //   html: 'Display Gridkkkkk',
-            xtype: 'allcontacts',
-            itemId: 'allcontacts'
-        }
+        xtype: 'addcontact',
+        itemId: 'addcontact'
+    }, {
+        xtype: 'editcontact',
+        itemId: 'editcontact'
+    }, {
+        xtype: 'allcontacts',
+        itemId: 'allcontacts'
+    }
     ]
 });

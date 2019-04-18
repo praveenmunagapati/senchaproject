@@ -1,6 +1,7 @@
 Ext.define('Contacts.view.contacts.allcontacts.Grid', {
     extend: 'Ext.grid.Panel',
     xtype: 'gridview',
+<<<<<<< HEAD
    requires:[
     'Contacts.view.contacts.allcontacts.GridVM'
    ], 
@@ -11,6 +12,27 @@ Ext.define('Contacts.view.contacts.allcontacts.Grid', {
     },
     listeners:{
         rowclick:'onRowClick'
+=======
+    requires: [
+        'Contacts.view.contacts.allcontacts.GridVM',
+        'Contacts.view.contacts.allcontacts.GridVC',
+        'Ext.grid.plugin.Exporter',
+        'Ext.exporter.text.CSV'
+    ],
+
+    controller: 'gridvc',
+
+    listeners: {
+        selectionchange: 'onSelectionChange'
+    },
+
+    plugins: 'gridexporter',
+
+    selModel: {
+        selType: 'checkboxmodel',
+        headerText: 'Select All',
+        headerWidth: 100,
+>>>>>>> Completed adding login page and export functionality
     },
     columns: [
 
