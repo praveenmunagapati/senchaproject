@@ -20,31 +20,6 @@ Ext.define('Contacts.view.contacts.editcontact.EditContactVC', {
     saveFormData: function (button) {
 
         // All form variables
-<<<<<<< HEAD
-
-        var form = button.up('editcontact').getForm();
-
-        var formData = form.getFieldValues();
-
-        Ext.Ajax.request({
-            url: 'http://ddost.walkingtree.in/contact/',
-            method: "POST",
-            // type: "json",
-            data: formData,
-
-            success: function(response, opts) {
-                // var obj = Ext.decode(response.responseText);
-                // console.dir(obj);
-                Ext.toast('Record successfully submitted');
-            },
-       
-            failure: function(response, opts) {
-                Ext.toast('Record is not submitted');
-                // console.log('server-side failure with status code ' + response.status);
-            }
-        });
-        // console.log(form);
-=======
         var store = Ext.create('Contacts.store.Contacts');
         var form = button.up('editcontact').getForm();
         if (form.isValid()) {
@@ -59,7 +34,6 @@ Ext.define('Contacts.view.contacts.editcontact.EditContactVC', {
                 }
             });
         }
->>>>>>> Completed adding login page and export functionality
     }
 
 });

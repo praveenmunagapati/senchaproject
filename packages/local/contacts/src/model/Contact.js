@@ -1,40 +1,4 @@
 Ext.define('Contacts.model.Contact',
-<<<<<<< HEAD
-  {
-    extend: 'Ext.data.Model',
-
-    fields: [
-    {
-        xtype: 'checkcolumn',
-        
-    },
-    {
-      name: 'firstname',
-      type: 'string'
-    },
-    {
-      name:'email',
-      type:'string'
-    },
-    {
-        name:'companyName',
-        type:'string'
-    },
-    {
-        name:'title',
-        type:'string'
-    },
-    {
-        name:'state',
-        type:'string'
-    },
-    {
-        name:'mobile',
-        type:'string'
-    }
-]
-});
-=======
     {
         extend: 'Ext.data.Model',
 
@@ -74,4 +38,3 @@ Ext.define('Contacts.model.Contact',
             }
         ]
     });
->>>>>>> Completed adding login page and export functionality
