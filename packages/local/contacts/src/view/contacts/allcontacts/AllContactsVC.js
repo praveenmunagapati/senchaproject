@@ -21,8 +21,8 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContactsVC', {
         var store = viewModel.getStore('Contacts');
         // store.setRemoteFilter(true);
         store.filter([
-            { property: 'filter_by_name', value: firstName },
-            { property: 'filter_by_comanyname', value: company },
+            { property: 'firstname', value: firstName },
+            { property: 'orgname', value: company },
         ]);
 
         //console.log(store);

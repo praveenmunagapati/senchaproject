@@ -27,7 +27,7 @@ Ext.define('Zoho.view.main.Main', {
 
     layout: 'card',
 
-    activeItem: 'login',
+    activeItem: 'tabs',
 
     items: [{
         xtype: 'login',
