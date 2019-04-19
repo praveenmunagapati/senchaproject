@@ -1117,6 +1117,7 @@ $include-zoho-view-main-main: dynamic(true);;
 $include-zoho-view-main-maincontroller: dynamic(true);;
 $include-zoho-view-main-mainmodel: dynamic(true);;
 $include-zoho-view-main-login-login: dynamic(true);;
+$include-zoho-view-main-login-loginvc: dynamic(true);;
 $output-paths: ("path": "../resources");
 
 /* ======================== ETC ======================== */
@@ -1672,6 +1673,14 @@ $current-package: false;
 $current-resource-root: $default-resource-root;
 $relative-image-path-for-uis: $default-resource-path;
 @import '../../../../../zoho/app/view/main/login/Login';
+
+/* including scss file adjacent to ../../../../../zoho/app/view/login/Login.js */
+$default-resource-root: '' !default;
+$default-resource-path: 'images' !default;
+$current-package: false;
+$current-resource-root: $default-resource-root;
+$relative-image-path-for-uis: $default-resource-path;
+@import '../../../../../zoho/app/view/login/Login';
 
 /* including scss file adjacent to ../../../../../zoho/app/view/main/Main.js */
 $default-resource-root: '' !default;

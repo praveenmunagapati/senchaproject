@@ -14,7 +14,7 @@ Ext.define('Contacts.view.contacts.allcontacts.GridVC', {
     onSelectionChange: function (row, selected, eOpts) {
         var deleteButton = row.view.up('allcontacts').lookupReference('delete-button');
         console.log(selected);
-        if (selected) {
+        if (selected.length>0) {
             deleteButton.setDisabled(false);
             deleteButton.setListeners({
 
@@ -47,5 +47,23 @@ Ext.define('Contacts.view.contacts.allcontacts.GridVC', {
         } else {
             deleteButton.setDisabled(true);
         }
+    },
+
+
+  
+    // Function on grid row focused
+    onHover : function( record, event, item, index , eOpts){
+      var editButton =  record.up('gridview').down('actioncolumn');
+        console.log(event);
+      editButton.setListeners({
+        click: function(grid, rowIndex, colIndex) {
+            // var rec = grid.getStore().getAt(rowIndex);
+        grid.up('allcontacts').up('contacts').setActiveItem('editcontact');
+        var editContact = grid.up('allcontacts').up('contacts').down('editcontact');
+        var form = editContact.getForm().loadRecord(event);
+        console.log(form);
+        },
+      })
+       
     }
 });

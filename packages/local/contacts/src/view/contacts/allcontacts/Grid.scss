@@ -1,3 +1,10 @@
-.edit-icon{
-    background-color:rebeccapurple;
+.x-grid-row:hover .edit-icon {
+    display:inline-block;
+    height:16px;
+    width:16px;
+}
+
+.x-grid-row:hover .edit-icon:before {
+    content: "\f040";
+    color: #e67e22;
 }

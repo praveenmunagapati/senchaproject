@@ -10,10 +10,12 @@ Ext.define('Contacts.view.contacts.allcontacts.Grid', {
 
     controller: 'gridvc',
 
-    listeners: {
-        selectionchange: 'onSelectionChange'
+    
+    listeners:{
+        selectionchange:'onSelectionChange',
+        itemmouseenter: 'onHover'
     },
-
+        
     plugins: 'gridexporter',
 
     selModel: {
@@ -23,6 +25,16 @@ Ext.define('Contacts.view.contacts.allcontacts.Grid', {
     },
 
     columns: [{
+                xtype: 'actioncolumn',
+                width: 50,
+                align:'center',
+                iconCls: 'x-fa edit-icon',
+                tooltip: 'Edit',
+                // listeners:{
+                //     onF:'onClickEdit'
+                // }
+        },
+    {
         text: 'First Name ',
         dataIndex: 'firstname',
         enableColumnHide: true,

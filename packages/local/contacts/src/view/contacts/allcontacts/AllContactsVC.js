@@ -24,6 +24,7 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContactsVC', {
             { property: 'filter_by_name', value: firstName },
             { property: 'filter_by_comanyname', value: company },
         ]);
+
         //console.log(store);
     },
 
