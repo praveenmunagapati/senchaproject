@@ -13,6 +13,8 @@ Ext.define('Contacts.view.contacts.addcontact.AddContactVC', {
 
         var contactsView = viewModel.getView();
         contactsView.setActiveItem('editcontact');
+        var activeItem = contactsView.getLayout().getActiveItem().itemId;
+        this.redirectTo(activeItem);  
     }
 
 });

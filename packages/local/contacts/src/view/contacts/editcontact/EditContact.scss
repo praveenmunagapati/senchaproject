@@ -1,49 +1,57 @@
+
 .edit-photo-button{
     background:white;
     color:red;
-}
-
-.btn-browse .x-form-file-btn {
-    background-color: white !important;
+ }
+ 
+ .btn-browse .x-form-file-btn {
+    background-color: rgba(246, 246, 246, 1)!important;
     background-image: none !important;
     border: none;
     text-decoration: underline;
-
-}
-
-.btn-browse .x-btn-inner-default-small {
+ 
+ }
+ 
+ .btn-browse .x-btn-inner-default-small {
      color: black !important;
-}
-
-.edit-contact-heading{
+ }
+ 
+ .edit-contact-heading{
     font-size:large; 
     font-weight:bold;
-}
-
-.backcolor{
-    background-color: rgba(246, 246, 246, 1);
-    border-color: aqua;
-}
-
-.cancle-style{
+ }
+ 
+ 
+ 
+ .backcolor > .x-form-item-label > .x-form-item-label-inner-default > .x-form-item-label-text{
+    color: rgb(0, 0, 0);
+    padding-left:10px;
+    font-weight: bolder;
+    font-size:large;
+ }
+ 
+ .cancle-style{
     background-color:rgba(229, 229, 229, 1);
-    
     color:black;
     border:none;
-}
-.cancle-style:hover{
+ }
+ .cancle-style:hover{
     background-color:rgba(229, 229, 229, 1);
     height:'48px';
     width:'144px';
     color:black;
     border:none;
-}
-.save-style{
+ }
+ .save-style{
     background-color:rgba(0, 0, 0, 1);
     color:white;
     border:none;
-}
-.save-style:hover{
+ }
+ .save-style:hover{
     background-color:rgba(0, 0, 0, 1);
     color:white;
-}
+ }
+ 
+ .body-color .x-panel-body-default{
+    background-color:rgba(246, 246, 246, 1);
+ }

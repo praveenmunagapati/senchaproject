@@ -92,33 +92,34 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                                 xtype: 'checkboxgroup',
                                 defaults: {
                                     fontSize: 14,
-                                    padding: '0 0px'
+                                    padding: '0 0px',
+                                    checked: true
                                 },
                                 columns: 1,
                                 items: [{
                                     boxLabel: 'First Name',
-                                    inputValue: '1',
-                                    checked: false,
+                                    inputValue: '2',
+                                    // checked: false,
                                     reference: 'firstname'
                                 }, {
                                     boxLabel: 'Email ID',
-                                    inputValue: '2',
+                                    inputValue: '3',
                                     reference: 'email'
                                 }, {
                                     boxLabel: 'Company Name',
-                                    inputValue: '3',
+                                    inputValue: '4',
                                     reference: 'company'
                                 }, {
                                     boxLabel: 'Title',
-                                    inputValue: '4',
+                                    inputValue: '5',
                                     reference: 'title'
                                 }, {
                                     boxLabel: 'State',
-                                    inputValue: '5',
+                                    inputValue: '6',
                                     reference: 'state'
                                 }, {
                                     boxLabel: 'Mobile Number',
-                                    inputValue: '6',
+                                    inputValue: '7',
                                     reference: 'mobile'
                                 }],
                             }, {

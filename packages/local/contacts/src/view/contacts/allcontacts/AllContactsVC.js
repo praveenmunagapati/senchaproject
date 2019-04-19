@@ -58,52 +58,49 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContactsVC', {
         var toHide = [];
         var toShow = [];
         if (btn.up('allcontacts').lookupReference('firstname').value) {
-            toHide.push(btn.up('allcontacts').lookupReference('firstname').inputValue);
-        } else {
             toShow.push(btn.up('allcontacts').lookupReference('firstname').inputValue);
+        } else {
+            toHide.push(btn.up('allcontacts').lookupReference('firstname').inputValue);
         }
 
         if (btn.up('allcontacts').lookupReference('company').value) {
-            toHide.push(btn.up('allcontacts').lookupReference('company').inputValue);
-        } else {
             toShow.push(btn.up('allcontacts').lookupReference('company').inputValue);
+        } else {
+            toHide.push(btn.up('allcontacts').lookupReference('company').inputValue);
         }
 
 
         if (btn.up('allcontacts').lookupReference('mobile').value) {
-            toHide.push(btn.up('allcontacts').lookupReference('mobile').inputValue);
-        } else {
             toShow.push(btn.up('allcontacts').lookupReference('mobile').inputValue);
+        } else {
+            toHide.push(btn.up('allcontacts').lookupReference('mobile').inputValue);
 
         }
 
         if (btn.up('allcontacts').lookupReference('email').value) {
-            toHide.push(btn.up('allcontacts').lookupReference('email').inputValue);
-        } else {
             toShow.push(btn.up('allcontacts').lookupReference('email').inputValue);
+        } else {
+            toHide.push(btn.up('allcontacts').lookupReference('email').inputValue);
 
         }
 
         if (btn.up('allcontacts').lookupReference('title').value) {
-            toHide.push(btn.up('allcontacts').lookupReference('title').inputValue);
-        } else {
             toShow.push(btn.up('allcontacts').lookupReference('title').inputValue);
+        } else {
+            toHide.push(btn.up('allcontacts').lookupReference('title').inputValue);
 
         }
 
         if (btn.up('allcontacts').lookupReference('state').value) {
-            toHide.push(btn.up('allcontacts').lookupReference('state').inputValue);
-        } else {
             toShow.push(btn.up('allcontacts').lookupReference('state').inputValue);
+        } else {
+            toHide.push(btn.up('allcontacts').lookupReference('state').inputValue);
 
         }
-
-        // Loop to hide the checked columns using toHide[]
         for (i = 0; i < toHide.length; i++) {
             btn.up('allcontacts').down('gridview').getColumns()[toHide[i]].setHidden(true);
         }
 
-        // Loop to display the unchecked columns using toShow[]
         for (i = 0; i < toShow.length; i++) {
             btn.up('allcontacts').down('gridview').getColumns()[toShow[i]].setHidden(false);
         }
@@ -123,6 +120,8 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContactsVC', {
 
         var contactsView = viewModel.getView();
         contactsView.setActiveItem('editcontact');
+        var activeItem = contactsView.getLayout().getActiveItem().itemId;
+        this.redirectTo(activeItem);
     },
 
 
@@ -160,14 +159,14 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContactsVC', {
 
 
     // Function to export grid data
-    onGridExport: function(button){
+    onGridExport: function (button) {
         var grid = button.up('allcontacts').down('gridview');
-         console.log(grid);
-         grid.saveDocumentAs({    
+        console.log(grid);
+        grid.saveDocumentAs({
             type: 'csv',  // What other possible values can go here
             title: 'griddata',
             fileName: 'griddata.csv'
-   });
+        });
     },
 
 });

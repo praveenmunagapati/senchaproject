@@ -9,7 +9,7 @@ Ext.define('Contacts.view.contacts.Contacts', {
         'Contacts.view.contacts.ContactsVM',
     ],
 
-    //   controller: 'contacts-vc',
+    controller: 'contacts-vc',
     viewModel: {
         type: 'contacts-vm'
     },

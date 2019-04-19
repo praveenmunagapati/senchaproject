@@ -221,6 +221,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
           }
         },
         {
+          xtype: 'textfield',
           fieldLabel: 'Contact Id *',
           name: 'contact_owner_id',
           allowBlank: 'false'
