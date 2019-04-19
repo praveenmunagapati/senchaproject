@@ -18,7 +18,7 @@ Ext.define('Zoho.view.main.Main', {
         'Zoho.view.main.List',
 
         'Contacts.view.contacts.Contacts',
-        'Zoho.view.msin.login.Login'
+        'Zoho.view.main.login.Login'
     ],
 
 
@@ -27,7 +27,7 @@ Ext.define('Zoho.view.main.Main', {
 
     layout: 'card',
 
-    activeItem: 'login',
+    activeItem: 'tabs',
 
     items: [{
         xtype: 'login',

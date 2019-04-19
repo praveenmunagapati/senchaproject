@@ -1,4 +1,4 @@
-Ext.define('Zoho.view.msin.login.Login', {
+Ext.define('Zoho.view.main.login.Login', {
     extend: 'Ext.container.Container',
     requires: [
 

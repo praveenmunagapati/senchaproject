@@ -1116,7 +1116,7 @@ $include-zoho-view-main-list: dynamic(true);;
 $include-zoho-view-main-main: dynamic(true);;
 $include-zoho-view-main-maincontroller: dynamic(true);;
 $include-zoho-view-main-mainmodel: dynamic(true);;
-$include-zoho-view-msin-login-login: dynamic(true);;
+$include-zoho-view-main-login-login: dynamic(true);;
 $output-paths: ("path": "../resources");
 
 /* ======================== ETC ======================== */

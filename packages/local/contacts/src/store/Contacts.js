@@ -22,7 +22,9 @@ Ext.define('Contacts.store.Contacts', {
         writer: {
             type: 'json',
             writeAllFields: false
-        }
+        },
+        appendId:false,
+        paramsAsJson: true 
     }
 
 });

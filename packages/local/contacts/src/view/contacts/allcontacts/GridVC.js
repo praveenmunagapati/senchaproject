@@ -21,23 +21,24 @@ Ext.define('Contacts.view.contacts.allcontacts.GridVC', {
                     var store = row.view.up('allcontacts').getViewModel().getStore('Contacts');
 
                     console.log(selected);
-                    store.remove(selected);
+                    for (i = 0; i < selected.length; i++) {
 
-                  
+                        store.remove(selected);
 
-                    store.sync({
-                        success: function (response, opts) {
-                            Ext.toast('Record successfully submitted');
-                        },
+                        store.sync({
+                            success: function (response, opts) {
+                                Ext.toast('Record successfully Deleted');
+                            },
 
-                        failure: function (response, opts) {
-                            Ext.toast('Record is not submitted');
-                        },
+                            failure: function (response, opts) {
+                                Ext.toast('Record is not Deleted');
+                            },
 
-                        // params: {
-                        //     ddo_contact_id : selected.data.id
-                        // }
-                    });
+                            params: {
+                                ddo_contact_id: selected[i].id
+                            }
+                        });
+                    }
                 }
             });
         } else {

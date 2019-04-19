@@ -21,10 +21,6 @@ Ext.define('Contacts.view.contacts.Contacts', {
 
     style: 'background-color: rgba(248, 248, 248, 1)',
 
-    //   bind: {
-    //     activeItem: '{activeItem}'
-    //   },
-
     activeItem: 'allcontacts',
     // activeItem: 'editcontact',
     items: [
