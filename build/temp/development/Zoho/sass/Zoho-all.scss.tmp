@@ -1666,14 +1666,6 @@ $current-resource-root: $default-resource-root;
 $relative-image-path-for-uis: $default-resource-path;
 @import '../../../../../zoho/app/Application';
 
-/* including scss file adjacent to ../../../../../zoho/app/view/main/login/Login.js */
-$default-resource-root: '' !default;
-$default-resource-path: 'images' !default;
-$current-package: false;
-$current-resource-root: $default-resource-root;
-$relative-image-path-for-uis: $default-resource-path;
-@import '../../../../../zoho/app/view/main/login/Login';
-
 /* including scss file adjacent to ../../../../../zoho/app/view/login/Login.js */
 $default-resource-root: '' !default;
 $default-resource-path: 'images' !default;
