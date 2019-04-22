@@ -22,16 +22,26 @@
     font-family: Muli, Regular;  
     color: rgba(64, 62, 61, 1);
     font-size: 15px; 
+    opacity: 0.5;
 }
 
 .login-form .x-panel-body-default{
     background-color: rgba(247, 247, 247, 1);
 }
 
+.login-form .x-form-text-default{
+    color: rgba(149, 152, 154, 1);
+}
+
+.login-form .x-form-trigger-wrap-default {
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.02);
+}
+
 .label-cls .x-form-item-label-text{
     font-family: Muli, SemiBold;  
     color: rgba(0, 0, 0, 1);
     font-size: 13px; 
+    opacity: 1;
 }
 
 .remember-me .x-form-item-label-text{

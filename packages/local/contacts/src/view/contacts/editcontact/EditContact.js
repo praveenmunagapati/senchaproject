@@ -38,8 +38,8 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
         },
         {
           xtype: 'image',
-          src: 'resources/images/ben-knapen.png',
-          name: 'contact_profile_pic',
+          // src: 'resources/images/ben-knapen.png',
+         
           height: 100,
           width: 100,
           bind: {
@@ -49,18 +49,25 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
           // xtype: 'filefield', 
           xtype: 'fileuploadfield',
           buttonText: 'Edit Photo',
+          name: 'contact_profile_pic',
           buttonOnly: true,
           cls: 'btn-browse',
           listeners: {
-            change(field) {
+            change(field,input) {
               alert(field);
               const dom = Ext.getDom(field.fileInputEl);
               const container = field.up('editcontact');
-              console.log(container);
+              var imgName = input.split("\\");
+              imgName = imgName[imgName.length-1];
+              console.log('input', imgName);
+              console.log('continer',container);
               const viewModel = container.getViewModel();
-              console.log(viewModel);
+              console.log('continer',viewModel);
               const reader = new FileReader();
-              reader.onload = e => viewModel.set('imgData', e.target.result);
+              reader.onload = e => {
+                viewModel.set('imgData', 'resources/images/'+imgName);
+
+              }
               reader.readAsDataURL(dom.files[0]);
             }
           }

@@ -6,6 +6,7 @@ Ext.define('Contacts.store.Contacts', {
     alias: 'store.contacts',
     model: 'Contacts.model.Contact',
     autoLoad: true,
+    remoteFilter: true,
     proxy: {
         type: 'rest',
         url: 'http://ddost.walkingtree.in',

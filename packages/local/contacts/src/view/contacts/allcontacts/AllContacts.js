@@ -39,7 +39,7 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                 }, {
                     cls: 'addcontact-button',
                     xtype: 'button',
-                    text: '+ Add Button',
+                    text: 'Add Contact',
                     listeners: {
                         click: 'displayEditContacts'
                     }
@@ -68,6 +68,7 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                     xtype: 'button',
                     cls: 'delete-button',
                     reference: 'delete-button',
+                    glyph: 'f014@FontAwesome',
                     disabled: true,
                     text: 'Delete',
                     reference: 'delete-button',
@@ -86,14 +87,19 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                     glyph: 'f0db@FontAwesome',
                     iconCls: 'addcolumns',
                     cls: 'addcolumns-button',
+                    margin: '0 10 20',
                     menu: {
+                        bodyPadding: '0 0 10 0',                        
                         items: [
                             {
                                 xtype: 'checkboxgroup',
+                                listeners: {
+                                    change: 'onSelectedColumns'
+                                },
                                 defaults: {
                                     fontSize: 14,
-                                    padding: '0 0px',
-                                    checked: true
+                                    margin: '0 -25 0',
+                                    checked: true,
                                 },
                                 columns: 1,
                                 items: [{
@@ -125,19 +131,22 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                             }, {
                                 xtype: 'button',
                                 text: 'Apply',
-                                listeners: {
-                                    click: 'onApplyColumn'
-                                }
+                                reference: 'applybutton',
+                                cls: 'apply-button',
+                                width: 70,
+                                height: 30,
+                                
                             }
                         ]
                     }
                 }, {
                     text: 'Filter',
                     arrowVisible: false,
+                    margin: '0 10 10',
                     iconCls: 'filter',
                     // glyph: 'f0db@FontAwesome', 
                     cls: 'filter-button',
-                    menu: {
+                    menu: {                                               
                         items: [
                             {
                                 xtype: 'filterform'

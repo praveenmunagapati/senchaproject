@@ -5,7 +5,7 @@ Ext.define('Contacts.view.contacts.Routes', {
    // Function for routing
     // Making active tab
     makeActiveTab: function(activeItem){
-        console.log(activeItem);
+        // console.log(activeItem);
         this.getView().setActiveItem(activeItem);
     },
     

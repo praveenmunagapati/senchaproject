@@ -34,15 +34,18 @@ Ext.define('Contacts.view.contacts.editcontact.EditContactVC', {
       // Sending request to server
       store.sync({
         success: function (response, opts) {
+          button.up('contacts').getView().refresh();
           Ext.toast('Record successfully submitted');
         },
 
         failure: function (response, opts) {
           Ext.toast('Record is not submitted');
         },
+      
 
-        
       });
+
+      
     }
 
   }

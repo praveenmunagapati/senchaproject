@@ -9806,9 +9806,10 @@ tr.x-grid-subtable-row {
 }
 /* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:9 */
 .addcontact-button {
-    background-color: #31a950;
+    background: url('images/Add.svg') #31a950 no-repeat 20%;
+    background-size: 15px 15px;
     font-family: 'Muli, SemiBold';
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bolder;
     padding: 10px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
@@ -9816,29 +9817,30 @@ tr.x-grid-subtable-row {
     width: 175px;
     height: 50px;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:21 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:22 */
 .addcontact-button:hover {
     background-color: #31a950;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:25 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:26 */
 .headbar {
     background: #f8f8f8;
-    padding-top: 10px;
-    height: 50px;
+    padding: 20px 0;
+    height: 70px;
     font-size: 42px;
     color: #000;
     font-family: "Muli", SemiBold;
     font-weight: bolder;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:35 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:36 */
 .empty-text {
     text-align: center;
     color: #b49494;
-    font-family: 'Muli', sans-serif;
-    opacity: 0.53;
+    font-family: Muli Regular;
+    opacity: 0.52;
     width: 420px;
     height: 50px;
-    font-size: 16px;
+    font-size: 13px;
+    line-height: 20px;
 }
 /* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/Grid.scss:1 */
 .x-grid-row:hover .edit-icon {
@@ -9865,49 +9867,67 @@ tr.x-grid-subtable-row {
     width: auto;
     height: 40px;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:13 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:14 */
 .delete-button .x-btn-inner-default-toolbar-small,
 .export-button .x-btn-inner-default-toolbar-small,
 .filter-button .x-btn-inner-default-toolbar-small,
-.addcolumns-button .x-btn-inner-default-toolbar-small {
+.addcolumns-button .x-btn-inner-default-toolbar-small,
+.apply-button .x-btn-inner-default-small {
     color: #000;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:16 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:17 */
 .addcolumns-button:hover,
 .export-button:hover {
     background-color: #000;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:20 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:21 */
 .addcolumns-button:hover .x-btn-inner-default-toolbar-small,
 .export-button:hover .x-btn-inner-default-toolbar-small {
     color: white;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:24 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:25 */
 .filter-button {
     background: orange url('images/filter.svg') no-repeat 20%;
     background-size: 15px 15px;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:29 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:30 */
 .filter-button:hover {
     background: orange url('images/filter.svg') no-repeat 20%;
     background-size: 15px 15px;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:34 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:35 */
 .delete-button {
     background-color: #919191;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:38 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:39 */
+.apply-button {
+    background-color: #e5e5e5;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    font-family: 'Muli', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 0 10px !important;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    border: none;
+    width: auto;
+    height: 40px;
+}
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:52 */
+.apply-button:hover {
+    background-color: #e5e5e5;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:57 */
 .headbar .search-field {
     background-color: transparent;
     border: solid 1px #dcdcdc;
-    padding: 0px;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:44 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:62 */
 .search .x-form-trigger-wrap-default {
     border: none !important;
     padding: 5px;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:49 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:67 */
 .search-trigger {
     background: #fff url('images/Search-icon.svg') no-repeat 20%;
     background-size: 15px 15px;
@@ -9915,7 +9935,7 @@ tr.x-grid-subtable-row {
     width: 50px;
     height: 40px;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:57 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:75 */
 .search-trigger:hover {
     background: #fff url('images/Search-icon.svg') no-repeat 20%;
     border: none;
@@ -9923,7 +9943,7 @@ tr.x-grid-subtable-row {
     width: 50px;
     height: 40px;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:65 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:83 */
 .search-trigger:focus {
     background: #fff url('images/Search-icon.svg') no-repeat 20%;
     border: none;
@@ -9956,24 +9976,34 @@ tr.x-grid-subtable-row {
     font-family: Muli, Regular;
     color: #403e3d;
     font-size: 15px;
+    opacity: 0.5;
 }
-/* /var/www/html/SenchaProject/zoho/app/view/login/Login.scss:27 */
+/* /var/www/html/SenchaProject/zoho/app/view/login/Login.scss:28 */
 .login-form .x-panel-body-default {
     background-color: #f7f7f7;
 }
-/* /var/www/html/SenchaProject/zoho/app/view/login/Login.scss:31 */
+/* /var/www/html/SenchaProject/zoho/app/view/login/Login.scss:32 */
+.login-form .x-form-text-default {
+    color: #95989a;
+}
+/* /var/www/html/SenchaProject/zoho/app/view/login/Login.scss:36 */
+.login-form .x-form-trigger-wrap-default {
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.02);
+}
+/* /var/www/html/SenchaProject/zoho/app/view/login/Login.scss:40 */
 .label-cls .x-form-item-label-text {
     font-family: Muli, SemiBold;
     color: #000;
     font-size: 13px;
+    opacity: 1;
 }
-/* /var/www/html/SenchaProject/zoho/app/view/login/Login.scss:37 */
+/* /var/www/html/SenchaProject/zoho/app/view/login/Login.scss:47 */
 .remember-me .x-form-item-label-text {
     color: #403e3d;
     font-family: Muli, SemiBold;
     font-size: 13px;
 }
-/* /var/www/html/SenchaProject/zoho/app/view/login/Login.scss:43 */
+/* /var/www/html/SenchaProject/zoho/app/view/login/Login.scss:53 */
 .login-button {
     background-color: #000;
     color: white;
@@ -9982,7 +10012,7 @@ tr.x-grid-subtable-row {
     margin: 0 auto;
     align-self: center;
 }
-/* /var/www/html/SenchaProject/zoho/app/view/login/Login.scss:52 */
+/* /var/www/html/SenchaProject/zoho/app/view/login/Login.scss:62 */
 .login-button:hover {
     background-color: #000;
 }

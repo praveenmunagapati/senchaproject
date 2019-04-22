@@ -54,57 +54,82 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContactsVC', {
     // Created two arrays and pushed checked values into one and unchecked into one array
     // Then using those values displayed the grid columns
 
-    onApplyColumn: function (btn) {
+    onSelectedColumns: function (checkbox) {
         var toHide = [];
         var toShow = [];
-        if (btn.up('allcontacts').lookupReference('firstname').value) {
-            toShow.push(btn.up('allcontacts').lookupReference('firstname').inputValue);
+        if (checkbox.up('allcontacts').lookupReference('firstname').value) {
+            toShow.push(checkbox.up('allcontacts').lookupReference('firstname').inputValue);
         } else {
-            toHide.push(btn.up('allcontacts').lookupReference('firstname').inputValue);
+            toHide.push(checkbox.up('allcontacts').lookupReference('firstname').inputValue);
         }
 
-        if (btn.up('allcontacts').lookupReference('company').value) {
-            toShow.push(btn.up('allcontacts').lookupReference('company').inputValue);
+        if (checkbox.up('allcontacts').lookupReference('company').value) {
+            toShow.push(checkbox.up('allcontacts').lookupReference('company').inputValue);
         } else {
-            toHide.push(btn.up('allcontacts').lookupReference('company').inputValue);
+            toHide.push(checkbox.up('allcontacts').lookupReference('company').inputValue);
         }
 
 
-        if (btn.up('allcontacts').lookupReference('mobile').value) {
-            toShow.push(btn.up('allcontacts').lookupReference('mobile').inputValue);
+        if (checkbox.up('allcontacts').lookupReference('mobile').value) {
+            toShow.push(checkbox.up('allcontacts').lookupReference('mobile').inputValue);
         } else {
-            toHide.push(btn.up('allcontacts').lookupReference('mobile').inputValue);
+            toHide.push(checkbox.up('allcontacts').lookupReference('mobile').inputValue);
 
         }
 
-        if (btn.up('allcontacts').lookupReference('email').value) {
-            toShow.push(btn.up('allcontacts').lookupReference('email').inputValue);
+        if (checkbox.up('allcontacts').lookupReference('email').value) {
+            toShow.push(checkbox.up('allcontacts').lookupReference('email').inputValue);
         } else {
-            toHide.push(btn.up('allcontacts').lookupReference('email').inputValue);
+            toHide.push(checkbox.up('allcontacts').lookupReference('email').inputValue);
 
         }
 
-        if (btn.up('allcontacts').lookupReference('title').value) {
-            toShow.push(btn.up('allcontacts').lookupReference('title').inputValue);
+        if (checkbox.up('allcontacts').lookupReference('title').value) {
+            toShow.push(checkbox.up('allcontacts').lookupReference('title').inputValue);
         } else {
-            toHide.push(btn.up('allcontacts').lookupReference('title').inputValue);
+            toHide.push(checkbox.up('allcontacts').lookupReference('title').inputValue);
 
         }
 
-        if (btn.up('allcontacts').lookupReference('state').value) {
-            toShow.push(btn.up('allcontacts').lookupReference('state').inputValue);
+        if (checkbox.up('allcontacts').lookupReference('state').value) {
+            toShow.push(checkbox.up('allcontacts').lookupReference('state').inputValue);
         } else {
-            toHide.push(btn.up('allcontacts').lookupReference('state').inputValue);
+            toHide.push(checkbox.up('allcontacts').lookupReference('state').inputValue);
 
         }
-        for (i = 0; i < toHide.length; i++) {
-            btn.up('allcontacts').down('gridview').getColumns()[toHide[i]].setHidden(true);
-        }
 
-        for (i = 0; i < toShow.length; i++) {
-            btn.up('allcontacts').down('gridview').getColumns()[toShow[i]].setHidden(false);
-        }
+
+        var btn = checkbox.up('allcontacts').lookupReference('applybutton');
+        if (toHide.length > 0) {
+            
+            btn.setStyle({
+                fontWeight: 'bold',
+                backgroundColor: 'rgba(49, 169, 80, 1)',
+                color: 'white',
+            });
+            btn.setListeners({
+                click:  function (btn) {
+                        for (i = 0; i < toHide.length; i++) {
+                            btn.up('allcontacts').down('gridview').getColumns()[toHide[i]].setHidden(true);
+                        };
+                    }
+            });
+        } else{
+            btn.setStyle({
+                backgroundColor: 'rgba(229, 229, 229, 1)',
+            });
+        } 
+        if (toShow.length > 0) {
+            btn.setListeners({
+                click:  function (btn) {
+                        for (i = 0; i < toShow.length; i++) {
+                            checkbox.up('allcontacts').down('gridview').getColumns()[toShow[i]].setHidden(false);
+                        };
+                    }
+            });
+        }  
     },
+
 
 
 
@@ -135,9 +160,10 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContactsVC', {
         var store = viewModel.getStore('Contacts');
         console.log(viewModel, store);
         store.filter([
-            { property: 'firstname', value: firstName }
+            { property: 'filter_by_firstname', value: firstName }
             // {property:'email_address', value:email}
         ]);
+        // store.sync();
     },
 
 
@@ -168,5 +194,8 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContactsVC', {
             fileName: 'griddata.csv'
         });
     },
+
+
+
 
 });

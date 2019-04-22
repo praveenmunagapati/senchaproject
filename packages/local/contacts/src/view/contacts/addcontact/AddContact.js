@@ -11,6 +11,8 @@ Ext.define('Contacts.view.contacts.addcontact.AddContact', {
 
   layout: 'fit',
 
+  // height: 500,
+
   margin: '0 100px',
 
   defaults: {
@@ -34,7 +36,7 @@ Ext.define('Contacts.view.contacts.addcontact.AddContact', {
           align: 'middle',
         },
 
-        padding: '100 0',
+        padding: '150 0',
 
         items: [{
           padding: '0 0 30 0',
@@ -42,7 +44,7 @@ Ext.define('Contacts.view.contacts.addcontact.AddContact', {
         }, {
           cls: 'addcontact-button',
           xtype: 'button',
-          text: '+ Add Button',
+          text: 'Add Contact',
 
           listeners: {
             click: 'displayEditContacts'

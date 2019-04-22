@@ -5,6 +5,7 @@ Ext.define('Contacts.view.contacts.allcontacts.FilterForm', {
         'Contacts.view.contacts.allcontacts.AllContactsVC'
     ],
     controller: 'allcontacts-vc',
+    bodyPadding: 10,
     items: [{
         // xtype: 'checkbox',
         defaults: {
@@ -50,11 +51,18 @@ Ext.define('Contacts.view.contacts.allcontacts.FilterForm', {
         items: [
             {
                 text: 'Clear',
-                listeners: {
+                cls: 'apply-button',
+                width: 70,
+                height: 30,
+                margin: '0 10',                listeners: {
                     click: 'onClearFilter'
                 }
             }, {
                 text: 'Apply',
+                cls: 'apply-button',
+                width: 70,
+                height: 30,
+                margin: '0 10',                
                 listeners: {
                     click: 'onApplyFilter'
                 }
