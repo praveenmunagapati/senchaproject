@@ -1,7 +1,7 @@
 Ext.define('Zoho.view.main.login.LoginVC', {
     extend: 'Ext.app.ViewController',
     alias: 'controller.login-vc',
-    onLoginClick: function (btn) {
+    onLoginClick:function(btn){
         var email = 'vickyraj@gmail.com';
         var password = 'vickyraj';
         var txtEmail = btn.up('login').lookupReference('email').value;

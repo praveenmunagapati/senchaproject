@@ -2,9 +2,9 @@
 .edit-photo-button{
     background:white;
     color:red;
- }
- 
- .btn-browse .x-form-file-btn {
+}
+
+.btn-browse .x-form-file-btn {
     background-color: rgba(246, 246, 246, 1)!important;
     background-image: none !important;
     border: none;
@@ -19,39 +19,95 @@
  .edit-contact-heading{
     font-size:large; 
     font-weight:bold;
- }
- 
- 
- 
- .backcolor > .x-form-item-label > .x-form-item-label-inner-default > .x-form-item-label-text{
+    text-decoration: underline;
+}
+
+
+//font color styling
+.backcolor > .x-form-item-label > .x-form-item-label-inner-default > .x-form-item-label-text{
     color: rgb(0, 0, 0);
     padding-left:10px;
     font-weight: bolder;
     font-size:large;
- }
- 
- .cancle-style{
+    text-decoration: underline;
+}
+
+//form body color styling
+.body-color .x-panel-body-default{
+    background-color:rgba(246, 246, 246, 1);
+}
+
+//button styling 
+.cancle-style{
     background-color:rgba(229, 229, 229, 1);
     color:black;
     border:none;
- }
- .cancle-style:hover{
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888888;
+}
+.cancle-style:hover{
     background-color:rgba(229, 229, 229, 1);
     height:'48px';
     width:'144px';
     color:black;
     border:none;
- }
- .save-style{
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888888;
+}
+.cancle-style .x-btn-inner-default-small:hover{
+    color: black;
+}
+.cancle-style .x-btn-inner-default-small{
+    color:black;
+}
+.save-style{
     background-color:rgba(0, 0, 0, 1);
     color:white;
     border:none;
- }
- .save-style:hover{
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888888;
+}
+.save-style:hover{
     background-color:rgba(0, 0, 0, 1);
     color:white;
- }
- 
- .body-color .x-panel-body-default{
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+.body-color .x-panel-body-default{
     background-color:rgba(246, 246, 246, 1);
  }
+
+// Date Styling 
+.x-datepicker-month{
+    background-color: #070707;
+}
+.x-datepicker-selected div.x-datepicker-date {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    font-weight: 300;
+}
+.x-btn .x-unselectable .x-btn-default-small:hover{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    font-weight: 300;
+}
+.x-datepicker-month .x-btn-inner{
+    color:white;
+}
+.x-datepicker-footer, .x-monthpicker-buttons{
+    display: none;
+}
+.x-datepicker-arrow{
+    background-color: black;
+    color:white;
+}
+.x-datepicker-inner > tbody{
+    background-color: #ececec
+}
+.x-datepicker-next{
+    margin-right: 50px;
+}
+.x-datepicker-prev{
+    margin-left: 50px;
+}

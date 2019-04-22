@@ -22,14 +22,16 @@ Ext.define('Contacts.view.contacts.allcontacts.Grid', {
         selType: 'checkboxmodel',
         headerText: 'Select All',
         headerWidth: 100,
+        // cls:'select-check-box'
     },
-
+    cls:'column-height',
     columns: [{
                 xtype: 'actioncolumn',
                 width: 50,
                 align:'center',
                 iconCls: 'x-fa edit-icon',
                 tooltip: 'Edit',
+                menuDisabled: true,
                 // listeners:{
                 //     onF:'onClickEdit'
                 // }
@@ -37,13 +39,18 @@ Ext.define('Contacts.view.contacts.allcontacts.Grid', {
     {
         text: 'First Name ',
         dataIndex: 'firstname',
-        enableColumnHide: true,
-        flex: 1     
+        menuDisabled: true,
+        flex: 1  ,
+        
+        listeners:{
+
+        }
     }, {
         text: 'Email Id ',
         dataIndex: 'email_address',
         flex: 1,
-        menuDisabled: true
+        menuDisabled: true,
+
     }, {
         text: 'Company Name ',
         dataIndex: 'orgname',

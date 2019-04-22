@@ -7,14 +7,15 @@ Ext.define('Contacts.store.Contacts', {
     model: 'Contacts.model.Contact',
     autoLoad: true,
     remoteFilter: true,
+    // autoSync:true,
     proxy: {
         type: 'rest',
-        url: 'http://ddost.walkingtree.in',
+        url: 'http://ddost.walkingtree.tech',
         api: {
-            create: 'http://ddost.walkingtree.in/contact',
-            read: 'http://ddost.walkingtree.in/contact',
-            update: 'http://ddost.walkingtree.in/contact',
-            destroy: 'http://ddost.walkingtree.in/contact'
+            create: 'http://ddost.walkingtree.tech/contact',
+            read: 'http://ddost.walkingtree.tech/contact',
+            update: 'http://ddost.walkingtree.tech/contact',
+            destroy: 'http://ddost.walkingtree.tech/contact'
         },
         reader: {
             // type: 'json',

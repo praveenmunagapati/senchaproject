@@ -39,6 +39,7 @@ Ext.define('Zoho.view.main.login.Login', {
                 }, {
                     xtype: 'textfield',
                     fieldLabel: 'Password',
+                    inputType: 'password',
                     cls: 'label-cls',                    
                     reference:'password',
                     emptyText: 'Password'                    
