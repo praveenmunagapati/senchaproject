@@ -1,6 +1,12 @@
+<<<<<<< 2ca436a97238c20bf1bfbe45c66efa590df8e8a8
 Sencha Cmd 6.5.3.6 - Crash report
 ================================================
 An error occurred while executing the following command: app watch
+=======
+Sencha Cmd 6.7.0.37 - Crash report
+================================================
+An error occurred while executing the following command: app build development
+>>>>>>> 42fb14a7a6f87b1b15426c209699cba03d569d87
 
 Diagnostic information:
 =======================
@@ -14,7 +20,11 @@ Diagnostic information:
                          app.classpath.0 : app                                               
                     app.classpath.length : 1                                                 
                           app.compressor : null                                              
+<<<<<<< 2ca436a97238c20bf1bfbe45c66efa590df8e8a8
                           app.config.dir : /home/wtt155/bin/Sencha/Cmd/6.5.3.6/ant/build/app 
+=======
+                          app.config.dir : /home/wtt197/bin/Sencha/Cmd/6.7.0.37/ant/build/app
+>>>>>>> 42fb14a7a6f87b1b15426c209699cba03d569d87
                 app.cordova.cache.enable : false                                             
                    app.cordova.config.id : com.domain.Zoho                                   
                  app.cordova.config.name : Zoho                                              
@@ -25,7 +35,11 @@ Diagnostic information:
                app.cordova.js.0.priority : 1000                                              
                  app.cordova.js.0.remote : true                                              
                    app.cordova.js.length : 1                                                 
+<<<<<<< 2ca436a97238c20bf1bfbe45c66efa590df8e8a8
                  app.cordova.microloader : /home/wtt155/bin/Sencha/Cmd/6.5.3.6/ant/build/app/Microloader.js
+=======
+                 app.cordova.microloader : /home/wtt197/bin/Sencha/Cmd/6.7.0.37/ant/build/app/Microloader.js
+>>>>>>> 42fb14a7a6f87b1b15426c209699cba03d569d87
       app.cordova.output.appCache.enable : false                                             
                  app.cordova.output.base : /var/www/html/SenchaProject/zoho/cordova/www      
              app.cordova.output.manifest : ${build.id}.json                                  
@@ -57,7 +71,11 @@ Diagnostic information:
               app.phonegap.js.0.priority : 1000                                              
                 app.phonegap.js.0.remote : true                                              
                   app.phonegap.js.length : 1                                                 
+<<<<<<< 2ca436a97238c20bf1bfbe45c66efa590df8e8a8
                 app.phonegap.microloader : /home/wtt155/bin/Sencha/Cmd/6.5.3.6/ant/build/app/Microloader.js
+=======
+                app.phonegap.microloader : /home/wtt197/bin/Sencha/Cmd/6.7.0.37/ant/build/app/Microloader.js
+>>>>>>> 42fb14a7a6f87b1b15426c209699cba03d569d87
      app.phonegap.output.appCache.enable : false                                             
                 app.phonegap.output.base : /var/www/html/SenchaProject/zoho/phonegap/www     
             app.phonegap.output.manifest : ${build.id}.json                                  
@@ -92,8 +110,13 @@ Diagnostic information:
                              app.version : 1.0.0.0                                           
                     buildenvironment.dir : /var/www/html/SenchaProject/zoho                  
                buildenvironment.load.dir : /var/www/html/SenchaProject/zoho                  
+<<<<<<< 2ca436a97238c20bf1bfbe45c66efa590df8e8a8
                           cmd.config.dir : /home/wtt155/bin/Sencha/Cmd/6.5.3.6               
                                  cmd.dir : /home/wtt155/bin/Sencha/Cmd/6.5.3.6               
+=======
+                          cmd.config.dir : /home/wtt197/bin/Sencha/Cmd/6.7.0.37              
+                                 cmd.dir : /home/wtt197/bin/Sencha/Cmd/6.7.0.37              
+>>>>>>> 42fb14a7a6f87b1b15426c209699cba03d569d87
                     cmd.framework.minver : 5.5.0                                             
                    cmd.framework.version : 99.99                                             
               cmd.merge.tool.args.araxis : -wait -merge -3 -a1 {base} {user} {generated} {out}
@@ -104,8 +127,13 @@ Diagnostic information:
             cmd.merge.tool.args.tortoise : -base:{base} -theirs:{generated} -mine:{user} -merged:{out}
                               cmd.minver : 3.0.0.0                                           
                             cmd.platform : linux-x64                                         
+<<<<<<< 2ca436a97238c20bf1bfbe45c66efa590df8e8a8
                      cmd.unicode.escapes : /home/wtt155/bin/Sencha/Cmd/6.5.3.6/unicode-escapes.json
                              cmd.version : 6.5.3.6                                           
+=======
+                     cmd.unicode.escapes : /home/wtt197/bin/Sencha/Cmd/6.7.0.37/unicode-escapes.json
+                             cmd.version : 6.7.0.37                                          
+>>>>>>> 42fb14a7a6f87b1b15426c209699cba03d569d87
                             cmd.web.port : 1841                                              
                      config.skipDownload : true                                              
                       config.skipInherit : false                                             
@@ -115,7 +143,11 @@ Diagnostic information:
                     framework.cmd.minver : 6.5.2.15                                          
                    framework.cmd.version : 6.5.2.15                                          
                  framework.compatVersion : 6.5.0                                             
+<<<<<<< 2ca436a97238c20bf1bfbe45c66efa590df8e8a8
                     framework.config.dir : /home/wtt155/bin/Sencha/Cmd/6.5.3.6/plugins/ext/current
+=======
+                    framework.config.dir : /home/wtt197/bin/Sencha/Cmd/6.7.0.37/plugins/ext/current
+>>>>>>> 42fb14a7a6f87b1b15426c209699cba03d569d87
                        framework.creator : Sencha                                            
            framework.detailedDescription : Sencha Ext JS JavaScript Framework                
                            framework.dir : /var/www/html/SenchaProject/ext                   
@@ -189,7 +221,11 @@ Diagnostic information:
                        inspector.address : http://localhost:1839/                            
                             minimal.mode : true                                              
                     package.sass.dynamic : true                                              
+<<<<<<< 2ca436a97238c20bf1bfbe45c66efa590df8e8a8
                           repo.local.dir : /home/wtt155/bin/Sencha/Cmd/repo                  
+=======
+                          repo.local.dir : /home/wtt197/bin/Sencha/Cmd/repo                  
+>>>>>>> 42fb14a7a6f87b1b15426c209699cba03d569d87
                        shared.sencha.dir : true                                              
         system.java.net.useSystemProxies : true                                              
                               theme.name : theme-triton                                      
@@ -198,7 +234,11 @@ Diagnostic information:
                         workspace.apps.0 : zoho                                              
                    workspace.apps.length : 1                                                 
                      workspace.build.dir : /var/www/html/SenchaProject/build                 
+<<<<<<< 2ca436a97238c20bf1bfbe45c66efa590df8e8a8
                     workspace.config.dir : /home/wtt155/bin/Sencha/Cmd/6.5.3.6/ant/build/workspace
+=======
+                    workspace.config.dir : /home/wtt197/bin/Sencha/Cmd/6.7.0.37/ant/build/workspace
+>>>>>>> 42fb14a7a6f87b1b15426c209699cba03d569d87
                            workspace.dir : /var/www/html/SenchaProject                       
            workspace.frameworks.ext.path : /var/www/html/SenchaProject/ext                   
         workspace.frameworks.ext.version : 6.5.3.57                                          
@@ -207,6 +247,7 @@ Diagnostic information:
 
 Exception information:
 =======================
+<<<<<<< 2ca436a97238c20bf1bfbe45c66efa590df8e8a8
 /home/wtt155/bin/Sencha/Cmd/6.5.3.6/plugin.xml:378: The following error occurred while executing this line:
 /home/wtt155/bin/Sencha/Cmd/6.5.3.6/ant/build/app/build-impl.xml:253: The following error occurred while executing this line:
 /home/wtt155/bin/Sencha/Cmd/6.5.3.6/ant/build/app/watch-impl.xml:87: The following error occurred while executing this line:
@@ -221,6 +262,18 @@ Exception information:
      at com.sencha.command.BasePluginCommands$BasePluginCommand.doExecute(BasePluginCommands.java:125)
      at com.sencha.command.app.AppCommands$BuildCommand.execute(AppCommands.java:470)
      at com.sencha.command.app.AppCommands$WatchCommand.execute(AppCommands.java:909)
+=======
+/home/wtt197/bin/Sencha/Cmd/6.7.0.37/plugin.xml:333: The following error occurred while executing this line:
+/home/wtt197/bin/Sencha/Cmd/6.7.0.37/ant/build/app/build-impl.xml:387: The following error occurred while executing this line:
+/home/wtt197/bin/Sencha/Cmd/6.7.0.37/ant/build/app/init-impl.xml:436: com.sencha.exceptions.ExBuild: Failed to find any files for /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContactVM.js::ClassRequire::Contacts.model.FirstName
+     at com.sencha.ant.AntScript.execute(AntScript.java:121)
+     at com.sencha.command.plugin.PluginManager.execute(PluginManager.java:104)
+     at com.sencha.command.plugin.PluginManager.executeReverseFirst(PluginManager.java:145)
+     at com.sencha.command.environment.BuildEnvironment.execute(BuildEnvironment.java:309)
+     at com.sencha.command.environment.AppOrPackageEnvironment.execute(AppOrPackageEnvironment.java:729)
+     at com.sencha.command.BasePluginCommands$BasePluginCommand.doExecute(BasePluginCommands.java:125)
+     at com.sencha.command.app.AppCommands$BuildCommand.execute(AppCommands.java:470)
+>>>>>>> 42fb14a7a6f87b1b15426c209699cba03d569d87
      at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
      at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -236,6 +289,7 @@ Exception information:
      at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
      at java.lang.reflect.Method.invoke(Method.java:498)
+<<<<<<< 2ca436a97238c20bf1bfbe45c66efa590df8e8a8
      at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:65)
      at com.install4j.runtime.launcher.UnixLauncher.main(UnixLauncher.java:57)
    Caused by: The following error occurred while executing this line:
@@ -248,6 +302,17 @@ Exception information:
      at org.apache.tools.ant.taskdefs.Ant.execute(Ant.java:444)
      at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
      at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+=======
+     at com.exe4j.runtime.LauncherEngine.launch(Unknown Source)
+     at com.install4j.runtime.launcher.UnixLauncher.main(Unknown Source)
+   Caused by: The following error occurred while executing this line:
+/home/wtt197/bin/Sencha/Cmd/6.7.0.37/ant/build/app/build-impl.xml:387: The following error occurred while executing this line:
+/home/wtt197/bin/Sencha/Cmd/6.7.0.37/ant/build/app/init-impl.xml:436: com.sencha.exceptions.ExBuild: Failed to find any files for /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContactVM.js::ClassRequire::Contacts.model.FirstName
+     at org.apache.tools.ant.ProjectHelper.addLocationToBuildException(ProjectHelper.java:551)
+     at org.apache.tools.ant.taskdefs.Ant.execute(Ant.java:444)
+     at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+     at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+>>>>>>> 42fb14a7a6f87b1b15426c209699cba03d569d87
      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
      at java.lang.reflect.Method.invoke(Method.java:498)
      at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
@@ -276,11 +341,18 @@ Exception information:
      at com.sencha.ant.AntScript.execute(AntScript.java:117)
      at com.sencha.command.plugin.PluginManager.execute(PluginManager.java:104)
      at com.sencha.command.plugin.PluginManager.executeReverseFirst(PluginManager.java:145)
+<<<<<<< 2ca436a97238c20bf1bfbe45c66efa590df8e8a8
      at com.sencha.command.environment.BuildEnvironment.execute(BuildEnvironment.java:308)
      at com.sencha.command.environment.AppOrPackageEnvironment.execute(AppOrPackageEnvironment.java:729)
      at com.sencha.command.BasePluginCommands$BasePluginCommand.doExecute(BasePluginCommands.java:125)
      at com.sencha.command.app.AppCommands$BuildCommand.execute(AppCommands.java:470)
      at com.sencha.command.app.AppCommands$WatchCommand.execute(AppCommands.java:909)
+=======
+     at com.sencha.command.environment.BuildEnvironment.execute(BuildEnvironment.java:309)
+     at com.sencha.command.environment.AppOrPackageEnvironment.execute(AppOrPackageEnvironment.java:729)
+     at com.sencha.command.BasePluginCommands$BasePluginCommand.doExecute(BasePluginCommands.java:125)
+     at com.sencha.command.app.AppCommands$BuildCommand.execute(AppCommands.java:470)
+>>>>>>> 42fb14a7a6f87b1b15426c209699cba03d569d87
      at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
      at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -296,6 +368,7 @@ Exception information:
      at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
      at java.lang.reflect.Method.invoke(Method.java:498)
+<<<<<<< 2ca436a97238c20bf1bfbe45c66efa590df8e8a8
      at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:65)
      at com.install4j.runtime.launcher.UnixLauncher.main(UnixLauncher.java:57)
    Caused by: The following error occurred while executing this line:
@@ -303,12 +376,22 @@ Exception information:
 /home/wtt155/bin/Sencha/Cmd/6.5.3.6/ant/build/app/build-impl.xml:292: The following error occurred while executing this line:
 /home/wtt155/bin/Sencha/Cmd/6.5.3.6/ant/build/app/sass-impl.xml:205: The following error occurred while executing this line:
 /home/wtt155/bin/Sencha/Cmd/6.5.3.6/ant/build/app/sass-impl.xml:240: com.sencha.exceptions.ExBuild: Fashion build exited with code : 1
+=======
+     at com.exe4j.runtime.LauncherEngine.launch(Unknown Source)
+     at com.install4j.runtime.launcher.UnixLauncher.main(Unknown Source)
+   Caused by: The following error occurred while executing this line:
+/home/wtt197/bin/Sencha/Cmd/6.7.0.37/ant/build/app/init-impl.xml:436: com.sencha.exceptions.ExBuild: Failed to find any files for /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContactVM.js::ClassRequire::Contacts.model.FirstName
+>>>>>>> 42fb14a7a6f87b1b15426c209699cba03d569d87
      at org.apache.tools.ant.ProjectHelper.addLocationToBuildException(ProjectHelper.java:551)
      at org.apache.tools.ant.taskdefs.Ant.execute(Ant.java:444)
      at org.apache.tools.ant.taskdefs.CallTarget.execute(CallTarget.java:105)
      at com.sencha.ant.CallTask.execute(CallTask.java:137)
      at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+<<<<<<< 2ca436a97238c20bf1bfbe45c66efa590df8e8a8
      at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+=======
+     at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+>>>>>>> 42fb14a7a6f87b1b15426c209699cba03d569d87
      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
      at java.lang.reflect.Method.invoke(Method.java:498)
      at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
@@ -320,7 +403,11 @@ Exception information:
      at org.apache.tools.ant.Project.executeTargets(Project.java:1251)
      at org.apache.tools.ant.taskdefs.Ant.execute(Ant.java:442)
      at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+<<<<<<< 2ca436a97238c20bf1bfbe45c66efa590df8e8a8
      at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+=======
+     at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+>>>>>>> 42fb14a7a6f87b1b15426c209699cba03d569d87
      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
      at java.lang.reflect.Method.invoke(Method.java:498)
      at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
@@ -349,11 +436,18 @@ Exception information:
      at com.sencha.ant.AntScript.execute(AntScript.java:117)
      at com.sencha.command.plugin.PluginManager.execute(PluginManager.java:104)
      at com.sencha.command.plugin.PluginManager.executeReverseFirst(PluginManager.java:145)
+<<<<<<< 2ca436a97238c20bf1bfbe45c66efa590df8e8a8
      at com.sencha.command.environment.BuildEnvironment.execute(BuildEnvironment.java:308)
      at com.sencha.command.environment.AppOrPackageEnvironment.execute(AppOrPackageEnvironment.java:729)
      at com.sencha.command.BasePluginCommands$BasePluginCommand.doExecute(BasePluginCommands.java:125)
      at com.sencha.command.app.AppCommands$BuildCommand.execute(AppCommands.java:470)
      at com.sencha.command.app.AppCommands$WatchCommand.execute(AppCommands.java:909)
+=======
+     at com.sencha.command.environment.BuildEnvironment.execute(BuildEnvironment.java:309)
+     at com.sencha.command.environment.AppOrPackageEnvironment.execute(AppOrPackageEnvironment.java:729)
+     at com.sencha.command.BasePluginCommands$BasePluginCommand.doExecute(BasePluginCommands.java:125)
+     at com.sencha.command.app.AppCommands$BuildCommand.execute(AppCommands.java:470)
+>>>>>>> 42fb14a7a6f87b1b15426c209699cba03d569d87
      at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
      at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -369,6 +463,7 @@ Exception information:
      at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
      at java.lang.reflect.Method.invoke(Method.java:498)
+<<<<<<< 2ca436a97238c20bf1bfbe45c66efa590df8e8a8
      at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:65)
      at com.install4j.runtime.launcher.UnixLauncher.main(UnixLauncher.java:57)
    Caused by: The following error occurred while executing this line:
@@ -790,6 +885,13 @@ Exception information:
      at java.lang.reflect.Method.invoke(Method.java:498)
      at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
      at org.apache.tools.ant.Task.perform(Task.java:348)
+=======
+     at com.exe4j.runtime.LauncherEngine.launch(Unknown Source)
+     at com.install4j.runtime.launcher.UnixLauncher.main(Unknown Source)
+   Caused by: com.sencha.exceptions.ExBuild: Failed to find any files for /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContactVM.js::ClassRequire::Contacts.model.FirstName
+     at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:116)
+     at org.apache.tools.ant.Task.perform(Task.java:348)
+>>>>>>> 42fb14a7a6f87b1b15426c209699cba03d569d87
      at org.apache.tools.ant.Target.execute(Target.java:392)
      at org.apache.tools.ant.Target.performTasks(Target.java:413)
      at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1399)
@@ -799,7 +901,11 @@ Exception information:
      at org.apache.tools.ant.taskdefs.CallTarget.execute(CallTarget.java:105)
      at com.sencha.ant.CallTask.execute(CallTask.java:137)
      at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+<<<<<<< 2ca436a97238c20bf1bfbe45c66efa590df8e8a8
      at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+=======
+     at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+>>>>>>> 42fb14a7a6f87b1b15426c209699cba03d569d87
      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
      at java.lang.reflect.Method.invoke(Method.java:498)
      at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
@@ -810,6 +916,7 @@ Exception information:
      at org.apache.tools.ant.helper.SingleCheckExecutor.executeTargets(SingleCheckExecutor.java:38)
      at org.apache.tools.ant.Project.executeTargets(Project.java:1251)
      at org.apache.tools.ant.taskdefs.Ant.execute(Ant.java:442)
+<<<<<<< 2ca436a97238c20bf1bfbe45c66efa590df8e8a8
      at org.apache.tools.ant.taskdefs.CallTarget.execute(CallTarget.java:105)
      at com.sencha.ant.CallTask.execute(CallTask.java:137)
      at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
@@ -854,6 +961,10 @@ Exception information:
      at org.apache.tools.ant.taskdefs.Ant.execute(Ant.java:442)
      at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
      at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+=======
+     at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+     at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+>>>>>>> 42fb14a7a6f87b1b15426c209699cba03d569d87
      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
      at java.lang.reflect.Method.invoke(Method.java:498)
      at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
@@ -882,11 +993,18 @@ Exception information:
      at com.sencha.ant.AntScript.execute(AntScript.java:117)
      at com.sencha.command.plugin.PluginManager.execute(PluginManager.java:104)
      at com.sencha.command.plugin.PluginManager.executeReverseFirst(PluginManager.java:145)
+<<<<<<< 2ca436a97238c20bf1bfbe45c66efa590df8e8a8
      at com.sencha.command.environment.BuildEnvironment.execute(BuildEnvironment.java:308)
      at com.sencha.command.environment.AppOrPackageEnvironment.execute(AppOrPackageEnvironment.java:729)
      at com.sencha.command.BasePluginCommands$BasePluginCommand.doExecute(BasePluginCommands.java:125)
      at com.sencha.command.app.AppCommands$BuildCommand.execute(AppCommands.java:470)
      at com.sencha.command.app.AppCommands$WatchCommand.execute(AppCommands.java:909)
+=======
+     at com.sencha.command.environment.BuildEnvironment.execute(BuildEnvironment.java:309)
+     at com.sencha.command.environment.AppOrPackageEnvironment.execute(AppOrPackageEnvironment.java:729)
+     at com.sencha.command.BasePluginCommands$BasePluginCommand.doExecute(BasePluginCommands.java:125)
+     at com.sencha.command.app.AppCommands$BuildCommand.execute(AppCommands.java:470)
+>>>>>>> 42fb14a7a6f87b1b15426c209699cba03d569d87
      at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
      at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -902,6 +1020,7 @@ Exception information:
      at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
      at java.lang.reflect.Method.invoke(Method.java:498)
+<<<<<<< 2ca436a97238c20bf1bfbe45c66efa590df8e8a8
      at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:65)
      at com.install4j.runtime.launcher.UnixLauncher.main(UnixLauncher.java:57)
    Caused by: Fashion build exited with code : 1
@@ -909,6 +1028,25 @@ Exception information:
      at com.sencha.command.fashion.FashionCommand.runBuildNode(FashionCommand.java:126)
      at com.sencha.command.fashion.FashionCommand.runBuild(FashionCommand.java:64)
      at com.sencha.command.fashion.FashionCommand.execute(FashionCommand.java:55)
+=======
+     at com.exe4j.runtime.LauncherEngine.launch(Unknown Source)
+     at com.install4j.runtime.launcher.UnixLauncher.main(Unknown Source)
+   Caused by: Failed to find any files for /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContactVM.js::ClassRequire::Contacts.model.FirstName
+     at com.sencha.tools.compiler.sources.SymbolCache.resolveDependencies(SymbolCache.java:714)
+     at com.sencha.tools.compiler.sources.SymbolCache.resolveDependencies(SymbolCache.java:653)
+     at com.sencha.tools.compiler.sources.SymbolCache.resolveDependencies(SymbolCache.java:648)
+     at com.sencha.tools.compiler.sources.SymbolCache.processSymbols(SymbolCache.java:383)
+     at com.sencha.tools.compiler.sources.ClassPathScope.getScopeSymbols(ClassPathScope.java:417)
+     at com.sencha.tools.compiler.sources.ClassPathScope.getScopeSymbols(ClassPathScope.java:408)
+     at com.sencha.tools.compiler.sources.ClassPathScope.getScopeSymbols(ClassPathScope.java:408)
+     at com.sencha.tools.compiler.sources.ClassPathScope.getScopeSymbols(ClassPathScope.java:408)
+     at com.sencha.tools.compiler.sources.TransitiveEnabler.enableTransitiveDependencies(TransitiveEnabler.java:48)
+     at com.sencha.tools.compiler.sources.ClassPathScope.processTransitiveDependencies(ClassPathScope.java:589)
+     at com.sencha.tools.compiler.sources.ClassPathScope.enableTransitiveDependencies(ClassPathScope.java:600)
+     at com.sencha.tools.compiler.sources.ClassPathScope.enableTransitiveDependencies(ClassPathScope.java:604)
+     at com.sencha.tools.page.AppJsonBuilder.load(AppJsonBuilder.java:224)
+     at com.sencha.command.compile.app.LoadAppCommand.execute(LoadAppCommand.java:60)
+>>>>>>> 42fb14a7a6f87b1b15426c209699cba03d569d87
      at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
      at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -916,6 +1054,7 @@ Exception information:
      at com.sencha.util.MethodInvoker$Arguments.invoke(MethodInvoker.java:175)
      at com.sencha.cli.Command.dispatch(Command.java:43)
      at com.sencha.cli.Commands.dispatch(Commands.java:64)
+<<<<<<< 2ca436a97238c20bf1bfbe45c66efa590df8e8a8
      at com.sencha.command.Sencha.dispatch(Sencha.java:80)
      at com.sencha.cli.AbstractCommand.dispatch(AbstractCommand.java:124)
      at com.sencha.ant.SenchaCommandTask.doExecute(SenchaCommandTask.java:42)
@@ -1030,6 +1169,17 @@ Exception information:
      at org.apache.tools.ant.TaskAdapter.execute(TaskAdapter.java:154)
      at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
      at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+=======
+     at com.sencha.command.compile.CompileCommands.dispatch(CompileCommands.java:332)
+     at com.sencha.cli.AbstractCommand.dispatch(AbstractCommand.java:124)
+     at com.sencha.ant.CompileTask$CompileToken.initialize(CompileTask.java:156)
+     at com.sencha.ant.CompileTask$CompileToken.dispatchCommand(CompileTask.java:163)
+     at com.sencha.ant.CompileTask.doExecute(CompileTask.java:123)
+     at com.sencha.ant.BaseAntTask.execute(BaseAntTask.java:34)
+     at com.sencha.ant.CompileTask.execute(CompileTask.java:36)
+     at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+     at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+>>>>>>> 42fb14a7a6f87b1b15426c209699cba03d569d87
      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
      at java.lang.reflect.Method.invoke(Method.java:498)
      at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
@@ -1043,7 +1193,11 @@ Exception information:
      at org.apache.tools.ant.taskdefs.CallTarget.execute(CallTarget.java:105)
      at com.sencha.ant.CallTask.execute(CallTask.java:137)
      at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+<<<<<<< 2ca436a97238c20bf1bfbe45c66efa590df8e8a8
      at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+=======
+     at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+>>>>>>> 42fb14a7a6f87b1b15426c209699cba03d569d87
      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
      at java.lang.reflect.Method.invoke(Method.java:498)
      at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
@@ -1055,7 +1209,11 @@ Exception information:
      at org.apache.tools.ant.Project.executeTargets(Project.java:1251)
      at org.apache.tools.ant.taskdefs.Ant.execute(Ant.java:442)
      at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+<<<<<<< 2ca436a97238c20bf1bfbe45c66efa590df8e8a8
      at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+=======
+     at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+>>>>>>> 42fb14a7a6f87b1b15426c209699cba03d569d87
      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
      at java.lang.reflect.Method.invoke(Method.java:498)
      at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
@@ -1084,11 +1242,18 @@ Exception information:
      at com.sencha.ant.AntScript.execute(AntScript.java:117)
      at com.sencha.command.plugin.PluginManager.execute(PluginManager.java:104)
      at com.sencha.command.plugin.PluginManager.executeReverseFirst(PluginManager.java:145)
+<<<<<<< 2ca436a97238c20bf1bfbe45c66efa590df8e8a8
      at com.sencha.command.environment.BuildEnvironment.execute(BuildEnvironment.java:308)
      at com.sencha.command.environment.AppOrPackageEnvironment.execute(AppOrPackageEnvironment.java:729)
      at com.sencha.command.BasePluginCommands$BasePluginCommand.doExecute(BasePluginCommands.java:125)
      at com.sencha.command.app.AppCommands$BuildCommand.execute(AppCommands.java:470)
      at com.sencha.command.app.AppCommands$WatchCommand.execute(AppCommands.java:909)
+=======
+     at com.sencha.command.environment.BuildEnvironment.execute(BuildEnvironment.java:309)
+     at com.sencha.command.environment.AppOrPackageEnvironment.execute(AppOrPackageEnvironment.java:729)
+     at com.sencha.command.BasePluginCommands$BasePluginCommand.doExecute(BasePluginCommands.java:125)
+     at com.sencha.command.app.AppCommands$BuildCommand.execute(AppCommands.java:470)
+>>>>>>> 42fb14a7a6f87b1b15426c209699cba03d569d87
      at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
      at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1104,6 +1269,11 @@ Exception information:
      at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
      at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
      at java.lang.reflect.Method.invoke(Method.java:498)
+<<<<<<< 2ca436a97238c20bf1bfbe45c66efa590df8e8a8
      at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:65)
      at com.install4j.runtime.launcher.UnixLauncher.main(UnixLauncher.java:57)
+=======
+     at com.exe4j.runtime.LauncherEngine.launch(Unknown Source)
+     at com.install4j.runtime.launcher.UnixLauncher.main(Unknown Source)
+>>>>>>> 42fb14a7a6f87b1b15426c209699cba03d569d87
 

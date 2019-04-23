@@ -9018,13 +9018,12 @@ tr.x-grid-subtable-row {
     padding-left: 10px;
     font-weight: bolder;
     font-size: large;
-    text-decoration: underline;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:36 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:35 */
 .body-color .x-panel-body-default {
     background-color: #f6f6f6;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:41 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:40 */
 .cancle-style {
     background-color: #e5e5e5;
     color: black;
@@ -9032,7 +9031,7 @@ tr.x-grid-subtable-row {
     border-radius: 5px;
     box-shadow: 2px 2px 5px #888;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:48 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:47 */
 .cancle-style:hover {
     background-color: #e5e5e5;
     height: '48px';
@@ -9042,21 +9041,22 @@ tr.x-grid-subtable-row {
     border-radius: 5px;
     box-shadow: 2px 2px 5px #888;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:57 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:56 */
 .cancle-style .x-btn-inner-default-small:hover {
     color: black;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:60 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:59 */
 .cancle-style .x-btn-inner-default-small {
     color: black;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:63 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:62 */
 .save-style {
     background-color: #000;
     color: white;
     border: none;
     border-radius: 5px;
     box-shadow: 2px 2px 5px #888;
+    display: block;
 }
 /* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:70 */
 .save-style:hover {
@@ -9066,48 +9066,64 @@ tr.x-grid-subtable-row {
     box-shadow: 2px 2px 5px #888;
 }
 /* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:77 */
+.update-style {
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888;
+    display: none;
+}
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:85 */
+.update-style:hover {
+    background-color: #000;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888;
+}
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:94 */
 .body-color .x-panel-body-default {
     background-color: #f6f6f6;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:82 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:99 */
 .x-datepicker-month {
     background-color: #070707;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:85 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:102 */
 .x-datepicker-selected div.x-datepicker-date {
     background-color: #000;
     color: #fff;
     font-weight: 300;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:90 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:107 */
 .x-btn .x-unselectable .x-btn-default-small:hover {
     background-color: #000;
     color: #fff;
     font-weight: 300;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:95 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:112 */
 .x-datepicker-month .x-btn-inner {
     color: white;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:98 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:115 */
 .x-datepicker-footer,
 .x-monthpicker-buttons {
     display: none;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:101 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:118 */
 .x-datepicker-arrow {
     background-color: black;
     color: white;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:105 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:122 */
 .x-datepicker-inner > tbody {
     background-color: #ececec;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:108 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:125 */
 .x-datepicker-next {
     margin-right: 50px;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:111 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/editcontact/EditContact.scss:128 */
 .x-datepicker-prev {
     margin-left: 50px;
 }
@@ -9709,7 +9725,13 @@ tr.x-grid-subtable-row {
 /* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/Grid.scss:7 */
 .x-grid-row:hover .edit-icon:before {
     content: "\f040";
-    color: #e67e22;
+    color: #111110;
+}
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/Grid.scss:11 */
+.x-grid-row:hover {
+    height: 40px;
+    box-shadow: inset -15px -18px 54px -36px rgba(0, 0, 0, 0.73);
+    background-color: #f6f6f6;
 }
 /* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-btn-addcontactbutton-small {

@@ -8,43 +8,38 @@ Ext.define('Contacts.view.contacts.allcontacts.Grid', {
     'Ext.exporter.text.CSV'
   ],
 
-  controller: 'gridvc',
+    controller: 'gridvc',
+    
+    
+    listeners:{
+        selectionchange:'onSelectionChange',
+        itemmouseenter: 'onHover'
+    },
+    
+    plugins: [
+        'gridexporter',
+        'gridfilters'
+    ],
 
-
-  listeners: {
-    selectionchange: 'onSelectionChange',
-    itemmouseenter: 'onHover'
-  },
-
-  plugins: [
-    'gridexporter',
-    'gridfilters'
-  ],
-
-  selModel: {
-    selType: 'checkboxmodel',
-    headerText: 'Select All',
-    headerWidth: 100,
-  // cls:'select-check-box'
-  },
-  cls: 'column-height',
-  columns: [{
-    xtype: 'actioncolumn',
-    width: 50,
-    align: 'center',
-    iconCls: 'x-fa edit-icon',
-    tooltip: 'Edit',
-    menuDisabled: true,
-  },
+    selModel: {
+        selType: 'checkboxmodel',
+        headerText: 'Select All',
+        headerWidth: 100,
+        // cls:'select-check-box'
+    },
+    columns: [{
+                xtype: 'actioncolumn',
+                width: 50,
+                align:'center',
+                iconCls: 'x-fa edit-icon',
+                tooltip: 'Edit',
+                menuDisabled: true,
+        },
     {
-      text: 'First Name ',
-      dataIndex: 'firstname',
-      menuDisabled: true,
-      flex: 1,
-
-      listeners: {
-
-      }
+        text: 'First Name ',
+        dataIndex: 'firstname',
+        menuDisabled: true,
+        flex: 1  ,
     }, {
       text: 'Email Id ',
       dataIndex: 'email_address',

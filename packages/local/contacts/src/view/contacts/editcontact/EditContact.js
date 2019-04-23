@@ -2,7 +2,8 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
   extend: 'Ext.form.Panel',
   requires: [
     'Contacts.view.contacts.editcontact.EditContactVC',
-    'Contacts.view.contacts.editcontact.EditContactVM'
+    'Contacts.view.contacts.editcontact.EditContactVM',
+    'Contacts.view.contacts.editcontact.FirstName'
   ],
   cls: 'body-color',
   controller: 'editcontact-vc',
@@ -12,7 +13,9 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
   },
   // bodyStyle: 'margin-left: 100px',
   bodyPadding: '0 100',
-  enctype: 'multipart/form-data',
+
+  jsonSubmit: true,
+
   scrollable: true,
 
   fieldDefaults: {
@@ -59,7 +62,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
           // To bind src of image and display image
           listeners: {
             change(field,input) {
-              alert(field);
+              console.log(field);
               const dom = Ext.getDom(field.fileInputEl);
               const viewModel = field.up('editcontact').getViewModel();
               var imgName = input.split("\\");
@@ -103,7 +106,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
         {
           xtype: 'datefield',
           fieldLabel: 'Date',
-          name: 'date',
+          name: 'created',
           emptyText: 'MM-DD-YYYY',
           name: '',
           format: 'm-d-Y',
@@ -111,11 +114,10 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
           altFormats: 'm,d,Y|m.d.Y',
         },
         {
-
-          xtype: 'textfield',
-          fieldLabel: 'First Name',
-          name: 'firstname',
-          reference: 'firstname'
+         
+          xtype:'firstname',
+          margin:'10 10 0 10',
+          height:70
         }, {
           xtype: 'textfield',
           fieldLabel: 'Last Name',
@@ -127,8 +129,10 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
           name: 'mobile_number',
           emptyText: '+911234567890',
           reference: 'mobile',
+          maxLength:10,
           maskRe: /[0-9.]/,
-          maxLength:10
+          regex: /^\d{3}\d{3}\d{4}$/,
+          
         },
         {
           xtype: 'textfield',
@@ -285,8 +289,8 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
         margin:'0 14 4 0'
       }, {
         text: 'Save',
-        // disabled: true,
-        // formBind: true,
+        disabled: true,
+        formBind: true,
         reference: 'savebutton',
         cls: 'save-style',
         listeners: {

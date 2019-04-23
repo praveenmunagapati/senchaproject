@@ -22,7 +22,7 @@ Ext.define('Contacts.store.Contacts', {
         },
         writer: {
             type: 'json',
-            writeAllFields: true// If false the updation part was not working
+            writeAllFields: true
         },
 
         // To send the http request w/o id in url and parameters as json data object

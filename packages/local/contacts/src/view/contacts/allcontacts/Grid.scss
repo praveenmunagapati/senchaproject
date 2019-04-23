@@ -6,7 +6,12 @@
 
 .x-grid-row:hover .edit-icon:before {
     content: "\f040";
-    color: #e67e22;
+    color: #111110;
+}
+.x-grid-row:hover{
+    height: 40px;
+    box-shadow: inset -15px -18px 54px -36px rgba(0,0,0,0.73);
+    background-color: #F6F6F6;
 }
 
 

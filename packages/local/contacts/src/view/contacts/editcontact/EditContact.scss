@@ -29,7 +29,6 @@
     padding-left:10px;
     font-weight: bolder;
     font-size:large;
-    text-decoration: underline;
 }
 
 //form body color styling
@@ -66,6 +65,7 @@
     border:none;
     border-radius: 5px;
     box-shadow: 2px 2px 5px #888888;
+    display: block;
 }
 .save-style:hover{
     background-color:rgba(0, 0, 0, 1);
@@ -73,6 +73,23 @@
     border-radius: 5px;
     box-shadow: 2px 2px 5px #888888;
 }
+
+.update-style{
+    background-color:rgba(0, 0, 0, 1);
+    color:white;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888888;
+    display: none; 
+}
+.update-style:hover{
+    background-color:rgba(0, 0, 0, 1);
+    color:white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+
 
 .body-color .x-panel-body-default{
     background-color:rgba(246, 246, 246, 1);
