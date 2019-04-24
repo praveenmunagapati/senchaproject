@@ -6,13 +6,8 @@ Ext.define('Contacts.view.contacts.addcontact.AddContact', {
   ],
 
   controller: 'addcontact-vc',
-
   xtype: 'addcontact',
-
   layout: 'fit',
-
-  // height: 500,
-
   margin: '0 100px',
 
   defaults: {
@@ -20,7 +15,7 @@ Ext.define('Contacts.view.contacts.addcontact.AddContact', {
   },
 
   items: [
-    {
+    { // height: 500,
       xtype: 'container',
       items: [{
         xtype: 'component',

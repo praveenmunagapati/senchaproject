@@ -1,4 +1,5 @@
 Ext.define('Contacts.view.contacts.allcontacts.AllContactsVC', {
+<<<<<<< a8b4c6ec6d6f211341e22d3a7283e0d7cab0a723
   extend: 'Ext.app.ViewController',
   alias: 'controller.allcontacts-vc',
 
@@ -121,6 +122,81 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContactsVC', {
             btn.up('allcontacts').down('gridview').getColumns()[toHide[i]].setHidden(true);
           }
           ;
+=======
+    extend: 'Ext.app.ViewController',
+    alias: 'controller.allcontacts-vc',
+
+
+    // Function for Clearing the filter values
+    // Getting the values of input fields from filter button and
+    // Getting the store and filtering the records baesed on the input values
+
+    onApplyFilter: function (btn) {
+        var apply = btn.up('filterform').getForm();
+        var value = apply.getFieldValues();
+
+        var firstName = value.filter_by_name;
+        var company = value.filter_by_companyname;
+        // console.log(company);
+        // console.log(firstName);
+
+        var viewModel = btn.up('filterform').up('allcontacts').getViewModel();
+        // console.log(viewModel.getStore('Contacts'));
+        var store = viewModel.getStore('Contacts');
+        // store.setRemoteFilter(true);
+        store.filter([
+            { property: 'filter_by_name', value: firstName },
+            { property: 'filter_by_companyname', value: company },
+            // { property: 'search' , value:''}
+        ]);
+
+        // store.load({
+        //     params: {
+        //         "filter_by_name": firstName,
+        //         "filter_by_companyname": company,
+        //         "search":''
+        //    }
+        //     });
+
+        //console.log(store);
+    },
+
+    // Function for Clearing the filter values
+    // Getting the values of input fields from filter button and
+    // Setting its value to null (on click of clear button)
+    // Then filtering for null will show whole data
+
+    onClearFilter: function (btn) {
+        var apply = btn.up('filterform').getForm();
+        var value = apply.getFieldValues();
+
+        btn.up('filterform').lookupReference('firstname').setValue('');
+        btn.up('filterform').lookupReference('company').setValue('');
+
+        var viewModel = btn.up('filterform').up('allcontacts').getViewModel();
+        // console.log(viewModel.getStore('Contacts'));
+        var store = viewModel.getStore('Contacts');
+        console.log('check' ,btn.up('filterform').down('checkboxfield').setValue(false))
+        console.log('check' ,btn.up('filterform').lookupReference('chkCompany').setValue(false));
+      
+        store.filter([
+            { property: 'firstname', value: '' },
+            { property: 'orgname', value: '' },
+        ]);
+    },
+
+    // Function to dynamically Add/Remove the columns of grid 
+    // Created two arrays and pushed checked values into one and unchecked into one array
+    // Then using those values displayed the grid columns
+
+    onSelectedColumns: function (checkbox) {
+        var toHide = [];
+        var toShow = [];
+        if (checkbox.up('allcontacts').lookupReference('firstname').value) {
+            toShow.push(checkbox.up('allcontacts').lookupReference('firstname').inputValue);
+        } else {
+            toHide.push(checkbox.up('allcontacts').lookupReference('firstname').inputValue);
+>>>>>>> d66a4ec62562b7e45188a5df8019d98813257e33
         }
       });
     } else {

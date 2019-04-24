@@ -1,9 +1,15 @@
 Ext.define('Contacts.view.contacts.editcontact.FirstName', {
     extend: 'Ext.container.Container',
+    // requires:[
+    //     'Contacts.view.contacts.editcontact.EditContactVM'
+    // ],
    xtype:'firstname',
     layout:'vbox',
    cls:'first-name',
     height:100,
+    viewModel: {
+        type: 'editcontactvm'
+      },
     items:[
         {
             xtype:'label',
@@ -24,7 +30,6 @@ Ext.define('Contacts.view.contacts.editcontact.FirstName', {
                     // bind:{
                     //     store: '{titles}'
                     // }
-           
                   },
                       {
                     xtype: 'textfield',

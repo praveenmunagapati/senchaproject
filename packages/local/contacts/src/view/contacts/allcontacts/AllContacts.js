@@ -145,7 +145,6 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                     arrowVisible: false,
                     margin: '0 0 0 10',
                     iconCls: 'filter',
-                    // glyph: 'f0db@FontAwesome', 
                     cls: 'filter-button',
                     menu: {
                         items: [
