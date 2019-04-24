@@ -89,13 +89,6 @@ Ext.define('Zoho.view.main.Main', {
         },
 
         items: [
-            //     {
-            //     title: 'Home',
-                
-            // },{
-            //     title: 'Leads',
-                
-            // },
             {
                 xtype: 'contacts',
                 title: 'Contacts'

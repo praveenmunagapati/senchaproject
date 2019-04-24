@@ -30,11 +30,9 @@ Ext.define('Contacts.view.contacts.allcontacts.GridVC', {
                             success: function (response, opts) {
                                 Ext.toast('Record successfully Deleted');
                             },
-
                             failure: function (response, opts) {
                                 Ext.toast('Record is not Deleted');
                             },
-
                             params: {
                                 ddo_contact_id: selected[i].id
                             }
@@ -54,8 +52,8 @@ Ext.define('Contacts.view.contacts.allcontacts.GridVC', {
       editButton.setListeners({
         click: function(grid, rowIndex, colIndex) {
             // var rec = grid.getStore().getAt(rowIndex);
-        console.log('edit',grid.up('allcontacts').up('contacts').down('editcontact').lookupReference('savebutton').setStyle({display: 'none'}));
-        console.log('edit',grid.up('allcontacts').up('contacts').down('editcontact').lookupReference('updatebutton').setStyle({display: 'block'}));
+        grid.up('allcontacts').up('contacts').down('editcontact').lookupReference('savebutton').setStyle({display: 'none'});
+        grid.up('allcontacts').up('contacts').down('editcontact').lookupReference('updatebutton').setStyle({display: 'block'});
         grid.up('allcontacts').up('contacts').setActiveItem('editcontact');
         var editContact = grid.up('allcontacts').up('contacts').down('editcontact');
         var form = editContact.getForm().loadRecord(record);

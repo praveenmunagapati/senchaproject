@@ -23,10 +23,10 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContactsVC', {
     // console.log(store);
     // store.setRemoteFilter(true);
     store.filter([{
-      property: "filter_by_name",
+      property: "firstname",
       value: firstName
     }, {
-      property: "filter_by_comanyname",
+      property: "orgname",
       value: company
     }]);
 
@@ -48,12 +48,18 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContactsVC', {
     var viewModel = btn.up('filterform').up('allcontacts').getViewModel();
     // console.log(viewModel.getStore('Contacts'));
     var store = viewModel.getStore('Contacts');
+    btn.up('filterform').lookupReference('firstname').setValue(false);
+    btn.up('filterform').lookupReference('chkCompany').setValue(false);
 
     store.filter([
       {
-        property: 'filter_by_name',
+        property: 'fristname',
         value: ''
       },
+      {
+          property:'orgname',
+          value:''
+      }
     // { property: 'orgname', value: '' },
     ]);
   },

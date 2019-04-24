@@ -298,7 +298,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
         }
       },
       {
-        text: 'update',
+        text: 'save',
         reference: 'updatebutton',
         // disabled: true,
         // formBind: true,
