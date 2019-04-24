@@ -1,11 +1,55 @@
+/*
+ * Generates a set of style rules for the "addcontact-button" button UI.
+ */
+@include extjs-button-small-ui (
+    $ui: 'addcontactbutton',
+    $background-color : rgba(49, 169, 80, 1),  
+    $font-family: 'Muli, SemiBold',
+    $font-size: 20px,
+    $font-weight: bolder,
+    $padding: 15px 20px,
+    $box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16),
+    $border: none,
+    $border-radius: 4px,
+    $width: 170px
+    // $height: 50px
+);
+
+.x-btn-addcontactbutton-small{
+ border-color: white;
+}
+
+
+@include extjs-button-small-ui (
+    $ui: 'delete-button',
+    $background-color : rgba(145, 145, 145, 1),  
+    $font-family: 'Muli, SemiBold',
+    $font-size: 15px,
+    $font-weight: bolder,
+    $padding: 10px 15px,
+    $box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16),
+    $border-radius: 4px,
+    $border: none,
+    $width: auto,
+    $color: rgba(0, 0, 0, 1)
+    // $height: 50px
+);
+
+.x-btn-addcontactbutton-small{
+ border-color: white;
+}
+
+
+
 .filter-button, .export-button, .delete-button, .addcolumns-button, {
     // background-color: rgba(0, 0, 0, 1);
-    font-family: 'Muli', sans-serif;
+    font-family: Muli, Bold;
     font-size: 20px;
     font-weight: bolder;
     padding: 0 20px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
     border: none;
+    border-radius: 4px;
     width: auto;
     height: 40px;
 }
@@ -32,9 +76,11 @@
     background-size: 15px 15px;
 }
 
-.delete-button{
-    background-color: rgba(145, 145, 145, 1);
+.delete-button[aria-disabled="true"] {
+    background: rgba(255, 165, 0, 1) url('images/filter.svg') no-repeat 20%;
+    background-size: 15px 15px;
 }
+
 
 .apply-button{
     background-color: rgba(229, 229, 229, 1);

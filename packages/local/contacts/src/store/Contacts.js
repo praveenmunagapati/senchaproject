@@ -6,8 +6,7 @@ Ext.define('Contacts.store.Contacts', {
     alias: 'store.contacts',
     model: 'Contacts.model.Contact',
     autoLoad: true,
-    remoteFilter: true,
-    // autoSync:true,
+    // remoteFilter: true,
     proxy: {
         type: 'rest',
         url: 'http://ddost.walkingtree.tech',
@@ -23,8 +22,10 @@ Ext.define('Contacts.store.Contacts', {
         },
         writer: {
             type: 'json',
-            writeAllFields: false
+            writeAllFields: true// If false the updation part was not working
         },
+
+        // To send the http request w/o id in url and parameters as json data object
         appendId:false,
         paramsAsJson: true 
     }

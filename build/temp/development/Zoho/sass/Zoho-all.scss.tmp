@@ -2,7 +2,6 @@ $app-name:  dynamic( 'Zoho' );
 $image-search-path: '/var/www/html/SenchaProject/build/development/Zoho/resources';
 $theme-name:  dynamic( 'theme-triton' );
 $include-contacts-model-contact: dynamic(true);;
-$include-contacts-model-contactdata: dynamic(true);;
 $include-contacts-model-country: dynamic(true);;
 $include-contacts-store-contacts: dynamic(true);;
 $include-contacts-view-contacts-contacts: dynamic(true);;

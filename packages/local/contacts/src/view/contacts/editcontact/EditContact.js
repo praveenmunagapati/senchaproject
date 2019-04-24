@@ -12,8 +12,9 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
   },
   // bodyStyle: 'margin-left: 100px',
   bodyPadding: '0 100',
-
+  enctype: 'multipart/form-data',
   scrollable: true,
+
   fieldDefaults: {
     labelAlign: 'top',
     msgTarget: 'side',
@@ -24,6 +25,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
     labelAlign: 'top',
     msgTarget: 'side'
   },
+
   items: [
     {
       xtype: 'fieldcontainer',
@@ -41,7 +43,6 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
         {
           xtype: 'image',
           // src: 'resources/images/ben-knapen.png',
-         
           height: 100,
           width: 100,
           bind: {
@@ -51,29 +52,31 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
           // xtype: 'filefield', 
           xtype: 'fileuploadfield',
           buttonText: 'Edit Photo',
-          name: 'contact_profile_pic',
+          name: 'contact_profile_pic',                   
           buttonOnly: true,
           cls: 'btn-browse',
+
+          // To bind src of image and display image
           listeners: {
             change(field,input) {
               alert(field);
               const dom = Ext.getDom(field.fileInputEl);
-              const container = field.up('editcontact');
+              const viewModel = field.up('editcontact').getViewModel();
               var imgName = input.split("\\");
               imgName = imgName[imgName.length-1];
-              console.log('input', imgName);
-              console.log('continer',container);
-              const viewModel = container.getViewModel();
-              console.log('continer',viewModel);
+              // console.log('input', imgName);
+              // console.log('continer',viewModel);
               const reader = new FileReader();
               reader.onload = e => {
                 viewModel.set('imgData', 'resources/images/'+imgName);
-
               }
               reader.readAsDataURL(dom.files[0]);
             }
           }
-        }]
+        }
+       
+
+      ]
 
     },
     {
@@ -91,6 +94,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
         height: 48,
       },
       items: [
+
         {
           columnWidth:1,
           height:20,
@@ -283,11 +287,18 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
         text: 'Save',
         // disabled: true,
         // formBind: true,
+        reference: 'savebutton',
         cls: 'save-style',
-
         listeners: {
           click: 'saveFormData'
         }
+      },
+      {
+        text: 'update',
+        reference: 'updatebutton',
+        // disabled: true,
+        // formBind: true,
+        cls: 'update-style',
       }
       ]
     }

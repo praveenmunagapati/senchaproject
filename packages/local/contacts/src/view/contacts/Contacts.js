@@ -13,7 +13,7 @@ Ext.define('Contacts.view.contacts.Contacts', {
     viewModel: {
         type: 'contacts-vm'
     },
-    scrollable:true,
+    scrollable: true,
     xtype: 'contacts',
     layout: 'card',
 

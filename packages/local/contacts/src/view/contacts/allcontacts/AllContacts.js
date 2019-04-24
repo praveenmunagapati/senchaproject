@@ -37,7 +37,8 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                 }, {
                     xtype: 'tbfill'
                 }, {
-                    cls: 'addcontact-button',
+                    ui: 'addcontactbutton',
+                    glyph: 'f067@FontAwesome',
                     xtype: 'button',
                     text: 'Add Contact',
                     listeners: {
@@ -55,19 +56,18 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                     layout: 'hbox',
                     cls: 'search-field',
                     height: 40,
-                    items:[{
+                    items: [{
                         xtype: 'button',
                         width: 50,
                         cls: 'search-trigger',
-                    },{
+                    }, {
                         xtype: 'search',
                         cls: 'search'
                     }],
-                   
+
                 }, {
                     xtype: 'button',
-                    cls: 'delete-button',
-                    reference: 'delete-button',
+                    ui: 'delete-button',
                     glyph: 'f014@FontAwesome',
                     disabled: true,
                     text: 'Delete',
@@ -87,9 +87,10 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                     glyph: 'f0db@FontAwesome',
                     iconCls: 'addcolumns',
                     cls: 'addcolumns-button',
+                    // ui: 'addcolumns-button',
                     margin: '0 10 20',
                     menu: {
-                        bodyPadding: '0 0 10 0',                        
+                        bodyPadding: '0 0 10 0',
                         items: [
                             {
                                 xtype: 'checkboxgroup',
@@ -135,18 +136,18 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                                 cls: 'apply-button',
                                 width: 70,
                                 height: 30,
-                                
+
                             }
                         ]
                     }
                 }, {
                     text: 'Filter',
                     arrowVisible: false,
-                    margin: '0 10 10',
+                    margin: '0 0 0 10',
                     iconCls: 'filter',
                     // glyph: 'f0db@FontAwesome', 
                     cls: 'filter-button',
-                    menu: {                                               
+                    menu: {
                         items: [
                             {
                                 xtype: 'filterform'

@@ -9111,30 +9111,575 @@ tr.x-grid-subtable-row {
 .x-datepicker-prev {
     margin-left: 50px;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:1 */
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-btn-addcontactbutton-small {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    padding: 15px 20px 15px 20px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #31a950;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-btn-addcontactbutton-small-mc {
+    background-color: #31a950;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-btn-addcontactbutton-small {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-btn-addcontactbutton-small-frameInfo {
+    font-family: th-1-1-1-1-1-1-1-1-15-20-15-20;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-btn-addcontactbutton-small-tl {
+    background-position: 0 -2px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-btn-addcontactbutton-small-tr {
+    background-position: right -3px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-btn-addcontactbutton-small-bl {
+    background-position: 0 -4px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-btn-addcontactbutton-small-br {
+    background-position: right -5px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-btn-addcontactbutton-small-ml {
+    background-position: 0 top;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-btn-addcontactbutton-small-mr {
+    background-position: right top;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-btn-addcontactbutton-small-tc {
+    background-position: 0 0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-btn-addcontactbutton-small-bc {
+    background-position: 0 -1px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-btn-addcontactbutton-small-tr,
+.x-btn-addcontactbutton-small-br,
+.x-btn-addcontactbutton-small-mr {
+    padding-right: 1px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-btn-addcontactbutton-small-tl,
+.x-btn-addcontactbutton-small-bl,
+.x-btn-addcontactbutton-small-ml {
+    padding-left: 1px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-btn-addcontactbutton-small-tc {
+    height: 1px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-btn-addcontactbutton-small-bc {
+    height: 1px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-btn-addcontactbutton-small-tl,
+.x-btn-addcontactbutton-small-bl,
+.x-btn-addcontactbutton-small-tr,
+.x-btn-addcontactbutton-small-br,
+.x-btn-addcontactbutton-small-tc,
+.x-btn-addcontactbutton-small-bc,
+.x-btn-addcontactbutton-small-ml,
+.x-btn-addcontactbutton-small-mr {
+    background-image: url(images/btn/btn-addcontactbutton-small-corners.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-btn-addcontactbutton-small-ml,
+.x-btn-addcontactbutton-small-mr {
+    background-image: url(images/btn/btn-addcontactbutton-small-sides.gif);
+    background-repeat: repeat-y;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-btn-addcontactbutton-small-mc {
+    padding: 15px 20px 15px 20px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2463 */
+.x-btn-addcontactbutton-small {
+    border-color: #5897ce;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2470 */
+.x-btn-button-addcontactbutton-small {
+    min-height: 16px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2475 */
+.x-ie9m .x-btn-button-addcontactbutton-small {
+    min-height: auto;
+    height: 16px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2482 */
+.x-btn-inner-addcontactbutton-small {
+    font: bolder 15px/16px 'Muli, SemiBold';
+    color: #f0f0f0;
+    padding: 0 5px;
+    max-width: 100%;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2502 */
+.x-ie9 .x-btn-icon-right > .x-btn-inner-addcontactbutton-small,
+.x-ie9 .x-btn-icon-left > .x-btn-inner-addcontactbutton-small {
+    max-width: calc(100% - 16px);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2510 */
+.x-safari8m .x-btn-icon-right > .x-btn-inner-addcontactbutton-small,
+.x-safari8m .x-btn-icon-left > .x-btn-inner-addcontactbutton-small {
+    max-width: calc(100% - 15px);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2516 */
+.x-ie10p .x-btn-inner-addcontactbutton-small {
+    max-width: none;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2521 */
+.x-btn-icon-el-addcontactbutton-small {
+    font-size: 16px;
+    height: 16px;
+    color: #f0f0f0;
+    line-height: 16px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2527 */
+.x-btn-icon-left > .x-btn-icon-el-addcontactbutton-small,
+.x-btn-icon-right > .x-btn-icon-el-addcontactbutton-small {
+    width: 16px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2532 */
+.x-btn-icon-top > .x-btn-icon-el-addcontactbutton-small,
+.x-btn-icon-bottom > .x-btn-icon-el-addcontactbutton-small {
+    min-width: 16px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2554 */
+.x-ie8 .x-btn-icon-el-addcontactbutton-small.x-btn-glyph {
+    color: #f0f0f0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2561 */
+.x-btn-text.x-btn-icon-left > .x-btn-icon-el-addcontactbutton-small {
+    margin-right: 3px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2565 */
+.x-btn-text.x-btn-icon-left > .x-btn-icon-el-addcontactbutton-small.x-rtl {
+    margin-right: 0;
+    margin-left: 3px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2572 */
+.x-btn-text.x-btn-icon-right > .x-btn-icon-el-addcontactbutton-small {
+    margin-left: 3px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2576 */
+.x-btn-text.x-btn-icon-right > .x-btn-icon-el-addcontactbutton-small.x-rtl {
+    margin-left: 0;
+    margin-right: 3px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2583 */
+.x-btn-text.x-btn-icon-top > .x-btn-icon-el-addcontactbutton-small {
+    margin-bottom: 8px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2587 */
+.x-btn-text.x-btn-icon-bottom > .x-btn-icon-el-addcontactbutton-small {
+    margin-top: 8px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2593 */
+.x-btn-arrow-right > .x-btn-icon.x-btn-no-text.x-btn-button-addcontactbutton-small {
+    padding-right: 8px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2596 */
+.x-btn-arrow-right > .x-btn-text.x-btn-icon-right > .x-btn-icon-el-addcontactbutton-small {
+    margin-right: 5px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2603 */
+.x-btn-arrow-bottom > .x-btn-button-addcontactbutton-small,
+.x-btn-split-bottom > .x-btn-button-addcontactbutton-small {
+    padding-bottom: 15px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2609 */
+.x-btn-wrap-addcontactbutton-small.x-btn-arrow-right:after {
+    width: 18px;
+    content: "\f0d7";
+    font: 16px/1 FontAwesome;
+    color: #f0f0f0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2636 */
+.x-btn-wrap-addcontactbutton-small.x-btn-arrow-bottom:after {
+    height: 12px;
+    content: "\f0d7";
+    font: 16px/12px FontAwesome;
+    color: #f0f0f0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2663 */
+.x-btn-wrap-addcontactbutton-small.x-btn-split-right > .x-btn-button {
+    padding-right: 20px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2666 */
+.x-btn-wrap-addcontactbutton-small.x-btn-split-right > .x-btn-button.x-rtl {
+    padding-right: 0;
+    padding-left: 20px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2671 */
+.x-btn-wrap-addcontactbutton-small.x-btn-split-right > .x-btn-button:after {
+    border-right: 1px solid #f0f0f0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2676 */
+.x-btn-wrap-addcontactbutton-small.x-btn-split-right:after {
+    width: 20px;
+    content: "\f0d7";
+    font: 16px/1 FontAwesome;
+    color: #f0f0f0;
+    padding-left: 20px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2692 */
+.x-btn-wrap-addcontactbutton-small.x-rtl.x-btn-split-right:after {
+    padding-left: 0;
+    padding-right: 20px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2702 */
+.x-btn-wrap-addcontactbutton-small.x-btn-split-bottom {
+    margin-bottom: -15px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2704 */
+.x-btn-wrap-addcontactbutton-small.x-btn-split-bottom > .x-btn-button:after {
+    border-bottom: 1px solid #f0f0f0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2715 */
+.x-btn-wrap-addcontactbutton-small.x-btn-split-bottom:after {
+    height: 20px;
+    content: "\f0d7";
+    font: 16px/20px FontAwesome;
+    color: #f0f0f0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2748 */
+.x-btn-split-right > .x-btn-icon.x-btn-no-text.x-btn-button-addcontactbutton-small {
+    padding-right: 8px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2751 */
+.x-btn-split-right > .x-btn-text.x-btn-icon-right > .x-btn-icon-el-addcontactbutton-small {
+    margin-right: 5px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2757 */
+.x-keyboard-mode .x-btn-focus.x-btn-addcontactbutton-small {
+    background-image: none;
+    background-color: #31a950;
+    -webkit-box-shadow: #d3e0ec 0 1px 0px 0 inset, #d3e0ec 0 -1px 0px 0 inset, #d3e0ec -1px 0 0px 0 inset, #d3e0ec 1px 0 0px 0 inset;
+    -moz-box-shadow: #d3e0ec 0 1px 0px 0 inset, #d3e0ec 0 -1px 0px 0 inset, #d3e0ec -1px 0 0px 0 inset, #d3e0ec 1px 0 0px 0 inset;
+    box-shadow: #d3e0ec 0 1px 0px 0 inset, #d3e0ec 0 -1px 0px 0 inset, #d3e0ec -1px 0 0px 0 inset, #d3e0ec 1px 0 0px 0 inset;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2793 */
+.x-btn-addcontactbutton-small .x-btn-arrow-el {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 40px;
+    pointer-events: none;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2802 */
+.x-btn-addcontactbutton-small .x-btn-arrow-el.x-rtl {
+    right: inherit;
+    left: 0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2810 */
+.x-keyboard-mode .x-btn-addcontactbutton-small.x-arrow-focus .x-btn-arrow-el {
+    border: 1px solid #d3e0ec;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2817 */
+.x-btn-over.x-btn-addcontactbutton-small {
+    border-color: #518bbd;
+    background-image: none;
+    background-color: #2d9b4a;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2845 */
+.x-keyboard-mode .x-btn-focus.x-btn-over.x-btn-addcontactbutton-small {
+    -webkit-box-shadow: #d1dee9 0 1px 0px 0 inset, #d1dee9 0 -1px 0px 0 inset, #d1dee9 -1px 0 0px 0 inset, #d1dee9 1px 0 0px 0 inset;
+    -moz-box-shadow: #d1dee9 0 1px 0px 0 inset, #d1dee9 0 -1px 0px 0 inset, #d1dee9 -1px 0 0px 0 inset, #d1dee9 1px 0 0px 0 inset;
+    box-shadow: #d1dee9 0 1px 0px 0 inset, #d1dee9 0 -1px 0px 0 inset, #d1dee9 -1px 0 0px 0 inset, #d1dee9 1px 0 0px 0 inset;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2874 */
+.x-btn.x-btn-menu-active.x-btn-addcontactbutton-small,
+.x-btn.x-btn-pressed.x-btn-addcontactbutton-small {
+    border-color: #42719a;
+    background-image: none;
+    background-color: #257f3c;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2904 */
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active.x-btn-addcontactbutton-small,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed.x-btn-addcontactbutton-small {
+    -webkit-box-shadow: #ced8e1 0 1px 0px 0 inset, #ced8e1 0 -1px 0px 0 inset, #ced8e1 -1px 0 0px 0 inset, #ced8e1 1px 0 0px 0 inset;
+    -moz-box-shadow: #ced8e1 0 1px 0px 0 inset, #ced8e1 0 -1px 0px 0 inset, #ced8e1 -1px 0 0px 0 inset, #ced8e1 1px 0 0px 0 inset;
+    box-shadow: #ced8e1 0 1px 0px 0 inset, #ced8e1 0 -1px 0px 0 inset, #ced8e1 -1px 0 0px 0 inset, #ced8e1 1px 0 0px 0 inset;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2933 */
+.x-btn.x-btn-disabled.x-btn-addcontactbutton-small {
+    background-image: none;
+    background-color: #31a950;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2966 */
+.x-keyboard-mode .x-btn-focus .x-btn-addcontactbutton-small-tl,
+.x-keyboard-mode .x-btn-focus .x-btn-addcontactbutton-small-bl,
+.x-keyboard-mode .x-btn-focus .x-btn-addcontactbutton-small-tr,
+.x-keyboard-mode .x-btn-focus .x-btn-addcontactbutton-small-br,
+.x-keyboard-mode .x-btn-focus .x-btn-addcontactbutton-small-tc,
+.x-keyboard-mode .x-btn-focus .x-btn-addcontactbutton-small-bc {
+    background-image: url(images/btn/btn-addcontactbutton-small-focus-corners.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2974 */
+.x-keyboard-mode .x-btn-focus .x-btn-addcontactbutton-small-ml,
+.x-keyboard-mode .x-btn-focus .x-btn-addcontactbutton-small-mr {
+    background-image: url(images/btn/btn-addcontactbutton-small-focus-sides.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2978 */
+.x-keyboard-mode .x-btn-focus .x-btn-addcontactbutton-small-mc {
+    background-color: #31a950;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2991 */
+.x-btn-over .x-btn-addcontactbutton-small-tl,
+.x-btn-over .x-btn-addcontactbutton-small-bl,
+.x-btn-over .x-btn-addcontactbutton-small-tr,
+.x-btn-over .x-btn-addcontactbutton-small-br,
+.x-btn-over .x-btn-addcontactbutton-small-tc,
+.x-btn-over .x-btn-addcontactbutton-small-bc {
+    background-image: url(images/btn/btn-addcontactbutton-small-over-corners.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2999 */
+.x-btn-over .x-btn-addcontactbutton-small-ml,
+.x-btn-over .x-btn-addcontactbutton-small-mr {
+    background-image: url(images/btn/btn-addcontactbutton-small-over-sides.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3003 */
+.x-btn-over .x-btn-addcontactbutton-small-mc {
+    background-color: #2d9b4a;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3016 */
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-addcontactbutton-small-tl,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-addcontactbutton-small-bl,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-addcontactbutton-small-tr,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-addcontactbutton-small-br,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-addcontactbutton-small-tc,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-addcontactbutton-small-bc {
+    background-image: url(images/btn/btn-addcontactbutton-small-focus-over-corners.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3024 */
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-addcontactbutton-small-ml,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-addcontactbutton-small-mr {
+    background-image: url(images/btn/btn-addcontactbutton-small-focus-over-sides.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3028 */
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-addcontactbutton-small-mc {
+    background-color: #2d9b4a;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3043 */
+.x-btn.x-btn-menu-active .x-btn-addcontactbutton-small-tl,
+.x-btn.x-btn-menu-active .x-btn-addcontactbutton-small-bl,
+.x-btn.x-btn-menu-active .x-btn-addcontactbutton-small-tr,
+.x-btn.x-btn-menu-active .x-btn-addcontactbutton-small-br,
+.x-btn.x-btn-menu-active .x-btn-addcontactbutton-small-tc,
+.x-btn.x-btn-menu-active .x-btn-addcontactbutton-small-bc,
+.x-btn.x-btn-pressed .x-btn-addcontactbutton-small-tl,
+.x-btn.x-btn-pressed .x-btn-addcontactbutton-small-bl,
+.x-btn.x-btn-pressed .x-btn-addcontactbutton-small-tr,
+.x-btn.x-btn-pressed .x-btn-addcontactbutton-small-br,
+.x-btn.x-btn-pressed .x-btn-addcontactbutton-small-tc,
+.x-btn.x-btn-pressed .x-btn-addcontactbutton-small-bc {
+    background-image: url(images/btn/btn-addcontactbutton-small-pressed-corners.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3051 */
+.x-btn.x-btn-menu-active .x-btn-addcontactbutton-small-ml,
+.x-btn.x-btn-menu-active .x-btn-addcontactbutton-small-mr,
+.x-btn.x-btn-pressed .x-btn-addcontactbutton-small-ml,
+.x-btn.x-btn-pressed .x-btn-addcontactbutton-small-mr {
+    background-image: url(images/btn/btn-addcontactbutton-small-pressed-sides.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3055 */
+.x-btn.x-btn-menu-active .x-btn-addcontactbutton-small-mc,
+.x-btn.x-btn-pressed .x-btn-addcontactbutton-small-mc {
+    background-color: #257f3c;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3069 */
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-addcontactbutton-small-tl,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-addcontactbutton-small-bl,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-addcontactbutton-small-tr,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-addcontactbutton-small-br,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-addcontactbutton-small-tc,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-addcontactbutton-small-bc,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-addcontactbutton-small-tl,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-addcontactbutton-small-bl,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-addcontactbutton-small-tr,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-addcontactbutton-small-br,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-addcontactbutton-small-tc,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-addcontactbutton-small-bc {
+    background-image: url(images/btn/btn-addcontactbutton-small-focus-pressed-corners.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3077 */
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-addcontactbutton-small-ml,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-addcontactbutton-small-mr,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-addcontactbutton-small-ml,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-addcontactbutton-small-mr {
+    background-image: url(images/btn/btn-addcontactbutton-small-focus-pressed-sides.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3081 */
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-addcontactbutton-small-mc,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-addcontactbutton-small-mc {
+    background-color: #257f3c;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3095 */
+.x-btn.x-btn-disabled .x-btn-addcontactbutton-small-tl,
+.x-btn.x-btn-disabled .x-btn-addcontactbutton-small-bl,
+.x-btn.x-btn-disabled .x-btn-addcontactbutton-small-tr,
+.x-btn.x-btn-disabled .x-btn-addcontactbutton-small-br,
+.x-btn.x-btn-disabled .x-btn-addcontactbutton-small-tc,
+.x-btn.x-btn-disabled .x-btn-addcontactbutton-small-bc {
+    background-image: url(images/btn/btn-addcontactbutton-small-disabled-corners.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3103 */
+.x-btn.x-btn-disabled .x-btn-addcontactbutton-small-ml,
+.x-btn.x-btn-disabled .x-btn-addcontactbutton-small-mr {
+    background-image: url(images/btn/btn-addcontactbutton-small-disabled-sides.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3107 */
+.x-btn.x-btn-disabled .x-btn-addcontactbutton-small-mc {
+    background-color: #31a950;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3117 */
+.x-nbr .x-btn-addcontactbutton-small {
+    background-image: none;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3123 */
+.x-btn-disabled.x-btn-addcontactbutton-small {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    opacity: 0.5;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3142 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-addcontactbutton-small.x-segmented-button-first {
+    border-right-width: 1px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3144 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-addcontactbutton-small.x-segmented-button-first .x-btn-addcontactbutton-small-mc {
+    padding-right: 20px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3148 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-addcontactbutton-small.x-segmented-button-middle {
+    border-right-width: 1px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3150 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-addcontactbutton-small.x-segmented-button-middle .x-btn-addcontactbutton-small-mc {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3156 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-addcontactbutton-small.x-segmented-button-last .x-btn-addcontactbutton-small-mc {
+    padding-left: 20px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3163 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-addcontactbutton-small.x-segmented-button-first {
+    border-bottom-width: 1px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3165 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-addcontactbutton-small.x-segmented-button-first .x-btn-addcontactbutton-small-mc {
+    padding-bottom: 15px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3169 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-addcontactbutton-small.x-segmented-button-middle {
+    border-bottom-width: 1px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3171 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-addcontactbutton-small.x-segmented-button-middle .x-btn-addcontactbutton-small-mc {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3177 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-addcontactbutton-small.x-segmented-button-last .x-btn-addcontactbutton-small-mc {
+    padding-top: 15px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3183 */
+.x-nbr .x-segmented-button-item.x-btn-addcontactbutton-small:after {
+    content: ' ';
+    border-style: solid;
+    border-width: 0;
+    position: absolute;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3201 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-addcontactbutton-small:after {
+    top: 1px;
+    right: 0;
+    bottom: 1px;
+    left: 0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3207 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-addcontactbutton-small.x-segmented-button-first:after {
+    left: 1px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3210 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-addcontactbutton-small.x-segmented-button-last:after {
+    right: 1px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3216 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-addcontactbutton-small:after {
+    top: 0;
+    right: 1px;
+    bottom: 0;
+    left: 1px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3222 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-addcontactbutton-small.x-segmented-button-first:after {
+    top: 1px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3225 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-addcontactbutton-small.x-segmented-button-last:after {
+    bottom: 1px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3233 */
+.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-addcontactbutton-small:after {
+    border-width: 1px;
+    border-color: #d3e0ec;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3249 */
+.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-over.x-btn-addcontactbutton-small:after {
+    border-width: 1px;
+    border-color: #d1dee9;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3267 */
+.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-menu-active.x-btn-addcontactbutton-small:after,
+.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-pressed.x-btn-addcontactbutton-small:after {
+    border-width: 1px;
+    border-color: #ced8e1;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
+.x-button-addcontactbutton-small-cell > .x-grid-cell-inner {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3299 */
+.x-button-addcontactbutton-small-cell > .x-grid-cell-inner >.x-btn-addcontactbutton-small {
+    vertical-align: top;
+}
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:17 */
+.x-btn-addcontactbutton-small {
+    border-color: white;
+}
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:21 */
 .addcontact {
     background: white;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
     font-family: 'muli', regular;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:9 */
-.addcontact-button {
-    background: url('images/Add.svg') #31a950 no-repeat 20%;
-    background-size: 15px 15px;
-    font-family: 'Muli, SemiBold';
-    font-size: 24px;
-    font-weight: bolder;
-    padding: 10px;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
-    border: none;
-    width: 175px;
-    height: 50px;
-}
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:22 */
-.addcontact-button:hover {
-    background-color: #31a950;
-}
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:26 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:47 */
 .headbar {
     background: #f8f8f8;
     padding: 20px 0;
@@ -9144,7 +9689,7 @@ tr.x-grid-subtable-row {
     font-family: "Muli", SemiBold;
     font-weight: bolder;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:36 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/addcontact/AddContact.scss:57 */
 .empty-text {
     text-align: center;
     color: #b49494;
@@ -9166,21 +9711,1146 @@ tr.x-grid-subtable-row {
     content: "\f040";
     color: #e67e22;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:1 */
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-btn-addcontactbutton-small {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    padding: 15px 20px 15px 20px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #31a950;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-btn-addcontactbutton-small-mc {
+    background-color: #31a950;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-btn-addcontactbutton-small {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-btn-addcontactbutton-small-frameInfo {
+    font-family: th-4-4-4-4-1-1-1-1-15-20-15-20;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-btn-addcontactbutton-small-tl {
+    background-position: 0 -8px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-btn-addcontactbutton-small-tr {
+    background-position: right -12px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-btn-addcontactbutton-small-bl {
+    background-position: 0 -16px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-btn-addcontactbutton-small-br {
+    background-position: right -20px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-btn-addcontactbutton-small-ml {
+    background-position: 0 top;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-btn-addcontactbutton-small-mr {
+    background-position: right top;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-btn-addcontactbutton-small-tc {
+    background-position: 0 0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-btn-addcontactbutton-small-bc {
+    background-position: 0 -4px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-btn-addcontactbutton-small-tr,
+.x-btn-addcontactbutton-small-br,
+.x-btn-addcontactbutton-small-mr {
+    padding-right: 4px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-btn-addcontactbutton-small-tl,
+.x-btn-addcontactbutton-small-bl,
+.x-btn-addcontactbutton-small-ml {
+    padding-left: 4px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-btn-addcontactbutton-small-tc {
+    height: 4px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-btn-addcontactbutton-small-bc {
+    height: 4px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-btn-addcontactbutton-small-tl,
+.x-btn-addcontactbutton-small-bl,
+.x-btn-addcontactbutton-small-tr,
+.x-btn-addcontactbutton-small-br,
+.x-btn-addcontactbutton-small-tc,
+.x-btn-addcontactbutton-small-bc,
+.x-btn-addcontactbutton-small-ml,
+.x-btn-addcontactbutton-small-mr {
+    background-image: url(images/btn/btn-addcontactbutton-small-corners.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-btn-addcontactbutton-small-ml,
+.x-btn-addcontactbutton-small-mr {
+    background-image: url(images/btn/btn-addcontactbutton-small-sides.gif);
+    background-repeat: repeat-y;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-btn-addcontactbutton-small-mc {
+    padding: 12px 17px 12px 17px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2463 */
+.x-btn-addcontactbutton-small {
+    border-color: #5897ce;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2470 */
+.x-btn-button-addcontactbutton-small {
+    min-height: 16px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2475 */
+.x-ie9m .x-btn-button-addcontactbutton-small {
+    min-height: auto;
+    height: 16px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2482 */
+.x-btn-inner-addcontactbutton-small {
+    font: bolder 20px/16px 'Muli, SemiBold';
+    color: #f0f0f0;
+    padding: 0 5px;
+    max-width: 100%;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2502 */
+.x-ie9 .x-btn-icon-right > .x-btn-inner-addcontactbutton-small,
+.x-ie9 .x-btn-icon-left > .x-btn-inner-addcontactbutton-small {
+    max-width: calc(100% - 16px);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2510 */
+.x-safari8m .x-btn-icon-right > .x-btn-inner-addcontactbutton-small,
+.x-safari8m .x-btn-icon-left > .x-btn-inner-addcontactbutton-small {
+    max-width: calc(100% - 15px);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2516 */
+.x-ie10p .x-btn-inner-addcontactbutton-small {
+    max-width: none;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2521 */
+.x-btn-icon-el-addcontactbutton-small {
+    font-size: 16px;
+    height: 16px;
+    color: #f0f0f0;
+    line-height: 16px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2527 */
+.x-btn-icon-left > .x-btn-icon-el-addcontactbutton-small,
+.x-btn-icon-right > .x-btn-icon-el-addcontactbutton-small {
+    width: 16px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2532 */
+.x-btn-icon-top > .x-btn-icon-el-addcontactbutton-small,
+.x-btn-icon-bottom > .x-btn-icon-el-addcontactbutton-small {
+    min-width: 16px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2554 */
+.x-ie8 .x-btn-icon-el-addcontactbutton-small.x-btn-glyph {
+    color: #f0f0f0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2561 */
+.x-btn-text.x-btn-icon-left > .x-btn-icon-el-addcontactbutton-small {
+    margin-right: 3px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2565 */
+.x-btn-text.x-btn-icon-left > .x-btn-icon-el-addcontactbutton-small.x-rtl {
+    margin-right: 0;
+    margin-left: 3px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2572 */
+.x-btn-text.x-btn-icon-right > .x-btn-icon-el-addcontactbutton-small {
+    margin-left: 3px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2576 */
+.x-btn-text.x-btn-icon-right > .x-btn-icon-el-addcontactbutton-small.x-rtl {
+    margin-left: 0;
+    margin-right: 3px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2583 */
+.x-btn-text.x-btn-icon-top > .x-btn-icon-el-addcontactbutton-small {
+    margin-bottom: 8px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2587 */
+.x-btn-text.x-btn-icon-bottom > .x-btn-icon-el-addcontactbutton-small {
+    margin-top: 8px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2593 */
+.x-btn-arrow-right > .x-btn-icon.x-btn-no-text.x-btn-button-addcontactbutton-small {
+    padding-right: 8px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2596 */
+.x-btn-arrow-right > .x-btn-text.x-btn-icon-right > .x-btn-icon-el-addcontactbutton-small {
+    margin-right: 5px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2603 */
+.x-btn-arrow-bottom > .x-btn-button-addcontactbutton-small,
+.x-btn-split-bottom > .x-btn-button-addcontactbutton-small {
+    padding-bottom: 15px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2609 */
+.x-btn-wrap-addcontactbutton-small.x-btn-arrow-right:after {
+    width: 18px;
+    content: "\f0d7";
+    font: 16px/1 FontAwesome;
+    color: #f0f0f0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2636 */
+.x-btn-wrap-addcontactbutton-small.x-btn-arrow-bottom:after {
+    height: 12px;
+    content: "\f0d7";
+    font: 16px/12px FontAwesome;
+    color: #f0f0f0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2663 */
+.x-btn-wrap-addcontactbutton-small.x-btn-split-right > .x-btn-button {
+    padding-right: 20px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2666 */
+.x-btn-wrap-addcontactbutton-small.x-btn-split-right > .x-btn-button.x-rtl {
+    padding-right: 0;
+    padding-left: 20px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2671 */
+.x-btn-wrap-addcontactbutton-small.x-btn-split-right > .x-btn-button:after {
+    border-right: 1px solid #f0f0f0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2676 */
+.x-btn-wrap-addcontactbutton-small.x-btn-split-right:after {
+    width: 20px;
+    content: "\f0d7";
+    font: 16px/1 FontAwesome;
+    color: #f0f0f0;
+    padding-left: 20px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2692 */
+.x-btn-wrap-addcontactbutton-small.x-rtl.x-btn-split-right:after {
+    padding-left: 0;
+    padding-right: 20px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2702 */
+.x-btn-wrap-addcontactbutton-small.x-btn-split-bottom {
+    margin-bottom: -15px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2704 */
+.x-btn-wrap-addcontactbutton-small.x-btn-split-bottom > .x-btn-button:after {
+    border-bottom: 1px solid #f0f0f0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2715 */
+.x-btn-wrap-addcontactbutton-small.x-btn-split-bottom:after {
+    height: 20px;
+    content: "\f0d7";
+    font: 16px/20px FontAwesome;
+    color: #f0f0f0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2748 */
+.x-btn-split-right > .x-btn-icon.x-btn-no-text.x-btn-button-addcontactbutton-small {
+    padding-right: 8px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2751 */
+.x-btn-split-right > .x-btn-text.x-btn-icon-right > .x-btn-icon-el-addcontactbutton-small {
+    margin-right: 5px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2757 */
+.x-keyboard-mode .x-btn-focus.x-btn-addcontactbutton-small {
+    background-image: none;
+    background-color: #31a950;
+    -webkit-box-shadow: #d3e0ec 0 1px 0px 0 inset, #d3e0ec 0 -1px 0px 0 inset, #d3e0ec -1px 0 0px 0 inset, #d3e0ec 1px 0 0px 0 inset;
+    -moz-box-shadow: #d3e0ec 0 1px 0px 0 inset, #d3e0ec 0 -1px 0px 0 inset, #d3e0ec -1px 0 0px 0 inset, #d3e0ec 1px 0 0px 0 inset;
+    box-shadow: #d3e0ec 0 1px 0px 0 inset, #d3e0ec 0 -1px 0px 0 inset, #d3e0ec -1px 0 0px 0 inset, #d3e0ec 1px 0 0px 0 inset;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2793 */
+.x-btn-addcontactbutton-small .x-btn-arrow-el {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 40px;
+    pointer-events: none;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2802 */
+.x-btn-addcontactbutton-small .x-btn-arrow-el.x-rtl {
+    right: inherit;
+    left: 0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2810 */
+.x-keyboard-mode .x-btn-addcontactbutton-small.x-arrow-focus .x-btn-arrow-el {
+    border: 1px solid #d3e0ec;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2817 */
+.x-btn-over.x-btn-addcontactbutton-small {
+    border-color: #518bbd;
+    background-image: none;
+    background-color: #2d9b4a;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2845 */
+.x-keyboard-mode .x-btn-focus.x-btn-over.x-btn-addcontactbutton-small {
+    -webkit-box-shadow: #d1dee9 0 1px 0px 0 inset, #d1dee9 0 -1px 0px 0 inset, #d1dee9 -1px 0 0px 0 inset, #d1dee9 1px 0 0px 0 inset;
+    -moz-box-shadow: #d1dee9 0 1px 0px 0 inset, #d1dee9 0 -1px 0px 0 inset, #d1dee9 -1px 0 0px 0 inset, #d1dee9 1px 0 0px 0 inset;
+    box-shadow: #d1dee9 0 1px 0px 0 inset, #d1dee9 0 -1px 0px 0 inset, #d1dee9 -1px 0 0px 0 inset, #d1dee9 1px 0 0px 0 inset;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2874 */
+.x-btn.x-btn-menu-active.x-btn-addcontactbutton-small,
+.x-btn.x-btn-pressed.x-btn-addcontactbutton-small {
+    border-color: #42719a;
+    background-image: none;
+    background-color: #257f3c;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2904 */
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active.x-btn-addcontactbutton-small,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed.x-btn-addcontactbutton-small {
+    -webkit-box-shadow: #ced8e1 0 1px 0px 0 inset, #ced8e1 0 -1px 0px 0 inset, #ced8e1 -1px 0 0px 0 inset, #ced8e1 1px 0 0px 0 inset;
+    -moz-box-shadow: #ced8e1 0 1px 0px 0 inset, #ced8e1 0 -1px 0px 0 inset, #ced8e1 -1px 0 0px 0 inset, #ced8e1 1px 0 0px 0 inset;
+    box-shadow: #ced8e1 0 1px 0px 0 inset, #ced8e1 0 -1px 0px 0 inset, #ced8e1 -1px 0 0px 0 inset, #ced8e1 1px 0 0px 0 inset;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2933 */
+.x-btn.x-btn-disabled.x-btn-addcontactbutton-small {
+    background-image: none;
+    background-color: #31a950;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2966 */
+.x-keyboard-mode .x-btn-focus .x-btn-addcontactbutton-small-tl,
+.x-keyboard-mode .x-btn-focus .x-btn-addcontactbutton-small-bl,
+.x-keyboard-mode .x-btn-focus .x-btn-addcontactbutton-small-tr,
+.x-keyboard-mode .x-btn-focus .x-btn-addcontactbutton-small-br,
+.x-keyboard-mode .x-btn-focus .x-btn-addcontactbutton-small-tc,
+.x-keyboard-mode .x-btn-focus .x-btn-addcontactbutton-small-bc {
+    background-image: url(images/btn/btn-addcontactbutton-small-focus-corners.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2974 */
+.x-keyboard-mode .x-btn-focus .x-btn-addcontactbutton-small-ml,
+.x-keyboard-mode .x-btn-focus .x-btn-addcontactbutton-small-mr {
+    background-image: url(images/btn/btn-addcontactbutton-small-focus-sides.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2978 */
+.x-keyboard-mode .x-btn-focus .x-btn-addcontactbutton-small-mc {
+    background-color: #31a950;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2991 */
+.x-btn-over .x-btn-addcontactbutton-small-tl,
+.x-btn-over .x-btn-addcontactbutton-small-bl,
+.x-btn-over .x-btn-addcontactbutton-small-tr,
+.x-btn-over .x-btn-addcontactbutton-small-br,
+.x-btn-over .x-btn-addcontactbutton-small-tc,
+.x-btn-over .x-btn-addcontactbutton-small-bc {
+    background-image: url(images/btn/btn-addcontactbutton-small-over-corners.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2999 */
+.x-btn-over .x-btn-addcontactbutton-small-ml,
+.x-btn-over .x-btn-addcontactbutton-small-mr {
+    background-image: url(images/btn/btn-addcontactbutton-small-over-sides.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3003 */
+.x-btn-over .x-btn-addcontactbutton-small-mc {
+    background-color: #2d9b4a;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3016 */
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-addcontactbutton-small-tl,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-addcontactbutton-small-bl,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-addcontactbutton-small-tr,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-addcontactbutton-small-br,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-addcontactbutton-small-tc,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-addcontactbutton-small-bc {
+    background-image: url(images/btn/btn-addcontactbutton-small-focus-over-corners.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3024 */
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-addcontactbutton-small-ml,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-addcontactbutton-small-mr {
+    background-image: url(images/btn/btn-addcontactbutton-small-focus-over-sides.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3028 */
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-addcontactbutton-small-mc {
+    background-color: #2d9b4a;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3043 */
+.x-btn.x-btn-menu-active .x-btn-addcontactbutton-small-tl,
+.x-btn.x-btn-menu-active .x-btn-addcontactbutton-small-bl,
+.x-btn.x-btn-menu-active .x-btn-addcontactbutton-small-tr,
+.x-btn.x-btn-menu-active .x-btn-addcontactbutton-small-br,
+.x-btn.x-btn-menu-active .x-btn-addcontactbutton-small-tc,
+.x-btn.x-btn-menu-active .x-btn-addcontactbutton-small-bc,
+.x-btn.x-btn-pressed .x-btn-addcontactbutton-small-tl,
+.x-btn.x-btn-pressed .x-btn-addcontactbutton-small-bl,
+.x-btn.x-btn-pressed .x-btn-addcontactbutton-small-tr,
+.x-btn.x-btn-pressed .x-btn-addcontactbutton-small-br,
+.x-btn.x-btn-pressed .x-btn-addcontactbutton-small-tc,
+.x-btn.x-btn-pressed .x-btn-addcontactbutton-small-bc {
+    background-image: url(images/btn/btn-addcontactbutton-small-pressed-corners.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3051 */
+.x-btn.x-btn-menu-active .x-btn-addcontactbutton-small-ml,
+.x-btn.x-btn-menu-active .x-btn-addcontactbutton-small-mr,
+.x-btn.x-btn-pressed .x-btn-addcontactbutton-small-ml,
+.x-btn.x-btn-pressed .x-btn-addcontactbutton-small-mr {
+    background-image: url(images/btn/btn-addcontactbutton-small-pressed-sides.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3055 */
+.x-btn.x-btn-menu-active .x-btn-addcontactbutton-small-mc,
+.x-btn.x-btn-pressed .x-btn-addcontactbutton-small-mc {
+    background-color: #257f3c;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3069 */
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-addcontactbutton-small-tl,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-addcontactbutton-small-bl,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-addcontactbutton-small-tr,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-addcontactbutton-small-br,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-addcontactbutton-small-tc,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-addcontactbutton-small-bc,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-addcontactbutton-small-tl,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-addcontactbutton-small-bl,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-addcontactbutton-small-tr,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-addcontactbutton-small-br,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-addcontactbutton-small-tc,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-addcontactbutton-small-bc {
+    background-image: url(images/btn/btn-addcontactbutton-small-focus-pressed-corners.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3077 */
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-addcontactbutton-small-ml,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-addcontactbutton-small-mr,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-addcontactbutton-small-ml,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-addcontactbutton-small-mr {
+    background-image: url(images/btn/btn-addcontactbutton-small-focus-pressed-sides.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3081 */
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-addcontactbutton-small-mc,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-addcontactbutton-small-mc {
+    background-color: #257f3c;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3095 */
+.x-btn.x-btn-disabled .x-btn-addcontactbutton-small-tl,
+.x-btn.x-btn-disabled .x-btn-addcontactbutton-small-bl,
+.x-btn.x-btn-disabled .x-btn-addcontactbutton-small-tr,
+.x-btn.x-btn-disabled .x-btn-addcontactbutton-small-br,
+.x-btn.x-btn-disabled .x-btn-addcontactbutton-small-tc,
+.x-btn.x-btn-disabled .x-btn-addcontactbutton-small-bc {
+    background-image: url(images/btn/btn-addcontactbutton-small-disabled-corners.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3103 */
+.x-btn.x-btn-disabled .x-btn-addcontactbutton-small-ml,
+.x-btn.x-btn-disabled .x-btn-addcontactbutton-small-mr {
+    background-image: url(images/btn/btn-addcontactbutton-small-disabled-sides.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3107 */
+.x-btn.x-btn-disabled .x-btn-addcontactbutton-small-mc {
+    background-color: #31a950;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3117 */
+.x-nbr .x-btn-addcontactbutton-small {
+    background-image: none;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3123 */
+.x-btn-disabled.x-btn-addcontactbutton-small {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    opacity: 0.5;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3142 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-addcontactbutton-small.x-segmented-button-first {
+    border-right-width: 1px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3144 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-addcontactbutton-small.x-segmented-button-first .x-btn-addcontactbutton-small-mc {
+    padding-right: 20px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3148 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-addcontactbutton-small.x-segmented-button-middle {
+    border-right-width: 1px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3150 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-addcontactbutton-small.x-segmented-button-middle .x-btn-addcontactbutton-small-mc {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3156 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-addcontactbutton-small.x-segmented-button-last .x-btn-addcontactbutton-small-mc {
+    padding-left: 20px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3163 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-addcontactbutton-small.x-segmented-button-first {
+    border-bottom-width: 1px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3165 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-addcontactbutton-small.x-segmented-button-first .x-btn-addcontactbutton-small-mc {
+    padding-bottom: 15px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3169 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-addcontactbutton-small.x-segmented-button-middle {
+    border-bottom-width: 1px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3171 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-addcontactbutton-small.x-segmented-button-middle .x-btn-addcontactbutton-small-mc {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3177 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-addcontactbutton-small.x-segmented-button-last .x-btn-addcontactbutton-small-mc {
+    padding-top: 15px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3183 */
+.x-nbr .x-segmented-button-item.x-btn-addcontactbutton-small:after {
+    content: ' ';
+    border-style: solid;
+    border-width: 0;
+    position: absolute;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3201 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-addcontactbutton-small:after {
+    top: 1px;
+    right: 0;
+    bottom: 1px;
+    left: 0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3207 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-addcontactbutton-small.x-segmented-button-first:after {
+    left: 1px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3210 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-addcontactbutton-small.x-segmented-button-last:after {
+    right: 1px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3216 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-addcontactbutton-small:after {
+    top: 0;
+    right: 1px;
+    bottom: 0;
+    left: 1px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3222 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-addcontactbutton-small.x-segmented-button-first:after {
+    top: 1px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3225 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-addcontactbutton-small.x-segmented-button-last:after {
+    bottom: 1px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3233 */
+.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-addcontactbutton-small:after {
+    border-width: 1px;
+    border-color: #d3e0ec;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3249 */
+.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-over.x-btn-addcontactbutton-small:after {
+    border-width: 1px;
+    border-color: #d1dee9;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3267 */
+.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-menu-active.x-btn-addcontactbutton-small:after,
+.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-pressed.x-btn-addcontactbutton-small:after {
+    border-width: 1px;
+    border-color: #ced8e1;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
+.x-button-addcontactbutton-small-cell > .x-grid-cell-inner {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3299 */
+.x-button-addcontactbutton-small-cell > .x-grid-cell-inner >.x-btn-addcontactbutton-small {
+    vertical-align: top;
+}
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:18 */
+.x-btn-addcontactbutton-small {
+    border-color: white;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-btn-delete-button-small {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    padding: 10px 15px 10px 15px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #919191;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-btn-delete-button-small-mc {
+    background-color: #919191;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-btn-delete-button-small {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-btn-delete-button-small-frameInfo {
+    font-family: th-4-4-4-4-1-1-1-1-10-15-10-15;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-btn-delete-button-small-tl {
+    background-position: 0 -8px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-btn-delete-button-small-tr {
+    background-position: right -12px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-btn-delete-button-small-bl {
+    background-position: 0 -16px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-btn-delete-button-small-br {
+    background-position: right -20px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-btn-delete-button-small-ml {
+    background-position: 0 top;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-btn-delete-button-small-mr {
+    background-position: right top;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-btn-delete-button-small-tc {
+    background-position: 0 0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-btn-delete-button-small-bc {
+    background-position: 0 -4px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-btn-delete-button-small-tr,
+.x-btn-delete-button-small-br,
+.x-btn-delete-button-small-mr {
+    padding-right: 4px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-btn-delete-button-small-tl,
+.x-btn-delete-button-small-bl,
+.x-btn-delete-button-small-ml {
+    padding-left: 4px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-btn-delete-button-small-tc {
+    height: 4px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-btn-delete-button-small-bc {
+    height: 4px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-btn-delete-button-small-tl,
+.x-btn-delete-button-small-bl,
+.x-btn-delete-button-small-tr,
+.x-btn-delete-button-small-br,
+.x-btn-delete-button-small-tc,
+.x-btn-delete-button-small-bc,
+.x-btn-delete-button-small-ml,
+.x-btn-delete-button-small-mr {
+    background-image: url(images/btn/btn-delete-button-small-corners.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-btn-delete-button-small-ml,
+.x-btn-delete-button-small-mr {
+    background-image: url(images/btn/btn-delete-button-small-sides.gif);
+    background-repeat: repeat-y;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-btn-delete-button-small-mc {
+    padding: 7px 12px 7px 12px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2463 */
+.x-btn-delete-button-small {
+    border-color: #5897ce;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2470 */
+.x-btn-button-delete-button-small {
+    min-height: 16px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2475 */
+.x-ie9m .x-btn-button-delete-button-small {
+    min-height: auto;
+    height: 16px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2482 */
+.x-btn-inner-delete-button-small {
+    font: bolder 15px/16px 'Muli, SemiBold';
+    color: #000;
+    padding: 0 5px;
+    max-width: 100%;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2502 */
+.x-ie9 .x-btn-icon-right > .x-btn-inner-delete-button-small,
+.x-ie9 .x-btn-icon-left > .x-btn-inner-delete-button-small {
+    max-width: calc(100% - 16px);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2510 */
+.x-safari8m .x-btn-icon-right > .x-btn-inner-delete-button-small,
+.x-safari8m .x-btn-icon-left > .x-btn-inner-delete-button-small {
+    max-width: calc(100% - 15px);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2516 */
+.x-ie10p .x-btn-inner-delete-button-small {
+    max-width: none;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2521 */
+.x-btn-icon-el-delete-button-small {
+    font-size: 16px;
+    height: 16px;
+    color: #f0f0f0;
+    line-height: 16px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2527 */
+.x-btn-icon-left > .x-btn-icon-el-delete-button-small,
+.x-btn-icon-right > .x-btn-icon-el-delete-button-small {
+    width: 16px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2532 */
+.x-btn-icon-top > .x-btn-icon-el-delete-button-small,
+.x-btn-icon-bottom > .x-btn-icon-el-delete-button-small {
+    min-width: 16px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2554 */
+.x-ie8 .x-btn-icon-el-delete-button-small.x-btn-glyph {
+    color: #f0f0f0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2561 */
+.x-btn-text.x-btn-icon-left > .x-btn-icon-el-delete-button-small {
+    margin-right: 3px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2565 */
+.x-btn-text.x-btn-icon-left > .x-btn-icon-el-delete-button-small.x-rtl {
+    margin-right: 0;
+    margin-left: 3px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2572 */
+.x-btn-text.x-btn-icon-right > .x-btn-icon-el-delete-button-small {
+    margin-left: 3px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2576 */
+.x-btn-text.x-btn-icon-right > .x-btn-icon-el-delete-button-small.x-rtl {
+    margin-left: 0;
+    margin-right: 3px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2583 */
+.x-btn-text.x-btn-icon-top > .x-btn-icon-el-delete-button-small {
+    margin-bottom: 8px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2587 */
+.x-btn-text.x-btn-icon-bottom > .x-btn-icon-el-delete-button-small {
+    margin-top: 8px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2593 */
+.x-btn-arrow-right > .x-btn-icon.x-btn-no-text.x-btn-button-delete-button-small {
+    padding-right: 8px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2596 */
+.x-btn-arrow-right > .x-btn-text.x-btn-icon-right > .x-btn-icon-el-delete-button-small {
+    margin-right: 5px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2603 */
+.x-btn-arrow-bottom > .x-btn-button-delete-button-small,
+.x-btn-split-bottom > .x-btn-button-delete-button-small {
+    padding-bottom: 10px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2609 */
+.x-btn-wrap-delete-button-small.x-btn-arrow-right:after {
+    width: 18px;
+    content: "\f0d7";
+    font: 16px/1 FontAwesome;
+    color: #f0f0f0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2636 */
+.x-btn-wrap-delete-button-small.x-btn-arrow-bottom:after {
+    height: 12px;
+    content: "\f0d7";
+    font: 16px/12px FontAwesome;
+    color: #f0f0f0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2663 */
+.x-btn-wrap-delete-button-small.x-btn-split-right > .x-btn-button {
+    padding-right: 15px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2666 */
+.x-btn-wrap-delete-button-small.x-btn-split-right > .x-btn-button.x-rtl {
+    padding-right: 0;
+    padding-left: 15px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2671 */
+.x-btn-wrap-delete-button-small.x-btn-split-right > .x-btn-button:after {
+    border-right: 1px solid #f0f0f0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2676 */
+.x-btn-wrap-delete-button-small.x-btn-split-right:after {
+    width: 20px;
+    content: "\f0d7";
+    font: 16px/1 FontAwesome;
+    color: #f0f0f0;
+    padding-left: 15px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2692 */
+.x-btn-wrap-delete-button-small.x-rtl.x-btn-split-right:after {
+    padding-left: 0;
+    padding-right: 15px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2702 */
+.x-btn-wrap-delete-button-small.x-btn-split-bottom {
+    margin-bottom: -10px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2704 */
+.x-btn-wrap-delete-button-small.x-btn-split-bottom > .x-btn-button:after {
+    border-bottom: 1px solid #f0f0f0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2715 */
+.x-btn-wrap-delete-button-small.x-btn-split-bottom:after {
+    height: 20px;
+    content: "\f0d7";
+    font: 16px/20px FontAwesome;
+    color: #f0f0f0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2748 */
+.x-btn-split-right > .x-btn-icon.x-btn-no-text.x-btn-button-delete-button-small {
+    padding-right: 8px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2751 */
+.x-btn-split-right > .x-btn-text.x-btn-icon-right > .x-btn-icon-el-delete-button-small {
+    margin-right: 5px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2757 */
+.x-keyboard-mode .x-btn-focus.x-btn-delete-button-small {
+    background-image: none;
+    background-color: #919191;
+    -webkit-box-shadow: #d3e0ec 0 1px 0px 0 inset, #d3e0ec 0 -1px 0px 0 inset, #d3e0ec -1px 0 0px 0 inset, #d3e0ec 1px 0 0px 0 inset;
+    -moz-box-shadow: #d3e0ec 0 1px 0px 0 inset, #d3e0ec 0 -1px 0px 0 inset, #d3e0ec -1px 0 0px 0 inset, #d3e0ec 1px 0 0px 0 inset;
+    box-shadow: #d3e0ec 0 1px 0px 0 inset, #d3e0ec 0 -1px 0px 0 inset, #d3e0ec -1px 0 0px 0 inset, #d3e0ec 1px 0 0px 0 inset;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2793 */
+.x-btn-delete-button-small .x-btn-arrow-el {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 35px;
+    pointer-events: none;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2802 */
+.x-btn-delete-button-small .x-btn-arrow-el.x-rtl {
+    right: inherit;
+    left: 0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2810 */
+.x-keyboard-mode .x-btn-delete-button-small.x-arrow-focus .x-btn-arrow-el {
+    border: 1px solid #d3e0ec;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2817 */
+.x-btn-over.x-btn-delete-button-small {
+    border-color: #518bbd;
+    background-image: none;
+    background-color: #858585;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2845 */
+.x-keyboard-mode .x-btn-focus.x-btn-over.x-btn-delete-button-small {
+    -webkit-box-shadow: #d1dee9 0 1px 0px 0 inset, #d1dee9 0 -1px 0px 0 inset, #d1dee9 -1px 0 0px 0 inset, #d1dee9 1px 0 0px 0 inset;
+    -moz-box-shadow: #d1dee9 0 1px 0px 0 inset, #d1dee9 0 -1px 0px 0 inset, #d1dee9 -1px 0 0px 0 inset, #d1dee9 1px 0 0px 0 inset;
+    box-shadow: #d1dee9 0 1px 0px 0 inset, #d1dee9 0 -1px 0px 0 inset, #d1dee9 -1px 0 0px 0 inset, #d1dee9 1px 0 0px 0 inset;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2874 */
+.x-btn.x-btn-menu-active.x-btn-delete-button-small,
+.x-btn.x-btn-pressed.x-btn-delete-button-small {
+    border-color: #42719a;
+    background-image: none;
+    background-color: #6d6d6d;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2904 */
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active.x-btn-delete-button-small,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed.x-btn-delete-button-small {
+    -webkit-box-shadow: #ced8e1 0 1px 0px 0 inset, #ced8e1 0 -1px 0px 0 inset, #ced8e1 -1px 0 0px 0 inset, #ced8e1 1px 0 0px 0 inset;
+    -moz-box-shadow: #ced8e1 0 1px 0px 0 inset, #ced8e1 0 -1px 0px 0 inset, #ced8e1 -1px 0 0px 0 inset, #ced8e1 1px 0 0px 0 inset;
+    box-shadow: #ced8e1 0 1px 0px 0 inset, #ced8e1 0 -1px 0px 0 inset, #ced8e1 -1px 0 0px 0 inset, #ced8e1 1px 0 0px 0 inset;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2933 */
+.x-btn.x-btn-disabled.x-btn-delete-button-small {
+    background-image: none;
+    background-color: #919191;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2966 */
+.x-keyboard-mode .x-btn-focus .x-btn-delete-button-small-tl,
+.x-keyboard-mode .x-btn-focus .x-btn-delete-button-small-bl,
+.x-keyboard-mode .x-btn-focus .x-btn-delete-button-small-tr,
+.x-keyboard-mode .x-btn-focus .x-btn-delete-button-small-br,
+.x-keyboard-mode .x-btn-focus .x-btn-delete-button-small-tc,
+.x-keyboard-mode .x-btn-focus .x-btn-delete-button-small-bc {
+    background-image: url(images/btn/btn-delete-button-small-focus-corners.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2974 */
+.x-keyboard-mode .x-btn-focus .x-btn-delete-button-small-ml,
+.x-keyboard-mode .x-btn-focus .x-btn-delete-button-small-mr {
+    background-image: url(images/btn/btn-delete-button-small-focus-sides.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2978 */
+.x-keyboard-mode .x-btn-focus .x-btn-delete-button-small-mc {
+    background-color: #919191;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2991 */
+.x-btn-over .x-btn-delete-button-small-tl,
+.x-btn-over .x-btn-delete-button-small-bl,
+.x-btn-over .x-btn-delete-button-small-tr,
+.x-btn-over .x-btn-delete-button-small-br,
+.x-btn-over .x-btn-delete-button-small-tc,
+.x-btn-over .x-btn-delete-button-small-bc {
+    background-image: url(images/btn/btn-delete-button-small-over-corners.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:2999 */
+.x-btn-over .x-btn-delete-button-small-ml,
+.x-btn-over .x-btn-delete-button-small-mr {
+    background-image: url(images/btn/btn-delete-button-small-over-sides.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3003 */
+.x-btn-over .x-btn-delete-button-small-mc {
+    background-color: #858585;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3016 */
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-delete-button-small-tl,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-delete-button-small-bl,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-delete-button-small-tr,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-delete-button-small-br,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-delete-button-small-tc,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-delete-button-small-bc {
+    background-image: url(images/btn/btn-delete-button-small-focus-over-corners.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3024 */
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-delete-button-small-ml,
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-delete-button-small-mr {
+    background-image: url(images/btn/btn-delete-button-small-focus-over-sides.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3028 */
+.x-keyboard-mode .x-btn-focus.x-btn-over .x-btn-delete-button-small-mc {
+    background-color: #858585;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3043 */
+.x-btn.x-btn-menu-active .x-btn-delete-button-small-tl,
+.x-btn.x-btn-menu-active .x-btn-delete-button-small-bl,
+.x-btn.x-btn-menu-active .x-btn-delete-button-small-tr,
+.x-btn.x-btn-menu-active .x-btn-delete-button-small-br,
+.x-btn.x-btn-menu-active .x-btn-delete-button-small-tc,
+.x-btn.x-btn-menu-active .x-btn-delete-button-small-bc,
+.x-btn.x-btn-pressed .x-btn-delete-button-small-tl,
+.x-btn.x-btn-pressed .x-btn-delete-button-small-bl,
+.x-btn.x-btn-pressed .x-btn-delete-button-small-tr,
+.x-btn.x-btn-pressed .x-btn-delete-button-small-br,
+.x-btn.x-btn-pressed .x-btn-delete-button-small-tc,
+.x-btn.x-btn-pressed .x-btn-delete-button-small-bc {
+    background-image: url(images/btn/btn-delete-button-small-pressed-corners.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3051 */
+.x-btn.x-btn-menu-active .x-btn-delete-button-small-ml,
+.x-btn.x-btn-menu-active .x-btn-delete-button-small-mr,
+.x-btn.x-btn-pressed .x-btn-delete-button-small-ml,
+.x-btn.x-btn-pressed .x-btn-delete-button-small-mr {
+    background-image: url(images/btn/btn-delete-button-small-pressed-sides.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3055 */
+.x-btn.x-btn-menu-active .x-btn-delete-button-small-mc,
+.x-btn.x-btn-pressed .x-btn-delete-button-small-mc {
+    background-color: #6d6d6d;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3069 */
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-delete-button-small-tl,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-delete-button-small-bl,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-delete-button-small-tr,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-delete-button-small-br,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-delete-button-small-tc,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-delete-button-small-bc,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-delete-button-small-tl,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-delete-button-small-bl,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-delete-button-small-tr,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-delete-button-small-br,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-delete-button-small-tc,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-delete-button-small-bc {
+    background-image: url(images/btn/btn-delete-button-small-focus-pressed-corners.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3077 */
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-delete-button-small-ml,
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-delete-button-small-mr,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-delete-button-small-ml,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-delete-button-small-mr {
+    background-image: url(images/btn/btn-delete-button-small-focus-pressed-sides.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3081 */
+.x-keyboard-mode .x-btn-focus.x-btn-menu-active .x-btn-delete-button-small-mc,
+.x-keyboard-mode .x-btn-focus.x-btn-pressed .x-btn-delete-button-small-mc {
+    background-color: #6d6d6d;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3095 */
+.x-btn.x-btn-disabled .x-btn-delete-button-small-tl,
+.x-btn.x-btn-disabled .x-btn-delete-button-small-bl,
+.x-btn.x-btn-disabled .x-btn-delete-button-small-tr,
+.x-btn.x-btn-disabled .x-btn-delete-button-small-br,
+.x-btn.x-btn-disabled .x-btn-delete-button-small-tc,
+.x-btn.x-btn-disabled .x-btn-delete-button-small-bc {
+    background-image: url(images/btn/btn-delete-button-small-disabled-corners.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3103 */
+.x-btn.x-btn-disabled .x-btn-delete-button-small-ml,
+.x-btn.x-btn-disabled .x-btn-delete-button-small-mr {
+    background-image: url(images/btn/btn-delete-button-small-disabled-sides.gif);
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3107 */
+.x-btn.x-btn-disabled .x-btn-delete-button-small-mc {
+    background-color: #919191;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3117 */
+.x-nbr .x-btn-delete-button-small {
+    background-image: none;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3123 */
+.x-btn-disabled.x-btn-delete-button-small {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    opacity: 0.5;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3142 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-delete-button-small.x-segmented-button-first {
+    border-right-width: 1px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3144 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-delete-button-small.x-segmented-button-first .x-btn-delete-button-small-mc {
+    padding-right: 15px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3148 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-delete-button-small.x-segmented-button-middle {
+    border-right-width: 1px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3150 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-delete-button-small.x-segmented-button-middle .x-btn-delete-button-small-mc {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3156 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-delete-button-small.x-segmented-button-last .x-btn-delete-button-small-mc {
+    padding-left: 15px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3163 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-delete-button-small.x-segmented-button-first {
+    border-bottom-width: 1px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3165 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-delete-button-small.x-segmented-button-first .x-btn-delete-button-small-mc {
+    padding-bottom: 10px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3169 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-delete-button-small.x-segmented-button-middle {
+    border-bottom-width: 1px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3171 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-delete-button-small.x-segmented-button-middle .x-btn-delete-button-small-mc {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3177 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-delete-button-small.x-segmented-button-last .x-btn-delete-button-small-mc {
+    padding-top: 10px !important;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3183 */
+.x-nbr .x-segmented-button-item.x-btn-delete-button-small:after {
+    content: ' ';
+    border-style: solid;
+    border-width: 0;
+    position: absolute;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3201 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-delete-button-small:after {
+    top: 1px;
+    right: 0;
+    bottom: 1px;
+    left: 0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3207 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-delete-button-small.x-segmented-button-first:after {
+    left: 1px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3210 */
+.x-nbr .x-segmented-button-item-horizontal.x-btn-delete-button-small.x-segmented-button-last:after {
+    right: 1px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3216 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-delete-button-small:after {
+    top: 0;
+    right: 1px;
+    bottom: 0;
+    left: 1px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3222 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-delete-button-small.x-segmented-button-first:after {
+    top: 1px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3225 */
+.x-nbr .x-segmented-button-item-vertical.x-btn-delete-button-small.x-segmented-button-last:after {
+    bottom: 1px;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3233 */
+.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-delete-button-small:after {
+    border-width: 1px;
+    border-color: #d3e0ec;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3249 */
+.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-over.x-btn-delete-button-small:after {
+    border-width: 1px;
+    border-color: #d1dee9;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3267 */
+.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-menu-active.x-btn-delete-button-small:after,
+.x-keyboard-mode .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-pressed.x-btn-delete-button-small:after {
+    border-width: 1px;
+    border-color: #ced8e1;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3294 */
+.x-button-delete-button-small-cell > .x-grid-cell-inner {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+/* /var/www/html/SenchaProject/ext/classic/theme-neutral/sass/var/button/Button.scss:3299 */
+.x-button-delete-button-small-cell > .x-grid-cell-inner >.x-btn-delete-button-small {
+    vertical-align: top;
+}
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:38 */
+.x-btn-addcontactbutton-small {
+    border-color: white;
+}
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:44 */
 .filter-button,
 .export-button,
 .delete-button,
 .addcolumns-button {
-    font-family: 'Muli', sans-serif;
+    font-family: Muli, Bold;
     font-size: 20px;
     font-weight: bolder;
     padding: 0 20px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
     border: none;
+    border-radius: 4px;
     width: auto;
     height: 40px;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:14 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:58 */
 .delete-button .x-btn-inner-default-toolbar-small,
 .export-button .x-btn-inner-default-toolbar-small,
 .filter-button .x-btn-inner-default-toolbar-small,
@@ -9188,31 +10858,32 @@ tr.x-grid-subtable-row {
 .apply-button .x-btn-inner-default-small {
     color: #000;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:17 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:61 */
 .addcolumns-button:hover,
 .export-button:hover {
     background-color: #000;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:21 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:65 */
 .addcolumns-button:hover .x-btn-inner-default-toolbar-small,
 .export-button:hover .x-btn-inner-default-toolbar-small {
     color: white;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:25 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:69 */
 .filter-button {
     background: orange url('images/filter.svg') no-repeat 20%;
     background-size: 15px 15px;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:30 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:74 */
 .filter-button:hover {
     background: orange url('images/filter.svg') no-repeat 20%;
     background-size: 15px 15px;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:35 */
-.delete-button {
-    background-color: #919191;
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:79 */
+.delete-button[aria-disabled="true"] {
+    background: orange url('images/filter.svg') no-repeat 20%;
+    background-size: 15px 15px;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:39 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:85 */
 .apply-button {
     background-color: #e5e5e5;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
@@ -9225,22 +10896,22 @@ tr.x-grid-subtable-row {
     width: auto;
     height: 40px;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:52 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:98 */
 .apply-button:hover {
     background-color: #e5e5e5;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:57 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:103 */
 .headbar .search-field {
     background-color: transparent;
     border: solid 1px #dcdcdc;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:62 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:108 */
 .search .x-form-trigger-wrap-default {
     border: none !important;
     padding: 5px;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:67 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:113 */
 .search-trigger {
     background: #fff url('images/Search-icon.svg') no-repeat 20%;
     background-size: 15px 15px;
@@ -9248,7 +10919,7 @@ tr.x-grid-subtable-row {
     width: 50px;
     height: 40px;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:75 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:121 */
 .search-trigger:hover {
     background: #fff url('images/Search-icon.svg') no-repeat 20%;
     border: none;
@@ -9256,7 +10927,7 @@ tr.x-grid-subtable-row {
     width: 50px;
     height: 40px;
 }
-/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:83 */
+/* /var/www/html/SenchaProject/packages/local/contacts/src/view/contacts/allcontacts/AllContacts.scss:129 */
 .search-trigger:focus {
     background: #fff url('images/Search-icon.svg') no-repeat 20%;
     border: none;

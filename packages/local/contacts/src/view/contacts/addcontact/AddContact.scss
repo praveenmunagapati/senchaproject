@@ -1,3 +1,23 @@
+/*
+ * Generates a set of style rules for the "addcontact-button" button UI.
+ */
+@include extjs-button-small-ui (
+    $ui: 'addcontactbutton',
+    $background-color : rgba(49, 169, 80, 1), 
+    $font-family: 'Muli, SemiBold',
+    $font-size: 15px,
+    $font-weight: bolder,
+    $padding: 15px 20px,
+    $box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16),
+    $border: none,
+    $width: 170px
+    // $height: 50px
+);
+
+.x-btn-addcontactbutton-small{
+ border-color: white;
+}
+
 .addcontact{
     background: white;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
@@ -6,22 +26,23 @@
     // height: 850px;
 }
 
-.addcontact-button{
-    background: url('images/Add.svg') rgba(49, 169, 80, 1) no-repeat 20%;
-    background-size: 15px 15px;
-    font-family: 'Muli, SemiBold';
-    font-size: 24px;
-    font-weight: bolder;
-    padding: 10px;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
-    border: none;
-    width: 175px;
-    height: 50px;
-}
+// .addcontact-button{
+//     background: url('images/Add.svg') rgba(49, 169, 80, 1) no-repeat 20%;
+//     background-size: 15px 15px;
+//     font-family: 'Muli, SemiBold';
+//     font-size: 24px;
+//     font-weight: bolder;
+//     padding: 10px;
+//     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+//     border: none;
+//     width: 175px;
+//     height: 50px;
+// }
 
-.addcontact-button:hover{
-    background-color: rgba(49, 169, 80, 1);
-}
+// .addcontact-button:focus{
+//     background: url('images/Add.svg') rgba(49, 169, 80, 1) no-repeat 20%;
+//     background-size: 15px 15px;
+// }
 
 .headbar{
     background: rgba(248, 248, 248, 1);
@@ -43,3 +64,4 @@
     font-size: 13px;
     line-height: 20px;
 }
+
