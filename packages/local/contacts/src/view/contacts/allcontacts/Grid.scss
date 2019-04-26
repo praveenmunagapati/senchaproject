@@ -8,8 +8,40 @@
     content: "\f040";
     color: #111110;
 }
-.x-grid-row:hover{
-    height: 40px;
-    box-shadow: inset -15px -18px 54px -36px rgba(0,0,0,0.73);
-    background-color: #F6F6F6;
+.x-grid-row{
+    padding-top:5px;
+}
+
+.main-grid .x-grid-row{
+    height: 45px;
+}
+.main-grid .x-grid-row:hover{
+    height: 45px;
+    box-shadow: -2px -1px 24px -6px rgba(5,5,5,1);
+    background-color: rgba(246, 246, 246, 1);
+}
+
+.main-grid .x-grid-row:hover:before {
+    content:" ";
+    border-left: solid 10px rgba(49, 169, 80, 1);
+}
+
+.main-grid{
+    box-shadow: 1px 1px 2px 1px rgb(226, 221, 221);
+    
+}
+.main-grid .x-column-header{
+    border-right:0px;
+}
+
+.main-grid > .x-panel-bodyWrap > .x-grid-body{
+    border-width: 0px;
+}
+
+.main-grid .x-grid-item{
+    padding-bottom:3px;
+}
+
+.main-grid .x-grid-td{
+    vertical-align: middle;
 }

@@ -6,7 +6,9 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContactsVC', {
   // Function for Clearing the filter values
   // Getting the values of input fields from filter button and
   // Getting the store and filtering the records baesed on the input values
-
+/**
+ * 
+ */
   onApplyFilter: function(btn) {
     var apply = btn.up('filterform').getForm();
     var value = apply.getFieldValues();
@@ -19,7 +21,7 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContactsVC', {
     var viewModel = btn.up('filterform').up('allcontacts').getViewModel();
     // console.log(viewModel.getStore('Contacts'));
     var store = viewModel.getStore('Contacts');
-
+    
     // console.log(store);
     // store.setRemoteFilter(true);
     store.filter([{
@@ -38,31 +40,23 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContactsVC', {
   // Setting its value to null (on click of clear button)
   // Then filtering for null will show whole data
 
-  onClearFilter: function(btn) {
+  onClearFilter: function (btn) {
     var apply = btn.up('filterform').getForm();
     var value = apply.getFieldValues();
-
+    
     btn.up('filterform').lookupReference('firstname').setValue('');
     btn.up('filterform').lookupReference('company').setValue('');
-
+    
     var viewModel = btn.up('filterform').up('allcontacts').getViewModel();
     // console.log(viewModel.getStore('Contacts'));
     var store = viewModel.getStore('Contacts');
-    btn.up('filterform').lookupReference('firstname').setValue(false);
+    btn.up('filterform').lookupReference('chkfirstname').setValue(false);
     btn.up('filterform').lookupReference('chkCompany').setValue(false);
-
     store.filter([
-      {
-        property: 'fristname',
-        value: ''
-      },
-      {
-          property:'orgname',
-          value:''
-      }
-    // { property: 'orgname', value: '' },
+    { property: 'firstname', value: '' },
+    { property: 'orgname', value: '' },
     ]);
-  },
+    },
 
   // Function to dynamically Add/Remove the columns of grid 
   // Created two arrays and pushed checked values into one and unchecked into one array

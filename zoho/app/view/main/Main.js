@@ -50,7 +50,7 @@ Ext.define('Zoho.view.main.Main', {
                 // },
                 flex: 0
             },
-            iconCls: 'fa-th-list'
+            iconCls: 'fa-bars'
         },
 
         tabBar: {
@@ -89,6 +89,12 @@ Ext.define('Zoho.view.main.Main', {
         },
 
         items: [
+            {
+                title:'Home'
+            },
+            {
+                title:'Leads'
+            },
             {
                 xtype: 'contacts',
                 title: 'Contacts'

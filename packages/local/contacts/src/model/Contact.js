@@ -33,8 +33,17 @@ Ext.define('Contacts.model.Contact',
                 name: 'mobile_number',
                 type: 'string'
             },{
-                name:'ddo_contact_id',
-                type:'int'
-            }
+               name:'id',
+               mapping:'ddo_contact_id'
+            },{
+                name: 'contact_profile_pic',
+                // mapping: 'ddo_contact_id'
+                }, {
+                name: 'namefield',
+                calculate: function (data) {
+                
+                return data;
+                }
+                }
         ]
     });

@@ -14,33 +14,34 @@ Ext.define('Contacts.view.contacts.allcontacts.FilterForm', {
         columns: 1,
         items: [{
             xtype: 'checkboxfield',
+            reference: 'chkfirstname',
             boxLabel: 'First Name',
             listeners: {
-                change: 'onChange'
+            change: 'onChange'
             }
-        },
-        {
+            },
+            {
             xtype: 'textfield',
             name: 'filter_by_name',
             reference: 'firstname',
             hidden: true,
             margin: '0 5 0 10',
-        }
+            }
             , {
             xtype: 'checkboxfield',
             boxLabel: 'Company',
             reference:'chkCompany',
             listeners: {
-                change: 'onChange'
+            change: 'onChange'
             }
-        },
-        {
+            },
+            {
             xtype: 'textfield',
             name: 'filter_by_companyname',
             reference: 'company',
             hidden: true,
             margin: '0 5 5 10'
-        }],
+            }],
     }, {
         xtype: 'container',
         layout: 'hbox',

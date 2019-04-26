@@ -15,5 +15,4 @@ Ext.define('Contacts.model.Country',
               rootProperty: 'data'
             }
           }
-  
   });

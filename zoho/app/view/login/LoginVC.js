@@ -6,11 +6,11 @@ Ext.define('Zoho.view.main.login.LoginVC', {
         var password = 'vickyraj';
         var txtEmail = btn.up('login').lookupReference('email').value;
         var txtPwd = btn.up('login').lookupReference('password').value;
-        console.log(txtEmail, txtPwd);
         if (txtEmail == email && txtPwd == password) {
-            var store = btn.up('login').up('app-main').down('allcontacts').down('gridview').getStore('Contacts');
+            var store = btn.up('login').up('app-main').down('contacts').down('allcontacts').getViewModel().getStore('Contacts');
+            
             // If store data is empty then set active tab addcontact otherwise allcontact
-            btn.up('login').up('app-main').setActiveItem('tabs');            
+            btn.up('login').up('app-main').setActiveItem('tabs');          
             if (store.data.length == 0) {
                 btn.up('login').up('app-main').down('contacts').setActiveItem('addcontact');
                 

@@ -46,37 +46,43 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
         {
           xtype: 'image',
           // src: 'resources/images/ben-knapen.png',
+          // name: 'contact_profile_pic',
           height: 100,
           width: 100,
           bind: {
-            src: '{imgData}'
+          src: 'resources/images/{imgData}',
+          alt: 'resources/images/{imgData}'
           }
-        }, {
-          // xtype: 'filefield', 
+          }
+          ,{
+          xtype: 'textfield',
+          hidden: true,
+          bind: {
+          value: '{imgData}'
+          },
+          name: 'contact_profile_pic'
+          } 
+          ,{
+          xtype: 'filefield', 
           xtype: 'fileuploadfield',
           buttonText: 'Edit Photo',
-          name: 'contact_profile_pic',                   
           buttonOnly: true,
+          name: 'contact_profile_pic',
+          // value: 'resources/images/ben-knapen.png',
           cls: 'btn-browse',
-
-          // To bind src of image and display image
           listeners: {
-            change(field,input) {
-              console.log(field);
-              const dom = Ext.getDom(field.fileInputEl);
-              const viewModel = field.up('editcontact').getViewModel();
-              var imgName = input.split("\\");
-              imgName = imgName[imgName.length-1];
-              // console.log('input', imgName);
-              // console.log('continer',viewModel);
-              const reader = new FileReader();
-              reader.onload = e => {
-                viewModel.set('imgData', 'resources/images/'+imgName);
-              }
-              reader.readAsDataURL(dom.files[0]);
-            }
+          change(field,input) {
+          const dom = Ext.getDom(field.fileInputEl);
+          const container = field.up('editcontact');
+          var path = input.split('\\');
+          const viewModel = container.getViewModel();
+          // console.log(viewModel);
+          const reader = new FileReader();
+          reader.onload = e => viewModel.set('imgData', path[path.length-1]);
+          reader.readAsDataURL(dom.files[0]);
           }
-        }
+          }
+          }
        
 
       ]
@@ -114,11 +120,15 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
           altFormats: 'm,d,Y|m.d.Y',
         },
         {
-         
+          // xtype: 'textfield',
+          //           name: 'firstname',
+          //           reference: 'firstname',
+
           xtype:'firstname',
           margin:'10 10 0 10',
           height:70
-        }, {
+        }
+        , {
           xtype: 'textfield',
           fieldLabel: 'Last Name',
           name: 'lastname',
@@ -181,6 +191,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
           name: 'employee_count',
           afterLabelTextTpl: '',
           allowBlank: true,
+          cls:'date-style',
           minValue: 1,
           reference: 'num-of-employees'
         }, {
@@ -236,6 +247,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
           fieldLabel: 'Country',
           name: 'country',
           displayField: 'country',
+          cls:'date-style',
           typeAhead: true,
           queryMode: 'local',
           emptyText: 'Select a country...',
@@ -285,6 +297,9 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
       },
       items: [{
         text: 'Cancel',
+        listeners:{
+          click:'cancelFormData'
+        },
         cls: 'cancle-style',
         margin:'0 14 4 0'
       }, {

@@ -1,2 +1,2 @@
 // @tag full-page
-// @require /var/www/html/SenchaProject/zoho/app.js
+// @require /home/wtt197/Desktop/final/zoho/app.js

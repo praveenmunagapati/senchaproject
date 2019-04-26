@@ -136,3 +136,57 @@
 
 
 
+
+
+
+.alert-box{
+    opacity: 1; // not sufficient as the are more layer to really have everything with opacity
+    background-color: #FFFFFF;
+    position: 'absolute';
+    top: 0 !important;
+    z-index: 1;
+    // font-weight: bolder !important;
+}
+
+.alert-box .x-panel-body-default{
+    font-family: 'Muli, SemiBold';
+    color: rgba(0, 0, 0, 1);
+    font-size: 15px;
+    text-align: center !important;
+}
+
+@include extjs-button-small-ui (
+$ui: 'alert-text-button',
+$background-color : rgba(229, 229, 229, 1), 
+$font-family: 'Muli, SemiBold',
+$font-size: 12px,
+$font-weight: bolder,
+$box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16),
+$border: none,
+$border-radius: 4px,
+ $width: 150px,
+$color: black
+// $height: 50px
+);
+
+.alert-no-text.x-btn-alert-text-button-small:hover {
+    background-color: rgb(8, 8, 8);
+   
+}
+.alert-no-text{
+    border:none;
+
+}
+
+.alert-no-text .x-btn-inner-alert-text-button-small:hover{
+    color:white;
+   
+}
+.alert-no-text .x-btn-inner-alert-text-button-small{
+    height: 20px;
+    width: 65px;
+    margin:0px;
+    text-align: center;
+    padding-top: 5px;
+}
+

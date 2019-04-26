@@ -15,5 +15,4 @@ Ext.define('Contacts.model.FristName',
               rootProperty: 'data'
             }
           }
-  
   });

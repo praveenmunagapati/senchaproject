@@ -96,35 +96,44 @@
  }
 
 // Date Styling 
-.x-datepicker-month{
+.date-style .x-datepicker-month{
     background-color: #070707;
 }
-.x-datepicker-selected div.x-datepicker-date {
+.date-style .x-datepicker-selected div.x-datepicker-date {
     background-color: rgb(0, 0, 0);
     color: #fff;
     font-weight: 300;
 }
-.x-btn .x-unselectable .x-btn-default-small:hover{
+.date-style .x-btn .x-unselectable .x-btn-default-small:hover{
     background-color: rgb(0, 0, 0);
     color: #fff;
     font-weight: 300;
 }
-.x-datepicker-month .x-btn-inner{
+.date-style .x-datepicker-month .x-btn-inner{
     color:white;
 }
-.x-datepicker-footer, .x-monthpicker-buttons{
+.date-style .x-datepicker-footer, .x-monthpicker-buttons{
     display: none;
 }
-.x-datepicker-arrow{
+.date-style .x-datepicker-arrow{
     background-color: black;
     color:white;
 }
-.x-datepicker-inner > tbody{
+.date-style .x-datepicker-inner > tbody{
     background-color: #ececec
 }
-.x-datepicker-next{
+.date-style .x-datepicker-next{
     margin-right: 50px;
 }
-.x-datepicker-prev{
+.date-style .x-datepicker-prev{
     margin-left: 50px;
 }
+.date-style .x-form-trigger-default{
+    background-color: rgba(229, 229, 229, 1);
+}
+.date-style .x-form-spinner-default{
+    background-color: rgba(229, 229, 229, 1);
+}
+
+
+//Website field styling 

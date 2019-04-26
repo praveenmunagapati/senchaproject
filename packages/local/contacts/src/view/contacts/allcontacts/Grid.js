@@ -9,11 +9,11 @@ Ext.define('Contacts.view.contacts.allcontacts.Grid', {
   ],
 
     controller: 'gridvc',
-    
-    
+    ui:'gird',
+    cls:'main-grid',
     listeners:{
-        selectionchange:'onSelectionChange',
-        itemmouseenter: 'onHover'
+        selectionchange:'onDelete',
+        itemmouseenter: 'onEditHover'
     },
     
     plugins: [
@@ -31,16 +31,20 @@ Ext.define('Contacts.view.contacts.allcontacts.Grid', {
                 xtype: 'actioncolumn',
                 width: 50,
                 align:'center',
+                padding: '0 20',
+                // hidden: true,
                 iconCls: 'x-fa edit-icon',
                 tooltip: 'Edit',
                 menuDisabled: true,
         },
-    {
-        text: 'First Name ',
-        dataIndex: 'firstname',
-        menuDisabled: true,
-        flex: 1  ,
-    }, {
+        {
+          xtype: 'templatecolumn',
+          tpl: '<table class="image-display"><tr><td><img style="width:25px;height:25px;" alt="{namefield.contact_profile_pic}" src="resources/images/{namefield.contact_profile_pic}"></td><td style="padding-left: 10px;">{namefield.firstname}</td></tr></table>',
+          text: 'First Name',
+          dataIndex: 'namefield',
+          flex: 2
+          }
+        , {
       text: 'Email Id ',
       dataIndex: 'email_address',
       flex: 1,

@@ -11,12 +11,11 @@ Ext.define('Contacts.view.contacts.editcontact.EditContactVM',{
     stores: {
         countries: {
             model : 'Contacts.model.Country',
-
             autoLoad: true
         },
-        // titles:{
-        //     model:'Contacts.model.FirstName',
-        //     autoLoad:true
-        // }
+        titles:{
+            model: Ext.create('Contacts.model.FristName'),
+            autoLoad:true
+        }
     }
 });

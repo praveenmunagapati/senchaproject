@@ -106,7 +106,6 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                                 items: [{
                                     boxLabel: 'First Name',
                                     inputValue: '2',
-                                    // checked: false,
                                     reference: 'firstname'
                                 }, {
                                     boxLabel: 'Email ID',
@@ -160,6 +159,55 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                     store: '{Contacts}'
                 },
             }]
-        }]
+        },
+        {
+            xtype: 'container',
+            layout: {
+                type: 'vbox',
+                align: 'center',
+                pack: 'middle'
+            },
+            hidden: true,
+            cls: 'alert-box',
+            draggable: true,
+            reference: 'popup',
+            floating: true,
+            shadow: true,
+            toFrontOnShow: true,
+            bodyPadding: 20,
+            width: 400,
+            height: 150,
+            renderTo: Ext.getBody(),
+            border: 1,
+
+            items: [{
+                html: '<div class= "alert-text">Are you sure <br> you want to delete the selected records?</div>',
+                padding: '0 0 30 0'
+            }, {
+                xtype: 'container',
+                reference: 'button-holder',
+                items: [ {
+                    xtype: 'button',
+                    text: ' NO',
+                    align: 'center',
+                    reference: 'delete-no',                    
+                    margin: '0 50 0',
+                    ui: 'alert-text-button',
+                    cls: 'alert-no-text',
+
+                },{
+                    xtype: 'button',
+                    text: 'YES',
+                    margin: '0 50 0',
+                    reference: 'delete-yes',
+                    align: 'center',
+                    ui: 'alert-text-button',
+                    cls: 'alert-no-text'
+                }]
+            }]
+
+        }
+    
+    ]
 });
 

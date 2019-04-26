@@ -17,7 +17,6 @@ Ext.define('Contacts.store.Contacts', {
             destroy: 'http://ddost.walkingtree.tech/contact'
         },
         reader: {
-            // type: 'json',
             rootProperty: 'data'
         },
         writer: {

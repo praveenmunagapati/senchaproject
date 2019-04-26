@@ -17,27 +17,40 @@ Ext.define('Contacts.view.contacts.editcontact.EditContactVC', {
 
   // Function to Save the data on submitting the form
 
-  saveFormData: function(button) {
+  saveFormData: function (button) {
     // All form variables
     var store = button.up('editcontact').up('contacts').down('allcontacts').down('gridview').getStore();
     var form = button.up('editcontact').getForm();
-   
     if (form.isValid()) {
-        store.add(form.getValues());
-        store.sync({
-            success: function (response, opts) {
-                Ext.toast('Record successfully submitted');
-                button.up('contacts').down('allcontacts').getViewModel().getView();
-                // To set routing.. fetching activetab and redirecting it
-                var viewModel = button.up('contacts').setActiveItem('allcontacts');
-                var activeItem = button.up('contacts').getLayout().getActiveItem().itemId;
-                button.up('contacts').down('allcontacts').redirectTo(activeItem);
-            },
+      store.add(form.getValues());
+      store.sync({
+        success: function (response, opts) {
+          Ext.toast('Record successfully submitted');
 
-            failure: function (response, opts) {
-                Ext.toast('Record is not submitted');
-            }
-        });
+          // To set routing.. fetching activetab and redirecting it
+          button.up('contacts').setActiveItem('allcontacts');
+          button.up('contacts').down('allcontacts').getView().refresh();
+          var activeItem = button.up('contacts').getLayout().getActiveItem().itemId;
+                button.up('contacts').down('allcontacts').getView().redirectTo(activeItem);             
+        },
+        failure: function (response, opts) {
+          Ext.toast('Record is not submitted');
+        }
+      });
+    }},
+  /*
+  *  Function to cancel the form data and 
+  *  move to another tab , 
+  *  if record is empty then move to allcontacts tab
+  *  if record is not empty then move to addcontact tab
+  */
+  cancelFormData:function(btn){
+    var selectView = btn.up('contacts');
+    var store = selectView.down('allcontacts').down('gridview').getStore();
+    if(store.data.length > 0 ){
+        selectView.setActiveItem('allcontacts');
+    }else{
+        selectView.setActiveItem('addcontact');
     }
   }
 
