@@ -17,7 +17,7 @@ Ext.define('Contacts.view.contacts.allcontacts.FilterForm', {
             reference: 'chkfirstname',
             boxLabel: 'First Name',
             listeners: {
-            change: 'onChange'
+            change: 'onChange' // Function located at @allcontactsVC
             }
             },
             {
@@ -32,7 +32,7 @@ Ext.define('Contacts.view.contacts.allcontacts.FilterForm', {
             boxLabel: 'Company',
             reference:'chkCompany',
             listeners: {
-            change: 'onChange'
+            change: 'onChange' // Function located at @allcontactsVC
             }
             },
             {
@@ -54,8 +54,9 @@ Ext.define('Contacts.view.contacts.allcontacts.FilterForm', {
                 cls: 'apply-button',
                 width: 70,
                 height: 30,
-                margin: '0 10',                listeners: {
-                    click: 'onClearFilter'
+                margin: '0 10',                
+                listeners: {
+                    click: 'onClearFilter' // Function located at @allcontactsVC
                 }
             }, {
                 text: 'Apply',
@@ -64,7 +65,7 @@ Ext.define('Contacts.view.contacts.allcontacts.FilterForm', {
                 height: 30,
                 margin: '0 10',                
                 listeners: {
-                    click: 'onApplyFilter'
+                    click: 'onApplyFilter' // Function located at @allcontactsVC
                 }
             }
         ]

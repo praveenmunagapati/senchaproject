@@ -20,8 +20,8 @@ Ext.define('Contacts.view.contacts.allcontacts.GridVC', {
         if (selected.length > 0) {
             deleteButton.setDisabled(false); // If not empty .. Enabling deletebutton
 
-        // Setting click eventlistener to the delete button and calling a function to get the pop up container.
-        // Which is used to allow user to conform his choice
+            // Setting click eventlistener to the delete button and calling a function to get the pop up container.
+            // Which is used to allow user to conform his choice
             deleteButton.setListeners({
                 // Functon to delete the record
                 click: function (button) {
@@ -92,7 +92,7 @@ Ext.define('Contacts.view.contacts.allcontacts.GridVC', {
                     });
                 }
             });
-        }else{
+        } else {
             deleteButton.setDisabled(true); // If empty .. Enabling deletebutton
         }
     },
@@ -107,10 +107,8 @@ Ext.define('Contacts.view.contacts.allcontacts.GridVC', {
     onEditHover: function (row, record, item, index, eOpts) {
         var editButton = row.up('gridview').down('actioncolumn');
         editButton.setHidden(false);
-        console.log('record', record);
         editButton.setListeners({
             click: function (grid, rowIndex, colIndex) {
-                // var rec = grid.getStore().getAt(rowIndex);
                 grid.up('allcontacts').up('contacts').down('editcontact').lookupReference('savebutton').setStyle({
                     display: 'none'
                 });
@@ -120,19 +118,19 @@ Ext.define('Contacts.view.contacts.allcontacts.GridVC', {
                 grid.up('allcontacts').up('contacts').setActiveItem('editcontact');
                 var editContact = grid.up('allcontacts').up('contacts').down('editcontact');
                 var form = editContact.getForm().loadRecord(record);
-                console.log('form', form);
                 var updateButton = grid.up('allcontacts').up('contacts').down('editcontact').lookupReference('updatebutton');
                 updateButton.setListeners({
                     click: function (btn) {
                         form.updateRecord();
                         var record = form.getRecord();
-                        console.log('record', record.data);
-
                         var store = grid.up('gridview').getStore();
-                        console.log('store', store)
                         store.sync({
                             success: function (response, opts) {
                                 Ext.toast('Record successfully Updated');
+                                grid.up('allcontacts').up('contacts').setActiveItem('allcontacts');
+                                grid.up('allcontacts').getView().refresh();
+                                var activeItem = grid.up('allcontacts').up('contacts').getLayout().getActiveItem().itemId;
+                                grid.up('allcontacts').getView().redirectTo(activeItem);
                             },
                             failure: function (response, opts) {
                                 Ext.toast('Record is not Updated');

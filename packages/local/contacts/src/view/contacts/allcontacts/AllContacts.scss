@@ -19,6 +19,9 @@
  border-color: white;
 }
 
+/*
+ * Generates a set of style rules for the "delete-button" button UI.
+ */
 
 @include extjs-button-small-ui (
     $ui: 'delete-button',
@@ -144,6 +147,7 @@
     background-color: #FFFFFF;
     position: 'absolute';
     top: 0 !important;
+    left: 30%;
     z-index: 1;
     // font-weight: bolder !important;
 }

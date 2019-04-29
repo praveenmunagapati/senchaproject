@@ -81,7 +81,9 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                     text: 'Export',
                     margin: '0 10',
                     handler: 'onGridExport'
-                }, {
+                },
+                // Add columns block code is below
+                {
                     text: 'Add Columns',
                     arrowVisible: false,
                     glyph: 'f0db@FontAwesome',
@@ -139,7 +141,9 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                             }
                         ]
                     }
-                }, {
+                },
+                // Filters block
+                {
                     text: 'Filter',
                     arrowVisible: false,
                     margin: '0 0 0 10',
@@ -161,6 +165,8 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
             }]
         },
         {
+            // This container is to show popup on click of delete button
+
             xtype: 'container',
             layout: {
                 type: 'vbox',
@@ -186,16 +192,16 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
             }, {
                 xtype: 'container',
                 reference: 'button-holder',
-                items: [ {
+                items: [{
                     xtype: 'button',
                     text: ' NO',
                     align: 'center',
-                    reference: 'delete-no',                    
+                    reference: 'delete-no',
                     margin: '0 50 0',
                     ui: 'alert-text-button',
                     cls: 'alert-no-text',
 
-                },{
+                }, {
                     xtype: 'button',
                     text: 'YES',
                     margin: '0 50 0',
@@ -206,8 +212,6 @@ Ext.define('Contacts.view.contacts.allcontacts.AllContacts', {
                 }]
             }]
 
-        }
-    
-    ]
+        }]
 });
 

@@ -1,5 +1,5 @@
 $app-name:  dynamic( 'Zoho' );
-$image-search-path: '/home/wtt197/Desktop/final/build/development/Zoho/resources';
+$image-search-path: '/var/www/html/SenchaProject/build/development/Zoho/resources';
 $theme-name:  dynamic( 'theme-triton' );
 $include-contacts-model-contact: dynamic(true);;
 $include-contacts-model-country: dynamic(true);;

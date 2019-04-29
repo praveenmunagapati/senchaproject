@@ -50,40 +50,42 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
           height: 100,
           width: 100,
           bind: {
-          src: 'resources/images/{imgData}',
-          alt: 'resources/images/{imgData}'
+            src: 'resources/images/{imgData}',
           }
-          }
-          ,{
+        }
+        , {
           xtype: 'textfield',
           hidden: true,
           bind: {
-          value: '{imgData}'
+            value: '{imgData}'
           },
           name: 'contact_profile_pic'
-          } 
-          ,{
-          xtype: 'filefield', 
+        }
+        , {
+          xtype: 'filefield',
           xtype: 'fileuploadfield',
           buttonText: 'Edit Photo',
           buttonOnly: true,
-          name: 'contact_profile_pic',
+          // name: 'contact_profile_pic',
           // value: 'resources/images/ben-knapen.png',
           cls: 'btn-browse',
           listeners: {
-          change(field,input) {
-          const dom = Ext.getDom(field.fileInputEl);
-          const container = field.up('editcontact');
-          var path = input.split('\\');
-          const viewModel = container.getViewModel();
-          // console.log(viewModel);
-          const reader = new FileReader();
-          reader.onload = e => viewModel.set('imgData', path[path.length-1]);
-          reader.readAsDataURL(dom.files[0]);
+            change(field, input) {
+              const dom = Ext.getDom(field.fileInputEl);
+              const container = field.up('editcontact');
+              var path = input.split('\\');
+              const viewModel = container.getViewModel();
+              // console.log(viewModel);
+              const reader = new FileReader();
+              console.log(path[path.length - 1]);
+              reader.onload = e => {
+                viewModel.set('imgData', path[path.length - 1]);
+              }
+              reader.readAsDataURL(dom.files[0]);
+            }
           }
-          }
-          }
-       
+        }
+
 
       ]
 
@@ -105,9 +107,9 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
       items: [
 
         {
-          columnWidth:1,
-          height:20,
-          html:'<div style="margin-top:5px;">field marked are <b style="color:red">*</b> required</div>'
+          columnWidth: 1,
+          height: 20,
+          html: '<div style="margin-top:5px;">field marked are <b style="color:red">*</b> required</div>'
         },
         {
           xtype: 'datefield',
@@ -116,7 +118,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
           emptyText: 'MM-DD-YYYY',
           name: '',
           format: 'm-d-Y',
-          cls:'date-style',
+          cls: 'date-style',
           altFormats: 'm,d,Y|m.d.Y',
         },
         {
@@ -124,9 +126,9 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
           //           name: 'firstname',
           //           reference: 'firstname',
 
-          xtype:'firstname',
-          margin:'10 10 0 10',
-          height:70
+          xtype: 'firstname',
+          margin: '10 10 0 10',
+          height: 70
         }
         , {
           xtype: 'textfield',
@@ -139,10 +141,10 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
           name: 'mobile_number',
           emptyText: '+911234567890',
           reference: 'mobile',
-          maxLength:10,
+          maxLength: 10,
           maskRe: /[0-9.]/,
           regex: /^\d{3}\d{3}\d{4}$/,
-          
+
         },
         {
           xtype: 'textfield',
@@ -191,7 +193,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
           name: 'employee_count',
           afterLabelTextTpl: '',
           allowBlank: true,
-          cls:'date-style',
+          cls: 'date-style',
           minValue: 1,
           reference: 'num-of-employees'
         }, {
@@ -247,7 +249,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
           fieldLabel: 'Country',
           name: 'country',
           displayField: 'country',
-          cls:'date-style',
+          cls: 'date-style',
           typeAhead: true,
           queryMode: 'local',
           emptyText: 'Select a country...',
@@ -257,12 +259,12 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
           }
         },
         {
-          xtype:'textfield',
+          xtype: 'textfield',
           fieldLabel: 'Contact Id *',
           name: 'contact_owner_id',
           allowBlank: 'false',
-          hidden:true,
-          value:'1001231'
+          hidden: true,
+          value: '1001231'
         }
       ]
     }, {
@@ -270,7 +272,7 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
       fieldLabel: 'Address Information',
       cls: 'backcolor',
       layout: 'column',
-      
+
       border: false,
       defaults: {
         columnWidth: 1,
@@ -293,15 +295,15 @@ Ext.define('Contacts.view.contacts.editcontact.EditContact', {
       },
       defaults: {
         xtype: 'button',
-        width:80
+        width: 80
       },
       items: [{
         text: 'Cancel',
-        listeners:{
-          click:'cancelFormData'
+        listeners: {
+          click: 'cancelFormData'
         },
         cls: 'cancle-style',
-        margin:'0 14 4 0'
+        margin: '0 14 4 0'
       }, {
         text: 'Save',
         disabled: true,
